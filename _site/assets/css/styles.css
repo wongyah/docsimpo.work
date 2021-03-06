@@ -1,3 +1,59 @@
-.current { color: green; }
+html { margin: 0 0; border: 0 0; font-size: 100%; }
+
+body { font-family: "Microsoft YaHei UI", Arial, Helvetica, sans-serif; letter-spacing: 0.2em; display: flex; min-height: 100vh; flex-direction: column; background-color: #fbeeac; margin: 0 0; border: 0 0; }
+
+div.nav { display: flex; height: 70px; width: 90%; min-width: 670px; background-image: linear-gradient(#28527a, #287896 90%, #28527a); font-family: "Microsoft YaHei UI", Arial, Helvetica, sans-serif; align-items: center; padding-left: 5%; padding-right: 5%; position: fixed; margin: 0 0; border: 0 0; }
+
+div.nav h1 { display: inline-block; width: 200px; min-width: 177px; flex: 1; text-align: left; margin: 0 0; font-size: 100%; color: #f4d160; }
+
+div.nav h1 span { padding-left: 0.5em; letter-spacing: 0.2em; }
+
+nav { display: inline-block; height: 1.5em; width: 500px; min-width: 492.8px; margin: 0 0; padding: 0 0; flex: 5; text-align: right; }
+
+nav a { color: #fbeeac; text-decoration: none; display: inline-block; margin: 0 0; padding: 0 2em; font-size: 100%; letter-spacing: 0.2em; font-weight: bold; }
+
+.current-page { background-color: #f4d160; color: #28527a; }
+
+div.slogan { text-align: center; text-align: center; color: #f4d160; display: block; margin-top: 70px; padding: 50px 5% 100px; background-color: #8ac4d0; border-radius: 0 0 150% 30% / 0 0 100% 150%; box-shadow: 0 0 10px #28527a; }
+
+div.slogan h1 { font-size: 2rem; font-family: "TsangerYuYangT W03", "Microsoft YaHei UI", Arial, Helvetica, sans-serif; text-shadow: 0px 0px 20px rgba(80, 4, 4, 0.7); text-align: left; letter-spacing: 0.3em; padding-left: 25%; padding-right: 25%; }
+
+div.slogan p { color: #8f6f08; text-shadow: 0px 0px 5px rgba(80, 4, 4, 0.5); text-align: left; letter-spacing: 0.3em; line-height: 2em; padding-left: 25%; padding-right: 25%; }
+
+div.services { display: flex; margin-top: 0; padding: 100px 5%; text-align: left; }
+
+div.service { flex: 1; text-align: center; margin: 0 2%; padding: 2% 0; border: 2pt solid #f4d160; border-radius: 5% 5% 100% 100% / 5% 5% 30% 30%; }
+
+div#s_marketing { margin-right: 2.5%; }
+
+div#s_documentation { margin-left: 2.5%; margin-right: 2.5%; }
+
+div#s_courseware { margin-left: 2.5%; }
+
+div.service h1 { text-align: center; }
+
+div.service h1 img { width: 100%; max-width: 300px; min-width: 100px; height: auto; }
+
+div.service h2 { font-size: 1.3rem; color: #28527a; text-align: center; }
+
+div.service p { margin: 0 2em 2em 2em; text-align: justify; line-height: 1.5em; color: #6b5406; }
+
+div.bottom { display: flex; height: 150px; min-width: 670px; background-color: #28527a; font-family: "Microsoft YaHei UI",Arial, Helvetica, sans-serif; align-items: center; justify-content: space-between; margin: 0 0; border: 0 0; padding: 0 25%; }
+
+div.web_info { display: inline-block; }
+
+div.bottom h1 { font-size: 1rem; font-weight: bold; color: #f4d160; }
+
+div.bottom p { color: #a39f8f; font-size: 0.95rem; }
+
+div.wechatQR { display: block; }
+
+p#QR span#Icon { display: inline-block; vertical-align: bottom; position: relative; }
+
+p#QR span#QR { display: inline-block; background-image: radial-gradient(#5485b3, #0a2035); padding: 10px 10px; border-radius: 5px; margin-left: -15px; }
+
+p#QR span#wechat { writing-mode: vertical-lr; display: inline-block; vertical-align: middle; }
+
+p.email { letter-spacing: 0.1em; }
 
 /*# sourceMappingURL=styles.css.map */
