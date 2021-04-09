@@ -6,11 +6,9 @@
     <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
   <body><!-- Logo和菜单栏 -->
-<div class="nav">
+<div class="fixed-header">
   <h1>
-    <img src="/assets/images/logo.png"
-      alt=""
-      style="width: auto; height: 50px; vertical-align: middle;">
+    <img src="/assets/images/logo.png" alt="Logo">
     <span>单线条文档</span>
   </h1>
   <nav><a href=" / "class="current-page">
@@ -25,43 +23,54 @@
 </div>
 <!-- 广告语-slogan -->
 <div class="slogan">
+  <div class="slogan-text">
     <h1>让您的产品更好用!</h1>
-    <p>因为完备的产品文档而信赖，因为细致的产品文档而喜爱，因为简洁（而不简单）的产品文档而衷爱……</p>
-    <p>贴近用户，从产品文档开始。</p>
+    <p>每个产品都值得一份精致文档；</p>
+    <p>每个我们都值得一种可畅销的阅读体验。</p>
+    <p>贴近用户，从产品文档开始……</p>
+  </div>
+  <div id="slogan-mascot"></div>
 </div>
 
 <!-- 业务版块 -->
 <div class="services">
-  <div class="service" id="s_marketing">
-    <h1><img src="/assets/images/horn-1.png" alt=""></h1>
-    <h2>技术营销</h2>
-    <p>说技术，秀实力。在公众号、技术博客、开源社区等众多平台上，公开展示您的经验和洞察、产品背后的技术沉淀、企业实力和未来潜力……</p>
+  <div class="service" id="s-marketing">
+    <h1>技术营销</h1>
+    <h2><img src="/assets/images/horn-1.png" alt=""></h2>
   </div>
-  <div class="service" id="s_documentation">
-    <h1><img src="/assets/images/docs-1.png" alt=""></h1>
-    <h2>产品文档</h2>
-    <p>贴近用户，降本增效，累积洞察。拥有专业背景的技术文档工程师，利用先进的技术文档编辑工具和写作技能，提升的不仅是文档质量和管理效率，还有用户体验、售后服务……</p>
+  <div class="service" id="s-documentation">
+    <h1>产品文档</h1>
+    <h2><img src="/assets/images/docs-1.png" alt=""></h2>
   </div>
-  <div class="service" id="s_courseware">
-    <h1><img src="/assets/images/courseware-1.png" alt=""></h1>
-    <h2>培训课件</h2>
-    <p>循环利用，自主提升。新员工技能培训、新手用户入门教程、新产品培训等，借助专业的技术文档工程师之手，可形成在线教程、视频教程……</p>
+  <div class="service" id="s-courseware">
+    <h1>培训课件</h1>
+    <h2><img src="/assets/images/courseware-1.png" alt=""></h2>
   </div>
 </div>
 <!-- 网页页脚 -->
-<div class="bottom">
-  <div class="web_info">
+<div class="footer">
+
+  <div class="footer-name">
     <h1>单线条文档工作室</h1>
-    <p>专业贴心的技术文档服务合作伙伴</p>
-    <p class="email">Email: wongyah@126.com</p>
+    <h2>专业贴心的技术文档合作伙伴</h2>
+    <p class="string">&copy;2021 docSimpo</p>
   </div>
-  <div class="wechatQR">
-    <p id="QR">
-      <span id="Icon"><img src="/assets/images/weChatIcon@2x.png" alt=""></span>
-      <span id="QR"><img src="/assets/images/QR_WeChatPublicAccounts.jpg" alt="微信公众号二维码" width="80px" height="80px" style="vertical-align: middle;"></span>
-      <span id="wechat">微信公众号</span>
+
+  <div class="footer-contact">
+    <h1>联系方式</h1>
+    <p>邮箱: <span class="string">wongyah@126.com</span></p>
+    <p>微信: <span class="string">wongyah</span></p>
+    <p>手机: <span class="string">186 1111 7992</span></p>
+  </div>
+
+  <div class="footer-weChat-QR">
+    <p id="weChat-QR">
+      <span id="weChat-icon"><img src="/assets/images/weChatIcon@2x.png" alt=""></span>
+      <span id="weChat-QR"><img src="/assets/images/QR_WeChatPublicAccounts.jpg" alt="微信公众号二维码" width="80px" height="80px" style="vertical-align: middle;"></span>
+      <span id="weChat-name">微信公众号</span>
     </p>
   </div>
+
 </div>
 
 </body>

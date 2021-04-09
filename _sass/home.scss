@@ -1,220 +1,311 @@
-html{
+// 配色方案, 基本色
+$page-background-color: #fbeeac;
+$header-footer-color: #28527a;
+$slogan-background-color: #8ac4d0;
+$heading-text-color: #f4d160;
+
+// 配色方案，附加色, 渐变色参数值
+$top-menu-gradient: $header-footer-color, rgb(40, 120, 150) 90%, $header-footer-color;
+$slogan-para-text-color: #8f6f08;
+$footer-text-color: #a39f8f;
+$QR-frame-gradient: #5485b3, #0a2035;
+
+// 字体
+$body-font: "Microsoft YaHei UI", Arial, Helvetica, sans-serif;
+$heading-font: "lianmengqiyilushuaizhengruiheiti", "Microsoft YaHei UI", Arial, Helvetica, sans-serif;
+$body-letter-spacing: 0.2em;
+
+// 首页上的分区尺寸数据
+$fixed-header-height: 70px;
+$home-sides-padding: 15%;
+
+$header-logo-name-minwidth: 165px;
+$header-nav-minwidth: 350px;
+
+$slogan-box-height: 510px;
+$slogan-text-top-distance: 70px;
+$slogan-text-padding-left: 0px;
+
+
+// 消除默认外边距和内边距
+@mixin eraseDefaultMarginPadding {
   margin: 0 0;
-  border: 0 0;
+  padding: 0 0;
+}
+
+// 菜单栏颜色，渐变色
+@mixin topMenuBackground {
+  background-image: linear-gradient($top-menu-gradient);
+  background-image: -moz-linear-gradient($top-menu-gradient);
+  background-image: -o-linear-gradient($top-menu-gradient);
+  background-image: -webkit-linear-gradient($top-menu-gradient);
+  background-color: $header-footer-color;
+}
+
+
+
+html{
+  @include eraseDefaultMarginPadding();
   font-size: 100%;
 }
 
 body{
-  font-family: "Microsoft YaHei UI", Arial, Helvetica, sans-serif;
-  letter-spacing: 0.2em;
   display: flex;
-  min-height: 100vh;
   flex-direction: column;
-  background-color: #fbeeac;
-  margin: 0 0;
-  border: 0 0;
+  min-height: 100vh; //页面最小高度等于屏幕高度，以防网页内容过少导致页脚出现在屏幕中央。
+  min-width: ($header-logo-name-minwidth + $header-nav-minwidth) / 0.7; // 页面侧边距15%，主体宽度占70%，以此计算页面最小宽度。
+  background-color: $page-background-color;
+  font-family: $body-font;
+  letter-spacing: $body-letter-spacing;
+  @include eraseDefaultMarginPadding();
 }
 
-div.nav{
+
+
+// 【网页页眉】
+
+div.fixed-header{
   display: flex;
-  height: 70px;
-  width: 90%;
-  min-width: 670px;
-  background-image: linear-gradient(#28527a, rgb(40, 120, 150) 90%, #28527a); 
-  font-family: "Microsoft YaHei UI", Arial, Helvetica, sans-serif;
-  align-items: center;
-  padding-left: 5%;
-  padding-right: 5%;
+  align-items: center; // 文字垂直居中
+  justify-content: space-between;
+  height: $fixed-header-height;
+  width: 100% - 2*$home-sides-padding;
+  padding: 0 $home-sides-padding;
+  @include topMenuBackground();
   position: fixed;
   margin: 0 0;
-  border: 0 0;
 }
 
-div.nav h1 {
-  display:inline-block;
-  width: 200px;
-  min-width: 177px;
-  flex: 1;
-  text-align: left;
-  margin: 0 0;
-  font-size: 100%;
-  color: #f4d160;
-}
+div.fixed-header{
 
-div.nav h1 span{
-  padding-left: 0.5em;
-  letter-spacing: 0.2em;
-}
-
-nav {
-  display: inline-block;
-  height: 1.5em;
-  width: 500px;
-  min-width: 492.8px;
-  margin: 0 0;
-  padding: 0 0;
-  flex: 5;
-  text-align: right;
-}
-
-nav a {
-  color: #fbeeac;
-  text-decoration: none;
-  display: inline-block;
-  margin: 0 0;
-  padding: 0 2em;
-  font-size: 100%;
-  letter-spacing: 0.2em;
-  font-weight: bold;
-}
-
-.current-page{
-  background-color: #f4d160;
-  color: #28527a;
-}
-
-div.slogan{
-  text-align: center;
-  text-align: center;
-  color: #f4d160;
-  display: block;
-  margin-top: 70px;
-  padding: 50px 5% 100px;
-  background-color: #8ac4d0;
-  border-radius: 0 0 150% 30% / 0 0 100% 150%;
-  box-shadow: 0 0 10px rgba(40, 82, 122, 50%);
-}
-
-
-
-div.slogan h1{
-  font-size: 2rem;
-  font-family: "TsangerYuYangT W03", "Microsoft YaHei UI", Arial, Helvetica, sans-serif;
-  text-shadow: 0px 0px 20px rgba(80, 4, 4, 0.7);
-  text-align: left;
-  letter-spacing: 0.3em;
-  padding-left: 25%;
-  padding-right: 25%;
-}
-
-div.slogan p{
-  color: #8f6f08;
-  text-shadow: 0px 0px 5px rgba(80, 4, 4, 0.5);
-  text-align: left;
-  letter-spacing: 0.3em;
-  line-height: 2em;
-  padding-left: 25%;
-  padding-right: 25%;
-}
-
-div.services{
-  display:flex;
-  margin-top: 0;
-  padding: 100px 5%;
-  text-align: left;
-}
-
-div.service{
-  flex: 1;
-  text-align: center;
-  margin: 0 2%;
-  padding: 2% 0;
-  border: 2pt solid #f4d160;
-  border-radius: 5% 5% 100% 100% / 5% 5% 30% 30%;
-  
-}
-
-div#s_marketing{
-  margin-right: 2.5%;
-}
-
-div#s_documentation{
-  margin-left: 2.5%;
-  margin-right: 2.5%;
-  
-}
-
-div#s_courseware {
-  margin-left: 2.5%;
-}
-
-div.service h1{
-  text-align: center;
-}
-
-div.service h1 img {
-  width: 100%;
-  max-width: 300px;
-  min-width: 100px;
-  height: auto;
-}
-
-div.service h2{
-  font-size: 1.3rem;
-  color: #28527a;
-  text-align: center;
-}
-
-div.service p{
-  margin: 0 2em 2em 2em;
-  text-align:justify;
-  line-height: 1.5em;
-  color: #6b5406;
-}
-
-div.bottom{
-  display: flex;
-  height: 150px;
-  min-width: 670px;
-  background-color: #28527a;
-  font-family: "Microsoft YaHei UI",Arial, Helvetica, sans-serif;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0 0;
-  border: 0 0;
-  padding: 0 25%;
-}
-
-div.web_info{
-  display: inline-block;
-}
-
-div.bottom h1{
-  font-size: 1rem;
-  font-weight: bold;
-  color:#f4d160;
-}
-
-div.bottom p{
-  color: #a39f8f;
-  font-size: 0.95rem;
-}
-
-div.wechatQR{
-  display:block;
-}
-
-p#QR span#Icon{
-  display: inline-block;
-  vertical-align: bottom;
-  position:relative;
-}
-  
-  p#QR span#QR{
-    display: inline-block;
-    background-image: radial-gradient(#5485b3, #0a2035);
-    padding: 10px 10px;
-    border-radius: 5px;
-    margin-left: -15px;
+  // h1是logo和名称的容器，子元素是img和span。
+  h1{
+    flex: 1; //Logo分配的宽度份额
+    display: block;
+    min-width: $header-logo-name-minwidth;
+    font-size: 100%;  //改变h1的默认字号
+    color: $heading-text-color;
+    text-align: left;
+    @include eraseDefaultMarginPadding();
   }
 
-  p#QR span#wechat{
-    writing-mode: vertical-lr;
-    display: inline-block;
+  img{
+    height: 50px; 
+    width: auto;
     vertical-align: middle;
   }
 
-  p.email{
-    letter-spacing: 0.1em;
+  span{
+    font-family: $heading-font;
   }
 
+  // 主菜单栏，子元素是链接<a>们
+  nav {
+    flex: 2;
+    display: block;
+    height: 1.5em;
+    min-width: $header-nav-minwidth;
+    text-align: right;
+    @include eraseDefaultMarginPadding();
+  }
+
+  a {
+    display: inline-block;
+    padding: 0 1em; //定义主菜单中每个项目之间的间距
+    margin: 0 -1em 0 0; //根据内边距的定义，“关于”右侧有1个字宽的边距。这里的负值外边距用来消除这1个字宽，使文本右对齐于边界。
+    color: $page-background-color;
+    font-weight: bold;
+    text-decoration: none; //去掉链接文本默认的下划线
+  }
+
+}
+
+
+
+// 【Slogan】
+
+div.slogan{
+  display: flex;
+  height: $slogan-box-height;
+  margin-top: $fixed-header-height; //躲开网页页眉的遮挡
+  padding: 30px 0 0 $home-sides-padding;
+  background-color: $slogan-background-color;
+  text-align: left;
+}
+
+div.slogan{
+
+  // Slogan文本
+  .slogan-text{
+    flex: 1;
+    padding-top: $slogan-text-top-distance
+  }
+  
+  .slogan-text{
+    
+    h1{
+      font-size: 2.5rem;
+      font-family: $heading-font;
+      color: $heading-text-color;
+      text-shadow: -2px 10px 20px rgba(80, 4, 4, 0.7);
+      padding-left: $slogan-text-padding-left;
+      margin-bottom: 1em; //控制Slogan和段落文本的间距
+      line-height: 1.5em; //行高和字符间距必须放在本元素下设置，否则会失效。
+      letter-spacing: 0.3em;
+    }
+    
+    p{
+      color: $slogan-para-text-color;
+      text-shadow: 0px 0px 5px rgba(80, 4, 4, 0.5);
+      padding-left: $slogan-text-padding-left;
+      margin: 0.5em 0 0; //控制段落文本中的段落间距
+      line-height: 1.5em;  //行高和字符间距必须放在本元素下设置，否则会失效。
+      letter-spacing: 0.3em;
+    }
+
+  }
+
+  // 吉祥鹿 作为右侧背景图片
+  #slogan-mascot{
+    flex: 1;
+    height: $slogan-box-height;
+    background-image: url(../images/mascot-deer-1.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-clip: border-box;
+  }
+
+} 
+
+
+
+// 【业务种类】
+
+div.services{
+  display: flex;
+  padding: 100px $home-sides-padding;
+}
+
+div.service{
+  flex: 1; // 让三个区块均匀分布
+}
+
+div.service{
+
+  h1{
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: $heading-font;
+    color: $heading-text-color;
+    text-shadow: -2px 5px 10px rgba(5, 0, 0, 0.7);
+    background-color: $slogan-background-color;
+    border-radius: 0 0 5% 5% / 0 0 20% 20%;
+    padding: 0.5em 0;
+    margin: 0 0;
+  }
+
+  h2{
+    border: 5pt solid $slogan-background-color;
+    border-radius: 5% 5% 0 0;
+    margin: 0 0;
+
+    img{
+      width: 100%;
+      max-width: 300px;
+      min-width: 100px;
+      height: auto;
+    }
+  }
+
+}
+
+#s-documentation{
+  margin: 0 5% 0 5%; // 以中间区块的左右页内边距，定义三个区块间的间距
+}
+
+
+
+// 【网页页脚】
+
+div.footer{
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+  background-color: $header-footer-color;
+  font-family: $body-font;
+  padding: 20px 15% 10px;
+  margin: 0 0;
+  font-size: 0.9rem;
+  color: $footer-text-color;
+}
+
+// 水平平均分布三个块区
+div.footer-name, div.footer-contact, div.footer-weChat-QR{
+  flex: 1;
+  display: block;
+}
+
+// 定义区块间距，与业务范围模块的间距相同
+div.footer-contact{
+  margin: 0 5%;
+}
+
+// 微信二维码右对齐
+div.footer-weChat-QR{
+  text-align: right;
+}
+
+div.footer{
+  
+  h1{
+    font-size: 1rem;
+    font-weight: bold;
+    color: $heading-text-color;
+    margin-bottom: 0.3em;
+  }
+
+  h2{
+    font-size: 0.9rem;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+
+  p{
+    @include eraseDefaultMarginPadding();
+  }
+
+}
+
+// 邮箱等字符串文本的间距要紧凑一些
+.string{
+  letter-spacing: 0.1em;
+}
+
+p#weChat-QR{
+
+  @include eraseDefaultMarginPadding();
+
+  span{
+    display: inline-block;
+  }
+
+  span#weChat-icon{
+    vertical-align: bottom;
+    position: relative;
+    margin-right: -15px;
+  }
+
+  span#weChat-QR{
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-image: radial-gradient($QR-frame-gradient);
+  }
+
+  span#weChat-name{
+    writing-mode: vertical-lr;
+    vertical-align: top;
+  }
+
+}
