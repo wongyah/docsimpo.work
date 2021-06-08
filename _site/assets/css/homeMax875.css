@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/*! 网页基本设置 */
+/* 所有元素： 外边距、内边距归零 边框尺寸包含内边距 字号默认: 100%，16px 字体默认: inherit 字间距: 0.2em 行高: 1.5em 文本对齐方式：左对齐 */
+html * { margin: 0; padding: 0; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; font-size: 100%; font-family: inherit; color: inherit; letter-spacing: 0.2em; line-height: 1.5em; text-align: left; }
+
+/* 全网页背景颜色：白色。 默认字体：微软雅黑，向后继承 */
+body { display: block; background-color: #fff; font-family: "Microsoft YaHei UI", "Microsoft YaHei", Arial, Helvetica, sans-serif; color: #454545; }
+
+/* 英文字符串的字间距：0.1em */
+*:lang(en) { letter-spacing: 0.1em; }
+
+*:-ms-lang(en) { letter-spacing: 0.1em; }
+
+.container, .sloganContainer, .footerContainer, .headerContainer { width: 100%; /* 容器宽度，确保背景颜色填充满屏幕宽度 */ display: flex; justify-content: center; align-items: stretch; /* 定义容器类型，并水平居中子容器 */ }
+
+.headerContainer { position: fixed; top: 0; /* 将容器固定在屏幕顶端，否则它的起始位置默认与第一个流元素平齐 */ }
+
+.footerContainer { background-color: #6699cc; }
+
+.sloganContainer { background-image: linear-gradient(#ffffb3 85%, #6699cc); }
+
+.header { height: 4em; /* 菜单栏高度，即页眉高度 */ line-height: 3em; }
+
+.header h1, .header .services h2, .services .header h2, .header .sloganText p, .sloganText .header p, .header .sloganText h2, .sloganText .header h2 { flex: 0 0 165px; /* 定义商标的宽度，固定不变 */ display: flex; justify-content: start; align-items: center; font-size: 1rem; /* h1的默认字号比正文大，将其改为正文字号 */ color: #fff; }
+
+.header h1 img, .header .services h2 img, .services .header h2 img, .header .sloganText p img, .sloganText .header p img, .header .sloganText h2 img, .sloganText .header h2 img { height: 3em; width: auto; margin-right: 0.5em; }
+
+.bodyFont { font-family: "Microsoft YaHei UI", "Microsoft YaHei", Arial, Helvetica, sans-serif; font-size: 1rem; }
+
+.sloganFont { font-family: "ZcoolQingkeHuangyouTi", "HappyZcool-2016", "lianmengqiyilushuaizhengruiheiti", "Microsoft YaHei UI", "Microsoft YaHei", Arial, Helvetica, sans-serif; color: #538cc6; text-shadow: 2px 5px 2px #FFF; letter-spacing: 0.2em; }
+
+@media only screen and (min-width: 1440px) { .sloganFont { font-size: 63.36px; } }
+
+@media only screen and (max-width: 1440px) { .sloganFont { font-size: 63.36px; } }
+
+@media only screen and (max-width: 1120px) { .sloganFont { font-size: 49.28px; } }
+
+.icon-80 { height: 80px; width: auto; vertical-align: middle; }
+
+.icon-13em { height: 1.3em; width: auto; vertical-align: middle; }
+
+.icon-2em, .services h1 .serviceIcon, .services h2 .serviceIcon, .services .sloganText p .serviceIcon, .sloganText .services p .serviceIcon { height: 2em; width: auto; vertical-align: middle; }
+
+.slogan { background-image: url(/assets/images/mascot/Afront.png); background-position: right bottom; background-repeat: no-repeat; background-size: 20% auto; background-clip: border-box; }
+
+.headerContainer { background-color: rgba(102, 153, 204, 0.9); z-index: 10; }
+
+.header { display: block; overflow: hidden; transition: height 0.5s ease-in-out; }
+
+.header h1, .header .services h2, .services .header h2, .header .sloganText p, .sloganText .header p, .header .sloganText h2, .sloganText .header h2 { height: 4em; }
+
+.iconContainer { position: fixed; top: 0; right: 10%; display: flex; justify-content: start; align-items: center; height: 4em; }
+
+.headerMenuIcon { display: inline-block; padding: 0.8em; }
+
+.headerMenuIcon:hover .headerMenuIconAbove, .headerMenuIcon:hover .headerMenuIconBelow { background-color: white; }
+
+.headerMenuIconAbove, .headerMenuIconBelow { display: block; width: 1.5em; height: 2px; background-color: rgba(255, 255, 255, 0.6); transform: none; transition: transform 0.2s ease-in-out; }
+
+.headerMenuIconBelow { margin-top: 0.8em; }
+
+nav a { display: block; margin: 1em 2.5em 0 3.5em; color: rgba(255, 255, 255, 0.7); font-weight: bold; text-decoration: none; /* 去掉链接文本默认的下划线 */ line-height: 3em; border-bottom: 1pt solid rgba(255, 255, 255, 0.5); }
+
+#headerMenuIcon { display: none; }
+
+#headerMenuIcon:checked ~ .headerContainer .header { height: 100vh; position: relative; z-index: 10; transition: height 0.5s ease-in-out; }
+
+#headerMenuIcon:checked ~ .headerContainer .navContainer { display: block !important; transition: display 0.5s ease-in-out; }
+
+#headerMenuIcon:checked ~ .headerContainer nav a:hover { border-bottom: 1px solid rgba(255, 255, 255, 0.8); color: white; border-width: 2px; transition: all 0.2s ease-in-out; }
+
+#headerMenuIcon:checked ~ .headerContainer .headerMenuIcon .headerMenuIconAbove, #headerMenuIcon:checked ~ .headerContainer .headerMenuIcon .headerMenuIconBelow { margin-bottom: -2px; transform: rotate(45deg); transition: transform 0.2s ease-in-out; }
+
+#headerMenuIcon:checked ~ .headerContainer .headerMenuIcon .headerMenuIconBelow { margin-top: -2px; transform: rotate(-45deg); transition: transform 0.2s ease-in-out; }
+
+.main { width: 80%; }
+
+.slogan { height: 80vw; display: flex; justify-content: center; align-items: start; padding-top: 4rem; }
+
+.sloganFont { font-size: 6vw; }
+
+.sloganText { margin-top: 1.5em; }
+
+.sloganText h1, .sloganText .services h2, .services .sloganText h2, .sloganText p, .sloganText h2 { text-align: center; }
+
+.sloganText h2 { margin-top: -0.2em; margin-bottom: 0.3em; }
+
+.sloganText h2 span { font-size: 1.5em; color: #f471da; padding-right: 0.1em; /* 拉开高亮文字“好”与“用”的间距 */ }
+
+.sloganText p { font-size: 2vw; color: #7b5e37; text-shadow: 0px 0px 2px #FFF; letter-spacing: 0.2em; line-height: 2em; /* 定义Slogan副语的段落间距 */ }
+
+.services { list-style-type: none; /* 去掉<ul>默认的项目符号 */ margin: 5em 0 4em; /* 定义服务范围正文的上下外边距，即前后留白的高度 */ /* 服务名称 */ /* 服务描述 */ }
+
+.services > :nth-child(2) { margin: 4em 0; }
+
+.services h1, .services h2, .services .sloganText h2, .sloganText .services h2, .services .sloganText p, .sloganText .services p { display: inline-block; vertical-align: middle; }
+
+.services h2 { font-size: 1.2rem; line-height: 2em; }
+
+.services p { margin-top: 0.5em; /* 定义服务名称与服务描述之间的间距 */ }
+
+.above-footer { margin-bottom: 1em; }
+
+.above-footer p { color: #ababab; line-height: 2em; }
+
+/* 页脚文本格式 */
+.footer { list-style-type: none; /* 去掉<ul>默认的项目符号 */ }
+
+.footer li { border-bottom: 1pt solid #4080bf; padding: 1rem 0; }
+
+.footer h1, .footer .sloganText h2, .sloganText .footer h2, .footer .sloganText p, .sloganText .footer p, .footer .services h2, .services .footer h2 { font-size: 1rem; color: #d9e6f2; line-height: 2em; margin-top: 0; }
+
+.footer p { font-size: 0.9rem; color: #abc7e3; line-height: 1.4em; }
+
+#copyright-2 { margin-top: 1rem; padding-top: 1rem; border-top: 1pt solid #4080bf; }
+
+/* 微信二维码 */
+.footer .media { position: relative; }
+
+.footer .media h1, .footer .media .sloganText h2, .sloganText .footer .media h2, .footer .media .sloganText p, .sloganText .footer .media p, .footer .media .services h2, .services .footer .media h2 { display: inline-block; margin: 0 0.5em; }
+
+.footer .media h1:first-child, .footer .media .sloganText h2:first-child, .sloganText .footer .media h2:first-child, .footer .media .sloganText p:first-child, .sloganText .footer .media p:first-child, .footer .media .services h2:first-child, .services .footer .media h2:first-child { margin-left: 0; }
+
+.qrcode { display: inline-block; /*! 删掉这一行，二维的码的边框就聚拢到中心了。可考虑设置在img上 */ padding: 10px 10px; /* 二维码的边框宽度 */ background-image: radial-gradient(#8cb3d9, #4080bf); border-radius: 5px; margin-left: -1em; vertical-align: top; }
+
+#icon-linkedin { padding-bottom: 0.3em; }
+
+#icon-wechat { position: relative; z-index: 5; }
+
+#qrcode-linkedin { display: none; }
+
+#copyright-1 { display: none; }
+
+/*# sourceMappingURL=homeMax875.css.map */

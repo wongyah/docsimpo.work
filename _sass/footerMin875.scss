@@ -1,0 +1,94 @@
+  
+//! 页脚之上
+.above-footer{
+  margin-bottom: 1em;
+  p{
+    color: lighten($text-color-body, 40%);
+    line-height: $line-height-content;
+  }
+}
+
+
+//! 网页页脚
+
+// 页脚文本格式
+.footer {
+  @include distributedLayout($margin: 1rem);
+
+  h1{
+    font-size: $font-size-body;
+    color: lighten($background-color-head, 30%);
+    line-height: $line-height-content;
+    margin-top: 0;
+  }
+  p{
+    font-size: $font-size-footer;
+    color: lighten($background-color-head, 18%);
+    line-height: $line-height-footer;
+  }
+}
+
+p.copyright{
+  font-size: $font-size-footer;
+  color: lighten($background-color-head, 18%);
+  line-height: $line-height-footer;
+  padding: 1rem 0;
+}
+  
+
+
+/* 微信二维码 */
+.footer .media {
+  position: relative;
+  h1{
+    display: inline-block;
+    @include margin(null 0.1em);
+    // margin: 0 0.1em;
+    &:first-child{
+      margin-left: 0;
+    }
+  }
+}
+
+
+// 将二维码定位在页脚上方
+
+.qrcode{
+  $bgcolor: $background-color-head;
+  display: none; /*! 删掉这一行，二维的码的边框就聚拢到中心了。可考虑设置在img上 */
+  padding: 10px 10px; /* 二维码的边框宽度 */
+  background-image: radial-gradient(lighten($bgcolor, 10%), darken($bgcolor, 10%));
+  border-radius: 5px;
+  position: absolute;
+  top: -8rem;
+}
+
+// .platform{
+//   writing-mode: vertical-lr;
+//   line-height: 1em; /* 拉近与二维码的间距，否则距离为1.5倍行距 */
+//   vertical-align: middle; /* 使二维码处于顶部，并与右侧的文字一起垂直居中，否则位置会下沉 */
+//   position: absolute;
+//   top: -8rem;
+//   left: 180px;
+//   display: none;
+// }
+
+#icon-linkedin:hover {
+  padding-bottom: 0.3em;
+  border-bottom: 2pt solid rgba($text-color-header, 0.6);
+  
+  & ~ #qrcode-linkedin{
+    display: inline-block;
+  }
+}
+
+#icon-wechat:hover ~ #qrcode-wechat{
+  display: inline-block;
+}
+
+
+/* copyright */
+#copyright-2{
+  display: none;
+}
+

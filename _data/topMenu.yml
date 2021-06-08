@@ -1,8 +1,8 @@
 - name: 首页
   link: /
-- name: 资源
+- name: 技术写作
   link: http://www.learningdita.com/
-- name: 开源项目
+- name: 文档技术
   link: https://www.w3school.com.cn/
-- name: 关于
+- name: 示例项目
   link: https://favicon.io/

@@ -3,6 +3,8 @@ GEM
   specs:
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
+    bourbon (7.0.0)
+      thor (~> 1.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.7)
     em-websocket (0.5.2)
@@ -55,6 +57,7 @@ GEM
       ffi (~> 1.9)
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
+    thor (1.1.0)
     unicode-display_width (1.7.0)
     wdm (0.1.1)
 
@@ -62,7 +65,11 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  bourbon
   jekyll
+  jekyll-watch
+  kramdown
+  rouge
   wdm (>= 0.1.0)
 
 BUNDLED WITH

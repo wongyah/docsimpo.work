@@ -1,0 +1,29 @@
+<!-- Logo和菜单栏 -->
+<input type="checkbox" name="navicon" id="headerMenuIcon">
+<div class="headerContainer">
+  <div class="main header">
+
+    <h1>
+      <img src="/assets/images/logo.png" alt="Logo">
+      <span>单线条文档</span>
+    </h1>
+
+    <div class="iconContainer">
+      <label for="headerMenuIcon" class="headerMenuIcon">
+        <span class="headerMenuIconAbove"></span>
+        <span class="headerMenuIconBelow"></span>
+      </label>
+    </div>
+
+    <div class="navContainer">
+      <nav>
+        {%- for item in site.data.topMenu -%}
+        <a href=" {{ item.link }} " {%- if page.url == item.link -%} class="current-page" {%- endif -%}>
+          {{ item.name }}
+        </a>
+        {%- endfor -%}
+      </nav>
+    </div>
+
+  </div>
+</div>
