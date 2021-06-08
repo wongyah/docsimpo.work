@@ -1,0 +1,153 @@
+// 正文宽度 适屏
+
+// flex布局
+
+@mixin flexLayout($h: space-between, $v: stretch,) {
+  display: flex;
+  justify-content: $h;
+  align-items: $v;
+}  
+
+@mixin distributedLayout($margin) {
+  @include flexLayout;
+  list-style-type: none; /* 去掉<ul>默认的项目符号 */
+  margin: $margin 0; //定义与上下内容块的间距
+  li{
+    width: 27.5%;
+    &:nth-child(2){
+      margin: 0 5%; /* = (正文宽度 - 3×单元宽度) ÷ 2 */
+    }
+  }
+}
+
+
+
+// 一级容器（填充满屏背景色）
+
+.container {
+  width: 100%;   /* 容器宽度，确保背景颜色填充满屏幕宽度 */
+  @include flexLayout($h: center,);  /* 定义容器类型，并水平居中子容器 */
+}  
+
+.headerContainer{
+  @extend .container;
+  position: fixed;
+  top: 0; /* 将容器固定在屏幕顶端，否则它的起始位置默认与第一个流元素平齐 */
+}  
+
+.footerContainer{
+  @extend .container;
+  background-color: $background-color-head;
+}  
+
+.sloganContainer{
+  @extend .container;
+  $bghead: $background-color-head;
+  $bgslogan: $background-color-slogan;
+  background-image: linear-gradient($bgslogan 85%, $bghead);
+}  
+
+// 二级容器（正文宽度）
+
+.header{
+  height: $height-header;  /* 菜单栏高度，即页眉高度 */
+  line-height: $line-height-header;
+  h1 {
+    flex: 0 0 165px; /* 定义商标的宽度，固定不变 */
+    @include flexLayout($h: start, $v: center);
+    font-size: $font-size-body; /* h1的默认字号比正文大，将其改为正文字号 */
+    color: $text-color-header;
+    img{
+      height: $line-height-header;
+      width: auto;
+      margin-right: 0.5em;
+    }
+  }
+}  
+
+
+// 屏幕适配
+
+// .main类
+
+$screen-widths:
+  "min" 1440px 70% ture,
+  "max" 1440px 0.7 false,
+  "max" 1120px 0.7 false;
+
+@mixin content-width($min-or-max, $screen-width, $precentage, $isPrecentage) {
+  @media only screen and (#{$min-or-max}-width: $screen-width) {
+    // 正文宽度
+    .main {
+      @if $isPrecentage {
+        width: $precentage;
+      }
+      @else {
+        width: $screen-width * $precentage;
+      }
+    }
+  }
+}
+
+@mixin sloganHeight($min-or-max, $screen-width) {
+  @media only screen and (#{$min-or-max}-width: $screen-width) {
+    height: $screen-width * 0.5;
+  }
+}
+
+// 字体
+
+.bodyFont{
+  font-family: $font-family-body;
+  font-size: $font-size-body;
+}
+
+@mixin font-size-slogan($min-or-max, $screen-width) {
+  @media only screen and (#{$min-or-max}-width: $screen-width) {
+    font-size: $screen-width * 0.044;
+  }
+}
+
+
+.sloganFont{
+  font-family: $font-family-slogan;
+  color: darken($background-color-head, 5%);
+  text-shadow: 2px 5px 2px #FFF;
+  letter-spacing: $letter-spacing-cn;
+  @each $min-or-max, $screen-width in $screen-widths {
+    @include font-size-slogan($min-or-max, $screen-width);
+  }
+}
+
+//! 图标
+
+// 服务项目的图标
+.icon-80{
+  height: 80px;
+  width: auto;
+  vertical-align: middle;
+}
+
+.icon-13em{
+  height: 1.3em;
+  width: auto;
+  vertical-align: middle;
+}
+.icon-2em{
+  height: 2em;
+  width: auto;
+  vertical-align: middle;
+}
+
+
+//! Slogan 背景图像
+
+%mascot {
+  background: {
+    image: url(/assets/images/mascot/Afront.png);
+    position: right bottom;
+    repeat: no-repeat;
+    size: 20% auto;
+    clip: border-box;
+  }
+}

@@ -1,0 +1,94 @@
+//! 网页页眉
+
+.headerContainer{
+  $bgcolor: $background-color-head;
+  background-color: rgba($bgcolor, 0.9);
+  z-index: 10;
+}
+.header{
+  display: block;
+  overflow: hidden;
+  h1 {
+    height: $height-header; // 使商标名称垂直居中。
+  }
+  transition: height 0.5s ease-in-out;
+}
+//! 菜单开关图标
+.iconContainer{
+  position: fixed;
+  top: 0;
+  right: 10%;
+  @include flexLayout($h: start, $v: center);
+  height: $height-header;
+}
+.headerMenuIcon{
+  display: inline-block;
+  padding: 0.8em;
+  &:hover {
+    .headerMenuIconAbove, .headerMenuIconBelow {
+     background-color: rgba(255, 255, 255, 1);
+   }
+  }
+}
+.headerMenuIconAbove{
+  display: block;
+  width: 1.5em;
+  height: 2px;
+  background-color: rgba($text-color-header, 0.6);
+  transform: none;
+  transition: transform 0.2s ease-in-out;
+}
+.headerMenuIconBelow{
+  @extend .headerMenuIconAbove;
+  margin-top: 0.8em;
+}
+
+//! 主菜单
+
+nav a {
+  display: block;
+    margin: 1em 2.5em 0 3.5em;
+    color: rgba($text-color-header, 0.7);
+    font-weight: bold;
+    text-decoration: none; /* 去掉链接文本默认的下划线 */
+    line-height: $line-height-header;
+    border-bottom: 1pt solid rgba($text-color-header, 0.5);
+  }
+
+
+//! 鼠标操作效果
+
+#headerMenuIcon{
+  display: none;  // 设置复选框为：不显示
+  &:checked ~ .headerContainer {
+    .header{
+      height: 100vh;
+      position: relative;
+      z-index: 10;
+      transition: height 0.5s ease-in-out;
+    }
+    .navContainer {
+      display: block !important;
+      transition: display 0.5s ease-in-out;
+    }
+    nav a:hover{
+      border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+      color: rgba(255, 255, 255, 1);
+      border-width: 2px;
+      transition: all 0.2s ease-in-out;
+    }
+    .headerMenuIcon {
+      .headerMenuIconAbove{
+        margin-bottom: -2px;
+        transform: rotate(45deg);
+        transition: transform 0.2s ease-in-out;
+      }
+      .headerMenuIconBelow{
+        margin-top: -2px;
+        transform: rotate(-45deg);
+        transition: transform 0.2s ease-in-out;
+      }
+    }
+  }
+}
+
