@@ -16,8 +16,8 @@ $text-color-slogan: #8080ff;
 //! 字体设置
 @font-face {
   font-family: "Huangyou";
-  src: url("/ZcoolQingkeHuangyouTi.woff2") format("woff2"),
-       url("/ZcoolQingkeHuangyouTi.woff") format("woff");
+  src: url("fonts/ZcoolQingkeHuangyouTi.woff2") format("woff2"),
+       url("fonts/ZcoolQingkeHuangyouTi.woff") format("woff");
 }
 
 $font-family-body: "Microsoft YaHei UI", "Microsoft YaHei", Arial, Helvetica, sans-serif,;

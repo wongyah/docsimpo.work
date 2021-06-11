@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@font-face { font-family: "Huangyou"; src: url("/ZcoolQingkeHuangyouTi.woff2") format("woff2"), url("/ZcoolQingkeHuangyouTi.woff") format("woff"); }
+@font-face { font-family: "Huangyou"; src: url("fonts/ZcoolQingkeHuangyouTi.woff2") format("woff2"), url("fonts/ZcoolQingkeHuangyouTi.woff") format("woff"); }
 
 /*! 网页基本设置 */
 /* 所有元素： 外边距、内边距归零 边框尺寸包含内边距 字号默认: 100%，16px 字体默认: inherit 字间距: 0.2em 行高: 1.5em 文本对齐方式：左对齐 */
