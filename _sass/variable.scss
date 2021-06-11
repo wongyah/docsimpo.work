@@ -14,8 +14,14 @@ $text-color-slogan: #8080ff;
 
 
 //! 字体设置
+@font-face {
+  font-family: "Huangyou";
+  src: url("/ZcoolQingkeHuangyouTi.woff2") format("woff2"),
+       url("/ZcoolQingkeHuangyouTi.woff") format("woff");
+}
+
 $font-family-body: "Microsoft YaHei UI", "Microsoft YaHei", Arial, Helvetica, sans-serif,;
-$font-family-slogan: "ZcoolQingkeHuangyouTi", "HappyZcool-2016", "lianmengqiyilushuaizhengruiheiti", "Microsoft YaHei UI", "Microsoft YaHei", Arial, Helvetica, sans-serif,;
+$font-family-slogan: "Huangyou", "HappyZcool-2016", "lianmengqiyilushuaizhengruiheiti", "Microsoft YaHei UI", "Microsoft YaHei", Arial, Helvetica, sans-serif,;
 
 $font-size-body: 1rem;
 $font-size-heading: $font-size-body * 1.2;

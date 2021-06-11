@@ -1,4 +1,6 @@
 @charset "UTF-8";
+@font-face { font-family: "Huangyou"; src: url("/ZcoolQingkeHuangyouTi.woff2") format("woff2"), url("/ZcoolQingkeHuangyouTi.woff") format("woff"); }
+
 /*! 网页基本设置 */
 /* 所有元素： 外边距、内边距归零 边框尺寸包含内边距 字号默认: 100%，16px 字体默认: inherit 字间距: 0.2em 行高: 1.5em 文本对齐方式：左对齐 */
 html * { margin: 0; padding: 0; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; font-size: 100%; font-family: inherit; color: inherit; letter-spacing: 0.2em; line-height: 1.5em; text-align: left; }
@@ -27,7 +29,7 @@ body { display: block; background-color: #fff; font-family: "Microsoft YaHei UI"
 
 .bodyFont { font-family: "Microsoft YaHei UI", "Microsoft YaHei", Arial, Helvetica, sans-serif; font-size: 1rem; }
 
-.sloganFont { font-family: "ZcoolQingkeHuangyouTi", "HappyZcool-2016", "lianmengqiyilushuaizhengruiheiti", "Microsoft YaHei UI", "Microsoft YaHei", Arial, Helvetica, sans-serif; color: #538cc6; text-shadow: 2px 5px 2px #FFF; letter-spacing: 0.2em; }
+.sloganFont { font-family: "Huangyou", "HappyZcool-2016", "lianmengqiyilushuaizhengruiheiti", "Microsoft YaHei UI", "Microsoft YaHei", Arial, Helvetica, sans-serif; color: #538cc6; text-shadow: 2px 5px 2px #FFF; letter-spacing: 0.2em; }
 
 @media only screen and (min-width: 1440px) { .sloganFont { font-size: 63.36px; } }
 
