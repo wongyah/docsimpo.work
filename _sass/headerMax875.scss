@@ -6,10 +6,16 @@
   z-index: 10;
 }
 .header{
+  height: $height-header * 0.75;  /* 菜单栏高度，即页眉高度 */
+  line-height: $line-height-header;
   display: block;
   overflow: hidden;
   h1 {
-    height: $height-header; // 使商标名称垂直居中。
+    height: $height-header * 0.75; // 使商标名称垂直居中。
+    img{
+      @extend .icon-2em;
+      margin-right: 0.5em;
+    }
   }
   transition: height 0.5s ease-in-out;
 }
@@ -17,13 +23,13 @@
 .iconContainer{
   position: fixed;
   top: 0;
-  right: 10%;
+  right: 5%;
   @include flexLayout($h: start, $v: center);
-  height: $height-header;
+  height: $height-header * 0.75;
 }
 .headerMenuIcon{
   display: inline-block;
-  padding: 0.8em;
+  padding: 0.3em;
   &:hover {
     .headerMenuIconAbove, .headerMenuIconBelow {
      background-color: rgba(255, 255, 255, 1);
@@ -32,7 +38,7 @@
 }
 .headerMenuIconAbove{
   display: block;
-  width: 1.5em;
+  width: 1.2em;
   height: 2px;
   background-color: rgba($text-color-header, 0.6);
   transform: none;
@@ -40,14 +46,14 @@
 }
 .headerMenuIconBelow{
   @extend .headerMenuIconAbove;
-  margin-top: 0.8em;
+  margin-top: 0.6em;
 }
 
 //! 主菜单
 
 nav a {
   display: block;
-    margin: 1em 2.5em 0 3.5em;
+    margin: 1em 0 0 0;
     color: rgba($text-color-header, 0.7);
     font-weight: bold;
     text-decoration: none; /* 去掉链接文本默认的下划线 */
