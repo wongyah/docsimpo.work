@@ -23,7 +23,7 @@ body { display: block; background-color: #fff; font-family: Arial, Helvetica, sa
 
 .bodyFont { font-family: Arial, Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei"; font-size: 1rem; }
 
-.sloganFont { font-family: Arial, Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei"; color: #538cc6; text-shadow: 2px 2px 0px #0d1a26; letter-spacing: 0.2em; }
+.sloganFont { font-family: Arial, Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei"; color: #538cc6; text-shadow: 0.032em 0.032em 0px #0d1a26; letter-spacing: 0.2em; }
 
 @media only screen and (min-width: 1440px) { .sloganFont { font-size: 63.36px; } }
 
