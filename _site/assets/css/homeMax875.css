@@ -1,12 +1,10 @@
 @charset "UTF-8";
-@font-face { font-family: "Huangyou"; src: url("fonts/ZcoolQingkeHuangyouTi.woff2") format("woff2"), url("fonts/ZcoolQingkeHuangyouTi.woff") format("woff"); }
-
 /*! 网页基本设置 */
 /* 所有元素： 外边距、内边距归零 边框尺寸包含内边距 字号默认: 100%，16px 字体默认: inherit 字间距: 0.2em 行高: 1.5em 文本对齐方式：左对齐 */
 html * { margin: 0; padding: 0; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; font-size: 100%; font-family: inherit; color: inherit; letter-spacing: 0.2em; line-height: 1.5em; text-align: left; }
 
 /* 全网页背景颜色：白色。 默认字体：微软雅黑，向后继承 */
-body { display: block; background-color: #fff; font-family: "Microsoft YaHei UI", "Microsoft YaHei", Arial, Helvetica, sans-serif; color: #454545; }
+body { display: block; background-color: #fff; font-family: Arial, Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei"; color: #454545; }
 
 /* 英文字符串的字间距：0.1em */
 *:lang(en) { letter-spacing: 0.1em; }
@@ -21,15 +19,11 @@ body { display: block; background-color: #fff; font-family: "Microsoft YaHei UI"
 
 .sloganContainer { background-image: linear-gradient(#ffffb3 85%, #6699cc); }
 
-.header { height: 4em; /* 菜单栏高度，即页眉高度 */ line-height: 3em; }
-
 .header h1, .header .services h2, .services .header h2, .header .sloganText p, .sloganText .header p, .header .sloganText h2, .sloganText .header h2 { flex: 0 0 165px; /* 定义商标的宽度，固定不变 */ display: flex; justify-content: start; align-items: center; font-size: 1rem; /* h1的默认字号比正文大，将其改为正文字号 */ color: #fff; }
 
-.header h1 img, .header .services h2 img, .services .header h2 img, .header .sloganText p img, .sloganText .header p img, .header .sloganText h2 img, .sloganText .header h2 img { height: 3em; width: auto; margin-right: 0.5em; }
+.bodyFont { font-family: Arial, Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei"; font-size: 1rem; }
 
-.bodyFont { font-family: "Microsoft YaHei UI", "Microsoft YaHei", Arial, Helvetica, sans-serif; font-size: 1rem; }
-
-.sloganFont { font-family: "Huangyou", "HappyZcool-2016", "lianmengqiyilushuaizhengruiheiti", "Microsoft YaHei UI", "Microsoft YaHei", Arial, Helvetica, sans-serif; color: #538cc6; text-shadow: 2px 5px 2px #FFF; letter-spacing: 0.2em; }
+.sloganFont { font-family: Arial, Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei"; color: #538cc6; text-shadow: 0.032em 0.032em 0px #0d1a26; letter-spacing: 0.2em; }
 
 @media only screen and (min-width: 1440px) { .sloganFont { font-size: 63.36px; } }
 
@@ -41,27 +35,31 @@ body { display: block; background-color: #fff; font-family: "Microsoft YaHei UI"
 
 .icon-13em { height: 1.3em; width: auto; vertical-align: middle; }
 
-.icon-2em, .services h1 .serviceIcon, .services h2 .serviceIcon, .services .sloganText p .serviceIcon, .sloganText .services p .serviceIcon { height: 2em; width: auto; vertical-align: middle; }
+.icon-2em, .services h1 .serviceIcon, .services h2 .serviceIcon, .services .sloganText p .serviceIcon, .sloganText .services p .serviceIcon, .header h1 img, .header .services h2 img, .services .header h2 img, .header .sloganText p img, .sloganText .header p img, .header .sloganText h2 img, .sloganText .header h2 img { height: 2em; width: auto; vertical-align: middle; }
+
+.icon-3em { height: 3em; width: auto; vertical-align: middle; }
 
 .slogan { background-image: url(/assets/images/mascot/Afront.png); background-position: right bottom; background-repeat: no-repeat; background-size: 20% auto; background-clip: border-box; }
 
 .headerContainer { background-color: rgba(102, 153, 204, 0.9); z-index: 10; }
 
-.header { display: block; overflow: hidden; transition: height 0.5s ease-in-out; }
+.header { height: 3em; /* 菜单栏高度，即页眉高度 */ line-height: 3em; display: block; overflow: hidden; transition: height 0.5s ease-in-out; }
 
-.header h1, .header .services h2, .services .header h2, .header .sloganText p, .sloganText .header p, .header .sloganText h2, .sloganText .header h2 { height: 4em; }
+.header h1, .header .services h2, .services .header h2, .header .sloganText p, .sloganText .header p, .header .sloganText h2, .sloganText .header h2 { height: 3em; }
 
-.iconContainer { position: fixed; top: 0; right: 10%; display: flex; justify-content: start; align-items: center; height: 4em; }
+.header h1 img, .header .services h2 img, .services .header h2 img, .header .sloganText p img, .sloganText .header p img, .header .sloganText h2 img, .sloganText .header h2 img { margin-right: 0.5em; }
 
-.headerMenuIcon { display: inline-block; padding: 0.8em; }
+.iconContainer { position: fixed; top: 0; right: 5%; display: flex; justify-content: start; align-items: center; height: 3em; }
+
+.headerMenuIcon { display: inline-block; padding: 0.3em; }
 
 .headerMenuIcon:hover .headerMenuIconAbove, .headerMenuIcon:hover .headerMenuIconBelow { background-color: white; }
 
-.headerMenuIconAbove, .headerMenuIconBelow { display: block; width: 1.5em; height: 2px; background-color: rgba(255, 255, 255, 0.6); transform: none; transition: transform 0.2s ease-in-out; }
+.headerMenuIconAbove, .headerMenuIconBelow { display: block; width: 1.2em; height: 2px; background-color: rgba(255, 255, 255, 0.6); transform: none; transition: transform 0.2s ease-in-out; }
 
-.headerMenuIconBelow { margin-top: 0.8em; }
+.headerMenuIconBelow { margin-top: 0.6em; }
 
-nav a { display: block; margin: 1em 2.5em 0 3.5em; color: rgba(255, 255, 255, 0.7); font-weight: bold; text-decoration: none; /* 去掉链接文本默认的下划线 */ line-height: 3em; border-bottom: 1pt solid rgba(255, 255, 255, 0.5); }
+nav a { display: block; margin: 1em 0 0 0; color: rgba(255, 255, 255, 0.7); font-weight: bold; text-decoration: none; /* 去掉链接文本默认的下划线 */ line-height: 3em; border-bottom: 1pt solid rgba(255, 255, 255, 0.5); }
 
 #headerMenuIcon { display: none; }
 
@@ -75,7 +73,7 @@ nav a { display: block; margin: 1em 2.5em 0 3.5em; color: rgba(255, 255, 255, 0.
 
 #headerMenuIcon:checked ~ .headerContainer .headerMenuIcon .headerMenuIconBelow { margin-top: -2px; transform: rotate(-45deg); transition: transform 0.2s ease-in-out; }
 
-.main { width: 80%; }
+.main { width: 90%; }
 
 .slogan { height: 80vw; display: flex; justify-content: center; align-items: start; padding-top: 4rem; }
 
@@ -114,7 +112,7 @@ nav a { display: block; margin: 1em 2.5em 0 3.5em; color: rgba(255, 255, 255, 0.
 
 .footer p { font-size: 0.9rem; color: #abc7e3; line-height: 1.4em; }
 
-#copyright-2 { margin-top: 1rem; padding-top: 1rem; border-top: 1pt solid #4080bf; }
+#copyright-max875 { margin-top: 1rem; padding-top: 1rem; border-top: 1pt solid #4080bf; }
 
 /* 微信二维码 */
 .footer .media { position: relative; }
@@ -131,6 +129,6 @@ nav a { display: block; margin: 1em 2.5em 0 3.5em; color: rgba(255, 255, 255, 0.
 
 #qrcode-linkedin { display: none; }
 
-#copyright-1 { display: none; }
+#copyright-min875, .copyright-null { display: none; }
 
 /*# sourceMappingURL=homeMax875.css.map */

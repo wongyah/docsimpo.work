@@ -5,7 +5,14 @@
   }
 
   .header {
+    height: $height-header;  /* 菜单栏高度，即页眉高度 */
+    line-height: $line-height-header;
     @include flexLayout($v: center);
+    img{
+      @extend .icon-3em;
+      margin-right: 0.5em;
+    }
+
   }
 
   .navContainer {
