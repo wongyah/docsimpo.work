@@ -151,3 +151,20 @@ $screen-widths:
     clip: border-box;
   }
 }
+
+//! 文章缩略图
+
+.contentContainer{
+  @include margin(4rem null)
+}
+
+.articlePreview{
+  @include padding(2em null);
+  h1{
+    font-size: 2rem;
+    color: lighten($color: $text-color-emphasized, $amount: 15%);
+    letter-spacing: $letter-spacing-heading;
+    margin-bottom: 0.5em;
+  }
+}
+

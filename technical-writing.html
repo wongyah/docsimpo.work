@@ -1,0 +1,17 @@
+---
+layout: default
+title: 技术写作是一种技能
+---
+
+<div class="container">
+  <div class="main contentContainer">
+    {% for article in site.technical-writing %}
+       <div class="articlePreview">
+         <a href="{{ article.url }}">
+           <h1>{{ article.title }}</h1>
+           {{ article.excerpt | markdownify }}
+         </a>
+       </div>
+    {% endfor %}
+  </div>
+</div>

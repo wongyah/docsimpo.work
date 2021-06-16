@@ -1,7 +1,7 @@
 - name: 首页
   link: /
 - name: 技术写作
-  link: http://www.learningdita.com/
+  link: /technical-writing.html
 - name: 文档技术
   link: https://www.w3school.com.cn/
 - name: 示例项目

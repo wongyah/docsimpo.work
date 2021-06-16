@@ -41,6 +41,12 @@ body { display: block; background-color: #fff; font-family: Arial, Helvetica, sa
 
 .slogan { background-image: url(/assets/images/mascot/Afront.png); background-position: right bottom; background-repeat: no-repeat; background-size: 20% auto; background-clip: border-box; }
 
+.contentContainer { margin-top: 4rem; margin-bottom: 4rem; }
+
+.articlePreview { padding-top: 2em; padding-bottom: 2em; }
+
+.articlePreview h1, .articlePreview .services h2, .services .articlePreview h2, .articlePreview .sloganText p, .sloganText .articlePreview p, .articlePreview .sloganText h2, .sloganText .articlePreview h2 { font-size: 2rem; color: #fab8ed; letter-spacing: 0.1em; margin-bottom: 0.5em; }
+
 .headerContainer { background-color: rgba(102, 153, 204, 0.9); z-index: 10; }
 
 .header { height: 3em; /* 菜单栏高度，即页眉高度 */ line-height: 3em; display: block; overflow: hidden; transition: height 0.5s ease-in-out; }

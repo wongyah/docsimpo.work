@@ -41,6 +41,12 @@ body { display: block; background-color: #fff; font-family: Arial, Helvetica, sa
 
 .slogan { background-image: url(/assets/images/mascot/Afront.png); background-position: right bottom; background-repeat: no-repeat; background-size: 20% auto; background-clip: border-box; }
 
+.contentContainer { margin-top: 4rem; margin-bottom: 4rem; }
+
+.articlePreview { padding-top: 2em; padding-bottom: 2em; }
+
+.articlePreview h1 { font-size: 2rem; color: #fab8ed; letter-spacing: 0.1em; margin-bottom: 0.5em; }
+
 /*! 网页页眉 */
 .headerContainer { background-image: linear-gradient(#6699cc, #8cb3d9 90%, #6699cc); }
 
