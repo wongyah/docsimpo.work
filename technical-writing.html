@@ -1,17 +1,27 @@
 ---
-layout: default
+layout: sharebox
 title: 技术写作是一种技能
 ---
 
-<div class="container">
-  <div class="main contentContainer">
+<!-- 文章索引 -->
+<div class="contentBody">
+  {% for article in site.technical-writing %}
+     <div class="articlePreview">
+       <a href="{{ article.url }}">
+         <h1>{{ article.title }}</h1>
+         {{ article.excerpt | markdownify }}
+       </a>
+     </div>
+  {% endfor %}
+</div>
+
+
+<!-- 侧栏 -->
+<div class="aside">
+  <div>
+    <h1>推荐阅读</h1>
     {% for article in site.technical-writing %}
-       <div class="articlePreview">
-         <a href="{{ article.url }}">
-           <h1>{{ article.title }}</h1>
-           {{ article.excerpt | markdownify }}
-         </a>
-       </div>
+    <p><a href="{{ article.url }}">{{ article.title }}</a></p>
     {% endfor %}
   </div>
 </div>

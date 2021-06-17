@@ -11,9 +11,9 @@
 
 //! 网页页脚
 
-/* 页脚文本格式 */
+// 页脚文本格式
 .footer{
-  list-style-type: none; /* 去掉<ul>默认的项目符号 */
+  list-style-type: none; // 去掉<ul>默认的项目符号
   li {
     border-bottom: 1pt solid darken($color: $background-color-head, $amount: 10%);
     padding: 1rem 0;
@@ -41,7 +41,7 @@
   border-top: 1pt solid darken($color: $background-color-head, $amount: 10%);
 }
   
-/* 微信二维码 */
+// 微信二维码
 .footer .media {
   position: relative;
   h1{
@@ -56,8 +56,8 @@
 
 .qrcode{
   $bgcolor: $background-color-head;
-  display: inline-block; /*! 删掉这一行，二维的码的边框就聚拢到中心了。可考虑设置在img上 */
-  padding: 10px 10px; /* 二维码的边框宽度 */
+  display: inline-block; // 删掉这一行，二维的码的边框就聚拢到中心了。可考虑设置在img上
+  padding: 10px 10px; // 二维码的边框宽度
   background-image: radial-gradient(lighten($bgcolor, 10%), darken($bgcolor, 10%));
   border-radius: 5px;
   margin-left: -1em;
@@ -82,9 +82,3 @@
   display: none;
 }
 
-// #platform{
-//   display: inline-block;
-//   writing-mode: vertical-lr;
-//   line-height: 1em; /* 拉近与二维码的间距，否则距离为1.5倍行距 */
-//   vertical-align: middle; /* 使二维码处于顶部，并与右侧的文字一起垂直居中，否则位置会下沉 */
-// }

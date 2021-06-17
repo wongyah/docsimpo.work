@@ -1,10 +1,9 @@
 @charset "UTF-8";
-/*! 网页基本设置 */
-/* 所有元素： 外边距、内边距归零 边框尺寸包含内边距 字号默认: 100%，16px 字体默认: inherit 字间距: 0.2em 行高: 1.5em 文本对齐方式：左对齐 */
 html * { margin: 0; padding: 0; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; font-size: 100%; font-family: inherit; color: inherit; letter-spacing: 0.2em; line-height: 1.5em; text-align: left; }
 
-/* 全网页背景颜色：白色。 默认字体：微软雅黑，向后继承 */
-body { display: block; background-color: #fff; font-family: Arial, Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei"; color: #454545; }
+body { display: flex; flex-direction: column; min-height: 100vh; background-color: #fff; font-family: Arial, Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei"; color: #454545; }
+
+.content { flex-grow: 2; }
 
 /* 英文字符串的字间距：0.1em */
 *:lang(en) { letter-spacing: 0.1em; }
@@ -41,15 +40,17 @@ body { display: block; background-color: #fff; font-family: Arial, Helvetica, sa
 
 .slogan { background-image: url(/assets/images/mascot/Afront.png); background-position: right bottom; background-repeat: no-repeat; background-size: 20% auto; background-clip: border-box; }
 
-.contentContainer { margin-top: 4rem; margin-bottom: 4rem; }
+.contentContainer { margin-top: 4rem; margin-bottom: 4rem; display: flex; }
 
-.articlePreview { padding-top: 2em; padding-bottom: 2em; }
+.contentBody { flex: 29; margin-right: 10%; }
 
-.articlePreview h1, .articlePreview .services h2, .services .articlePreview h2, .articlePreview .sloganText p, .sloganText .articlePreview p, .articlePreview .sloganText h2, .sloganText .articlePreview h2 { font-size: 2rem; color: #fab8ed; letter-spacing: 0.1em; margin-bottom: 0.5em; }
+.aside { flex: 11; border: 1pt solid red; padding-top: 6rem; padding-right: 1em; padding-left: 1em; }
+
+a { text-decoration: none; }
 
 .headerContainer { background-color: rgba(102, 153, 204, 0.9); z-index: 10; }
 
-.header { height: 3em; /* 菜单栏高度，即页眉高度 */ line-height: 3em; display: block; overflow: hidden; transition: height 0.5s ease-in-out; }
+.header { height: 3em; line-height: 3em; display: block; overflow: hidden; transition: height 0.5s ease-in-out; }
 
 .header h1, .header .services h2, .services .header h2, .header .sloganText p, .sloganText .header p, .header .sloganText h2, .sloganText .header h2 { height: 3em; }
 
@@ -65,7 +66,7 @@ body { display: block; background-color: #fff; font-family: Arial, Helvetica, sa
 
 .headerMenuIconBelow { margin-top: 0.6em; }
 
-nav a { display: block; margin: 1em 0 0 0; color: rgba(255, 255, 255, 0.7); font-weight: bold; text-decoration: none; /* 去掉链接文本默认的下划线 */ line-height: 3em; border-bottom: 1pt solid rgba(255, 255, 255, 0.5); }
+nav a { display: block; margin: 1em 0 0 0; color: rgba(255, 255, 255, 0.7); font-weight: bold; line-height: 3em; border-bottom: 1pt solid rgba(255, 255, 255, 0.5); }
 
 #headerMenuIcon { display: none; }
 
@@ -105,12 +106,25 @@ nav a { display: block; margin: 1em 0 0 0; color: rgba(255, 255, 255, 0.7); font
 
 .services p { margin-top: 0.5em; /* 定义服务名称与服务描述之间的间距 */ }
 
+.articlePreview { padding: 2em 1em; border-radius: 5px; box-shadow: 2px 2px 10px #8b8b8b; margin-top: 4em; margin-bottom: 4em; }
+
+.articlePreview h1, .articlePreview .sloganText h2, .sloganText .articlePreview h2, .articlePreview .sloganText p, .sloganText .articlePreview p, .articlePreview .services h2, .services .articlePreview h2 { font-size: 2rem; color: #fab8ed; letter-spacing: 0.1em; margin-bottom: 0.5em; }
+
+.articleNameAndMeta { margin-top: 6rem; margin-bottom: 6rem; }
+
+.articleNameAndMeta h1, .articleNameAndMeta .sloganText h2, .sloganText .articleNameAndMeta h2, .articleNameAndMeta .sloganText p, .sloganText .articleNameAndMeta p, .articleNameAndMeta .services h2, .services .articleNameAndMeta h2 { font-size: 3rem; }
+
+.articleNameAndMeta p { margin-top: 0.5em; }
+
+.articleBody p { margin-top: 2em; margin-bottom: 2em; }
+
+.articleBody h1, .articleBody .sloganText h2, .sloganText .articleBody h2, .articleBody .sloganText p, .sloganText .articleBody p, .articleBody .services h2, .services .articleBody h2 { font-size: 2rem; margin-top: 2em; margin-bottom: 1em; }
+
 .above-footer { margin-bottom: 1em; }
 
 .above-footer p { color: #ababab; line-height: 2em; }
 
-/* 页脚文本格式 */
-.footer { list-style-type: none; /* 去掉<ul>默认的项目符号 */ }
+.footer { list-style-type: none; }
 
 .footer li { border-bottom: 1pt solid #4080bf; padding: 1rem 0; }
 
@@ -120,14 +134,13 @@ nav a { display: block; margin: 1em 0 0 0; color: rgba(255, 255, 255, 0.7); font
 
 #copyright-max875 { margin-top: 1rem; padding-top: 1rem; border-top: 1pt solid #4080bf; }
 
-/* 微信二维码 */
 .footer .media { position: relative; }
 
 .footer .media h1, .footer .media .sloganText h2, .sloganText .footer .media h2, .footer .media .sloganText p, .sloganText .footer .media p, .footer .media .services h2, .services .footer .media h2 { display: inline-block; margin: 0 0.5em; }
 
 .footer .media h1:first-child, .footer .media .sloganText h2:first-child, .sloganText .footer .media h2:first-child, .footer .media .sloganText p:first-child, .sloganText .footer .media p:first-child, .footer .media .services h2:first-child, .services .footer .media h2:first-child { margin-left: 0; }
 
-.qrcode { display: inline-block; /*! 删掉这一行，二维的码的边框就聚拢到中心了。可考虑设置在img上 */ padding: 10px 10px; /* 二维码的边框宽度 */ background-image: radial-gradient(#8cb3d9, #4080bf); border-radius: 5px; margin-left: -1em; vertical-align: top; }
+.qrcode { display: inline-block; padding: 10px 10px; background-image: radial-gradient(#8cb3d9, #4080bf); border-radius: 5px; margin-left: -1em; vertical-align: top; }
 
 #icon-linkedin { padding-bottom: 0.3em; }
 

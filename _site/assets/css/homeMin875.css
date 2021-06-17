@@ -1,10 +1,9 @@
 @charset "UTF-8";
-/*! 网页基本设置 */
-/* 所有元素： 外边距、内边距归零 边框尺寸包含内边距 字号默认: 100%，16px 字体默认: inherit 字间距: 0.2em 行高: 1.5em 文本对齐方式：左对齐 */
 html * { margin: 0; padding: 0; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; font-size: 100%; font-family: inherit; color: inherit; letter-spacing: 0.2em; line-height: 1.5em; text-align: left; }
 
-/* 全网页背景颜色：白色。 默认字体：微软雅黑，向后继承 */
-body { display: block; background-color: #fff; font-family: Arial, Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei"; color: #454545; }
+body { display: flex; flex-direction: column; min-height: 100vh; background-color: #fff; font-family: Arial, Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei"; color: #454545; }
+
+.content { flex-grow: 2; }
 
 /* 英文字符串的字间距：0.1em */
 *:lang(en) { letter-spacing: 0.1em; }
@@ -41,24 +40,25 @@ body { display: block; background-color: #fff; font-family: Arial, Helvetica, sa
 
 .slogan { background-image: url(/assets/images/mascot/Afront.png); background-position: right bottom; background-repeat: no-repeat; background-size: 20% auto; background-clip: border-box; }
 
-.contentContainer { margin-top: 4rem; margin-bottom: 4rem; }
+.contentContainer { margin-top: 4rem; margin-bottom: 4rem; display: flex; }
 
-.articlePreview { padding-top: 2em; padding-bottom: 2em; }
+.contentBody { flex: 29; margin-right: 10%; }
 
-.articlePreview h1 { font-size: 2rem; color: #fab8ed; letter-spacing: 0.1em; margin-bottom: 0.5em; }
+.aside { flex: 11; border: 1pt solid red; padding-top: 6rem; padding-right: 1em; padding-left: 1em; }
 
-/*! 网页页眉 */
+a { text-decoration: none; }
+
 .headerContainer { background-image: linear-gradient(#6699cc, #8cb3d9 90%, #6699cc); }
 
-.header { height: 4em; /* 菜单栏高度，即页眉高度 */ line-height: 3em; display: flex; justify-content: space-between; align-items: center; }
+.header { height: 4em; line-height: 3em; display: flex; justify-content: space-between; align-items: center; }
 
 .header img { margin-right: 0.5em; }
 
-.navContainer { flex: 0 0 350px; /* 定义主导航栏的宽度，固定不变 */ }
+.navContainer { flex: 0 0 350px; }
 
 .navContainer nav { display: flex; justify-content: space-between; align-items: stretch; }
 
-.navContainer nav a { display: inline-block; color: #fff; font-weight: bold; text-decoration: none; /* 去掉链接文本默认的下划线 */ line-height: 3em; }
+.navContainer nav a { display: inline-block; color: #fff; font-weight: bold; line-height: 3em; }
 
 @media only screen and (min-width: 1440px) { .main { width: 70%; } }
 
@@ -91,6 +91,20 @@ body { display: block; background-color: #fff; font-family: Arial, Helvetica, sa
 .services h2 { font-size: 1.2rem; margin-top: 1em; /* 定义服务图标与服务名称之间的间距 */ }
 
 .services p { text-align: justify; margin-top: 0.5em; /* 定义服务名称与服务描述之间的间距 */ }
+
+.articlePreview { padding: 2em 1em; border-radius: 5px; box-shadow: 2px 2px 10px #8b8b8b; margin-top: 4em; margin-bottom: 4em; }
+
+.articlePreview h1 { font-size: 2rem; color: #fab8ed; letter-spacing: 0.1em; margin-bottom: 0.5em; }
+
+.articleNameAndMeta { margin-top: 6rem; margin-bottom: 6rem; }
+
+.articleNameAndMeta h1 { font-size: 3rem; }
+
+.articleNameAndMeta p { margin-top: 0.5em; }
+
+.articleBody p { margin-top: 2em; margin-bottom: 2em; }
+
+.articleBody h1 { font-size: 2rem; margin-top: 2em; margin-bottom: 1em; }
 
 .above-footer { margin-bottom: 1em; }
 

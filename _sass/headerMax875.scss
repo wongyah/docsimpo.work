@@ -6,7 +6,7 @@
   z-index: 10;
 }
 .header{
-  height: $height-header * 0.75;  /* 菜单栏高度，即页眉高度 */
+  height: $height-header * 0.75;  // 菜单栏高度，即页眉高度
   line-height: $line-height-header;
   display: block;
   overflow: hidden;
@@ -56,7 +56,6 @@ nav a {
     margin: 1em 0 0 0;
     color: rgba($text-color-header, 0.7);
     font-weight: bold;
-    text-decoration: none; /* 去掉链接文本默认的下划线 */
     line-height: $line-height-header;
     border-bottom: 1pt solid rgba($text-color-header, 0.5);
   }

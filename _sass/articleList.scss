@@ -1,0 +1,44 @@
+//! 文章索引页
+.articlePreview{
+  @include padding(2em 1em);
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgb(139, 139, 139);
+  @include margin(4em null);
+
+
+  h1{
+    font-size: 2rem;
+    color: lighten($color: $text-color-emphasized, $amount: 15%);
+    letter-spacing: $letter-spacing-heading;
+    margin-bottom: 0.5em;
+  }
+}
+
+
+//! 文章
+
+// 文章名称、作者和发布时间
+
+.articleNameAndMeta{
+  @include margin(6rem null);
+
+  h1{
+    font-size: 3rem;
+  }
+
+  p{
+    margin-top: 0.5em;
+  }
+
+}
+
+.articleBody{
+  p{
+    @include margin(2em null);
+  }
+
+  h1{
+    font-size: 2rem;
+    @include margin(2em null 1em);
+  }
+}

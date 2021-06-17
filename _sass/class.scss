@@ -155,16 +155,24 @@ $screen-widths:
 //! 文章缩略图
 
 .contentContainer{
-  @include margin(4rem null)
+  @include margin(4rem null);
+  display: flex;
 }
 
-.articlePreview{
-  @include padding(2em null);
-  h1{
-    font-size: 2rem;
-    color: lighten($color: $text-color-emphasized, $amount: 15%);
-    letter-spacing: $letter-spacing-heading;
-    margin-bottom: 0.5em;
-  }
+.contentBody{
+  flex: 29;
+  margin-right: 10%;
 }
 
+.aside{
+  flex: 11;
+  border: 1pt solid red;
+  @include padding(6rem 1em null);
+}
+
+//! 一般元素样式
+
+// 所有链接默认设置：无下划线
+a{
+  text-decoration: none; 
+}

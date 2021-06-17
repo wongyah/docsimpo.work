@@ -1,6 +1,5 @@
 ---
-layout: article
-author: Yedda Wang
+author: 王烨
 title: 普通查找
 ---
 

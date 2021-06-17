@@ -1,11 +1,11 @@
-  /*! 网页页眉 */
+  //! 网页页眉
   .headerContainer{
     $bgcolor: $background-color-head;
     background-image: linear-gradient($bgcolor, lighten($bgcolor, 10%) 90%, $bgcolor);
   }
 
   .header {
-    height: $height-header;  /* 菜单栏高度，即页眉高度 */
+    height: $height-header;  // 菜单栏高度，即页眉高度
     line-height: $line-height-header;
     @include flexLayout($v: center);
     img{
@@ -16,14 +16,13 @@
   }
 
   .navContainer {
-    flex: 0 0 350px; /* 定义主导航栏的宽度，固定不变 */
+    flex: 0 0 350px; // 定义主导航栏的宽度，固定不变
     nav{
       @include flexLayout;
       a {
         display: inline-block;
         color: $text-color-header;
         font-weight: bold;
-        text-decoration: none; /* 去掉链接文本默认的下划线 */
         line-height: $line-height-header;
       }
     }  
