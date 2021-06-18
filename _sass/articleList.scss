@@ -1,17 +1,24 @@
 //! 文章索引页
 .articlePreview{
+  @include margin(2rem null);
   @include padding(2em 1em);
-  border-radius: 5px;
-  box-shadow: 2px 2px 10px rgb(139, 139, 139);
-  @include margin(4em null);
+  border-bottom: 0.2em dotted rgba($background-color-head, 0.3);
 
 
   h1{
-    font-size: 2rem;
-    color: lighten($color: $text-color-emphasized, $amount: 15%);
+    font-size: $font-size-headingOne;
+    color: $text-color-title;
     letter-spacing: $letter-spacing-heading;
     margin-bottom: 0.5em;
   }
+
+  p{
+    color: lighten($color: $text-color-body, $amount: 30%);
+    line-height: $line-height-content;
+    text-align: justify;
+    margin-top: 1rem;
+  }
+
 }
 
 
@@ -20,25 +27,37 @@
 // 文章名称、作者和发布时间
 
 .articleNameAndMeta{
-  @include margin(6rem null);
+  @include padding(4rem null 2rem);
+  border-bottom: 0.2em dotted rgba($background-color-head, 0.3);
 
   h1{
-    font-size: 3rem;
+    font-size: $font-size-title;
+    color: $text-color-title;
   }
 
   p{
-    margin-top: 0.5em;
+    font-size: $font-size-footer;
+    color: lighten($color: $text-color-body, $amount: 30%);
+    margin-top: 1rem;
   }
 
 }
 
 .articleBody{
+  @include padding(2rem null);
   p{
     @include margin(2em null);
+    line-height: $line-height-content;
+    text-align: justify;
   }
 
   h1{
-    font-size: 2rem;
-    @include margin(2em null 1em);
+    font-size: $font-size-headingOne;
+    letter-spacing: $letter-spacing-heading;
+    @include margin(3em null 1em);
+    &:after{
+      content: '▼';
+      color: $text-color-emphasized;
+    }
   }
 }

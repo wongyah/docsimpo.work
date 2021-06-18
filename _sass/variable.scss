@@ -11,19 +11,22 @@ $text-color-header: #fff;
 $text-color-emphasized: #f471da;
 $text-color-slogan-p: #7b5e37;
 $text-color-slogan: #8080ff;
+$text-color-title: darken($color: $text-color-emphasized, $amount: 30%);
 
 
 //! 字体设置
 
-$font-family-body: Arial, Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei",;
-$font-family-slogan: Arial, Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei",;
+$font-family-body: "Open Sans", Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei",;
+$font-family-slogan: "Open Sans", Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei",;
 
 $font-size-body: 1rem;
-$font-size-heading: $font-size-body * 1.2;
-$font-size-footer: $font-size-body * 0.9;
+$font-size-title: 2rem;
+$font-size-headingOne: 1.5rem;
+$font-size-header: 1.2rem;
+$font-size-footer: 0.9rem;
 
-$letter-spacing-en: 0.1em;
-$letter-spacing-cn: 0.2em;
+$letter-spacing-normal: 0.2em;
+$letter-spacing-expand: 0.2em;
 $letter-spacing-extra: 0.3em;
 $letter-spacing-heading: 0.1em;
 

@@ -18,7 +18,7 @@ html *{
   font-size: 100%;
   font-family: inherit;
   color: inherit;
-  letter-spacing: $letter-spacing-cn;
+  letter-spacing: $letter-spacing-normal;
   line-height: $line-height-default;
   text-align: left;
   
@@ -42,12 +42,4 @@ body{
   flex-grow: 2;
 }
   
-  /* 英文字符串的字间距：0.1em */
-  *:lang(en){
-    letter-spacing: $letter-spacing-en;
-  }
-  
-  *:-ms-lang(en){
-    letter-spacing: $letter-spacing-en;
-  }
   

@@ -40,7 +40,6 @@
       font-size: 2vw;
       color: $text-color-slogan-p;
       text-shadow: 0px 0px 2px #FFF;
-      letter-spacing: $letter-spacing-cn;
       line-height: $line-height-content; /* 定义Slogan副语的段落间距 */
     }
   
@@ -68,7 +67,7 @@
     /* 服务名称 */
     h2{
       @extend h1;
-      font-size: $font-size-heading;
+      font-size: $font-size-header;
       line-height: $line-height-content;
     }  
     

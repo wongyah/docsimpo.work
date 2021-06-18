@@ -1,14 +1,9 @@
 @charset "UTF-8";
 html * { margin: 0; padding: 0; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; font-size: 100%; font-family: inherit; color: inherit; letter-spacing: 0.2em; line-height: 1.5em; text-align: left; }
 
-body { display: flex; flex-direction: column; min-height: 100vh; background-color: #fff; font-family: Arial, Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei"; color: #454545; }
+body { display: flex; flex-direction: column; min-height: 100vh; background-color: #fff; font-family: "Open Sans", Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei"; color: #454545; }
 
 .content { flex-grow: 2; }
-
-/* 英文字符串的字间距：0.1em */
-*:lang(en) { letter-spacing: 0.1em; }
-
-*:-ms-lang(en) { letter-spacing: 0.1em; }
 
 .container, .sloganContainer, .footerContainer, .headerContainer { width: 100%; /* 容器宽度，确保背景颜色填充满屏幕宽度 */ display: flex; justify-content: center; align-items: stretch; /* 定义容器类型，并水平居中子容器 */ }
 
@@ -20,9 +15,9 @@ body { display: flex; flex-direction: column; min-height: 100vh; background-colo
 
 .header h1, .header .services h2, .services .header h2, .header .sloganText p, .sloganText .header p, .header .sloganText h2, .sloganText .header h2 { flex: 0 0 165px; /* 定义商标的宽度，固定不变 */ display: flex; justify-content: start; align-items: center; font-size: 1rem; /* h1的默认字号比正文大，将其改为正文字号 */ color: #fff; }
 
-.bodyFont { font-family: Arial, Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei"; font-size: 1rem; }
+.bodyFont { font-family: "Open Sans", Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei"; font-size: 1rem; }
 
-.sloganFont { font-family: Arial, Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei"; color: #538cc6; text-shadow: 0.032em 0.032em 0px #0d1a26; letter-spacing: 0.2em; }
+.sloganFont { font-family: "Open Sans", Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei"; color: #538cc6; text-shadow: 0.032em 0.032em 0px #0d1a26; letter-spacing: 0.2em; }
 
 @media only screen and (min-width: 1440px) { .sloganFont { font-size: 63.36px; } }
 
@@ -46,7 +41,7 @@ body { display: flex; flex-direction: column; min-height: 100vh; background-colo
 
 .aside { flex: 11; border: 1pt solid red; padding-top: 6rem; padding-right: 1em; padding-left: 1em; }
 
-a { text-decoration: none; }
+a { color: #6699cc; text-decoration: none; }
 
 .headerContainer { background-color: rgba(102, 153, 204, 0.9); z-index: 10; }
 
@@ -94,7 +89,7 @@ nav a { display: block; margin: 1em 0 0 0; color: rgba(255, 255, 255, 0.7); font
 
 .sloganText h2 span { font-size: 1.5em; color: #f471da; padding-right: 0.1em; /* 拉开高亮文字“好”与“用”的间距 */ }
 
-.sloganText p { font-size: 2vw; color: #7b5e37; text-shadow: 0px 0px 2px #FFF; letter-spacing: 0.2em; line-height: 2em; /* 定义Slogan副语的段落间距 */ }
+.sloganText p { font-size: 2vw; color: #7b5e37; text-shadow: 0px 0px 2px #FFF; line-height: 2em; /* 定义Slogan副语的段落间距 */ }
 
 .services { list-style-type: none; /* 去掉<ul>默认的项目符号 */ margin: 5em 0 4em; /* 定义服务范围正文的上下外边距，即前后留白的高度 */ /* 服务名称 */ /* 服务描述 */ }
 
@@ -106,19 +101,25 @@ nav a { display: block; margin: 1em 0 0 0; color: rgba(255, 255, 255, 0.7); font
 
 .services p { margin-top: 0.5em; /* 定义服务名称与服务描述之间的间距 */ }
 
-.articlePreview { padding: 2em 1em; border-radius: 5px; box-shadow: 2px 2px 10px #8b8b8b; margin-top: 4em; margin-bottom: 4em; }
+.articlePreview { margin-top: 2rem; margin-bottom: 2rem; padding: 2em 1em; border-bottom: 0.2em dotted rgba(102, 153, 204, 0.3); }
 
-.articlePreview h1, .articlePreview .sloganText h2, .sloganText .articlePreview h2, .articlePreview .sloganText p, .sloganText .articlePreview p, .articlePreview .services h2, .services .articlePreview h2 { font-size: 2rem; color: #fab8ed; letter-spacing: 0.1em; margin-bottom: 0.5em; }
+.articlePreview h1, .articlePreview .sloganText h2, .sloganText .articlePreview h2, .articlePreview .sloganText p, .sloganText .articlePreview p, .articlePreview .services h2, .services .articlePreview h2 { font-size: 1.5rem; color: #bd0f9b; letter-spacing: 0.1em; margin-bottom: 0.5em; }
 
-.articleNameAndMeta { margin-top: 6rem; margin-bottom: 6rem; }
+.articlePreview p { color: #929292; line-height: 2em; text-align: justify; margin-top: 1rem; }
 
-.articleNameAndMeta h1, .articleNameAndMeta .sloganText h2, .sloganText .articleNameAndMeta h2, .articleNameAndMeta .sloganText p, .sloganText .articleNameAndMeta p, .articleNameAndMeta .services h2, .services .articleNameAndMeta h2 { font-size: 3rem; }
+.articleNameAndMeta { padding-top: 4rem; padding-bottom: 2rem; border-bottom: 0.2em dotted rgba(102, 153, 204, 0.3); }
 
-.articleNameAndMeta p { margin-top: 0.5em; }
+.articleNameAndMeta h1, .articleNameAndMeta .sloganText h2, .sloganText .articleNameAndMeta h2, .articleNameAndMeta .sloganText p, .sloganText .articleNameAndMeta p, .articleNameAndMeta .services h2, .services .articleNameAndMeta h2 { font-size: 2rem; color: #bd0f9b; }
 
-.articleBody p { margin-top: 2em; margin-bottom: 2em; }
+.articleNameAndMeta p { font-size: 0.9rem; color: #929292; margin-top: 1rem; }
 
-.articleBody h1, .articleBody .sloganText h2, .sloganText .articleBody h2, .articleBody .sloganText p, .sloganText .articleBody p, .articleBody .services h2, .services .articleBody h2 { font-size: 2rem; margin-top: 2em; margin-bottom: 1em; }
+.articleBody { padding-top: 2rem; padding-bottom: 2rem; }
+
+.articleBody p { margin-top: 2em; margin-bottom: 2em; line-height: 2em; text-align: justify; }
+
+.articleBody h1, .articleBody .sloganText h2, .sloganText .articleBody h2, .articleBody .sloganText p, .sloganText .articleBody p, .articleBody .services h2, .services .articleBody h2 { font-size: 1.5rem; letter-spacing: 0.1em; margin-top: 3em; margin-bottom: 1em; }
+
+.articleBody h1:after, .articleBody .sloganText h2:after, .sloganText .articleBody h2:after, .articleBody .sloganText p:after, .sloganText .articleBody p:after, .articleBody .services h2:after, .services .articleBody h2:after { content: '▼'; color: #f471da; }
 
 .above-footer { margin-bottom: 1em; }
 

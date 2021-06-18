@@ -106,7 +106,7 @@ $screen-widths:
   font-family: $font-family-slogan;
   color: darken($background-color-head, 5%);
   text-shadow: 0.032em 0.032em 0px darken($color: $background-color-head, $amount: 50%);
-  letter-spacing: $letter-spacing-cn;
+  letter-spacing: $letter-spacing-expand;
   @each $min-or-max, $screen-width in $screen-widths {
     @include font-size-slogan($min-or-max, $screen-width);
   }
@@ -174,5 +174,6 @@ $screen-widths:
 
 // 所有链接默认设置：无下划线
 a{
+  color: $background-color-head;
   text-decoration: none; 
 }
