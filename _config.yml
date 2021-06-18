@@ -1,9 +1,12 @@
 # 存储位置 Where they are
+
 collections:
   technical-writing:
     output: true
 
+
 # 输出 Outputing
+
 defaults:
   - scope:
       path: ""
@@ -16,8 +19,13 @@ defaults:
       layout: "default"
       author: "王烨"
 
+disable_disk_cache: BOOL
+
+
 # 插件 Plugins
 whitelist:
   - jekyll-toc
 plugins:
   - jekyll-toc
+
+
