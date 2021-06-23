@@ -1,7 +1,7 @@
 @charset "UTF-8";
 html * { margin: 0; padding: 0; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; font-size: 100%; font-family: inherit; color: inherit; letter-spacing: 0.2em; line-height: 1.5em; text-align: left; }
 
-body { display: flex; flex-direction: column; min-height: 100vh; background-color: #fff; font-family: "Open Sans", Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei"; color: #454545; }
+body { display: flex; flex-direction: column; min-height: 100vh; background-color: #fff; font-family: calibri, Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei"; color: #454545; }
 
 .content { flex-grow: 2; }
 
@@ -15,7 +15,7 @@ body { display: flex; flex-direction: column; min-height: 100vh; background-colo
 
 .header h1 { flex: 0 0 165px; /* 定义商标的宽度，固定不变 */ display: flex; justify-content: start; align-items: center; font-size: 1rem; /* h1的默认字号比正文大，将其改为正文字号 */ color: #fff; }
 
-.bodyFont { font-family: "Open Sans", Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei"; font-size: 1rem; }
+.bodyFont { font-family: calibri, Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei"; font-size: 1rem; }
 
 .sloganFont { font-family: "Open Sans", Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei"; color: #538cc6; text-shadow: 0.032em 0.032em 0px #0d1a26; letter-spacing: 0.2em; }
 
@@ -41,7 +41,7 @@ body { display: flex; flex-direction: column; min-height: 100vh; background-colo
 
 .aside { flex: 11; border: 1pt solid red; padding-top: 6rem; padding-right: 1em; padding-left: 1em; }
 
-a { color: #6699cc; text-decoration: none; }
+a { color: #6699cc; text-decoration: none; letter-spacing: inherit; font-size: inherit; }
 
 .headerContainer { background-image: linear-gradient(#6699cc, #8cb3d9 90%, #6699cc); }
 
@@ -95,7 +95,7 @@ a { color: #6699cc; text-decoration: none; }
 
 .articleNameAndMeta { padding-top: 4rem; padding-bottom: 2rem; border-bottom: 0.2em dotted rgba(102, 153, 204, 0.3); }
 
-.articleNameAndMeta h1 { font-size: 2rem; color: #bd0f9b; }
+.articleNameAndMeta h1 { font-size: 2rem; color: #bd0f9b; letter-spacing: 0.1em; }
 
 .articleNameAndMeta p { font-size: 0.9rem; color: #929292; margin-top: 1rem; }
 
