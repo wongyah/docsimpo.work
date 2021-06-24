@@ -43,6 +43,10 @@ body { display: flex; flex-direction: column; min-height: 100vh; background-colo
 
 a { color: #6699cc; text-decoration: none; letter-spacing: inherit; font-size: inherit; }
 
+*:lang(en) { letter-spacing: 0.1em; }
+
+ol, ul { padding-left: 3em; margin-top: -1.5em; }
+
 .headerContainer { background-color: rgba(102, 153, 204, 0.9); z-index: 10; }
 
 .header { height: 3em; line-height: 3em; display: block; overflow: hidden; transition: height 0.5s ease-in-out; }
@@ -116,6 +120,8 @@ nav a { display: block; margin: 1em 0 0 0; color: rgba(255, 255, 255, 0.7); font
 .articleBody { padding-top: 2rem; padding-bottom: 2rem; }
 
 .articleBody p { margin-top: 2em; margin-bottom: 2em; line-height: 2em; text-align: justify; }
+
+.articleBody p img { max-height: 250px; }
 
 .articleBody h1, .articleBody .sloganText h2, .sloganText .articleBody h2, .articleBody .sloganText p, .sloganText .articleBody p, .articleBody .services h2, .services .articleBody h2 { font-size: 1.5rem; letter-spacing: 0.1em; margin-top: 3em; margin-bottom: 1em; }
 

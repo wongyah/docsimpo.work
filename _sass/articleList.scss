@@ -50,6 +50,9 @@
     @include margin(2em null);
     line-height: $line-height-content;
     text-align: justify;
+    img{
+      max-height: 250px;
+    }
   }
 
   h1{
