@@ -24,9 +24,9 @@
 
 //! 文章
 
-// 文章名称、作者和发布时间
+// 标题、作者、更新时间
 
-.articleNameAndMeta{
+.updatedMeta{
   @include padding(4rem null 2rem);
   border-bottom: 0.2em dotted rgba($background-color-head, 0.3);
 
@@ -44,8 +44,11 @@
 
 }
 
-.articleBody{
+// 正文
+
+.postContent{
   @include padding(2rem null);
+
   p{
     @include margin(2em null);
     line-height: $line-height-content;
@@ -64,4 +67,47 @@
       color: $text-color-emphasized;
     }
   }
+
+  ol, ul {
+    padding-left: 3em;
+    margin-top: -1.5em;
+  
+  }
+  
+}
+
+
+//! 右侧栏
+
+.aside {
+  margin-top: 10rem;
+
+  div {
+    @include margin(4rem null);
+    @include padding(0.5em 1em);
+    border: 0.5em solid rgba($text-color-emphasized, 0.5);
+    border-radius: 0.5em;
+    opacity: 0.7;  // 透明度小于 1 的元素会遮挡其他元素。必须为页眉设置 z-index 值。
+
+    h1 {
+      font-size: $font-size-header;
+      color: rgba($text-color-body, 0.8);
+      @include margin(0.7em null);
+    }
+  
+    p {
+      @include margin(0.7em null);
+      font-size: $font-size-footer;
+    }
+  
+    a {
+      color: $background-color-head;
+    }
+
+    &:hover{
+      opacity: 1;
+      border-color: rgba($text-color-emphasized, 0.7);
+    }
+  }
+
 }

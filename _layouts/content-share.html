@@ -1,26 +1,37 @@
 ---
-layout: sharebox
-toc: true
+layout: page-container
 ---
 
-    <!-- 正文 -->
-    <div class="contentBody">
-      <div class="articleNameAndMeta">
-        <h1>{{ page.title }}</h1>
-        <p>作者：{{ page.author }}</p>
-      </div>
-      <div class="articleBody">{{ content | toc }}</div>  
-    </div>
-    
-    <!-- 侧栏 -->
-    <div class="aside">
-      <div class="articleTOC">
-      </div>
-      <div>
-        <h1>推荐阅读</h1>
-        {% for article in site.technical-writing %}
+<!-- 正文 -->
+<div class="post">
+  <div class="updatedMeta">
+    <h1>{{ page.title }}</h1>
+    <p>作者：{{ page.author }}</p>
+  </div>
+  <div class="postContent">{{ content }}</div>
+</div>
+
+<!-- 侧栏 -->
+<div class="aside">
+  <div>
+    <h1>看过的人还喜欢</h1>
+    {%- for article in site.technical-writing -%}
+      {%- if article.url != page.url -%}
         <p><a href="{{ article.url }}">{{ article.title }}</a></p>
-        {% endfor %}
-      </div>
-    </div>
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+  <div>
+    <h1>更多资源</h1>
+    <p></p>
+    <p>关注微信公众号“单线条文档”，后台发送“ <span lang="en">PDF</span> 指南”，获取文中的技术文档写作指南 <span lang="en">PDF</span> 版。</p>
+    <p><img src="/assets/images/mediaIcon/qrcode_wechat.jpg" alt="公众号：单线条文档" class="icon-80"></p>
+  </div>
+  <div>
+    <h1>技术写作专业服务</h1>
+    <p>手机：<span lang="en">186 1111 7992</span> </p>
+    <p>微信：<span lang="en">wongyah</span> </p>
+    <p>邮箱：<span lang="en">wongyah@126.com</span> </p>
+  </div>
+</div>
 

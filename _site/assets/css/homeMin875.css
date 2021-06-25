@@ -35,19 +35,17 @@ body { display: flex; flex-direction: column; min-height: 100vh; background-colo
 
 .slogan { background-image: url(/assets/images/mascot/Afront.png); background-position: right bottom; background-repeat: no-repeat; background-size: 20% auto; background-clip: border-box; }
 
-.contentContainer { margin-top: 4rem; margin-bottom: 4rem; display: flex; }
+.pageContainer { margin-top: 4rem; margin-bottom: 4rem; display: flex; }
 
-.contentBody { flex: 29; margin-right: 10%; }
+.post, .postList { flex: 27; margin-right: 3%; }
 
-.aside { flex: 11; border: 1pt solid red; padding-top: 6rem; padding-right: 1em; padding-left: 1em; }
+.aside { flex: 13; margin-left: 3%; }
 
 a { color: #6699cc; text-decoration: none; letter-spacing: inherit; font-size: inherit; }
 
 *:lang(en) { letter-spacing: 0.1em; }
 
-ol, ul { padding-left: 3em; margin-top: -1.5em; }
-
-.headerContainer { background-image: linear-gradient(#6699cc, #8cb3d9 90%, #6699cc); }
+.headerContainer { background-image: linear-gradient(#6699cc, #8cb3d9 90%, #6699cc); z-index: 10; }
 
 .header { height: 4em; line-height: 3em; display: flex; justify-content: space-between; align-items: center; }
 
@@ -97,21 +95,35 @@ ol, ul { padding-left: 3em; margin-top: -1.5em; }
 
 .articlePreview p { color: #929292; line-height: 2em; text-align: justify; margin-top: 1rem; }
 
-.articleNameAndMeta { padding-top: 4rem; padding-bottom: 2rem; border-bottom: 0.2em dotted rgba(102, 153, 204, 0.3); }
+.updatedMeta { padding-top: 4rem; padding-bottom: 2rem; border-bottom: 0.2em dotted rgba(102, 153, 204, 0.3); }
 
-.articleNameAndMeta h1 { font-size: 2rem; color: #bd0f9b; letter-spacing: 0.1em; }
+.updatedMeta h1 { font-size: 2rem; color: #bd0f9b; letter-spacing: 0.1em; }
 
-.articleNameAndMeta p { font-size: 0.9rem; color: #929292; margin-top: 1rem; }
+.updatedMeta p { font-size: 0.9rem; color: #929292; margin-top: 1rem; }
 
-.articleBody { padding-top: 2rem; padding-bottom: 2rem; }
+.postContent { padding-top: 2rem; padding-bottom: 2rem; }
 
-.articleBody p { margin-top: 2em; margin-bottom: 2em; line-height: 2em; text-align: justify; }
+.postContent p { margin-top: 2em; margin-bottom: 2em; line-height: 2em; text-align: justify; }
 
-.articleBody p img { max-height: 250px; }
+.postContent p img { max-height: 250px; }
 
-.articleBody h1 { font-size: 1.5rem; letter-spacing: 0.1em; margin-top: 3em; margin-bottom: 1em; }
+.postContent h1 { font-size: 1.5rem; letter-spacing: 0.1em; margin-top: 3em; margin-bottom: 1em; }
 
-.articleBody h1:after { content: '▼'; color: #f471da; }
+.postContent h1:after { content: '▼'; color: #f471da; }
+
+.postContent ol, .postContent ul { padding-left: 3em; margin-top: -1.5em; }
+
+.aside { margin-top: 10rem; }
+
+.aside div { margin-top: 4rem; margin-bottom: 4rem; padding: 0.5em 1em; border: 0.5em solid rgba(244, 113, 218, 0.5); border-radius: 0.5em; opacity: 0.7; }
+
+.aside div h1 { font-size: 1.2rem; color: rgba(69, 69, 69, 0.8); margin-top: 0.7em; margin-bottom: 0.7em; }
+
+.aside div p { margin-top: 0.7em; margin-bottom: 0.7em; font-size: 0.9rem; }
+
+.aside div a { color: #6699cc; }
+
+.aside div:hover { opacity: 1; border-color: rgba(244, 113, 218, 0.7); }
 
 .above-footer { margin-bottom: 1em; }
 

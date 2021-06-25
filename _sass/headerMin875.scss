@@ -2,6 +2,7 @@
   .headerContainer{
     $bgcolor: $background-color-head;
     background-image: linear-gradient($bgcolor, lighten($bgcolor, 10%) 90%, $bgcolor);
+    z-index: 10;
   }
 
   .header {
