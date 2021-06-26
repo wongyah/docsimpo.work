@@ -10,6 +10,11 @@ collections:
 defaults:
   - scope:
       path: ""
+      type: "posts"
+    values:
+      layout: "content-share"
+  - scope:
+      path: ""
       type: "technical-writing"
     values:
       layout: "content-share"

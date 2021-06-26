@@ -13,7 +13,14 @@ title: 技术写作是一种技能
        </a>
      </div>
   {% endfor %}
+  {%- for post in site.posts -%}
+    <div class="articlePreview">
+      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+      {{ post.excerpt | markdownify }}
+    </div>
+  {%- endfor -%}
 </div>
+
 
 
 <!-- 侧栏 -->

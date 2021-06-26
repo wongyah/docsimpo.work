@@ -4,7 +4,6 @@
   @include padding(2em 1em);
   border-bottom: 0.2em dotted rgba($background-color-head, 0.3);
 
-
   h1{
     font-size: $font-size-headingOne;
     color: $text-color-title;
@@ -71,7 +70,6 @@
   ol, ul {
     padding-left: 3em;
     margin-top: -1.5em;
-  
   }
   
 }
