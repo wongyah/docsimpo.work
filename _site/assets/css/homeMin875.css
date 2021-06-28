@@ -25,13 +25,13 @@ body { display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; displa
 
 @media only screen and (max-width: 1120px) { .sloganFont { font-size: 49.28px; } }
 
-.icon-80, .services h1 .serviceIcon { height: 80px; width: auto; vertical-align: middle; }
+.icon-21px { height: 21px; vertical-align: middle; }
 
-.icon-13em { height: 1.3em; width: auto; vertical-align: middle; }
+.icon-80px, .services h1 .serviceIcon { height: 80px; vertical-align: middle; }
 
-.icon-2em { height: 2em; width: auto; vertical-align: middle; }
+.icon-2em { height: 2em; vertical-align: middle; }
 
-.icon-3em, .header img { height: 3em; width: auto; vertical-align: middle; }
+.icon-3em, .header img { height: 3em; vertical-align: middle; }
 
 .slogan { background-image: url(/assets/images/mascot/Afront.png); background-position: right bottom; background-repeat: no-repeat; background-size: 20% auto; background-clip: border-box; }
 

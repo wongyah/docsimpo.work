@@ -13,11 +13,11 @@ defaults:
       type: "posts"
     values:
       layout: "content-share"
+      permalink: "/:categories/:title"
   - scope:
-      path: ""
-      type: "technical-writing"
+      path: "*/index.html"
     values:
-      layout: "content-share"
+      layout: "page-container"
   - scope:
       path: ""
     values:

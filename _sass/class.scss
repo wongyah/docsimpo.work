@@ -115,29 +115,11 @@ $screen-widths:
 
 //! 图标
 
-// 服务项目的图标
-.icon-80{
-  height: 80px;
-  width: auto;
-  vertical-align: middle;
-}
 
-.icon-13em{
-  height: 1.3em;
-  width: auto;
-  vertical-align: middle;
-}
+$iconSize: 21px, 80px, 2em, 3em;
 
-.icon-2em{
-  height: 2em;
-  width: auto;
-  vertical-align: middle;
-}
-
-.icon-3em{
-  height: 3em;
-  width: auto;
-  vertical-align: middle;
+@each $size, $width in $iconSize {
+  @include iconSize($size, $width);
 }
 
 

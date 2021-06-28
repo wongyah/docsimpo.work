@@ -14,3 +14,13 @@
 @mixin transform($value) {
   @include prefixer(transform, $value, ("webkit", "ms"));
 }
+
+//! 图标尺寸
+
+@mixin iconSize($size, $width: $size) {
+  .icon-#{$size} {
+    height: $size;
+    width: $width;
+    vertical-align: middle;
+  }
+}
