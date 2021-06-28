@@ -33,12 +33,12 @@
     font-size: $font-size-title;
     color: $text-color-title;
     letter-spacing: $letter-spacing-heading;
+    margin-bottom: 1rem;
   }
 
   p{
     font-size: $font-size-footer;
     color: lighten($color: $text-color-body, $amount: 30%);
-    margin-top: 1rem;
   }
 
 }
@@ -71,6 +71,10 @@
     padding-left: 3em;
     margin-top: -1.5em;
   }
+
+  h1:target{
+    padding-top: $height-header;
+  }
   
 }
 
@@ -86,6 +90,7 @@
     border: 0.5em solid rgba($text-color-emphasized, 0.5);
     border-radius: 0.5em;
     opacity: 0.7;  // 透明度小于 1 的元素会遮挡其他元素。必须为页眉设置 z-index 值。
+    font-size: $font-size-footer;
 
     h1 {
       font-size: $font-size-header;
@@ -95,11 +100,17 @@
   
     p {
       @include margin(0.7em null);
-      font-size: $font-size-footer;
     }
   
     a {
       color: $background-color-head;
+    }
+
+    ol, ul{
+      padding-left: 2em;
+      li{
+        @include margin(0.7em null);
+      }
     }
 
     &:hover{

@@ -1,5 +1,4 @@
 ---
-author: 王烨
 title: 技术文档写作指南（<span lang='en'>Style Guide</span>）权威收录
 ---
 

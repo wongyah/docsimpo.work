@@ -111,9 +111,9 @@ nav a { display: block; margin: 1em 0 0 0; color: rgba(255, 255, 255, 0.7); font
 
 .updatedMeta { padding-top: 4rem; padding-bottom: 2rem; border-bottom: 0.2em dotted rgba(102, 153, 204, 0.3); }
 
-.updatedMeta h1, .updatedMeta .sloganText h2, .sloganText .updatedMeta h2, .updatedMeta .sloganText p, .sloganText .updatedMeta p, .updatedMeta .services h2, .services .updatedMeta h2 { font-size: 2rem; color: #bd0f9b; letter-spacing: 0.1em; }
+.updatedMeta h1, .updatedMeta .sloganText h2, .sloganText .updatedMeta h2, .updatedMeta .sloganText p, .sloganText .updatedMeta p, .updatedMeta .services h2, .services .updatedMeta h2 { font-size: 2rem; color: #bd0f9b; letter-spacing: 0.1em; margin-bottom: 1rem; }
 
-.updatedMeta p { font-size: 0.9rem; color: #929292; margin-top: 1rem; }
+.updatedMeta p { font-size: 0.9rem; color: #929292; }
 
 .postContent { padding-top: 2rem; padding-bottom: 2rem; }
 
@@ -127,15 +127,21 @@ nav a { display: block; margin: 1em 0 0 0; color: rgba(255, 255, 255, 0.7); font
 
 .postContent ol, .postContent ul { padding-left: 3em; margin-top: -1.5em; }
 
+.postContent h1:target, .postContent .sloganText h2:target, .sloganText .postContent h2:target, .postContent .sloganText p:target, .sloganText .postContent p:target, .postContent .services h2:target, .services .postContent h2:target { padding-top: 4em; }
+
 .aside { margin-top: 10rem; }
 
-.aside div { margin-top: 4rem; margin-bottom: 4rem; padding: 0.5em 1em; border: 0.5em solid rgba(244, 113, 218, 0.5); border-radius: 0.5em; opacity: 0.7; }
+.aside div { margin-top: 4rem; margin-bottom: 4rem; padding: 0.5em 1em; border: 0.5em solid rgba(244, 113, 218, 0.5); border-radius: 0.5em; opacity: 0.7; font-size: 0.9rem; }
 
 .aside div h1, .aside div .sloganText h2, .sloganText .aside div h2, .aside div .sloganText p, .sloganText .aside div p, .aside div .services h2, .services .aside div h2 { font-size: 1.2rem; color: rgba(69, 69, 69, 0.8); margin-top: 0.7em; margin-bottom: 0.7em; }
 
-.aside div p { margin-top: 0.7em; margin-bottom: 0.7em; font-size: 0.9rem; }
+.aside div p { margin-top: 0.7em; margin-bottom: 0.7em; }
 
 .aside div a { color: #6699cc; }
+
+.aside div ol, .aside div ul { padding-left: 2em; }
+
+.aside div ol li, .aside div ul li { margin-top: 0.7em; margin-bottom: 0.7em; }
 
 .aside div:hover { opacity: 1; border-color: rgba(244, 113, 218, 0.7); }
 
