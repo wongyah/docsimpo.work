@@ -1,5 +1,5 @@
 @charset "UTF-8";
-html * { margin: 0; padding: 0; box-sizing: border-box; font-size: 100%; font-family: inherit; color: inherit; letter-spacing: 0.2em; line-height: 1.5em; text-align: left; }
+html * { margin: 0; padding: 0; box-sizing: border-box; font-size: 100%; font-family: inherit; color: inherit; letter-spacing: 0.2em; line-height: 1.5em; text-align: left; scroll-behavior: smooth; }
 
 body { display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; flex-direction: column; min-height: 100vh; background-color: #fff; font-family: calibri, Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei"; color: #454545; }
 
@@ -113,7 +113,7 @@ a { color: #6699cc; text-decoration: none; letter-spacing: inherit; font-size: i
 
 .postContent ol, .postContent ul { padding-left: 3em; margin-top: -1.5em; }
 
-.postContent h1:target { padding-top: 4em; }
+.postContent :target::before { content: ""; display: block; height: 4em; margin-top: -4em; }
 
 .aside { margin-top: 10rem; }
 

@@ -72,8 +72,11 @@
     margin-top: -1.5em;
   }
 
-  h1:target{
-    padding-top: $height-header;
+  :target::before{
+    content: "";
+    display: block;
+    height: $height-header;
+    margin-top: -$height-header;
   }
   
 }
