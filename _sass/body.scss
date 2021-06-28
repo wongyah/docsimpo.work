@@ -13,8 +13,6 @@ html *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   font-size: 100%;
   font-family: inherit;
   color: inherit;
@@ -29,14 +27,13 @@ html *{
 // 最少高度：全屏。内容很少时 页脚依然保持在底部；内容超过一屏时，页脚随内容移动。
 
 body{
-  display: flex;
+  @include displayFlex;
   flex-direction: column;
   min-height: 100vh;
   background-color: $background-color-page;
   font-family: $font-family-body;
   color: $text-color-body;
 }
-
 
 .content{
   flex-grow: 2;

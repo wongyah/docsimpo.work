@@ -17,7 +17,7 @@
   }
 
   .navContainer {
-    flex: 0 0 350px; // 定义主导航栏的宽度，固定不变
+    @include flex(0 0 350px);  // 定义主导航栏的宽度，固定不变
     nav{
       @include flexLayout;
       a {

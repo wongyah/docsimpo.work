@@ -3,7 +3,7 @@
 // flex布局
 
 @mixin flexLayout($h: space-between, $v: stretch,) {
-  display: flex;
+  @include displayFlex;
   justify-content: $h;
   align-items: $v;
 }  
@@ -51,7 +51,8 @@
 
 .header{
   h1 {
-    flex: 0 0 165px; /* 定义商标的宽度，固定不变 */
+    @include flex(0 0 165px);  // 定义商标的宽度，固定不变
+    width: 165px;
     @include flexLayout($h: start, $v: center);
     font-size: $font-size-body; /* h1的默认字号比正文大，将其改为正文字号 */
     color: $text-color-header;
@@ -156,11 +157,11 @@ $screen-widths:
 
 .pageContainer{
   @include margin(4rem null);
-  display: flex;
+  @include displayFlex;
 }
 
 .post{
-  flex: 27;
+  @include flex(27);
   margin-right: 3%;
 }
 
@@ -169,7 +170,7 @@ $screen-widths:
 }
 
 .aside{
-  flex: 13;
+  @include flex(13);
   margin-left: 3%;
 }
 
@@ -187,4 +188,5 @@ a{
 *:lang(en){
   letter-spacing: $letter-spacing-en;
 }
+
 

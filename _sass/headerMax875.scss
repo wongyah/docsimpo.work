@@ -41,7 +41,7 @@
   width: 1.2em;
   height: 2px;
   background-color: rgba($text-color-header, 0.6);
-  transform: none;
+  @include transform(none);
   transition: transform 0.2s ease-in-out;
 }
 .headerMenuIconBelow{
@@ -85,12 +85,12 @@ nav a {
     .headerMenuIcon {
       .headerMenuIconAbove{
         margin-bottom: -2px;
-        transform: rotate(45deg);
+        @include transform(rotate(45deg));
         transition: transform 0.2s ease-in-out;
       }
       .headerMenuIconBelow{
         margin-top: -2px;
-        transform: rotate(-45deg);
+        @include transform(rotate(-45deg));
         transition: transform 0.2s ease-in-out;
       }
     }

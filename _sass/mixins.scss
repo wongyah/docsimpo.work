@@ -1,0 +1,16 @@
+//! 浏览器兼容前缀
+
+@mixin displayFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin flex($value) {
+  @include prefixer(flex, $value, ("webkit", "ms", "webkit-box"));
+}
+
+@mixin transform($value) {
+  @include prefixer(transform, $value, ("webkit", "ms"));
+}

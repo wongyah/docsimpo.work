@@ -1,11 +1,11 @@
 @charset "UTF-8";
-html * { margin: 0; padding: 0; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; font-size: 100%; font-family: inherit; color: inherit; letter-spacing: 0.2em; line-height: 1.5em; text-align: left; }
+html * { margin: 0; padding: 0; box-sizing: border-box; font-size: 100%; font-family: inherit; color: inherit; letter-spacing: 0.2em; line-height: 1.5em; text-align: left; }
 
-body { display: flex; flex-direction: column; min-height: 100vh; background-color: #fff; font-family: calibri, Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei"; color: #454545; }
+body { display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; flex-direction: column; min-height: 100vh; background-color: #fff; font-family: calibri, Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei"; color: #454545; }
 
 .content { flex-grow: 2; }
 
-.container, .sloganContainer, .footerContainer, .headerContainer { width: 100%; /* 容器宽度，确保背景颜色填充满屏幕宽度 */ display: flex; justify-content: center; align-items: stretch; /* 定义容器类型，并水平居中子容器 */ }
+.container, .sloganContainer, .footerContainer, .headerContainer { width: 100%; /* 容器宽度，确保背景颜色填充满屏幕宽度 */ display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; justify-content: center; align-items: stretch; /* 定义容器类型，并水平居中子容器 */ }
 
 .headerContainer { position: fixed; top: 0; /* 将容器固定在屏幕顶端，否则它的起始位置默认与第一个流元素平齐 */ }
 
@@ -13,7 +13,7 @@ body { display: flex; flex-direction: column; min-height: 100vh; background-colo
 
 .sloganContainer { background-image: linear-gradient(#ffffb3 85%, #6699cc); }
 
-.header h1, .header .services h2, .services .header h2, .header .sloganText p, .sloganText .header p, .header .sloganText h2, .sloganText .header h2 { flex: 0 0 165px; /* 定义商标的宽度，固定不变 */ display: flex; justify-content: start; align-items: center; font-size: 1rem; /* h1的默认字号比正文大，将其改为正文字号 */ color: #fff; }
+.header h1, .header .services h2, .services .header h2, .header .sloganText p, .sloganText .header p, .header .sloganText h2, .sloganText .header h2 { -webkit-flex: 0 0 165px; -ms-flex: 0 0 165px; -webkit-box-flex: 0 0 165px; flex: 0 0 165px; width: 165px; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; justify-content: start; align-items: center; font-size: 1rem; /* h1的默认字号比正文大，将其改为正文字号 */ color: #fff; }
 
 .bodyFont { font-family: calibri, Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei"; font-size: 1rem; }
 
@@ -35,11 +35,11 @@ body { display: flex; flex-direction: column; min-height: 100vh; background-colo
 
 .slogan { background-image: url(/assets/images/mascot/Afront.png); background-position: right bottom; background-repeat: no-repeat; background-size: 20% auto; background-clip: border-box; }
 
-.pageContainer { margin-top: 4rem; margin-bottom: 4rem; display: flex; }
+.pageContainer { margin-top: 4rem; margin-bottom: 4rem; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; }
 
-.post, .postList { flex: 27; margin-right: 3%; }
+.post, .postList { -webkit-flex: 27; -ms-flex: 27; -webkit-box-flex: 27; flex: 27; margin-right: 3%; }
 
-.aside { flex: 13; margin-left: 3%; }
+.aside { -webkit-flex: 13; -ms-flex: 13; -webkit-box-flex: 13; flex: 13; margin-left: 3%; }
 
 a { color: #6699cc; text-decoration: none; letter-spacing: inherit; font-size: inherit; }
 
@@ -53,13 +53,13 @@ a { color: #6699cc; text-decoration: none; letter-spacing: inherit; font-size: i
 
 .header h1 img, .header .services h2 img, .services .header h2 img, .header .sloganText p img, .sloganText .header p img, .header .sloganText h2 img, .sloganText .header h2 img { margin-right: 0.5em; }
 
-.iconContainer { position: fixed; top: 0; right: 5%; display: flex; justify-content: start; align-items: center; height: 3em; }
+.iconContainer { position: fixed; top: 0; right: 5%; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; justify-content: start; align-items: center; height: 3em; }
 
 .headerMenuIcon { display: inline-block; padding: 0.3em; }
 
 .headerMenuIcon:hover .headerMenuIconAbove, .headerMenuIcon:hover .headerMenuIconBelow { background-color: white; }
 
-.headerMenuIconAbove, .headerMenuIconBelow { display: block; width: 1.2em; height: 2px; background-color: rgba(255, 255, 255, 0.6); transform: none; transition: transform 0.2s ease-in-out; }
+.headerMenuIconAbove, .headerMenuIconBelow { display: block; width: 1.2em; height: 2px; background-color: rgba(255, 255, 255, 0.6); -webkit-transform: none; -ms-transform: none; transform: none; transition: transform 0.2s ease-in-out; }
 
 .headerMenuIconBelow { margin-top: 0.6em; }
 
@@ -73,13 +73,13 @@ nav a { display: block; margin: 1em 0 0 0; color: rgba(255, 255, 255, 0.7); font
 
 #headerMenuIcon:checked ~ .headerContainer nav a:hover { border-bottom: 1px solid rgba(255, 255, 255, 0.8); color: white; border-width: 2px; transition: all 0.2s ease-in-out; }
 
-#headerMenuIcon:checked ~ .headerContainer .headerMenuIcon .headerMenuIconAbove, #headerMenuIcon:checked ~ .headerContainer .headerMenuIcon .headerMenuIconBelow { margin-bottom: -2px; transform: rotate(45deg); transition: transform 0.2s ease-in-out; }
+#headerMenuIcon:checked ~ .headerContainer .headerMenuIcon .headerMenuIconAbove, #headerMenuIcon:checked ~ .headerContainer .headerMenuIcon .headerMenuIconBelow { margin-bottom: -2px; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); transition: transform 0.2s ease-in-out; }
 
-#headerMenuIcon:checked ~ .headerContainer .headerMenuIcon .headerMenuIconBelow { margin-top: -2px; transform: rotate(-45deg); transition: transform 0.2s ease-in-out; }
+#headerMenuIcon:checked ~ .headerContainer .headerMenuIcon .headerMenuIconBelow { margin-top: -2px; -webkit-transform: rotate(-45deg); -ms-transform: rotate(-45deg); transform: rotate(-45deg); transition: transform 0.2s ease-in-out; }
 
 .main { width: 90%; }
 
-.slogan { height: 80vw; display: flex; justify-content: center; align-items: start; padding-top: 4rem; }
+.slogan { height: 80vw; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; justify-content: center; align-items: start; padding-top: 4rem; }
 
 .sloganFont { font-size: 6vw; }
 
