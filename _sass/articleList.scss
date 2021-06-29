@@ -54,6 +54,7 @@
     text-align: justify;
     img{
       max-height: 250px;
+      border-radius: 0.5em;
     }
   }
 
@@ -69,7 +70,28 @@
 
   ol, ul {
     padding-left: 3em;
-    margin-top: -1.5em;
+    @include margin(-1.5em null 2em);
+  }
+
+  blockquote{
+    font-size: modular-scale(1, $font-size-body, 0.9);
+    background-color: rgba($background-color-head, 0.3);
+    border-radius: 0.5em;
+    @include padding(0.25em 1em);
+    @include margin(2em null);
+
+    * {
+      @include margin(1em null);
+      color: $text-color-slogan-p;
+    }
+
+    h1{
+      font-size: $font-size-body;
+      &:after{
+        color: darken($color: $background-color-slogan, $amount: 50%);
+      }
+    }
+
   }
 
   :target::before{

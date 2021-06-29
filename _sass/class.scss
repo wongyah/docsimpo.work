@@ -172,3 +172,10 @@ a{
 }
 
 
+//! Mermaid
+
+.mermaid{
+  font-size: modular-scale(1, $font-size-body, 0.9);
+  text-align: center;
+}
+
