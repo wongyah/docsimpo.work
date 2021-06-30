@@ -1,16 +1,17 @@
 ---
 title: 技术传播职业认证，了解一下?
+downloadkey: CPTC
 ---
 
-技术写作，早在 <span lang='en'>20</span> 世纪 <span lang='en'>50</span> 年代初就引起美国工业界的重视（尤其是航空、军工、电子和生产制造领域）。
+技术写作，早在 <span lang='en'>20</span> 世纪 <span lang='en'>50</span> 年代初就引起美国工业界的重视（尤其是航空、军工、电子和生产制造领域），并且出现了专门致力于发展技术传播的组织。
 
- <span lang='en'>1953</span> 年，美国已经出现了专门致力于发展技术传播的组织。之后经过 <span lang='en'>50</span> 多年的发展，尤其是 <span lang='en'>2000</span> 年以后计算机软件对在线技术文档的需求急剧增加， <span lang='en'>Technical Writer</span> 的职业影响力显著提升。
+之后经过 <span lang='en'>50</span> 多年的发展，尤其是 <span lang='en'>2000</span> 年以后计算机软件对在线技术文档的需求急剧增加， <span lang='en'>Technical Writer</span> 的职业影响力显著提升。
 
- <span lang='en'>2009</span> 年， <span lang='en'>Technical Writer</span> 被美国劳工统计局认定为独立的职业类别，列入美国劳工部的就业数据统计门类中。
+<span lang='en'>2009</span> 年， <span lang='en'>Technical Writer</span> 被美国劳工统计局认定为独立的职业类别，列入美国劳工部的就业数据统计门类中。
 
 # 技术传播职业现状
 
- <span lang='en'>Technical Writer</span> 是指编写技术资料的专业人员，包括但不限于产品手册、操作手册、维修手册等。
+<span lang='en'>Technical Writer</span> 是指编写技术资料的专业人员，包括但不限于产品手册、操作手册、维修手册等。
 
 > 国内一般叫做技术文档工程师。遗憾的是，直到现在这个工种都没有取得国家认可的专业类别。
 
@@ -126,4 +127,4 @@ title: 技术传播职业认证，了解一下?
 
 [ <span lang='en'>ATTW</span> ](http://attw.org/)和[ <span lang='en'>CPTSC</span> ](http://cptsc.org/)是技术传播教育工作者组成的社区，分别成立于 <span lang='en'>1973</span> 年和 <span lang='en'>1974</span> 年，旨在促进技术传播专业教育的发展。
 
-> 本文基于中国技术传播大会上一位嘉宾的分享，经过资料再确认和再收集后重新编辑而成。但我不知道那位嘉宾的具体身份。
+> 本文基于中国技术传播大会上一位嘉宾的分享，经过资料再确认和再收集后重新编辑而成。但这位嘉宾并未在直播时透露自己的身份。

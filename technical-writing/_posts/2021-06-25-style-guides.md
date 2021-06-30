@@ -1,10 +1,14 @@
 ---
 title: 技术文档写作指南（<span lang='en'>Style Guide</span>）权威收录
+downloadkey: PDF指南
+excerpt_separator: <!--more-->
 ---
 
 产品文档最讲究两点：简明扼要，文风一致。
 
 “简明扼要”尚可依仗技术写作人员的专业能力来实现，可“文风一致”怎么做到呢? 靠技术写作人员的个人感觉吗? 如果产品文档需要多人共同完成，怎样办?
+
+<!--more-->
 
 答案是：标准化。参与文档编写的所有人员，遵循统一的标准来进行写作。这个标准，叫做技术文档写作指南（<span lang='en'>Style Guide</span>）。
 
@@ -33,7 +37,7 @@ title: 技术文档写作指南（<span lang='en'>Style Guide</span>）权威收
 
 # <span lang='en'>IBM</span> 技术文档写作指南
 
-![](https://img2.doubanio.com/view/subject/l/public/s6684491.jpg)
+![](https://img2.doubanio.com/view/subject/l/public/s6684491.jpg){: style="width: auto; height: 250px;"}
 
 这是 <span lang='en'>IBM</span> 于 <span lang='en'>2011</span> 年出版的技术文档写作指南，堪称**技术写作的教科书**。
 

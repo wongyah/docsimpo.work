@@ -1,5 +1,5 @@
 @charset "UTF-8";
-html * { margin: 0; padding: 0; box-sizing: border-box; font-size: 100%; font-family: inherit; color: inherit; letter-spacing: 0.2em; line-height: 1.5em; text-align: left; scroll-behavior: smooth; }
+html * { margin: 0; padding: 0; box-sizing: border-box; font-size: 100%; font-family: inherit; color: inherit; letter-spacing: 0.15em; line-height: 1.5em; text-align: left; scroll-behavior: smooth; }
 
 body { display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; flex-direction: column; min-height: 100vh; background-color: #fff; font-family: calibri, Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei"; color: #454545; }
 
@@ -43,7 +43,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; displa
 
 a { color: #6699cc; text-decoration: none; letter-spacing: inherit; font-size: inherit; }
 
-*:lang(en) { letter-spacing: 0.1em; }
+*:lang(en) { letter-spacing: normal; }
 
 .mermaid { font-size: 0.9rem; text-align: center; }
 
@@ -91,23 +91,23 @@ a { color: #6699cc; text-decoration: none; letter-spacing: inherit; font-size: i
 
 .services p { text-align: justify; margin-top: 0.5em; /* 定义服务名称与服务描述之间的间距 */ }
 
-.articlePreview { margin-top: 2rem; margin-bottom: 2rem; padding: 2em 1em; border-bottom: 0.2em dotted rgba(102, 153, 204, 0.3); }
+.postAbstract { margin-top: 2rem; margin-bottom: 2rem; padding-top: 2em; padding-bottom: 2em; border-bottom: 0.2em dotted rgba(102, 153, 204, 0.3); }
 
-.articlePreview h1 { font-size: 1.5rem; color: #bd0f9b; letter-spacing: 0.1em; margin-bottom: 0.5em; }
+.postAbstract h1 { font-size: 1.5rem; color: #bd0f9b; letter-spacing: 0.1em; margin-bottom: 0.5em; }
 
-.articlePreview p { color: #929292; line-height: 2em; text-align: justify; margin-top: 1rem; }
+.postAbstract p { color: #929292; line-height: 2em; text-align: justify; margin-top: 1rem; display: inline; }
 
-.updatedMeta { padding-top: 4rem; padding-bottom: 2rem; border-bottom: 0.2em dotted rgba(102, 153, 204, 0.3); }
+.updatedMeta { padding-top: 4rem; padding-bottom: 2rem; }
 
 .updatedMeta h1 { font-size: 2rem; color: #bd0f9b; letter-spacing: 0.1em; margin-bottom: 1rem; }
 
 .updatedMeta p { font-size: 0.9rem; color: #929292; }
 
-.postContent { padding-top: 2rem; padding-bottom: 2rem; }
+.postContent { padding-top: 2rem; margin-bottom: 3em; border-top: 0.2em dotted rgba(102, 153, 204, 0.3); border-bottom: 0.2em dotted rgba(102, 153, 204, 0.3); }
 
 .postContent p { margin-top: 2em; margin-bottom: 2em; line-height: 2em; text-align: justify; }
 
-.postContent p img { max-height: 250px; border-radius: 0.5em; }
+.postContent img:only-child { width: 100%; height: auto; border-radius: 0.5em; }
 
 .postContent h1 { font-size: 1.5rem; letter-spacing: 0.1em; margin-top: 3em; margin-bottom: 1em; }
 
@@ -125,9 +125,7 @@ a { color: #6699cc; text-decoration: none; letter-spacing: inherit; font-size: i
 
 .postContent :target::before { content: ""; display: block; height: 4em; margin-top: -4em; }
 
-.aside { margin-top: 10rem; }
-
-.aside div { margin-top: 4rem; margin-bottom: 4rem; padding: 0.5em 1em; border: 0.5em solid rgba(244, 113, 218, 0.5); border-radius: 0.5em; opacity: 0.7; font-size: 0.9rem; }
+.aside div { margin-top: 4rem; margin-bottom: 6rem; padding: 0.5em 1em; border: 0.5em solid rgba(244, 113, 218, 0.5); border-radius: 0.5em; opacity: 0.7; font-size: 0.9rem; }
 
 .aside div h1 { font-size: 1.2rem; color: rgba(69, 69, 69, 0.8); margin-top: 0.7em; margin-bottom: 0.7em; }
 
