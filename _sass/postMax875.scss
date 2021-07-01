@@ -38,10 +38,10 @@
 // 标题、作者、更新时间
 
 .updatedMeta{
-  @include padding(4rem null 2rem);
+  @include padding(2em null);
 
   h1{
-    font-size: $font-size-title;
+    font-size: $font-size-title-phone;
     color: $text-color-title;
     letter-spacing: $letter-spacing-heading;
     margin-bottom: 1rem;
@@ -57,8 +57,8 @@
 // 正文
 
 .postContent{
-  @include padding(2rem null null);
-  margin-bottom: 3em;
+  @include padding(1em null null);
+  margin-bottom: 2em;
   border-top: 0.2em dotted rgba($background-color-head, 0.3);
   border-bottom: 0.2em dotted rgba($background-color-head, 0.3);
 
@@ -76,12 +76,12 @@
   }
 
   h1{
-    font-size: $font-size-headingOne;
+    font-size: $font-size-headingOne-phone;
+    color: lighten($color: $text-color-emphasized, $amount: 15%);
     letter-spacing: $letter-spacing-heading;
-    @include margin(3em null 1em);
+    @include margin(4em null 2em);
     &:after{
       content: '▼';
-      color: $text-color-emphasized;
     }
   }
 
@@ -129,14 +129,14 @@
   div {
     font-size: $font-size-footer;
     margin-bottom: 3em;
-    opacity: 0.7;
+    color: lighten($color: $text-color-body, $amount: 40%);
     
     &:last-child{
       margin-bottom: 0;
     }
 
     h1 {
-      font-size: $font-size-header;
+      font-size: $font-size-headingOne-phone;
       @include margin(0.7em null);
     }
     
@@ -145,7 +145,7 @@
     }
   
     a {
-      color: $background-color-head;
+      color: lighten($color: $background-color-head, $amount: 15%) ;
     }
 
     ol, ul{
