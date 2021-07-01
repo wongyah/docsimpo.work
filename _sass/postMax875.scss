@@ -1,0 +1,164 @@
+//! 文章容器
+
+.pageContainer{
+  @include margin(4rem null);
+}
+
+
+//! 文章索引页
+.postAbstract{
+  @include margin(2rem null);
+  @include padding(2em null);
+  border-bottom: 0.2em dotted rgba($background-color-head, 0.3);
+
+  &:last-child{
+    margin-bottom: 3em;
+  }
+
+  h1{
+    font-size: $font-size-headingOne;
+    color: $text-color-title;
+    letter-spacing: $letter-spacing-heading;
+    margin-bottom: 0.5em;
+  }
+
+  p{
+    color: lighten($color: $text-color-body, $amount: 30%);
+    line-height: $line-height-content;
+    text-align: justify;
+    margin-top: 1rem;
+    display: inline;
+  }
+
+}
+
+
+//! 文章
+
+// 标题、作者、更新时间
+
+.updatedMeta{
+  @include padding(4rem null 2rem);
+
+  h1{
+    font-size: $font-size-title;
+    color: $text-color-title;
+    letter-spacing: $letter-spacing-heading;
+    margin-bottom: 1rem;
+  }
+
+  p{
+    font-size: $font-size-footer;
+    color: lighten($color: $text-color-body, $amount: 30%);
+  }
+
+}
+
+// 正文
+
+.postContent{
+  @include padding(2rem null null);
+  margin-bottom: 3em;
+  border-top: 0.2em dotted rgba($background-color-head, 0.3);
+  border-bottom: 0.2em dotted rgba($background-color-head, 0.3);
+
+
+  p{
+    @include margin(2em null);
+    line-height: $line-height-content;
+    text-align: justify;
+  }
+
+  img:only-child {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5em;
+  }
+
+  h1{
+    font-size: $font-size-headingOne;
+    letter-spacing: $letter-spacing-heading;
+    @include margin(3em null 1em);
+    &:after{
+      content: '▼';
+      color: $text-color-emphasized;
+    }
+  }
+
+  ol, ul {
+    padding-left: 3em;
+    @include margin(-1.5em null 2em);
+  }
+
+  blockquote{
+    font-size: modular-scale(1, $font-size-body, 0.9);
+    background-color: rgba($background-color-head, 0.3);
+    border-radius: 0.5em;
+    @include padding(0.25em 1em);
+    @include margin(2em null);
+
+    * {
+      @include margin(1em null);
+      color: $text-color-slogan-p;
+    }
+
+    h1{
+      font-size: $font-size-body;
+      &:after{
+        color: darken($color: $background-color-slogan, $amount: 50%);
+      }
+    }
+
+  }
+
+  :target::before{
+    content: "";
+    display: block;
+    height: $height-header;
+    margin-top: -$height-header;
+  }
+  
+}
+
+
+//! 右侧栏
+
+.aside {
+  @include margin(2rem null);
+
+  div {
+    font-size: $font-size-footer;
+    margin-bottom: 3em;
+    opacity: 0.7;
+    
+    &:last-child{
+      margin-bottom: 0;
+    }
+
+    h1 {
+      font-size: $font-size-header;
+      @include margin(0.7em null);
+    }
+    
+    p {
+      @include margin(0.25em null);
+    }
+  
+    a {
+      color: $background-color-head;
+    }
+
+    ol, ul{
+      padding-left: 2em;
+      li{
+        @include margin(0.7em null);
+      }
+    }
+
+  }
+
+}
+
+#toc {
+  display: none;
+}

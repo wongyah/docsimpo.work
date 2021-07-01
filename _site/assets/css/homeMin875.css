@@ -35,12 +35,6 @@ body { display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; displa
 
 .slogan { background-image: url(/assets/images/mascot/Afront.png); background-position: right bottom; background-repeat: no-repeat; background-size: 20% auto; background-clip: border-box; }
 
-.pageContainer { margin-top: 4rem; margin-bottom: 4rem; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; }
-
-.post, .postList { -webkit-flex: 27; -ms-flex: 27; -webkit-box-flex: 27; flex: 27; margin-right: 3%; }
-
-.aside { -webkit-flex: 13; -ms-flex: 13; -webkit-box-flex: 13; flex: 13; margin-left: 3%; }
-
 a { color: #6699cc; text-decoration: none; letter-spacing: inherit; font-size: inherit; }
 
 *:lang(en) { letter-spacing: normal; }
@@ -90,6 +84,12 @@ a { color: #6699cc; text-decoration: none; letter-spacing: inherit; font-size: i
 .services h2 { font-size: 1.2rem; margin-top: 1em; /* 定义服务图标与服务名称之间的间距 */ }
 
 .services p { text-align: justify; margin-top: 0.5em; /* 定义服务名称与服务描述之间的间距 */ }
+
+.pageContainer { margin-top: 4rem; margin-bottom: 4rem; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; }
+
+.post, .postList { -webkit-flex: 27; -ms-flex: 27; -webkit-box-flex: 27; flex: 27; margin-right: 3%; }
+
+.aside { -webkit-flex: 13; -ms-flex: 13; -webkit-box-flex: 13; flex: 13; margin-left: 3%; }
 
 .postAbstract { margin-top: 2rem; margin-bottom: 2rem; padding-top: 2em; padding-bottom: 2em; border-bottom: 0.2em dotted rgba(102, 153, 204, 0.3); }
 

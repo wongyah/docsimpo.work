@@ -35,12 +35,6 @@ body { display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; displa
 
 .slogan { background-image: url(/assets/images/mascot/Afront.png); background-position: right bottom; background-repeat: no-repeat; background-size: 20% auto; background-clip: border-box; }
 
-.pageContainer { margin-top: 4rem; margin-bottom: 4rem; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; }
-
-.post, .postList { -webkit-flex: 27; -ms-flex: 27; -webkit-box-flex: 27; flex: 27; margin-right: 3%; }
-
-.aside { -webkit-flex: 13; -ms-flex: 13; -webkit-box-flex: 13; flex: 13; margin-left: 3%; }
-
 a { color: #6699cc; text-decoration: none; letter-spacing: inherit; font-size: inherit; }
 
 *:lang(en) { letter-spacing: normal; }
@@ -105,7 +99,11 @@ nav a { display: block; margin: 1em 0 0 0; color: rgba(255, 255, 255, 0.7); font
 
 .services p { margin-top: 0.5em; /* 定义服务名称与服务描述之间的间距 */ }
 
+.pageContainer { margin-top: 4rem; margin-bottom: 4rem; }
+
 .postAbstract { margin-top: 2rem; margin-bottom: 2rem; padding-top: 2em; padding-bottom: 2em; border-bottom: 0.2em dotted rgba(102, 153, 204, 0.3); }
+
+.postAbstract:last-child { margin-bottom: 3em; }
 
 .postAbstract h1, .postAbstract .sloganText h2, .sloganText .postAbstract h2, .postAbstract .sloganText p, .sloganText .postAbstract p, .postAbstract .services h2, .services .postAbstract h2 { font-size: 1.5rem; color: #bd0f9b; letter-spacing: 0.1em; margin-bottom: 0.5em; }
 
@@ -139,11 +137,15 @@ nav a { display: block; margin: 1em 0 0 0; color: rgba(255, 255, 255, 0.7); font
 
 .postContent :target::before { content: ""; display: block; height: 4em; margin-top: -4em; }
 
-.aside div { margin-top: 4rem; margin-bottom: 6rem; padding: 0.5em 1em; border: 0.5em solid rgba(244, 113, 218, 0.5); border-radius: 0.5em; opacity: 0.7; font-size: 0.9rem; }
+.aside { margin-top: 2rem; margin-bottom: 2rem; }
 
-.aside div h1, .aside div .sloganText h2, .sloganText .aside div h2, .aside div .sloganText p, .sloganText .aside div p, .aside div .services h2, .services .aside div h2 { font-size: 1.2rem; color: rgba(69, 69, 69, 0.8); margin-top: 0.7em; margin-bottom: 0.7em; }
+.aside div { font-size: 0.9rem; margin-bottom: 3em; opacity: 0.7; }
 
-.aside div p { margin-top: 0.7em; margin-bottom: 0.7em; }
+.aside div:last-child { margin-bottom: 0; }
+
+.aside div h1, .aside div .sloganText h2, .sloganText .aside div h2, .aside div .sloganText p, .sloganText .aside div p, .aside div .services h2, .services .aside div h2 { font-size: 1.2rem; margin-top: 0.7em; margin-bottom: 0.7em; }
+
+.aside div p { margin-top: 0.25em; margin-bottom: 0.25em; }
 
 .aside div a { color: #6699cc; }
 
@@ -151,7 +153,7 @@ nav a { display: block; margin: 1em 0 0 0; color: rgba(255, 255, 255, 0.7); font
 
 .aside div ol li, .aside div ul li { margin-top: 0.7em; margin-bottom: 0.7em; }
 
-.aside div:hover { opacity: 1; border-color: rgba(244, 113, 218, 0.7); }
+#toc { display: none; }
 
 .above-footer { margin-bottom: 1em; }
 

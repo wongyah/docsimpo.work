@@ -137,25 +137,6 @@ $iconSize: 21px, 80px, 2em, 3em;
 
 //! 文章缩略图
 
-.pageContainer{
-  @include margin(4rem null);
-  @include displayFlex;
-}
-
-.post{
-  @include flex(27);
-  margin-right: 3%;
-}
-
-.postList {
-  @extend .post;
-}
-
-.aside{
-  @include flex(13);
-  margin-left: 3%;
-}
-
 
 //! 一般元素样式
 

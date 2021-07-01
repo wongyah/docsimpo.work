@@ -1,3 +1,25 @@
+//! 文章容器
+
+.pageContainer{
+  @include margin(4rem null);
+  @include displayFlex;
+}
+
+.post{
+  @include flex(27);
+  margin-right: 3%;
+}
+
+.postList {
+  @extend .post;
+}
+
+.aside{
+  @include flex(13);
+  margin-left: 3%;
+}
+
+
 //! 文章索引页
 .postAbstract{
   @include margin(2rem null);
