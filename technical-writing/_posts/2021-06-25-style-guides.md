@@ -97,9 +97,7 @@ excerpt_separator: <!--more-->
 
 <span lang='en'>Gitlab</span> 使用 <span lang='en'>Markdown</span> 编写文档。写作指南里对 <span lang='en'>Markdown</span> 中各种元素的使用方法进行了详细说明，并使用测试程序自动验证文档格式是否正确、链接是否有效。如果文档不符合规范，就不能成功提交。
 
-<span lang='en'>Gitlab</span> 使用 <span lang='en'>Git</span> 对文档进行版本管理，就像管理代码一样。作为一款开源软件，<span lang='en'>Gitlab</span> 文档的贡献者众多。
-
-为此，写作指南中不仅对文档修改和提交流程进行了详细说明，还对 <span lang='en'>Gitlab</span> 的文档架构进行了详尽的阐述。
+<span lang='en'>Gitlab</span> 使用 <span lang='en'>Git</span> 对文档进行版本管理，就像管理代码一样。作为一款开源软件，<span lang='en'>Gitlab</span> 文档的贡献者众多。为此，写作指南中不仅对文档修改和提交流程进行了详细说明，还对 <span lang='en'>Gitlab</span> 的文档架构进行了详尽的阐述。
 
 如果你正苦于不知道如何进行文档管理，这本写作指南可算是雪中送炭了！
 
@@ -119,13 +117,13 @@ excerpt_separator: <!--more-->
 
 # <span lang='en'>Mailchimp</span> 技术文档写作指南
 
-<span lang='en'>Mailchimp</span> 是一家邮箱营销软件提供商。
+<span lang='en'>Mailchimp</span> 是一家邮件营销软件提供商。
 
 可能出于职业习惯，除了技术写作的原则之外，<span lang='en'>Mailchimp</span> 还不遗余力地总结了：
-- 如何写营销邮件?
-- 如何在社交平台（如微博、朋友圈、知乎、领英）上发布内容?
+- 营销邮件的写作原则；
+- 在社交平台（如微博、朋友圈、知乎、领英）上发布内容的创作规范。
 
-虽然 <span lang='en'>Mailchimp</span> 是在规范自己的营销行为，但这不妨碍我们照猫画虎吧?
+虽然 <span lang='en'>Mailchimp</span> 是在规范自己的营销行为，但这似乎一点也不妨碍我们照猫画虎（吧?）。
 
 **官方文档**：<span lang="en">[Mailchimp Content Style Guide](https://styleguide.mailchimp.com/)</span>
 
@@ -141,12 +139,14 @@ excerpt_separator: <!--more-->
 
 技术文档写作指南可繁可简，最重要的是适合企业自身的实际需要。
 
-但不管写作指南是繁是简，都不可能包罗万象。产品文档编写过程中，总会遇到没有在写作指南中预设的场景。在这种情况下，可以将一些外部资源作为写作指南的补充。写作指南中最好明确说明，哪些外部资源可供参考，这些外部资源有没有优先级，等等。
+但不管写作指南是繁是简，都不可能包罗万象。产品文档编写过程中，总会遇到没有在写作指南中预设的场景。在这种情况下，可以将一些外部资源作为写作指南的补充。
 
 以下是技术文档写作指南中常用的参考资源：
 1. <span lang='en'>[Chicago Manual of Style](https://www.chicagomanualofstyle.org/home.html)</span>
 2. <span lang="en">[The American Heritage Dictionary](https://ahdictionary.com/)</span>
 3. <span lang="en">[Merriam-Webster Dictionary](https://www.merriam-webster.com/)</span>
+
+写作指南中最好明确说明，哪些外部资源可供参考，这些外部资源有没有优先级，等等。
 
 现在，你可以站在巨人们的肩头上编写自己的技术文写作指南了！
 
