@@ -13,7 +13,7 @@ defaults:
       type: "posts"
     values:
       layout: "content-share"
-      permalink: "/:categories/:title"
+      permalink: "/:categories/:title:output_ext"
   - scope:
       path: "*/index.html"
     values:
