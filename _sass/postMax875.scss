@@ -124,8 +124,8 @@
 //! 右侧栏
 
 .aside {
-  @include margin(2rem null);
-
+  @include margin(4em null 2em);
+  
   div {
     font-size: $font-size-footer;
     margin-bottom: 3em;
@@ -136,7 +136,8 @@
     }
 
     h1 {
-      font-size: $font-size-headingOne-phone;
+      font-size: $font-size-body;
+      color: lighten($color: $text-color-emphasized, $amount: 15%);
       @include margin(0.7em null);
     }
     

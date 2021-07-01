@@ -10,38 +10,50 @@ excerpt_separator: <!--more-->
 
 <!--more-->
 
-答案是：标准化。参与文档编写的所有人员，遵循统一的标准来进行写作。这个标准，叫做技术文档写作指南（<span lang='en'>Style Guide</span>）。
+答案是：**标准化**。参与文档编写的所有人员，遵循统一的标准来进行写作。这个标准，叫做**技术文档写作指南**（<span lang='en'>Style Guide</span>）。
 
-写作指南里，可以规定写作原则、术语库、标题和缩略语的写法、标点符号的使用方法、单位的使用方法、无障碍阅读设计原则、以及跨设备阅读设计原则等方方面面的内容。有了写作指南，技术写作人员在写作时就有章可循、有规可守，即使多人协作也能“异口同声”。
+写作指南里，可以规定写作原则、术语库、标题和缩略语的写法、标点符号的使用方法、单位的使用方法、无障碍阅读设计原则、以及跨设备阅读设计原则等方方面面的内容。
+
+有了写作指南，技术写作人员在写作时就有章可循、有规可守，即使多人协作也能“异口同声”。
 
 有些行业推行业内通用的技术文档写作指南，比如航空业的 <span lang='en'>ASD-STE100</span> 。但大多数行业没有统一标准，需要企业自行编写。
 
 还没有自己的技术文档写作指南? 别愁！虽然编写作指南的难度系数很高，但你完全不需要从零开始。
 
-很多“个高”的公司（比如微软、谷歌、苹果），不仅编写出了优质的技术文档写作指南，实时维护，还把它们免费公开了！虽然你可能属于不同的行业，但这些写作指南里的很多写作原则却是通用的，而且已经被广泛验证过。如果这些还不够，文末还有更权威、更详尽的泰斗级写作指南作后盾呢！
+很多“个高”的公司（比如微软、谷歌、苹果），不仅编写出了优质的技术文档写作指南，实时维护，还把它们免费公开了！
+
+虽然你可能属于不同的行业，但这些写作指南里的很多写作原则却是通用的，而且已经被广泛验证过。
+
+如果这些还不够，文末还有更权威、更详尽的泰斗级写作指南作后盾呢！
 
 
 # <span lang='en'>ASD-STE100</span>
 
 <span lang="en">ASD-STE100</span> 起源于航空航天业和国防部门，是专门为了**降低操作手册和维修手册的阅读难度**而编写的一种英语语言规范。
 
-在很多领域里，英语是使用率最高的国际通用语言。但对于很多人来说，英语并非母语，很难读懂手册里的多义词、生僻单词、俗语、以及结构复杂的长句子。一旦飞行员、维修工程师、培训人员等工作人员对手册里的操作规范理解有误，进行了不正当操作，势必会危及全体乘客的生命安全。
+在很多领域里，英语是使用率最高的国际通用语言。但对于很多人来说，英语并非母语，很难读懂手册里的多义词、生僻单词、俗语、以及结构复杂的长句子。
 
-正是基于这种需求，欧洲航空航天和国防工业协会（<span lang='en'>ASD</span>）联合美国航空航天工业协会（<span lang='en'>AIA</span>）共同调研并编制了 <span lang="en">ASD-STE100</span>。<span lang="en">ASD-STE100</span> 要求在手册中使用简洁的语言向读者传递准确、不包含歧义的信息。它由两大部分构成：
+一旦飞行员、维修工程师、培训人员等工作人员对手册里的操作规范理解有误，进行了不正当操作，势必会危及全体乘客的生命安全。
+
+正是基于这种需求，欧洲航空航天和国防工业协会（<span lang='en'>ASD</span>）联合美国航空航天工业协会（<span lang='en'>AIA</span>）共同调研并编制了 <span lang="en">ASD-STE100</span>。
+
+<span lang="en">ASD-STE100</span> 要求在手册中使用简洁的语言向读者传递准确、不包含歧义的信息。它由两大部分构成：
 1. 写作原则
 2. 受控词库
 
-<span lang="en">ASD-STE100</span> 不涉及格式、标点符号、缩略语、单位等内容，只能作为技术文档写作指南的一部分，并不能独立使用。目前，<span lang="en">ASD-STE100</span> 的使用范围已经远远超出了航空航天业，在很多行业中推广开来。
+<span lang="en">ASD-STE100</span> 不涉及格式、标点符号、缩略语、单位等内容，只能作为技术文档写作指南的一部分，并不能独立使用。
 
-官方渠道：前往 [<span lang="en">ASD-STE100</span> 官网](http://www.asd-ste100.org/request.html)下载申请表，填好后发送至 <span lang='en'>stemg@asd-ste100.org</span>。之后，工作人员会将 <span lang='en'>PDF</span> 版 <span lang='en'>ASD-STE100</span> 免费发送到你的邮箱。
+目前，<span lang="en">ASD-STE100</span> 的使用范围已经远远超出了航空航天业，在很多行业中推广开来。
+
+**官方渠道**：前往 [<span lang="en">ASD-STE100</span> 官网](http://www.asd-ste100.org/request.html)下载申请表，填好后发送至 <span lang='en'>stemg@asd-ste100.org</span>。之后，工作人员会将 <span lang='en'>PDF</span> 版 <span lang='en'>ASD-STE100</span> 免费发送到你的邮箱。
 
 # <span lang='en'>IBM</span> 技术文档写作指南
 
-![](https://img2.doubanio.com/view/subject/l/public/s6684491.jpg){: style="width: auto; height: 250px;"}
-
 这是 <span lang='en'>IBM</span> 于 <span lang='en'>2011</span> 年出版的技术文档写作指南，堪称**技术写作的教科书**。
 
-这里面，英语语法、标点符号、文档架构、单位、格式、词汇表等写作指南的标准构件一应俱全。难能可贵的是，这本书不仅给出了这些元素的基本概念，还现身说法——为每一条写作原则提供写作实例和讲解。很多技术写作人员把它当成**技术写作的入门必备教材**。
+这里面，英语语法、标点符号、文档架构、单位、格式、词汇表等写作指南的标准构件一应俱全。
+
+难能可贵的是，这本书不仅给出了这些元素的基本概念，还现身说法——为每一条写作原则提供写作实例和讲解。很多技术写作人员把它当成**技术写作的入门必备教材**。
 
 作为 <span lang='en'>DITA</span> 的开创者，<span lang='en'>IBM</span> 还在这本书里对主题化写作和 <span lang='en'>DITA</span> 的三大主题类型进行了科普。
 
@@ -57,7 +69,7 @@ excerpt_separator: <!--more-->
 
 这是我最喜欢的一本技术文档写作指南，谷歌也将它列为官方参考资料之一呢！
 
-官方文档：<span lang="en">[Microsoft Style Guide](https://docs.microsoft.com/zh-cn/style-guide/welcome/)</span>
+**官方文档**：<span lang="en">[Microsoft Style Guide](https://docs.microsoft.com/zh-cn/style-guide/welcome/)</span>
 
 # 谷歌开发者技术文档写作指南
 
@@ -67,7 +79,7 @@ excerpt_separator: <!--more-->
 
 如果你的产品文档也提供网页版，不妨好好看看这本写作指南。谷歌甚至还有一本 <span lang="en">[Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)</span> 呢！
 
-官方文档：<span lang="en">[Google Developer Documentation Style Guide](https://developers.google.cn/style)</span>
+**官方文档**：<span lang="en">[Google Developer Documentation Style Guide](https://developers.google.cn/style)</span>
 
 # 苹果技术文档写作指南
 
@@ -77,7 +89,7 @@ excerpt_separator: <!--more-->
 
 如果你正要为自己的产品文档创建网页版，看完谷歌的技术建议之后，不妨也顺道来这里取取经，找找灵感。
 
-官方文档：<span lang="en">[Apple Style Guide](https://help.apple.com/applestyleguide/#/)</span>
+**官方文档**：<span lang="en">[Apple Style Guide](https://help.apple.com/applestyleguide/#/)</span>
 
 # <span lang='en'>Gitlab</span> 技术文档写作指南
 
@@ -85,11 +97,13 @@ excerpt_separator: <!--more-->
 
 <span lang='en'>Gitlab</span> 使用 <span lang='en'>Markdown</span> 编写文档。写作指南里对 <span lang='en'>Markdown</span> 中各种元素的使用方法进行了详细说明，并使用测试程序自动验证文档格式是否正确、链接是否有效。如果文档不符合规范，就不能成功提交。
 
-<span lang='en'>Gitlab</span> 使用 <span lang='en'>Git</span> 对文档进行版本管理，就像管理代码一样。作为一款开源软件，<span lang='en'>Gitlab</span> 文档的贡献者众多。为此，写作指南中不仅对文档修改和提交流程进行了详细说明，还对 <span lang='en'>Gitlab</span> 的文档架构进行了详尽的阐述。
+<span lang='en'>Gitlab</span> 使用 <span lang='en'>Git</span> 对文档进行版本管理，就像管理代码一样。作为一款开源软件，<span lang='en'>Gitlab</span> 文档的贡献者众多。
+
+为此，写作指南中不仅对文档修改和提交流程进行了详细说明，还对 <span lang='en'>Gitlab</span> 的文档架构进行了详尽的阐述。
 
 如果你正苦于不知道如何进行文档管理，这本写作指南可算是雪中送炭了！
 
-官方文档：<span lang="en">[Gitlab Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/index.html)</span>
+**官方文档**：<span lang="en">[Gitlab Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/index.html)</span>
 
 # <span lang='en'>SUSE</span> 技术文档写作指南
 
@@ -101,7 +115,7 @@ excerpt_separator: <!--more-->
 
 如果你也使用 <span lang='en'>DocBook</span>，这本技术写作指南可不容错过哦！
 
-官方文档：<span lang="en">[SUSE Documentation Style Guide](https://documentation.suse.com/en-us/style/current/single-html/docu_styleguide/#)</span>
+**官方文档**：<span lang="en">[SUSE Documentation Style Guide](https://documentation.suse.com/en-us/style/current/single-html/docu_styleguide/#)</span>
 
 # <span lang='en'>Mailchimp</span> 技术文档写作指南
 
@@ -113,7 +127,7 @@ excerpt_separator: <!--more-->
 
 虽然 <span lang='en'>Mailchimp</span> 是在规范自己的营销行为，但这不妨碍我们照猫画虎吧?
 
-官方文档：<span lang="en">[Mailchimp Content Style Guide](https://styleguide.mailchimp.com/)</span>
+**官方文档**：<span lang="en">[Mailchimp Content Style Guide](https://styleguide.mailchimp.com/)</span>
 
 # 红帽技术文档写作指南
 
@@ -121,7 +135,7 @@ excerpt_separator: <!--more-->
 
 红帽的写作指南很传统，很详细，强调正式感和庄重感。在这一点上，红帽与微软的风格截然不同。
 
-官方文档：<span lang="en">[The Red Hat Style Guide](http://stylepedia.net/style/)</span>
+**官方文档**：<span lang="en">[The Red Hat Style Guide](http://stylepedia.net/style/)</span>
 
 # 格式手册和词典
 
