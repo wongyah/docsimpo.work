@@ -101,11 +101,11 @@ nav a { display: block; margin: 1em 0 0 0; color: rgba(255, 255, 255, 0.7); font
 
 .pageContainer { margin-top: 4rem; margin-bottom: 4rem; }
 
-.postAbstract { margin-top: 2rem; margin-bottom: 2rem; padding-top: 2em; padding-bottom: 2em; border-bottom: 0.2em dotted rgba(102, 153, 204, 0.3); }
+.postAbstract { padding-top: 2em; padding-bottom: 2em; border-bottom: 0.2em dotted rgba(102, 153, 204, 0.3); }
 
-.postAbstract:last-child { margin-bottom: 3em; }
+.postAbstract:last-child { margin-bottom: 2em; }
 
-.postAbstract h1, .postAbstract .sloganText h2, .sloganText .postAbstract h2, .postAbstract .sloganText p, .sloganText .postAbstract p, .postAbstract .services h2, .services .postAbstract h2 { font-size: 1.5rem; color: #bd0f9b; letter-spacing: 0.1em; margin-bottom: 0.5em; }
+.postAbstract h1, .postAbstract .sloganText h2, .sloganText .postAbstract h2, .postAbstract .sloganText p, .sloganText .postAbstract p, .postAbstract .services h2, .services .postAbstract h2 { font-size: 1.2rem; color: #bd0f9b; letter-spacing: 0.1em; margin-bottom: 0.5em; }
 
 .postAbstract p { color: #929292; line-height: 2em; text-align: justify; margin-top: 1rem; display: inline; }
 
@@ -139,9 +139,7 @@ nav a { display: block; margin: 1em 0 0 0; color: rgba(255, 255, 255, 0.7); font
 
 .aside { margin-top: 4em; margin-bottom: 2em; }
 
-.aside div { font-size: 0.9rem; margin-bottom: 3em; color: #ababab; }
-
-.aside div:last-child { margin-bottom: 0; }
+.aside div { font-size: 0.9rem; margin-bottom: 2em; color: #ababab; }
 
 .aside div h1, .aside div .sloganText h2, .sloganText .aside div h2, .aside div .sloganText p, .sloganText .aside div p, .aside div .services h2, .services .aside div h2 { font-size: 1rem; color: #fab8ed; margin-top: 0.7em; margin-bottom: 0.7em; }
 

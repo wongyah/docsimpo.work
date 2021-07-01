@@ -5,23 +5,23 @@ downloadkey: CPTC
 
 技术写作，早在 <span lang='en'>20</span> 世纪 <span lang='en'>50</span> 年代初就引起美国工业界的重视（尤其是航空、军工、电子和生产制造领域），并且出现了专门致力于发展技术传播的组织。
 
-之后经过 <span lang='en'>50</span> 多年的发展，尤其是 <span lang='en'>2000</span> 年以后计算机软件对在线技术文档的需求急剧增加， <span lang='en'>Technical Writer</span> 的职业影响力显著提升。
+之后经过 <span lang='en'>50</span> 多年的发展，尤其是 <span lang='en'>2000</span> 年以后计算机软件对在线技术文档的需求急剧增加，<span lang='en'>Technical Writer</span> 的职业影响力显著提升。
 
-<span lang='en'>2009</span> 年， <span lang='en'>Technical Writer</span> 被美国劳工统计局认定为独立的职业类别，列入美国劳工部的就业数据统计门类中。
+<span lang='en'>2009</span> 年，<span lang='en'>Technical Writer</span> 被美国劳工统计局认定为独立的职业类别，列为美国劳工部的就业数据统计门类之一。
 
 # 技术传播职业现状
 
-<span lang='en'>Technical Writer</span> 是指编写技术资料的专业人员，包括但不限于产品手册、操作手册、维修手册等。
+<span lang='en'>Technical Writer</span> 是指编写技术资料的专业人员，包括但不限于产品手册、操作手册、维修手册、参考手册等。
 
 > 国内一般叫做技术文档工程师。遗憾的是，直到现在这个工种都没有取得国家认可的专业类别。
 
-按照美国劳工统计局的数据， <span lang='en'>2019</span> 年美国共有 <span lang='en'>5.8</span> 万名技术写作从业者，大多具有本科以上学历，年薪中位数将近 <span lang='en'>7.3</span> 万美元（约合 <span lang='en'>47</span> 万元人民币），平均从业经验在 5 年以内。
+按照美国劳工统计局的数据，<span lang='en'>2019</span> 年美国共有 <span lang='en'>5.8</span> 万名技术写作从业者，大多具有本科以上学历，年薪中位数将近 <span lang='en'>7.3</span> 万美元（约合 <span lang='en'>47</span> 万元人民币），平均从业经验在 5 年以内。
 
 ![数据来源：STC薪资数据库（2018-2019）](/assets/images/post/TCQuantiry.jpg)
 
 ![数据来源：STC薪资数据库（2018-2019）](/assets/images/post/SalaryLeverComparison.jpg)
 
-从 <span lang='en'>2014-2018</span> 年的从业人数和薪资增长幅度来看，技术写作目前在美国处于平稳发展期，从业人员数量和薪资水平都是缓慢增长的状态。
+从 <span lang='en'>2014—2018</span> 年的从业人数和薪资增长幅度来看，技术写作目前在美国处于平稳发展期，从业人员数量和薪资水平都是缓慢增长的状态。
 
 与其他媒体类岗位相比，技术写作的从业人数不算多（和翻译人员、作家差不多），但薪资水平在这里面却是最高的。
 
@@ -31,11 +31,10 @@ downloadkey: CPTC
 
 # 技术传播教育体系
 
-美国高校早在 <span lang='en'>1958</span> 年就开始开设技术传播（ <span lang='en'>Technical Communication</span> ）专业，现在全美已经有几百个技术传播专业的学位项目，本硕博全都有。
+美国高校早在 <span lang='en'>1958</span> 年就开始开设技术传播（<span lang='en'>Technical Communication</span>）专业，现在全美已经有几百个技术传播专业的学位项目，本硕博全都有。
 
-> 美国的学位有两种： <span lang='en'>Undergraduate</span> 和 <span lang='en'>Graduate</span> 。 <span lang='en'>Undergraduate</span> 相当于中国的本科， <span lang='en'>Graduate</span> 相当于中国的研究生阶段，既可以是硕士研究生，也可以是博士研究生。
-> 
-> 另外， <span lang='en'>Majors</span> 和我们常说的“你是哪个专业的”里的“专业”同义。而 <span lang='en'>Minors</span> 指的是辅修专业。
+> 美国的学位有两种：<span lang='en'>Undergraduate</span> 和 <span lang='en'>Graduate</span> 。<span lang='en'>Undergraduate</span> 相当于中国的本科，<span lang='en'>Graduate</span> 相当于中国的研究生阶段，既可以是硕士研究生，也可以是博士研究生。  
+> 另外，<span lang='en'>Majors</span> 和我们常说的“你是哪个专业的”里的“专业”同义。而 <span lang='en'>Minors</span> 指的是辅修专业。
 
 这些学位项目里，有面向未来的技术写作从业者的，也有面向未来的技术传播教育者（教师）的，还有作为辅修专业学习的。
 
@@ -65,7 +64,7 @@ downloadkey: CPTC
 
  <span lang='en'>License</span> 是指那些法律法规强制要求“持证上岗”的执业资格认证，比如执业医师资格证。
 
-# 技术传播职业认证（ <span lang='en'>CPTC</span> ）
+# 技术传播职业认证（<span lang='en'>CPTC</span>）
 
 技术传播类的认证只涉及前两种： <span lang='en'>Certificate</span> 和 <span lang='en'>Certification</span> 。
 
@@ -86,16 +85,16 @@ downloadkey: CPTC
 
 **专家级**需要有实际的工作成果，并进行专家面试。目前专家级考试正在改革中，没有开放申请。
 
- <span lang='en'>CPTC</span> 认证考试的**指定教材**是由 <span lang='en'>Richard Johnson-Sheehan</span> 编写的 <span lang='en'><strong><i>Technical Communication Today</i></strong></span>。
+ <span lang='en'>CPTC</span> 认证考试的**指定教材**是由 <span lang='en'>Richard Johnson-Sheehan</span> 编写的 <span lang='en'><strong>Technical Communication Today</strong></span>。
 
 想自学的同学还可以从 <span lang='en'>STC</span> 官网下载以下资料（点击链接即可）:
-- [<span lang='en'><i>STC Foundation Study Guide</i></span>](https://www.stc.org/wp-content/uploads/2020/04/cptcstudyguide-Foundation.pdf);
-- [<span lang='en'><i>Sample Questions</i></span> ](https://www.stc.org/certification/sample-questions/) (for Foundation Exam);
-- [<span lang='en'><i>STC Practitioner Study Guide</i></span>](https://www.stc.org/wp-content/uploads/2020/04/CPTC-Practitioner-Study-Guide.pdf);
+- [<span lang='en'>STC Foundation Study Guide</span>](https://www.stc.org/wp-content/uploads/2020/04/cptcstudyguide-Foundation.pdf);
+- [<span lang='en'>Sample Questions</span> ](https://www.stc.org/certification/sample-questions/) (for Foundation Exam);
+- [<span lang='en'>STC Practitioner Study Guide</span>](https://www.stc.org/wp-content/uploads/2020/04/CPTC-Practitioner-Study-Guide.pdf);
 
-另外，[ <span lang='en'>2016</span> 年 1 月期](https://mk0avenuetjo4k1o6nk6.kinstacdn.com/wp-content/uploads/2020/04/Intercom-Jan2016-2.pdf)和[ <span lang='en'>2017</span> 年 3 月期](https://mk0avenuetjo4k1o6nk6.kinstacdn.com/wp-content/uploads/2020/04/Intercom-Mar2017.pdf)的 <span lang='en'>STC</span> 刊物 <span lang='en'><i>Intercom</i></span> 里，有关于基础级认证的更多详细信息。
+另外，[<span lang='en'>2016</span> 年 1 月期](https://mk0avenuetjo4k1o6nk6.kinstacdn.com/wp-content/uploads/2020/04/Intercom-Jan2016-2.pdf)和[ <span lang='en'>2017</span> 年 3 月期](https://mk0avenuetjo4k1o6nk6.kinstacdn.com/wp-content/uploads/2020/04/Intercom-Mar2017.pdf)的 <span lang='en'>STC</span> 刊物 <span lang='en'>Intercom</span> 里，有关于基础级认证的更多详细信息。
 
- <span lang='en'>STC</span> 的合作伙伴 <span lang='en'>APMG</span> （一家英国公司），负责 <span lang='en'>CPTC</span> 的全部考试事宜。考生可以通过[ <span lang='en'>APMG</span> 官网](https://apmg-international.com/product/cptc) 在线预约并参加考试。
+ <span lang='en'>STC</span> 的合作伙伴 <span lang='en'>APMG</span>（一家英国公司），负责 <span lang='en'>CPTC</span> 的全部考试事宜。考生可以通过[ <span lang='en'>APMG</span> 官网](https://apmg-international.com/product/cptc) 在线预约并参加考试。
 
 #  <span lang='en'>CPTC</span> 续期要求
 
@@ -103,7 +102,7 @@ downloadkey: CPTC
 
 如果想让证书不失效，你需要通过不断地学习或者持续的工作业绩来获得积分。每两年积 <span lang='en'>12</span> 分，可以让证书顺利进入下一个有效期。
 
-如果万一你在证书到期前没有积满 <span lang='en'>12</span> 分，证书也不会马上失效，还有两年的宽限期。只要你在宽限期多多努力，把前两年没积满的分补回来即可（积满 <span lang='en'>24</span> 分，即 <span lang='en'>12</span> + <span lang='en'>12</span> ）。
+如果万一你在证书到期前没有积满 <span lang='en'>12</span> 分，证书也不会马上失效，还有两年的宽限期。只要你在宽限期多多努力，把前两年没积满的分补回来即可（积满 <span lang='en'>24</span> 分，即 <span lang='en'>12</span> + <span lang='en'>12</span>）。
 
 获得积分的方式，可以是参加 <span lang='en'>STC</span> 的在线会议、网络课程、年度峰会等活动，也可以是在技术传播相关的期刊杂志、学术会议上发表文章、论文或演讲，还可以是出版技术传播类的书籍。
 
@@ -121,7 +120,7 @@ downloadkey: CPTC
 
  <span lang='en'>1978</span> 年 <span lang='en'>PCS</span> 更名为现在的名字，成为 <span lang='en'>IEEE</span> 的下属机构。
 
- <span lang='en'>PCS</span> 每年举办 <span lang='en'>ProComm</span> 会议，定期出版 <span lang='en'><i>Transactions on Professional Communication</i></span> 。
+ <span lang='en'>PCS</span> 每年举办 <span lang='en'>ProComm</span> 会议，定期出版 <span lang='en'>Transactions on Professional Communication</span>（出版物）。
 
 [<span lang='en'>SIGDOC</span>](http://sigdoc.acm.org/)（<span lang='en'>Special Interest Group on Design of Communication</span>），是计算机领域的技术写作人员组成的技术传播组织，隶属于 <span lang='en'>ACM</span>（<span lang='en'>Association for Computing Machinery</span>）。
 
