@@ -3,7 +3,17 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
+    {%- if page.url == "/" -%}
+      <title>{{ site.data.webinfo.general.cn.name }} - {{ site.data.webinfo.general.cn.slogan }}</title>
+      {%- elsif page.name == "index.html" -%}
+        <title>{{ page.title }} - {{ site.data.webinfo.general.cn.name }}</title>
+      {%- elsif page.url contains "/technical-writing/" -%}
+        <title>{{ page.title | strip_html }} - 技术写作</title>
+      {%- elsif page.url contains "/doc-tech/" -%}
+        <title>{{ page.title | strip_html }} - 文档技术</title>
+      {%- else -%}
+        <title>{{ page.title }}</title>
+    {%- endif -%}
     <link rel="stylesheet" media="screen and (max-width: 875px)" href="/assets/css/homeMax875.css">
     <link rel="stylesheet" media="screen and (min-width: 875px)" href="/assets/css/homeMin875.css">
   </head>

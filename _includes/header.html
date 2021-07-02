@@ -17,7 +17,7 @@
 
     <div class="navContainer">
       <nav>
-        {%- for item in site.data.topMenu -%}
+        {%- for item in site.data.webinfo.header-menu -%}
         <a href=" {{ item.link }} " {%- if page.url == item.link -%} class="current-page" {%- endif -%}>
           {{ item.name }}
         </a>

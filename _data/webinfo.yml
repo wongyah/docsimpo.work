@@ -1,0 +1,17 @@
+general:
+  cn:
+    name: "单线条文档"
+    slogan: "贴近用户，从产品文档开始"
+  en:
+    name: "docSimpo"
+    slogan: ""
+
+header-menu:
+  - name: 首页
+    link: /
+  - name: 技术写作
+    link: /technical-writing/
+  - name: 文档技术
+    link: /doc-tech/
+  - name: 示例项目
+    link: /projects/

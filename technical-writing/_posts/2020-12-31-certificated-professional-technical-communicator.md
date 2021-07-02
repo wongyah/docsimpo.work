@@ -89,7 +89,7 @@ downloadkey: CPTC
 
 想自学的同学还可以从 <span lang='en'>STC</span> 官网下载以下资料（点击链接即可）:
 - [<span lang='en'>STC Foundation Study Guide</span>](https://www.stc.org/wp-content/uploads/2020/04/cptcstudyguide-Foundation.pdf);
-- [<span lang='en'>Sample Questions</span> ](https://www.stc.org/certification/sample-questions/) (for Foundation Exam);
+- [<span lang='en'>Sample Questions</span>](https://www.stc.org/certification/sample-questions/)（基础级）;
 - [<span lang='en'>STC Practitioner Study Guide</span>](https://www.stc.org/wp-content/uploads/2020/04/CPTC-Practitioner-Study-Guide.pdf);
 
 另外，[<span lang='en'>2016</span> 年 1 月期](https://mk0avenuetjo4k1o6nk6.kinstacdn.com/wp-content/uploads/2020/04/Intercom-Jan2016-2.pdf)和[ <span lang='en'>2017</span> 年 3 月期](https://mk0avenuetjo4k1o6nk6.kinstacdn.com/wp-content/uploads/2020/04/Intercom-Mar2017.pdf)的 <span lang='en'>STC</span> 刊物 <span lang='en'>Intercom</span> 里，有关于基础级认证的更多详细信息。
