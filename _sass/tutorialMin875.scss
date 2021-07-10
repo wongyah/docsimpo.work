@@ -1,0 +1,218 @@
+//! 教程容器
+
+.tutorialContainer{
+  position: relative;  // 为了教程页面的绝对定位而设置
+  height: 97.5vh;
+  overflow-y: hidden;
+  border: 1pt solid red;
+}
+
+//! 三栏布局
+
+.aside-left{
+  position: absolute;
+  width: 32.5%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow-x: visible;
+  overflow-y: auto;
+  border: 1pt solid blue;
+  z-index: 0;
+
+  @include padding(11rem 1rem 2rem);
+}
+
+.aside-right{
+  position: absolute;
+  width: 32.5%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+
+  @include padding(8rem null 2em);
+  display: none;
+}
+
+.topic{
+  position: absolute;
+  width: 67.5%;
+  height: 100%;
+  top: 0;
+  left: 32.5%;
+  overflow-y: auto;
+  z-index: 0;
+
+  @include padding(6rem 2rem 2rem);
+}
+
+
+
+//! 主目录按钮和教程名称
+
+.tocLable{
+  position: absolute;
+  width: 32.5%;
+  top: 4rem;
+  left: 0;
+  z-index: 99;
+  
+  h1{
+    font-size: $font-size-headingOne;
+    color: lighten($color: $text-color-body, $amount: 30%);
+    @include padding(null 1rem);
+  }
+}
+
+.tutorialTOC-label{
+  display: block;
+  width: 100%;
+  background-color: $text-color-emphasized;
+  @include margin(1rem null 2rem);
+  @include padding(0.5rem 1rem);
+  z-index: 99;
+}
+
+
+#tutorialTOCInput{
+  position: absolute;
+  top: 6rem;
+  display: none;
+
+  &:checked ~ .aside-right{
+    display: block;
+  }
+
+  &:checked ~ .aside-left{
+    display: none;
+  }
+
+}
+
+
+//! 窗格内文本元素
+
+// 左侧栏
+
+.aside-left{
+
+  h1{
+    font-size: $font-size-headingOne;
+    @include margin(1rem null 0.5rem);
+  }
+
+  ol{
+    list-style-type: decimal;
+    padding-left: 3rem;
+
+    li{
+      @include margin(0.2rem);
+    }
+  }
+}
+
+
+// 正文
+
+.tutorialName{
+  h1{
+    font-size: $font-size-headingOne;
+    color: lighten($color: $text-color-body, $amount: 30%);
+  }
+}
+
+.topictitle{
+  h1{
+    font-size: $font-size-headingOne;
+    color: $text-color-title;
+    @include margin(4rem null 2rem);
+  }
+}
+
+.topicContent{
+
+  p{
+    @include margin(1em null);
+    line-height: $line-height-content;
+    text-align: justify;
+  }
+
+  img:only-child {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5em;
+  }
+
+  h1{
+    font-size: $font-size-headingOne;
+    color: lighten($color: $text-color-emphasized, $amount: 15%);
+    letter-spacing: $letter-spacing-heading;
+    border-bottom: 0.1em dotted lighten($color: $text-color-emphasized, $amount: 15%);
+    @include margin(4em null 2em);
+    @include padding(null null 0.3em);
+  }
+
+  h2{
+    font-size: $font-size-headingTwo;
+    @include margin(2em null 1em);
+  }
+
+  ol, ul {
+    padding-left: 3em;
+    @include margin(-1.5em null 2em);
+  }
+
+  blockquote{
+    font-size: modular-scale(1, $font-size-body, 0.9);
+    background-color: rgba($background-color-head, 0.3);
+    border-radius: 0.5em;
+    @include padding(0.25em 1em);
+    @include margin(2.25em null);
+
+    * {
+      @include margin(1em null);
+      color: $text-color-slogan-p;
+    }
+
+    h1{
+      font-size: $font-size-body;
+      &:after{
+        color: darken($color: $background-color-slogan, $amount: 50%);
+      }
+    }
+
+  }
+
+  
+  
+  :target::before{
+    content: "";
+    display: block;
+    height: $height-header;
+    margin-top: -$height-header;
+  }
+  
+}
+
+// 代码块
+
+.language-md, .language-html{
+  @include margin(2em null);
+  @include padding(0.5em);
+  font-size: $font-size-footer;
+  color: $background-color-page;
+  background-color: $text-color-body;
+  overflow-x: auto;
+}
+
+.language-plaintext{
+  color: $background-color-head ;
+}
+
+
+
+//! 暂时不显示页脚
+.footerContainer, .above-footer,{
+  display: none !important; 
+}

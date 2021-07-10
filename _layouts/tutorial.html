@@ -1,0 +1,69 @@
+---
+layout: container-tutorialPage
+---
+
+<input type="checkbox" name="tocOnOff" id="tutorialTOCInput">
+
+{%- assign currentTutorial = page.collection -%}
+{%- assign tutorials = site.collections | where: "classification", "tutorial" -%}
+
+<div class="tocLable">
+  {%- for tutorial in tutorials -%}
+    {%- if tutorial.label == currentTutorial -%}
+      <h1>{{ tutorial.tutorialName }}</h1>
+    {%- endif -%}
+  {%- endfor -%}
+  <label for="tutorialTOCInput" class="tutorialTOC-label">主目录</label>
+</div>
+
+<!-- 教程目录 -->
+<div class="aside-left">
+  <div class="tutorialTOC">
+    {%- for tutorial in tutorials -%}
+      {%- if tutorial.label == currentTutorial -%}
+        {%- assign topics = tutorial.docs | group_by: "section" -%}
+        {%- for section in topics -%}
+          <h1>{{ section.name }}</h1>
+          <ol>
+            {%- for topic in section.items -%}
+              <li><a href="{{ topic.url }}">{{ topic.title }}</a></li>
+            {%- endfor -%}
+          </ol>
+        {%- endfor -%}
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+</div>
+
+
+<!-- 正文 -->
+<div class="topic">
+  <div class="tutorialName">
+    <h1>Markdown 教程</h1>
+  </div>
+  <div class="topictitle">
+    <h1>{{ page.title }}</h1>
+  </div>
+  <div class="topicContent">
+    {{ content }}
+  </div>
+</div>
+
+<!-- 侧栏 -->
+<div class="aside-right">
+  <div id="toc">
+    <h1>目录</h1>
+    {%- include toc.html html=content ordered=true -%}
+  </div>
+  <!-- {% unless page.categories == empty %}
+    {%- include asideDivs/relatedPosts.html -%}
+  {% endunless %}
+  {%- if page.downloadkey -%}
+    {%- include asideDivs/download.html -%}
+  {%- endif -%} -->
+</div>
+
+
+{%- if page.mermaid -%}
+  {%- include mermaid.html -%}
+{%- endif -%}

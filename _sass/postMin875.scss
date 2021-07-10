@@ -106,7 +106,7 @@
     background-color: rgba($background-color-head, 0.3);
     border-radius: 0.5em;
     @include padding(0.25em 1em);
-    @include margin(2em null);
+    @include margin(2.25em null);
 
     * {
       @include margin(1em null);
