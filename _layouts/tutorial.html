@@ -8,11 +8,6 @@ layout: container-tutorialPage
 {%- assign tutorials = site.collections | where: "classification", "tutorial" -%}
 
 <div class="tocLable">
-  {%- for tutorial in tutorials -%}
-    {%- if tutorial.label == currentTutorial -%}
-      <h1>{{ tutorial.tutorialName }}</h1>
-    {%- endif -%}
-  {%- endfor -%}
   <label for="tutorialTOCInput" class="tutorialTOC-label">主目录</label>
 </div>
 
@@ -39,7 +34,12 @@ layout: container-tutorialPage
 <!-- 正文 -->
 <div class="topic">
   <div class="tutorialName">
-    <h1>Markdown 教程</h1>
+    {%- for tutorial in tutorials -%}
+    {%- if tutorial.label == currentTutorial -%}
+      <h1>{{ tutorial.tutorialName }}</h1>
+    {%- endif -%}
+  {%- endfor -%}
+
   </div>
   <div class="topictitle">
     <h1>{{ page.title }}</h1>

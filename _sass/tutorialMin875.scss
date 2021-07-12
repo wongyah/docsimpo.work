@@ -4,28 +4,25 @@
   position: relative;  // 为了教程页面的绝对定位而设置
   height: 97.5vh;
   overflow-y: hidden;
-  border: 1pt solid red;
 }
 
 //! 三栏布局
 
 .aside-left{
   position: absolute;
-  width: 32.5%;
+  width: 25%;
   height: 100%;
   top: 0;
   left: 0;
-  overflow-x: visible;
-  overflow-y: auto;
-  border: 1pt solid blue;
+  overflow-y: hidden;
   z-index: 0;
 
-  @include padding(11rem 1rem 2rem);
+  @include padding(7rem 1em 6rem null);
 }
 
 .aside-right{
   position: absolute;
-  width: 32.5%;
+  width: 25%;
   height: 100%;
   top: 0;
   left: 0;
@@ -37,14 +34,14 @@
 
 .topic{
   position: absolute;
-  width: 67.5%;
+  width: 75%;
   height: 100%;
   top: 0;
-  left: 32.5%;
+  left: 25%;
   overflow-y: auto;
   z-index: 0;
 
-  @include padding(6rem 2rem 2rem);
+  @include padding(8rem 2rem);
 }
 
 
@@ -53,10 +50,11 @@
 
 .tocLable{
   position: absolute;
-  width: 32.5%;
+  width: 25%;
   top: 4rem;
   left: 0;
   z-index: 99;
+  padding-right: 1em;
   
   h1{
     font-size: $font-size-headingOne;
@@ -68,9 +66,10 @@
 .tutorialTOC-label{
   display: block;
   width: 100%;
-  background-color: $text-color-emphasized;
-  @include margin(1rem null 2rem);
+  background-color: lighten($color: $text-color-body, $amount: 30%);
   @include padding(0.5rem 1rem);
+  font-weight: bold;
+  color:rgb(255, 255, 255);
   z-index: 99;
 }
 
@@ -99,7 +98,9 @@
 
   h1{
     font-size: $font-size-headingOne;
-    @include margin(1rem null 0.5rem);
+    @include margin(0.5rem null);
+    @include padding(null 1rem);
+    background-color: rgb(230, 230, 200);
   }
 
   ol{
@@ -112,6 +113,15 @@
   }
 }
 
+.tutorialTOC{
+  border: 0.05em solid rgb(200, 200, 200);
+  max-height: 70vh;
+  @include padding(0.5em null 2rem);
+  overflow-y: auto;
+
+
+}
+
 
 // 正文
 
@@ -119,14 +129,16 @@
   h1{
     font-size: $font-size-headingOne;
     color: lighten($color: $text-color-body, $amount: 30%);
+    text-align: right;
+    border-bottom: 1pt solid rgb(200, 200, 200);
   }
 }
 
 .topictitle{
   h1{
-    font-size: $font-size-headingOne;
+    font-size: $font-size-title;
     color: $text-color-title;
-    @include margin(4rem null 2rem);
+    @include margin(4rem null 1rem);
   }
 }
 
@@ -134,7 +146,6 @@
 
   p{
     @include margin(1em null);
-    line-height: $line-height-content;
     text-align: justify;
   }
 
@@ -155,20 +166,27 @@
 
   h2{
     font-size: $font-size-headingTwo;
-    @include margin(2em null 1em);
+    @include margin(2em null null);
   }
 
   ol, ul {
     padding-left: 3em;
-    @include margin(-1.5em null 2em);
+    @include margin(0.5em null 1em);
+
+    li{
+      @include margin(0.5em);
+    }
   }
+
 
   blockquote{
     font-size: modular-scale(1, $font-size-body, 0.9);
-    background-color: rgba($background-color-head, 0.3);
-    border-radius: 0.5em;
+    background-color: rgb(230, 230, 230);
+    border-left: 0.4em solid rgb(200, 200, 200);
+    @include border-left-radius(0);
+    @include border-right-radius(0.5em);
     @include padding(0.25em 1em);
-    @include margin(2.25em null);
+    @include margin(1.25 null);
 
     * {
       @include margin(1em null);
@@ -184,8 +202,8 @@
 
   }
 
-  
-  
+
+
   :target::before{
     content: "";
     display: block;
@@ -197,19 +215,98 @@
 
 // 代码块
 
-.language-md, .language-html{
-  @include margin(2em null);
+.highlighter-rouge{
+  @include margin(1.5em null);
+}
+
+pre.highlight{
+  @include margin(null null);
   @include padding(0.5em);
   font-size: $font-size-footer;
-  color: $background-color-page;
-  background-color: $text-color-body;
+  color: rgb(230, 230, 200);
+  background-color: rgb(55, 55, 55);
   overflow-x: auto;
 }
 
-.language-plaintext{
-  color: $background-color-head ;
+.language-markdown:before{
+  content: "Markdown";
+  display: inline-block;
+  background-color: lighten($color: $text-color-emphasized, $amount: 15%);
+  @include padding(0.25em 0.5em);
+  @include border-top-radius(0.25em);
+  font-weight: bold;
+  color: rgb(9,131,33);
 }
 
+.language-html:before{
+  content: "HTML";
+  display: inline-block;
+  background-color: lighten($color: $text-color-emphasized, $amount: 15%);
+  @include padding(0.25em 0.5em);
+  @include border-top-radius(0.25em);
+  font-weight: bold;
+  color: rgb(9,131,33);
+}
+
+div.exmp{
+  @include margin(1em null 2em);
+}
+
+div.exmp:before{
+  content: "输出格式";
+  display: inline-block;
+  background-color: lighten($color: $text-color-emphasized, $amount: 15%);
+  @include padding(0.25em 0.5em);
+  @include border-top-radius(0.25em);
+  font-weight: bold;
+  color: rgb(9,131,33);
+}
+
+div.container-exmp{
+  @include border-width(0.05em null);
+  @include border-color(lighten($color: $text-color-emphasized, $amount: 15%) null);
+  @include border-style(solid null);
+  @include padding(0.5em null);
+}
+
+.language-plaintext{
+  color: rgb(0, 0, 255);
+}
+
+//! 示例输出-引用
+
+h1.no-style{
+  font-size: 2em;
+  @include margin(0.67em null);
+  color: $text-color-body;
+  border: none;
+}
+
+h2.no-style{
+  font-size: 1.5em;
+  @include margin(0.75em null);
+  color: $text-color-body;
+ }
+
+h3.no-style{
+  font-size: 1.17em;
+  @include margin(0.83em null)
+}
+
+h4.no-style{
+  font-size: 1em;
+  @include margin(1.12em null);
+}
+
+h5.no-style{
+  font-size: 0.83em;
+  @include margin(1.5em null);
+}
+
+h6.no-style{
+  font-size: 0.75em;
+  @include margin(1.67em null)
+}
 
 
 //! 暂时不显示页脚
