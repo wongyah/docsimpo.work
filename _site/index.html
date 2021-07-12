@@ -7,7 +7,7 @@
   </head>
   <body><!-- Logo和菜单栏 -->
 <input type="checkbox" name="navicon" id="headerMenuIcon">
-<div class="headerContainer">
+<div class="headerContainer" id="header">
   <div class="main header">
 
     <h1>
@@ -41,7 +41,7 @@
   <div class="main slogan sloganFont">
     <div class="sloganText">
       <h1 class="sloganFont">贴近用户</h1>
-      <h2 class="sloganFont"><span><i>从</i></span>产品文档开始</h2>
+      <h2 class="sloganFont"><span id="cong"><i>从</i></span>产品文档开始</h2>
       <p class="bodyFont">每个产品，都值得一份好文档；</p>
       <p class="bodyFont">每个我们，都值得一份好心情来阅览它们。</p>
     </div>
@@ -51,7 +51,7 @@
 
 
 <!-- 业务版块 -->
-<div class="container">
+<div class="container" id="services">
   <ul class="main services">
     <li class="service" id="s_marketing">
       <h1><img src="/assets/images/home/marketing.png" alt="" class="serviceIcon"></h1>
@@ -71,7 +71,7 @@
   </ul>
 </div>
 </div>    <!-- 页脚之上 -->
-    <div class="container">
+    <div class="container" id="footerAbove">
       <div class="main above-footer">
         <p>技术写作是一种技能，</p>
         <p>代码化管理是一种技术。</p>
@@ -82,7 +82,7 @@
     
     <!-- 网页页脚 -->
     
-    <div class="footerContainer">
+    <div class="footerContainer" id="footer">
       <div class="main">
         <ul class="footer">
             <li class="brand">
@@ -116,5 +116,6 @@
       </div>
     </div>  
 
-</body>
+<script src="/assets/js/docsimpo.js"></script>
+  </body>
 </html>

@@ -28,13 +28,8 @@
       @extend h1;
       margin-top: -0.2em;
       margin-bottom: 0.3em;
-      span{
-        font-size: 1.5em;
-        color: $text-color-emphasized;
-        padding-right: 0.1em; /* 拉开高亮文字“好”与“用”的间距 */
-        }
     }
-  
+    
     p{
       @extend h1;
       font-size: 2vw;
@@ -42,10 +37,15 @@
       text-shadow: 0px 0px 2px #FFF;
       line-height: $line-height-content; /* 定义Slogan副语的段落间距 */
     }
-  
+    
   }  
   
-  
+span#cong{
+  font-size: 1.5em;
+  color: $text-color-emphasized;
+  padding-right: 0.1em; /* 拉开高亮文字“好”与“用”的间距 */
+}
+
   //! 服务范围
   
   .services{

@@ -149,7 +149,11 @@ a{
 }
 
 *:lang(en){
-  letter-spacing: $letter-spacing-en;
+  letter-spacing: $letter-spacing-default;
+}
+
+*:lang(cn){
+  letter-spacing: $letter-spacing-cn;
 }
 
 

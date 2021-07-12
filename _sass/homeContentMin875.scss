@@ -20,21 +20,21 @@
     h2{
       margin-top: -0.2em;
       margin-bottom: 0.3em; /* 定义与下方Slogan副语的间距(0.5em)，以及左侧缩进(3em)。 */
-      span{
-      font-size: 1.5em;
-      color: $text-color-emphasized;
-      padding-right: 0.1em; /* 拉开高亮文字“好”与“用”的间距 */
+    }
+    
+    p{
+      color: $text-color-slogan-p;
+      text-shadow: 0px 0px 2px #FFF;
+      letter-spacing: $letter-spacing-extra;
+      line-height: $line-height-content; /* 定义Slogan副语的段落间距 */
     }
   }
- 
-  p{
-    color: $text-color-slogan-p;
-    text-shadow: 0px 0px 2px #FFF;
-    letter-spacing: $letter-spacing-extra;
-    line-height: $line-height-content; /* 定义Slogan副语的段落间距 */
-  }
-}
   
+span#cong{
+  font-size: 1.5em;
+  color: $text-color-emphasized;
+  padding-right: 0.1em; /* 拉开高亮文字“好”与“用”的间距 */
+}
   
   //! 服务范围
   

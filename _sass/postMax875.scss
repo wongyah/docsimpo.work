@@ -17,7 +17,7 @@
   h1{
     font-size: $font-size-headingOne-phone;
     color: $text-color-title;
-    letter-spacing: $letter-spacing-heading;
+    letter-spacing: $letter-spacing-base;
     margin-bottom: 0.5em;
   }
 
@@ -42,7 +42,7 @@
   h1{
     font-size: $font-size-title-phone;
     color: $text-color-title;
-    letter-spacing: $letter-spacing-heading;
+    letter-spacing: $letter-spacing-base;
     margin-bottom: 1rem;
   }
 
@@ -77,7 +77,7 @@
   h1{
     font-size: $font-size-headingOne-phone;
     color: lighten($color: $text-color-emphasized, $amount: 15%);
-    letter-spacing: $letter-spacing-heading;
+    letter-spacing: $letter-spacing-base;
     @include margin(4em null 2em);
     &:after{
       content: '▼';

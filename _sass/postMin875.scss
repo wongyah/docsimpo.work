@@ -29,7 +29,7 @@
   h1{
     font-size: $font-size-headingOne;
     color: $text-color-title;
-    letter-spacing: $letter-spacing-heading;
+    letter-spacing: $letter-spacing-base;
     margin-bottom: 0.5em;
   }
 
@@ -54,7 +54,7 @@
   h1{
     font-size: $font-size-title;
     color: $text-color-title;
-    letter-spacing: $letter-spacing-heading;
+    letter-spacing: $letter-spacing-base;
     margin-bottom: 1rem;
   }
 
@@ -88,7 +88,7 @@
 
   h1{
     font-size: $font-size-headingOne;
-    letter-spacing: $letter-spacing-heading;
+    letter-spacing: $letter-spacing-base;
     @include margin(3em null 1em);
     &:after{
       content: '▼';
