@@ -143,7 +143,7 @@ a { color: #6699cc; text-decoration: none; letter-spacing: inherit; font-size: i
 
 .aside-left { position: absolute; width: 25%; height: 100%; top: 0; left: 0; overflow-y: hidden; z-index: 0; padding-top: 7rem; padding-right: 1em; padding-bottom: 6rem; }
 
-.aside-right { position: absolute; width: 25%; height: 100%; top: 0; left: 0; overflow-y: auto; padding-top: 8rem; padding-bottom: 2em; display: none; }
+.aside-right { position: absolute; width: 25%; height: 100%; top: 0; left: 0; overflow-y: auto; z-index: 0; padding-top: 8rem; padding-bottom: 2em; display: none; }
 
 .topic { position: absolute; width: 75%; height: 100%; top: 0; left: 25%; overflow-y: auto; z-index: 0; padding: 8rem 2rem; }
 
@@ -155,9 +155,9 @@ a { color: #6699cc; text-decoration: none; letter-spacing: inherit; font-size: i
 
 #tutorialTOCInput { position: absolute; top: 6rem; display: none; }
 
-#tutorialTOCInput:checked ~ .aside-right { display: block; }
+#tutorialTOCInput:checked ~ .aside-right { display: none; }
 
-#tutorialTOCInput:checked ~ .aside-left { display: none; }
+#tutorialTOCInput:checked ~ .aside-left { display: block; }
 
 .aside-left h1 { font-size: 1.5rem; margin-top: 0.5rem; margin-bottom: 0.5rem; padding-right: 1rem; padding-left: 1rem; background-color: #e6e6c8; }
 

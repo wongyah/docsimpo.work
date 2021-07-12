@@ -16,7 +16,7 @@
   left: 0;
   overflow-y: hidden;
   z-index: 0;
-
+  
   @include padding(7rem 1em 6rem null);
 }
 
@@ -27,7 +27,8 @@
   top: 0;
   left: 0;
   overflow-y: auto;
-
+  z-index: 0;
+  
   @include padding(8rem null 2em);
   display: none;
 }
@@ -80,11 +81,11 @@
   display: none;
 
   &:checked ~ .aside-right{
-    display: block;
-  }
-
-  &:checked ~ .aside-left{
     display: none;
+  }
+  
+  &:checked ~ .aside-left{
+    display: block;
   }
 
 }
