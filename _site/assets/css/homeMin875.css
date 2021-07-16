@@ -3,17 +3,13 @@ html * { margin: 0; padding: 0; box-sizing: border-box; font-size: 100%; font-fa
 
 body { display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; flex-direction: column; min-height: 100vh; background-color: #fff; font-family: calibri, Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei"; color: #454545; }
 
-.content { flex-grow: 2; }
+.bodyHolder { flex-grow: 2; }
 
-.container, .sloganContainer, .footerContainer, .headerContainer { width: 100%; /* 容器宽度，确保背景颜色填充满屏幕宽度 */ display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; justify-content: center; align-items: stretch; /* 定义容器类型，并水平居中子容器 */ }
-
-.headerContainer { position: fixed; top: 0; /* 将容器固定在屏幕顶端，否则它的起始位置默认与第一个流元素平齐 */ }
+.c-container, .sloganContainer, .footerContainer { width: 100%; /* 容器宽度，确保背景颜色填充满屏幕宽度 */ display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; justify-content: center; align-items: stretch; /* 定义容器类型，并水平居中子容器 */ }
 
 .footerContainer { background-color: #6699cc; }
 
 .sloganContainer { background-image: linear-gradient(#ffffb3 85%, #6699cc); }
-
-.header h1 { -webkit-flex: 0 0 165px; -ms-flex: 0 0 165px; -webkit-box-flex: 0 0 165px; flex: 0 0 165px; width: 165px; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; justify-content: start; align-items: center; font-size: 1rem; /* h1的默认字号比正文大，将其改为正文字号 */ color: #fff; }
 
 .bodyFont { font-family: calibri, Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei"; font-size: 1rem; }
 
@@ -29,9 +25,9 @@ body { display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; displa
 
 .icon-80px, .services h1 .serviceIcon { height: 80px; vertical-align: middle; }
 
-.icon-2em { height: 2em; vertical-align: middle; }
+.icon-2em, .logo-size { height: 2em; vertical-align: middle; }
 
-.icon-3em, .header img { height: 3em; vertical-align: middle; }
+.icon-3em { height: 3em; vertical-align: middle; }
 
 .slogan { background-image: url(/assets/images/mascot/Afront.png); background-position: right bottom; background-repeat: no-repeat; background-size: 20% auto; background-clip: border-box; }
 
@@ -43,17 +39,41 @@ a { color: #6699cc; text-decoration: none; letter-spacing: inherit; font-size: i
 
 .mermaid { font-size: 0.9rem; text-align: center; }
 
-.headerContainer { background-image: linear-gradient(#6699cc, #8cb3d9 90%, #6699cc); z-index: 10; }
+.docsimpo-bg-blue { background-color: rgba(102, 153, 204, 0.9); }
 
-.header { height: 4em; line-height: 3em; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; justify-content: space-between; align-items: center; }
+@media screen and (min-width: 768px) { .docsimpo-bg-blue { background-image: linear-gradient(#6699cc, #8cb3d9 90%, #6699cc); } }
 
-.header img { margin-right: 0.5em; }
+.z-10 { z-index: 10; }
 
-.navContainer { -webkit-flex: 0 0 350px; -ms-flex: 0 0 350px; -webkit-box-flex: 0 0 350px; flex: 0 0 350px; }
+.header-height { height: 3em; line-height: 3em; }
 
-.navContainer nav { display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; justify-content: space-between; align-items: stretch; }
+@media screen and (min-width: 768px) { .header-height { height: 4em; } }
 
-.navContainer nav a { display: inline-block; color: #fff; font-weight: bold; line-height: 3em; }
+.logo-brand { font-size: 1rem; font-weight: bold; color: #fff; }
+
+.logo-brand span { margin: 0 0.5em; }
+
+@media screen and (min-width: 768px) { .logo-size { height: 3em; width: auto; vertical-align: middle; } }
+
+.header-nav-icon { display: block; height: 2em; width: 2em; border: none; }
+
+.header-nav-icon:focus, .header-nav-icon:active { outline: none; }
+
+.navbar-toggler .icon-bar { display: block; width: 1.2em; height: 2px; background-color: #fff; margin: 0.4em; }
+
+.navbar-toggler .top-bar { margin-bottom: -2px; transform: rotate(45deg); transform-origin: 50% 50%; transition: transform 0.2s ease-in-out; }
+
+.navbar-toggler .bottom-bar { margin-top: -2px; transform: rotate(-45deg); transform-origin: 50% 50%; transition: transform 0.2s ease-in-out; }
+
+.navbar-toggler.collapsed .top-bar { transform: rotate(0); margin: 0.6em 0.4em; }
+
+.navbar-toggler.collapsed .bottom-bar { transform: rotate(0); margin: 0.6em 0.4em; }
+
+#header-nav { font-size: 1rem; font-weight: bold; }
+
+#header-nav .navbar-nav .nav-link { margin-top: 1em; border-bottom: 1pt solid rgba(255, 255, 255, 0.5); }
+
+@media screen and (min-width: 768px) { #header-nav .navbar-nav .nav-link { margin-top: auto; border-bottom: none; } }
 
 @media only screen and (min-width: 1440px) { .main { width: 70%; } }
 

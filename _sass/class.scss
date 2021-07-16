@@ -24,24 +24,24 @@
 
 // 一级容器（填充满屏背景色）
 
-.container {
+.c-container {
   width: 100%;   /* 容器宽度，确保背景颜色填充满屏幕宽度 */
   @include flexLayout($h: center,);  /* 定义容器类型，并水平居中子容器 */
 }  
 
-.headerContainer{
-  @extend .container;
-  position: fixed;
-  top: 0; /* 将容器固定在屏幕顶端，否则它的起始位置默认与第一个流元素平齐 */
-}  
+// .headerContainer{
+//   @extend .c-container;
+//   position: fixed;
+//   top: 0; /* 将容器固定在屏幕顶端，否则它的起始位置默认与第一个流元素平齐 */
+// }  
 
 .footerContainer{
-  @extend .container;
+  @extend .c-container;
   background-color: $background-color-head;
 }  
 
 .sloganContainer{
-  @extend .container;
+  @extend .c-container;
   $bghead: $background-color-head;
   $bgslogan: $background-color-slogan;
   background-image: linear-gradient($bgslogan 85%, $bghead);
@@ -49,15 +49,15 @@
 
 // 二级容器（正文宽度）
 
-.header{
-  h1 {
-    @include flex(0 0 165px);  // 定义商标的宽度，固定不变
-    width: 165px;
-    @include flexLayout($h: start, $v: center);
-    font-size: $font-size-body; /* h1的默认字号比正文大，将其改为正文字号 */
-    color: $text-color-header;
-  }
-}  
+// .header{
+//   h1 {
+    // @include flex(0 0 165px);  // 定义商标的宽度，固定不变
+    // width: 165px;
+    // @include flexLayout($h: start, $v: center);
+    // font-size: $font-size-body; /* h1的默认字号比正文大，将其改为正文字号 */
+    // color: $text-color-header;
+//   }
+// }  
 
 
 // 屏幕适配

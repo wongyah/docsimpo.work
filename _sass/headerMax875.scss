@@ -1,15 +1,16 @@
 //! 网页页眉
 
-.headerContainer{
+#header{
   $bgcolor: $background-color-head;
   background-color: rgba($bgcolor, 0.9);
   z-index: 10;
 }
+
 .header{
   height: $height-header * 0.75;  // 菜单栏高度，即页眉高度
   line-height: $line-height-header;
-  display: block;
-  overflow: hidden;
+  // display: block;
+  // overflow: hidden;
   h1 {
     height: $height-header * 0.75; // 使商标名称垂直居中。
     img{
@@ -31,12 +32,12 @@
   display: inline-block;
   padding: 0.3em;
   &:hover {
-    .headerMenuIconAbove, .headerMenuIconBelow {
+    .topBar, .bottomBar {
      background-color: rgba(255, 255, 255, 1);
    }
   }
 }
-.headerMenuIconAbove{
+.topBar{
   display: block;
   width: 1.2em;
   height: 2px;
@@ -44,28 +45,28 @@
   @include transform(none);
   transition: transform 0.2s ease-in-out;
 }
-.headerMenuIconBelow{
-  @extend .headerMenuIconAbove;
+.bottomBar{
+  @extend .topBar;
   margin-top: 0.6em;
 }
 
 //! 主菜单
 
-nav a {
-  display: block;
-    margin: 1em 0 0 0;
-    color: rgba($text-color-header, 0.7);
-    font-weight: bold;
-    line-height: $line-height-header;
-    border-bottom: 1pt solid rgba($text-color-header, 0.5);
-  }
+// nav a {
+//   display: block;
+//     margin: 1em 0 0 0;
+//     color: rgba($text-color-header, 0.7);
+//     font-weight: bold;
+//     line-height: $line-height-header;
+//     border-bottom: 1pt solid rgba($text-color-header, 0.5);
+//   }
 
 
 //! 鼠标操作效果
 
 #headerMenuIcon{
   display: none;  // 设置复选框为：不显示
-  &:checked ~ .headerContainer {
+  &:checked ~ #header {
     .header{
       height: 100vh;
       position: relative;
@@ -83,12 +84,12 @@ nav a {
       transition: all 0.2s ease-in-out;
     }
     .headerMenuIcon {
-      .headerMenuIconAbove{
+      .topBar{
         margin-bottom: -2px;
         @include transform(rotate(45deg));
         transition: transform 0.2s ease-in-out;
       }
-      .headerMenuIconBelow{
+      .bottomBar{
         margin-top: -2px;
         @include transform(rotate(-45deg));
         transition: transform 0.2s ease-in-out;

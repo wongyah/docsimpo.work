@@ -1,33 +1,123 @@
-  //! 网页页眉
-  .headerContainer{
+//! 导航菜单
+
+// 设置背景色
+.docsimpo-bg-blue{
+  $bgcolor: $background-color-head;
+  background-color: rgba($bgcolor, 0.9);
+}
+
+@media screen and (min-width: 768px) {
+  .docsimpo-bg-blue{
     $bgcolor: $background-color-head;
     background-image: linear-gradient($bgcolor, lighten($bgcolor, 10%) 90%, $bgcolor);
-    z-index: 10;
   }
+}
 
-  .header {
+// 手机版，让页眉在公众号二维码的上层
+.z-10{
+  z-index: 10;
+}
+
+.header-height{
+  height: $height-header * 0.75;
+  line-height: $line-height-header;
+}
+
+@media screen and (min-width: 768px) {
+  .header-height {
     height: $height-header;  // 菜单栏高度，即页眉高度
-    line-height: $line-height-header;
-    @include flexLayout($v: center);
-    img{
-      @extend .icon-3em;
-      margin-right: 0.5em;
-    }
-
   }
+}
 
-  .navContainer {
-    @include flex(0 0 350px);  // 定义主导航栏的宽度，固定不变
-    nav{
-      @include flexLayout;
-      a {
-        display: inline-block;
-        color: $text-color-header;
-        font-weight: bold;
-        line-height: $line-height-header;
-      }
-    }  
+
+//! Logo和名称
+
+.logo-brand {
+  font-size: $font-size-body;
+  font-weight: bold;
+  color: $text-color-header;
+  span{
+    @include margin(0 0.5em);
   }
+}
+
+.logo-size {
+  @extend .icon-2em;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-size {
+    height: 3em;
+    width: auto;
+    vertical-align: middle;
+  }
+}
+
+
+//! 导航图标
+
+.header-nav-icon{
+  display: block;
+  height: 2em;
+  width: 2em;
+  border: none;     // 去掉图标的边框
+  &:focus, &:active{
+    outline: none;
+  }
+}
+
+
+.navbar-toggler .icon-bar{
+  display: block;
+  width: 1.2em;
+  height: 2px;
+  background-color: #fff;
+  margin: 0.4em;
+}
+
+.navbar-toggler .top-bar{
+  margin-bottom: -2px;
+  transform: rotate(45deg);
+  transform-origin: 50% 50%;
+  transition: transform 0.2s ease-in-out;
+}
+
+.navbar-toggler .bottom-bar{
+  margin-top: -2px;
+  transform: rotate(-45deg);
+  transform-origin: 50% 50%;
+  transition: transform 0.2s ease-in-out;
+}
+
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+  margin: 0.6em 0.4em;
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+  margin: 0.6em 0.4em;
+}
+
+
+//! 菜单，手机屏折叠，电脑屏展开
+
+#header-nav{
+  font-size: $font-size-body;
+  font-weight: bold;
+}
+
+#header-nav .navbar-nav .nav-link {
+  margin-top: 1em;
+  border-bottom: 1pt solid rgba($text-color-header, 0.5);
+}
+
+@media screen and (min-width: 768px) {
+  #header-nav .navbar-nav .nav-link {
+    margin-top: auto;
+    border-bottom: none;
+  }
+}
 
   
   

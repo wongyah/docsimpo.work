@@ -1,21 +1,48 @@
 <!-- Logo和菜单栏 -->
-<input type="checkbox" name="navicon" id="headerMenuIcon">
-<div class="headerContainer" id="header">
-  <div class="main header">
+<!-- <input type="checkbox" name="navicon" id="headerMenuIcon"> -->
 
-    <h1>
+<div class="navbar navbar-expand-md navbar-dark p-0 header-height" role="navigation">
+  <div class="container-fluid fixed-top docsimpo-bg-blue z-10">
+    <div class="container">
+
+      <a class="navbar-brand logo-brand" href="/assets/images/logo.png">
+        <img class="logo-size" src="https://www.docsimpo.work/assets/images/logo.png" alt="">单线条文档
+      </a>
+
+      <button class="navbar-toggler collapsed p-0 header-nav-icon" type="checkbox" data-toggle="collapse" data-target="#header-nav" aria-controls="header-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="icon-bar top-bar"></span>
+          <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <!-- 1. 电脑版 菜单右对齐
+           2. 手机版 菜单上下外边距 1em -->
+      <div class="collapse navbar-collapse justify-content-md-end" id="header-nav">
+        <div class="navbar-nav mb-5 my-md-auto">
+            <a class="nav-link active" aria-current="page" href="https://www.docsimpo.work/">首页</a>
+            <a class="nav-link" href="https://www.docsimpo.work/technical-writing/">技术写作</a>
+            <a class="nav-link" href="https://www.docsimpo.work/doc-tech/">文档技术</a>
+            <a class="nav-link" href="https://www.docsimpo.work/projects/">项目</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+    <!-- <h1>
       <img src="/assets/images/logo.png" alt="Logo">
       <span>单线条文档</span>
-    </h1>
+    </h1> -->
 
-    <div class="iconContainer">
+    <!-- <div class="iconContainer">
       <label for="headerMenuIcon" class="headerMenuIcon">
-        <span class="headerMenuIconAbove"></span>
-        <span class="headerMenuIconBelow"></span>
+        <span class="iconBar topBar"></span>
+        <span class="iconBar bottomBar"></span>
       </label>
-    </div>
+    </div> -->
 
-    <div class="navContainer">
+    <!-- <div class="navContainer">
       <nav>
         {%- for item in site.data.webinfo.header-menu -%}
         <a href=" {{ item.link }} " {%- if page.url == item.link -%} class="current-page" {%- endif -%}>
@@ -23,7 +50,5 @@
         </a>
         {%- endfor -%}
       </nav>
-    </div>
+    </div> -->
 
-  </div>
-</div>

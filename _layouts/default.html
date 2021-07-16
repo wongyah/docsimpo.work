@@ -2,26 +2,33 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     {%- if page.url == "/" -%}
       <title>{{ site.data.webinfo.general.cn.name }} - {{ site.data.webinfo.general.cn.slogan }}</title>
-      {%- elsif page.name == "index.html" -%}
-        <title>{{ page.title }} - {{ site.data.webinfo.general.cn.name }}</title>
-      {%- elsif page.url contains "/technical-writing/" -%}
-        <title>{{ page.title | strip_html }} - 技术写作</title>
-      {%- elsif page.url contains "/doc-tech/" -%}
-        <title>{{ page.title | strip_html }} - 文档技术</title>
-      {%- else -%}
-        <title>{{ page.title }}</title>
+    {%- elsif page.name == "index.html" -%}
+      <title>{{ page.title }} - {{ site.data.webinfo.general.cn.name }}</title>
+    {%- elsif page.url contains "/technical-writing/" -%}
+      <title>{{ page.title | strip_html }} - 技术写作</title>
+    {%- elsif page.url contains "/doc-tech/" -%}
+      <title>{{ page.title | strip_html }} - 文档技术</title>
+    {%- else -%}
+      <title>{{ page.title }}</title>
     {%- endif -%}
-    <link rel="stylesheet" media="screen and (max-width: 875px)" href="/assets/css/homeMax875.css">
-    <link rel="stylesheet" media="screen and (min-width: 875px)" href="/assets/css/homeMin875.css">
+    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/custom.css">
+    <!-- <link rel="stylesheet" media="screen and (max-width: 875px)" href="/assets/css/homeMax875.css">
+    <link rel="stylesheet" media="screen and (min-width: 875px)" href="/assets/css/homeMin875.css"> -->
   </head>
   <body>
     {%- include header.html -%}
-    <div class="content">{{ content }}</div>
+    <div class="bodyHolder">{{ content }}</div>
     {%- include footer.html -%}
 
+
+
+
     <script src="/assets/js/docsimpo.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
   </body>
 </html>
