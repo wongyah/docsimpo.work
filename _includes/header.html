@@ -18,10 +18,15 @@
            2. 手机版 菜单上下外边距 1em -->
       <div class="collapse navbar-collapse justify-content-md-end" id="header-nav">
         <div class="navbar-nav mb-5 my-md-auto">
-            <a class="nav-link active" aria-current="page" href="https://www.docsimpo.work/">首页</a>
-            <a class="nav-link" href="https://www.docsimpo.work/technical-writing/">技术写作</a>
-            <a class="nav-link" href="https://www.docsimpo.work/doc-tech/">文档技术</a>
-            <a class="nav-link" href="https://www.docsimpo.work/projects/">项目</a>
+          {%- for item in site.data.webinfo.header-menu -%}
+            {%- assign itemClass = "nav-link" -%}
+            {%- assign currentClass = "nav-link active" -%}
+            <a class="{%- if page.url == item.link -%} {{ currentClass }} {%- else -%} {{ itemClass }} {%- endif -%}"
+                {%- if page.url == item.link -%} aria-current="page" {%- endif -%}
+                href="{{ item.link }}">
+              {{ item.name }}
+            </a>
+          {%- endfor -%}
         </div>
       </div>
 
@@ -29,26 +34,4 @@
   </div>
 </div>
 
-
-    <!-- <h1>
-      <img src="/assets/images/logo.png" alt="Logo">
-      <span>单线条文档</span>
-    </h1> -->
-
-    <!-- <div class="iconContainer">
-      <label for="headerMenuIcon" class="headerMenuIcon">
-        <span class="iconBar topBar"></span>
-        <span class="iconBar bottomBar"></span>
-      </label>
-    </div> -->
-
-    <!-- <div class="navContainer">
-      <nav>
-        {%- for item in site.data.webinfo.header-menu -%}
-        <a href=" {{ item.link }} " {%- if page.url == item.link -%} class="current-page" {%- endif -%}>
-          {{ item.name }}
-        </a>
-        {%- endfor -%}
-      </nav>
-    </div> -->
 
