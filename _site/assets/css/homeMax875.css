@@ -1,7 +1,7 @@
 @charset "UTF-8";
-html * { margin: 0; padding: 0; box-sizing: border-box; font-size: 100%; font-family: inherit; color: inherit; letter-spacing: normal; line-height: 1.5em; text-align: left; scroll-behavior: smooth; }
+html * { margin: 0; padding: 0; box-sizing: border-box; font-size: 100%; color: inherit; letter-spacing: normal; line-height: 1.5em; text-align: left; scroll-behavior: smooth; }
 
-body { display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; flex-direction: column; min-height: 100vh; background-color: #fff; font-family: calibri, Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei"; color: #454545; }
+body { display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; flex-direction: column; min-height: 100vh; background-color: #fff; color: #454545; }
 
 .bodyHolder { flex-grow: 2; }
 
@@ -36,6 +36,10 @@ a { color: #6699cc; text-decoration: none; letter-spacing: inherit; font-size: i
 *:lang(en) { letter-spacing: normal; }
 
 *:lang(cn) { letter-spacing: 0.15625em; }
+
+h1, .services h2, .sloganText p, .sloganText h2, h2, h3, h4, h5, h6 { font-weight: bold; }
+
+h4 { line-height: 1.875em; }
 
 .mermaid { font-size: 0.9rem; text-align: center; }
 

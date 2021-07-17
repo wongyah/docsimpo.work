@@ -14,10 +14,10 @@ html *{
   padding: 0;
   box-sizing: border-box;
   font-size: 100%;
-  font-family: inherit;
+  // font-family: $font-family-body !important;
   color: inherit;
   letter-spacing: $letter-spacing-default;
-  line-height: $line-height-default;
+  line-height: $line-height-base;
   text-align: left;
   scroll-behavior: smooth;
 }
@@ -31,7 +31,7 @@ body{
   flex-direction: column;
   min-height: 100vh;
   background-color: $background-color-page;
-  font-family: $font-family-body;
+  // font-family: inherit !important;
   color: $text-color-body;
 }
 

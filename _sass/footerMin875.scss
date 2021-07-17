@@ -12,44 +12,20 @@
 //! 网页页脚
 
 // 页脚文本格式
-.footer {
-  @include distributedLayout($margin: 1rem);
 
-  h1{
-    font-size: $font-size-body;
-    color: lighten($background-color-head, 30%);
-    line-height: $line-height-content;
-    margin-top: 0;
-  }
-  p{
-    font-size: $font-size-footer;
-    color: lighten($background-color-head, 18%);
-    line-height: $line-height-footer;
-  }
+.docsimpo-text-lightblue-1 {color: lighten($background-color-head, 15%);}
+
+.docsimpo-text-lightblue-2 {color: lighten($background-color-head, 30%);}
+
+#footer {
+  h4 { @extend .docsimpo-text-lightblue-2 }
+  p { @extend .docsimpo-text-lightblue-1 }
 }
+ 
 
-p.copyright{
-  font-size: $font-size-footer;
-  color: lighten($background-color-head, 18%);
-  line-height: $line-height-footer;
-  padding: 1rem 0;
-}
-  
+//! 微信二维码
 
-
-/* 微信二维码 */
-.footer .media {
-  position: relative;
-  h1{
-    display: inline-block;
-    @include margin(null 0.1em);
-    // margin: 0 0.1em;
-    &:first-child{
-      margin-left: 0;
-    }
-  }
-}
-
+.footer .media {position: relative;}
 
 // 将二维码定位在页脚上方
 
@@ -63,19 +39,21 @@ p.copyright{
   top: -8rem;
 }
 
+#icon-wechat:clicked ~ #qrcode-wechat {display: inline-block;}
 
-#icon-linkedin:hover {
-  padding-bottom: 0.3em;
-  border-bottom: 2pt solid rgba($text-color-header, 0.6);
+@media screen and (min-width: 768px) {
+  #icon-wechat:hover ~ #qrcode-wechat {display: inline-block;}
+}
+
+
+// #icon-linkedin:hover {
+//   padding-bottom: 0.3em;  
+//   border-bottom: 2pt solid rgba($text-color-header, 0.6);
   
-  & ~ #qrcode-linkedin{
-    display: inline-block;
-  }
-}
-
-#icon-wechat:hover ~ #qrcode-wechat{
-  display: inline-block;
-}
+//   & ~ #qrcode-linkedin{
+//     display: inline-block;  
+//   }
+// }
 
 
 /* copyright */

@@ -1,7 +1,7 @@
 @charset "UTF-8";
-html * { margin: 0; padding: 0; box-sizing: border-box; font-size: 100%; font-family: inherit; color: inherit; letter-spacing: normal; line-height: 1.5em; text-align: left; scroll-behavior: smooth; }
+html * { margin: 0; padding: 0; box-sizing: border-box; font-size: 100%; color: inherit; letter-spacing: normal; line-height: 1.5em; text-align: left; scroll-behavior: smooth; }
 
-body { display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; flex-direction: column; min-height: 100vh; background-color: #fff; font-family: calibri, Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei"; color: #454545; }
+body { display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; flex-direction: column; min-height: 100vh; background-color: #fff; color: #454545; }
 
 .bodyHolder { flex-grow: 2; }
 
@@ -37,11 +37,19 @@ a { color: #6699cc; text-decoration: none; letter-spacing: inherit; font-size: i
 
 *:lang(cn) { letter-spacing: 0.15625em; }
 
+h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+
+h4 { line-height: 1.875em; }
+
 .mermaid { font-size: 0.9rem; text-align: center; }
 
-.docsimpo-bg-blue { background-color: rgba(102, 153, 204, 0.9); }
+.docsimpo-bg-blue { background-color: #6699cc; }
 
-@media screen and (min-width: 768px) { .docsimpo-bg-blue { background-image: linear-gradient(#6699cc, #8cb3d9 90%, #6699cc); } }
+.docsimpo-bg-trnsp-blue, .bg-header { background-color: rgba(102, 153, 204, 0.9); }
+
+.docsimpo-bg-gradient-blue { background-image: linear-gradient(#6699cc, #8cb3d9 90%, #6699cc); }
+
+@media screen and (min-width: 768px) { .bg-header { background-image: linear-gradient(#6699cc, #8cb3d9 90%, #6699cc); } }
 
 .z-10 { z-index: 10; }
 
@@ -247,32 +255,17 @@ h6.no-style { font-size: 0.75em; margin-top: 1.67em; margin-bottom: 1.67em; }
 
 .above-footer p { color: #ababab; line-height: 2em; }
 
-.footer { display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; justify-content: space-between; align-items: stretch; list-style-type: none; /* 去掉<ul>默认的项目符号 */ margin: 1rem 0; }
+.docsimpo-text-lightblue-1, #footer p { color: #9fbfdf; }
 
-.footer li { width: 27.5%; }
+.docsimpo-text-lightblue-2, #footer h4 { color: #d9e6f2; }
 
-.footer li:nth-child(2) { margin: 0 5%; /* = (正文宽度 - 3×单元宽度) ÷ 2 */ }
-
-.footer h1 { font-size: 1rem; color: #d9e6f2; line-height: 2em; margin-top: 0; }
-
-.footer p { font-size: 0.9rem; color: #abc7e3; line-height: 1.4em; }
-
-p.copyright { font-size: 0.9rem; color: #abc7e3; line-height: 1.4em; padding: 1rem 0; }
-
-/* 微信二维码 */
 .footer .media { position: relative; }
-
-.footer .media h1 { display: inline-block; margin-right: 0.1em; margin-left: 0.1em; }
-
-.footer .media h1:first-child { margin-left: 0; }
 
 .qrcode { display: none; /*! 删掉这一行，二维的码的边框就聚拢到中心了。可考虑设置在img上 */ padding: 10px 10px; /* 二维码的边框宽度 */ background-image: radial-gradient(#8cb3d9, #4080bf); border-radius: 5px; position: absolute; top: -8rem; }
 
-#icon-linkedin:hover { padding-bottom: 0.3em; border-bottom: 2pt solid rgba(255, 255, 255, 0.6); }
+#icon-wechat:clicked ~ #qrcode-wechat { display: inline-block; }
 
-#icon-linkedin:hover ~ #qrcode-linkedin { display: inline-block; }
-
-#icon-wechat:hover ~ #qrcode-wechat { display: inline-block; }
+@media screen and (min-width: 768px) { #icon-wechat:hover ~ #qrcode-wechat { display: inline-block; } }
 
 /* copyright */
 #copyright-max875 { display: none; }

@@ -156,6 +156,13 @@ a{
   letter-spacing: $letter-spacing-cn;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+h4 {
+  line-height: $line-height-high;
+}
 
 //! Mermaid
 
