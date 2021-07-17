@@ -25,6 +25,8 @@ body { display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; displa
 
 .icon-80px { height: 80px; vertical-align: middle; }
 
+.icon-96px { height: 96px; vertical-align: middle; }
+
 .icon-2em, .services h1 .serviceIcon, .services h2 .serviceIcon, .services .sloganText p .serviceIcon, .sloganText .services p .serviceIcon { height: 2em; vertical-align: middle; }
 
 .icon-3em { height: 3em; vertical-align: middle; }

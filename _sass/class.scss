@@ -116,7 +116,7 @@ $screen-widths:
 //! 图标
 
 
-$iconSize: 21px, 80px, 2em, 3em;
+$iconSize: 21px, 80px, 96px, 2em, 3em;
 
 @each $size, $width in $iconSize {
   @include iconSize($size, $width);
