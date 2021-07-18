@@ -1,15 +1,11 @@
 @charset "UTF-8";
-html * { margin: 0; padding: 0; box-sizing: border-box; font-size: 100%; color: inherit; letter-spacing: normal; line-height: 1.5625em; text-align: left; scroll-behavior: smooth; }
+html * { margin: 0; padding: 0; box-sizing: border-box; color: inherit; letter-spacing: normal; line-height: 1.5625em; text-align: left; scroll-behavior: smooth; }
 
 body { display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; flex-direction: column; min-height: 100vh; background-color: #fff; color: #454545; }
 
 .bodyHolder { flex-grow: 2; }
 
-.c-container, .sloganContainer, .footerContainer { width: 100%; /* 容器宽度，确保背景颜色填充满屏幕宽度 */ display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; justify-content: center; align-items: stretch; /* 定义容器类型，并水平居中子容器 */ }
-
-.footerContainer { background-color: #6699cc; }
-
-.sloganContainer { background-image: linear-gradient(#ffffb3 85%, #6699cc); }
+.c-container { width: 100%; /* 容器宽度，确保背景颜色填充满屏幕宽度 */ display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; justify-content: center; align-items: stretch; /* 定义容器类型，并水平居中子容器 */ }
 
 .bodyFont { font-family: calibri, Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei"; font-size: 1rem; }
 
@@ -41,7 +37,7 @@ a { color: #6699cc; text-decoration: none; letter-spacing: inherit; font-size: i
 
 h1, .services h2, .sloganText p, .sloganText h2, h2, h3, h4, h5, h6 { font-weight: bold; }
 
-h4 { line-height: 1.953125em; }
+h6 { line-height: 1.953125em; }
 
 .mermaid { font-size: 0.9rem; text-align: center; }
 

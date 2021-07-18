@@ -1,15 +1,11 @@
 @charset "UTF-8";
-html * { margin: 0; padding: 0; box-sizing: border-box; font-size: 100%; color: inherit; letter-spacing: normal; line-height: 1.5625em; text-align: left; scroll-behavior: smooth; }
+html * { margin: 0; padding: 0; box-sizing: border-box; color: inherit; letter-spacing: normal; line-height: 1.5625em; text-align: left; scroll-behavior: smooth; }
 
 body { display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; flex-direction: column; min-height: 100vh; background-color: #fff; color: #454545; }
 
 .bodyHolder { flex-grow: 2; }
 
-.c-container, .sloganContainer, .footerContainer { width: 100%; /* 容器宽度，确保背景颜色填充满屏幕宽度 */ display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; justify-content: center; align-items: stretch; /* 定义容器类型，并水平居中子容器 */ }
-
-.footerContainer { background-color: #6699cc; }
-
-.sloganContainer { background-image: linear-gradient(#ffffb3 85%, #6699cc); }
+.c-container { width: 100%; /* 容器宽度，确保背景颜色填充满屏幕宽度 */ display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; justify-content: center; align-items: stretch; /* 定义容器类型，并水平居中子容器 */ }
 
 .bodyFont { font-family: calibri, Helvetica, sans-serif, "Microsoft YaHei UI", "Microsoft YaHei"; font-size: 1rem; }
 
@@ -23,11 +19,11 @@ body { display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; displa
 
 .icon-21px { height: 21px; vertical-align: middle; }
 
-.icon-80px, .services h1 .serviceIcon { height: 80px; vertical-align: middle; }
+.icon-80px { height: 80px; vertical-align: middle; }
 
 .icon-96px { height: 96px; vertical-align: middle; }
 
-.icon-2em, .logo-size { height: 2em; vertical-align: middle; }
+.icon-2em, .icon-service, .logo-size { height: 2em; vertical-align: middle; }
 
 .icon-3em { height: 3em; vertical-align: middle; }
 
@@ -41,7 +37,7 @@ a { color: #6699cc; text-decoration: none; letter-spacing: inherit; font-size: i
 
 h1, h2, h3, h4, h5, h6 { font-weight: bold; }
 
-h4 { line-height: 1.953125em; }
+h6 { line-height: 1.953125em; }
 
 .mermaid { font-size: 0.9rem; text-align: center; }
 
@@ -91,13 +87,19 @@ h4 { line-height: 1.953125em; }
 
 @media only screen and (max-width: 1120px) { .main { width: 784px; } }
 
-.slogan { display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; justify-content: start; align-items: start; padding-top: 4rem; /* 定义鹿角的上边距 */ }
+.docsimpo-bg-gradient-slogan { background-image: linear-gradient(#ffffb3 85%, #6699cc); }
 
-@media only screen and (min-width: 1440px) { .slogan { height: 720px; } }
+#slogan { padding-top: 3rem; }
 
-@media only screen and (max-width: 1440px) { .slogan { height: 720px; } }
+@media screen and (min-width: 768px) { #slogan { padding-top: 4rem; } }
 
-@media only screen and (max-width: 1120px) { .slogan { height: 560px; } }
+.slogan-height { height: 80vw; }
+
+@media screen and (min-width: 576px) { .slogan-height { height: 540px; } }
+
+@media screen and (min-width: 768px) { .slogan-height { height: 720px; } }
+
+@media screen and (min-width: 992px) { .slogan-height { height: 100vh; } }
 
 .sloganText { margin-top: 1em; }
 
@@ -107,15 +109,11 @@ h4 { line-height: 1.953125em; }
 
 span#cong { font-size: 1.5em; color: #f471da; padding-right: 0.1em; /* 拉开高亮文字“好”与“用”的间距 */ }
 
-.services { display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; justify-content: space-between; align-items: stretch; list-style-type: none; /* 去掉<ul>默认的项目符号 */ margin: 100px 0; }
+.services { margin-top: 6.5rem; margin-bottom: 6.5rem; }
 
-.services li { width: 27.5%; }
+.icon-service { line-height: 2em; display: inline-block; }
 
-.services li:nth-child(2) { margin: 0 5%; /* = (正文宽度 - 3×单元宽度) ÷ 2 */ }
-
-.services h2 { font-size: 1.2rem; margin-top: 1em; /* 定义服务图标与服务名称之间的间距 */ }
-
-.services p { text-align: justify; margin-top: 0.5em; /* 定义服务名称与服务描述之间的间距 */ }
+@media screen and (min-width: 992px) { .icon-service { height: 80px; width: auto; vertical-align: middle; } }
 
 .pageContainer { margin-top: 4rem; margin-bottom: 4rem; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; }
 
@@ -241,23 +239,11 @@ div.container-exmp { border-top-width: 0.05em; border-bottom-width: 0.05em; bord
 
 .language-plaintext { color: blue; }
 
-h1.no-style { font-size: 2em; margin-top: 0.67em; margin-bottom: 0.67em; color: #454545; border: none; }
-
-h2.no-style { font-size: 1.5em; margin-top: 0.75em; margin-bottom: 0.75em; color: #454545; }
-
-h3.no-style { font-size: 1.17em; margin-top: 0.83em; margin-bottom: 0.83em; }
-
-h4.no-style { font-size: 1em; margin-top: 1.12em; margin-bottom: 1.12em; }
-
-h5.no-style { font-size: 0.83em; margin-top: 1.5em; margin-bottom: 1.5em; }
-
-h6.no-style { font-size: 0.75em; margin-top: 1.67em; margin-bottom: 1.67em; }
-
 .ad-self-bottom p { color: #ababab; line-height: 1.953125em; }
 
 .docsimpo-text-lightblue-1, #footer p { color: #9fbfdf; }
 
-.docsimpo-text-lightblue-2, #footer h4 { color: #d9e6f2; }
+.docsimpo-text-lightblue-2, #footer h6 { color: #d9e6f2; }
 
 .media { position: relative; }
 

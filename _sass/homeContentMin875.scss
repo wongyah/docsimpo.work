@@ -6,12 +6,28 @@
   
 //! Slogan 宣传语
 
+.docsimpo-bg-gradient-slogan {
+  $bghead: $background-color-head;
+  $bgslogan: $background-color-slogan;
+  background-image: linear-gradient($bgslogan 85%, $bghead);
+}
+
+#slogan {
+  padding-top: 3rem;
+  @media screen and (min-width: 768px) {padding-top: 4rem;}
+}
+
+.slogan-height {
+  height: $height-slogan-square;
+  @media screen and (min-width: 576px) {height: 540px;}
+  @media screen and (min-width: 768px) {height: 720px;}
+  @media screen and (min-width: 992px) {height: 100vh;}
+}
+
 .slogan{
-  @each $min-or-max, $screen-width in $screen-widths {     // slogan高度设定为宽度的一半
-    @include sloganHeight($min-or-max, $screen-width);
-  }
-  @include flexLayout($h: start, $v: start);
-  padding-top: 4rem; /* 定义鹿角的上边距 */
+  // @each $min-or-max, $screen-width in $screen-widths {
+  //   @include sloganHeight($min-or-max, $screen-width);
+  // }
   @extend %mascot;
 }
 
@@ -35,30 +51,25 @@ span#cong{
   color: $text-color-emphasized;
   padding-right: 0.1em; /* 拉开高亮文字“好”与“用”的间距 */
 }
-  
-  //! 服务范围
-  
-.services {
-  @include distributedLayout($margin: 100px);  
 
-  // 服务图标
-  h1 {
-    .serviceIcon{
-      @extend .icon-80px;
-    }
-  }
 
-  // 服务名称
-  h2{
-    font-size: $font-size-header;
-    margin-top: 1em; /* 定义服务图标与服务名称之间的间距 */
-  }  
-  
-  // 服务描述
-  p{
-    text-align:justify;
-    margin-top: 0.5em; /* 定义服务名称与服务描述之间的间距 */
+//! 服务范围
+
+.services {@include margin(6.5rem null);}
+
+.icon-service {
+  @extend .icon-2em;
+  line-height: 2em;
+  display: inline-block;
+}
+
+@media screen and (min-width: 992px) {
+  .icon-service {
+    height: 80px;
+    width: auto;
+    vertical-align: middle;
   }
 }
+
 
 

@@ -8,17 +8,17 @@
   align-items: $v;
 }  
 
-@mixin distributedLayout($margin) {
-  @include flexLayout;
-  list-style-type: none; /* 去掉<ul>默认的项目符号 */
-  margin: $margin 0; //定义与上下内容块的间距
-  li{
-    width: 27.5%;
-    &:nth-child(2){
-      margin: 0 5%; /* = (正文宽度 - 3×单元宽度) ÷ 2 */
-    }
-  }
-}
+// @mixin distributedLayout($margin) {
+//   @include flexLayout;
+//   list-style-type: none; /* 去掉<ul>默认的项目符号 */
+//   margin: $margin 0; //定义与上下内容块的间距
+//   li{
+//     width: 27.5%;
+//     &:nth-child(2){
+//       margin: 0 5%; /* = (正文宽度 - 3×单元宽度) ÷ 2 */
+//     }
+//   }
+// }
 
 
 
@@ -35,17 +35,11 @@
 //   top: 0; /* 将容器固定在屏幕顶端，否则它的起始位置默认与第一个流元素平齐 */
 // }  
 
-.footerContainer{
-  @extend .c-container;
-  background-color: $background-color-head;
-}  
+// .footerContainer{
+//   @extend .c-container;
+//   background-color: $background-color-head;
+// }  
 
-.sloganContainer{
-  @extend .c-container;
-  $bghead: $background-color-head;
-  $bgslogan: $background-color-slogan;
-  background-image: linear-gradient($bgslogan 85%, $bghead);
-}  
 
 // 二级容器（正文宽度）
 
@@ -160,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
-h4 {
+h6 {
   line-height: $line-height-high;
 }
 

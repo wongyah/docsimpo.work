@@ -276,38 +276,38 @@ div.container-exmp{
 
 //! 示例输出-引用
 
-h1.no-style{
-  font-size: 2em;
-  @include margin(0.67em null);
-  color: $text-color-body;
-  border: none;
-}
+// h1.no-style{
+//   font-size: 2em;
+//   @include margin(0.67em null);
+//   color: $text-color-body;
+//   border: none;
+// }
 
-h2.no-style{
-  font-size: 1.5em;
-  @include margin(0.75em null);
-  color: $text-color-body;
- }
+// h2.no-style{
+//   font-size: 1.5em;
+//   @include margin(0.75em null);
+//   color: $text-color-body;
+//  }
 
-h3.no-style{
-  font-size: 1.17em;
-  @include margin(0.83em null)
-}
+// h3.no-style{
+//   font-size: 1.17em;
+//   @include margin(0.83em null)
+// }
 
-h4.no-style{
-  font-size: 1em;
-  @include margin(1.12em null);
-}
+// h4.no-style{
+//   font-size: 1em;
+//   @include margin(1.12em null);
+// }
 
-h5.no-style{
-  font-size: 0.83em;
-  @include margin(1.5em null);
-}
+// h5.no-style{
+//   font-size: 0.83em;
+//   @include margin(1.5em null);
+// }
 
-h6.no-style{
-  font-size: 0.75em;
-  @include margin(1.67em null)
-}
+// h6.no-style{
+//   font-size: 0.75em;
+//   @include margin(1.67em null)
+// }
 
 
 //! 暂时不显示页脚

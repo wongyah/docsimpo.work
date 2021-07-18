@@ -15,7 +15,7 @@
 .docsimpo-text-lightblue-2 {color: lighten($background-color-head, 30%);}
 
 #footer {
-  h4 { @extend .docsimpo-text-lightblue-2 }
+  h6 { @extend .docsimpo-text-lightblue-2 }
   p { @extend .docsimpo-text-lightblue-1 }
 }
  
