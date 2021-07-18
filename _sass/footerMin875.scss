@@ -1,11 +1,8 @@
   
-//! 页脚之上
-.above-footer{
-  margin-bottom: 1em;
-  p{
-    color: lighten($text-color-body, 40%);
-    line-height: $line-height-content;
-  }
+//! 页底推广词
+.ad-self-bottom p {
+  color: lighten($text-color-body, 40%);
+  line-height: $line-height-high;
 }
 
 
@@ -42,22 +39,16 @@
   border-radius: 5px;
 }
 
-// 将二维码定位在页脚上方
+// 将二维码定位在页脚上方，并隐藏
 #wechat-qr {
   position: absolute;
   top: -6rem;
   left: 9rem;
-}
-
-#wechat-qr {
   display: none;
-  height: 0;
 }
 
 
 //! 点击、鼠标滑过时的动作
-
-
 
 #wechat-qr-checkbox {
   display: none;
@@ -71,27 +62,7 @@
 }
 
 
-
-// #icon-wechat:clicked ~ #qrcode-wechat {display: inline-block;}
-
 @media screen and (min-width: 768px) {
   #icon-wechat:hover ~ #wechat-qr {display: inline-block;}
-
-}
-
-
-// #icon-linkedin:hover {
-//   padding-bottom: 0.3em;  
-//   border-bottom: 2pt solid rgba($text-color-header, 0.6);
-  
-//   & ~ #qrcode-linkedin{
-//     display: inline-block;  
-//   }
-// }
-
-
-/* copyright */
-#copyright-max875{
-  display: none;
 }
 

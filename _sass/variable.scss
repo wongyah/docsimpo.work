@@ -37,8 +37,9 @@ $letter-spacing-extra: 0.3em;
 
 $line-height-header: 3em;
 $line-height-footer: 1.4em;
-$line-height-base: 1.5em;
-$line-height-high: modular-scale(1, $line-height-base);
+$line-height-base: 1em;
+$line-height-default: modular-scale(2, $line-height-base);
+$line-height-high: modular-scale(3, $line-height-base);
 $line-height-content: 2em;
 
 //! 布局

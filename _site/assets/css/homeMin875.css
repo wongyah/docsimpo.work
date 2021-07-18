@@ -1,5 +1,5 @@
 @charset "UTF-8";
-html * { margin: 0; padding: 0; box-sizing: border-box; font-size: 100%; color: inherit; letter-spacing: normal; line-height: 1.5em; text-align: left; scroll-behavior: smooth; }
+html * { margin: 0; padding: 0; box-sizing: border-box; font-size: 100%; color: inherit; letter-spacing: normal; line-height: 1.5625em; text-align: left; scroll-behavior: smooth; }
 
 body { display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; flex-direction: column; min-height: 100vh; background-color: #fff; color: #454545; }
 
@@ -41,7 +41,7 @@ a { color: #6699cc; text-decoration: none; letter-spacing: inherit; font-size: i
 
 h1, h2, h3, h4, h5, h6 { font-weight: bold; }
 
-h4 { line-height: 1.875em; }
+h4 { line-height: 1.953125em; }
 
 .mermaid { font-size: 0.9rem; text-align: center; }
 
@@ -253,9 +253,7 @@ h5.no-style { font-size: 0.83em; margin-top: 1.5em; margin-bottom: 1.5em; }
 
 h6.no-style { font-size: 0.75em; margin-top: 1.67em; margin-bottom: 1.67em; }
 
-.above-footer { margin-bottom: 1em; }
-
-.above-footer p { color: #ababab; line-height: 2em; }
+.ad-self-bottom p { color: #ababab; line-height: 1.953125em; }
 
 .docsimpo-text-lightblue-1, #footer p { color: #9fbfdf; }
 
@@ -271,17 +269,12 @@ h6.no-style { font-size: 0.75em; margin-top: 1.67em; margin-bottom: 1.67em; }
 
 .qr { display: inline-block; /*! 删掉这一行，二维的码的边框就聚拢到中心了。可考虑设置在img上 */ padding: 10px 10px; /* 二维码的边框宽度 */ background-image: radial-gradient(#8cb3d9, #4080bf); border-radius: 5px; }
 
-#wechat-qr { position: absolute; top: -6rem; left: 9rem; }
-
-#wechat-qr { display: none; height: 0; }
+#wechat-qr { position: absolute; top: -6rem; left: 9rem; display: none; }
 
 #wechat-qr-checkbox { display: none; }
 
 @media screen and (max-width: 767px) { #wechat-qr-checkbox:checked ~ #wechat-qr { display: inline-block; } }
 
 @media screen and (min-width: 768px) { #icon-wechat:hover ~ #wechat-qr { display: inline-block; } }
-
-/* copyright */
-#copyright-max875 { display: none; }
 
 /*# sourceMappingURL=homeMin875.css.map */
