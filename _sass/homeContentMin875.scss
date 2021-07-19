@@ -6,45 +6,77 @@
   
 //! Slogan 宣传语
 
+// 宣传栏背景
 .docsimpo-bg-gradient-slogan {
   $bghead: $background-color-head;
   $bgslogan: $background-color-slogan;
   background-image: linear-gradient($bgslogan 85%, $bghead);
 }
 
+// 躲避页眉的遮挡
 #slogan {
   padding-top: 3rem;
   @media screen and (min-width: 768px) {padding-top: 4rem;}
-}
+}  
 
+// 宣传栏高度
 .slogan-height {
-  height: $height-slogan-square;
+  height: 90vw;
   @media screen and (min-width: 576px) {height: 540px;}
-  @media screen and (min-width: 768px) {height: 720px;}
-  @media screen and (min-width: 992px) {height: 100vh;}
+  @media screen and (min-width: 768px) {height: 540px;}
+  @media screen and (min-width: 992px) {height: 604px;}
+  @media screen and (min-width: 1200px) {height: 720px;}
 }
 
-.slogan{
-  // @each $min-or-max, $screen-width in $screen-widths {
-  //   @include sloganHeight($min-or-max, $screen-width);
-  // }
-  @extend %mascot;
+// 宣传语字号
+.font-size-slogan {
+  font-size: 6vw;
+  @media screen and (min-width: 576px) {font-size: 2.16rem;}
+  @media screen and (min-width: 768px) {font-size: 2.16rem;}
+  @media screen and (min-width: 992px) {font-size: 3rem;}
+  @media screen and (min-width: 1200px) {font-size: 3.5rem;}
 }
+
+// 副语字号
+.font-size-aux {
+  font-size: 3vw;
+  @media screen and (min-width: 533px) {font-size: 1rem;}
+}
+
+// 宣传语栏里的吉祥鹿
+.mascot-in-slogan {
+  background: {
+    image: url(/assets/images/mascot/Afront.png);
+    position: right bottom;
+    repeat: no-repeat;
+    size: 20% auto;
+    clip: border-box;
+  }
+}
+
+
+// 间距调整
 
 .sloganText{
-  margin-top: 1em;
-    h2{
-      margin-top: -0.2em;
-      margin-bottom: 0.3em; /* 定义与下方Slogan副语的间距(0.5em)，以及左侧缩进(3em)。 */
-    }
-    
-    p{
-      color: $text-color-slogan-p;
-      text-shadow: 0px 0px 2px #FFF;
-      letter-spacing: $letter-spacing-extra;
-      line-height: $line-height-content; /* 定义Slogan副语的段落间距 */
-    }
-  }
+  margin-top: 10%;
+  @media screen and (min-width: 992px) {margin-top: 4em;}
+}
+  
+.slogan-spacing {@include margin(-0.2em null 0.3em);}
+
+
+// 文字效果（阴影、颜色等）
+
+.sloganFont{
+  color: darken($background-color-head, 5%);
+  text-shadow: 0.032em 0.032em 0px darken($color: $background-color-head, $amount: 50%);
+}
+
+.slogan-aux-font {
+  color: $text-color-slogan-p;
+  text-shadow: 0px 0px 2px #FFF;
+  line-height: $line-height-content; /* 定义Slogan副语的段落间距 */
+}
   
 span#cong{
   font-size: 1.5em;

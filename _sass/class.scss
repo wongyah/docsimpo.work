@@ -8,19 +8,6 @@
   align-items: $v;
 }  
 
-// @mixin distributedLayout($margin) {
-//   @include flexLayout;
-//   list-style-type: none; /* 去掉<ul>默认的项目符号 */
-//   margin: $margin 0; //定义与上下内容块的间距
-//   li{
-//     width: 27.5%;
-//     &:nth-child(2){
-//       margin: 0 5%; /* = (正文宽度 - 3×单元宽度) ÷ 2 */
-//     }
-//   }
-// }
-
-
 
 // 一级容器（填充满屏背景色）
 
@@ -28,30 +15,6 @@
   width: 100%;   /* 容器宽度，确保背景颜色填充满屏幕宽度 */
   @include flexLayout($h: center,);  /* 定义容器类型，并水平居中子容器 */
 }  
-
-// .headerContainer{
-//   @extend .c-container;
-//   position: fixed;
-//   top: 0; /* 将容器固定在屏幕顶端，否则它的起始位置默认与第一个流元素平齐 */
-// }  
-
-// .footerContainer{
-//   @extend .c-container;
-//   background-color: $background-color-head;
-// }  
-
-
-// 二级容器（正文宽度）
-
-// .header{
-//   h1 {
-    // @include flex(0 0 165px);  // 定义商标的宽度，固定不变
-    // width: 165px;
-    // @include flexLayout($h: start, $v: center);
-    // font-size: $font-size-body; /* h1的默认字号比正文大，将其改为正文字号 */
-    // color: $text-color-header;
-//   }
-// }  
 
 
 // 屏幕适配
@@ -97,32 +60,8 @@ $screen-widths:
 }
 
 
-.sloganFont{
-  font-family: $font-family-slogan;
-  color: darken($background-color-head, 5%);
-  text-shadow: 0.032em 0.032em 0px darken($color: $background-color-head, $amount: 50%);
-  letter-spacing: $letter-spacing-expand;
-  @each $min-or-max, $screen-width in $screen-widths {
-    @include font-size-slogan($min-or-max, $screen-width);
-  }
-}
-
-//! 图标
 
 
-
-
-//! Slogan 背景图像
-
-%mascot {
-  background: {
-    image: url(/assets/images/mascot/Afront.png);
-    position: right bottom;
-    repeat: no-repeat;
-    size: 20% auto;
-    clip: border-box;
-  }
-}
 
 //! 文章缩略图
 

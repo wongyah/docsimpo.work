@@ -10,7 +10,7 @@
     height: $height-slogan-square;
     @include flexLayout($h: center, $v: start);
     padding-top: 4rem;
-    @extend %mascot;
+    // @extend %mascot;
   }
   
   .sloganFont {

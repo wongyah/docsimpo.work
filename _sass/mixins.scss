@@ -23,7 +23,6 @@
     vertical-align: middle;
 }
 
-
 $iconSize: 21px, 80px, 96px, 2em, 3em;
 
 // %iconSize, %iconSize-md
@@ -44,3 +43,28 @@ $iconSize: 21px, 80px, 96px, 2em, 3em;
     @extend %icon-#{$size};
   }
 }
+
+//! 响应式字体
+
+@media screen and (max-width: 1200px) {
+
+  legend {font-size: calc(1.275rem + 0.3vw);}
+
+  h1, .h1 {font-size: calc(1.375rem + 1.5vw);}
+  h2, .h2 {font-size: calc(1.325rem + 0.9vw);}
+  h3, .h3 {font-size: calc(1.3rem + 0.6vw);}
+  h4, .h4 {font-size: calc(1.275rem + 0.3vw);}
+
+  .display-1 {font-size: calc(1.725rem + 5.7vw);}
+  .display-2 {font-size: calc(1.675rem + 5.1vw);}
+  .display-3 {font-size: calc(1.575rem + 3.9vw);}
+  .display-4 {font-size: calc(1.475rem + 2.7vw);}
+
+  .close {font-size: calc(1.275rem + 0.3vw);}
+
+  // .font-size-slogan {font-size: calc(1.375rem + 2.7vw);}
+}
+
+// @media screen and (min-width: 1200.02px) {
+//   .font-size-slogan {font-size: 4rem;}
+// }
