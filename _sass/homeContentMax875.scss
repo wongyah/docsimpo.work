@@ -60,7 +60,7 @@ span#cong{
       display: inline-block;
       vertical-align: middle;
       .serviceIcon {
-        @extend .icon-2em;
+        @extend %icon-2em;
       }
     }
     

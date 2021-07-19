@@ -2,25 +2,30 @@
 
 // 设置背景色
 
-.docsimpo-bg-blue{background-color: $background-color-head;}
+%docsimpo-bg-blue{background-color: $background-color-head;}
 
-.docsimpo-bg-trnsp-blue {
+%docsimpo-bg-trnsp-blue {
   $bgcolor: $background-color-head;
   background-color: rgba($bgcolor, 0.9);
 }
 
-.docsimpo-bg-gradient-blue {
+%docsimpo-bg-gradient-blue {
   $bgcolor: $background-color-head;
   background-image: linear-gradient($bgcolor, lighten($bgcolor, 10%) 90%, $bgcolor);
 }
 
-.bg-header {@extend .docsimpo-bg-trnsp-blue;}
-@media screen and (min-width: 768px) {
-  // @extent .docsimpo-bg-gradient-blue（媒介内不能直接使用）
-  .bg-header { 
+%docsimpo-bg-gradient-blue-md {
+  @media screen and (min-width: 768px) {
     $bgcolor: $background-color-head;
     background-image: linear-gradient($bgcolor, lighten($bgcolor, 10%) 90%, $bgcolor);
   }
+}
+
+.docsimpo-bg-blue {@extend %docsimpo-bg-blue}
+
+.bg-header {
+  @extend %docsimpo-bg-trnsp-blue;
+  @extend %docsimpo-bg-gradient-blue-md;
 }
 
 
@@ -34,13 +39,9 @@
   }
 }
 
-.logo-size {@extend .icon-2em;}
-@media screen and (min-width: 768px) {
-  .logo-size {
-    height: 3em;
-    width: auto;
-    vertical-align: middle;
-  }
+.logo-size {
+  @extend %icon-2em;
+  @extend %icon-3em-md;
 }
 
 

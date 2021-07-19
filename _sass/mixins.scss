@@ -17,10 +17,30 @@
 
 //! 图标尺寸
 
-@mixin iconSize($size, $width: $size) {
-  .icon-#{$size} {
+@mixin iconSize($size, $width: auto) {
     height: $size;
     width: $width;
     vertical-align: middle;
+}
+
+
+$iconSize: 21px, 80px, 96px, 2em, 3em;
+
+// %iconSize, %iconSize-md
+@each $size, $width in $iconSize {
+
+  %icon-#{$size} {@include iconSize($size, $width)}
+  %icon-#{$size}-md {
+    @media screen and (min-width: 768px) {@include iconSize($size, $width)}
+  }
+  %icon-#{$size}-lg {
+    @media screen and (min-width: 992px) {@include iconSize($size, $width)}
+  }
+}
+
+// .iconSize
+@each $size, $width in $iconSize {
+  .icon-#{$size} {
+    @extend %icon-#{$size};
   }
 }

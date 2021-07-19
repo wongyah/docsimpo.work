@@ -57,18 +57,9 @@ span#cong{
 
 .services {@include margin(6.5rem null);}
 
-.icon-service {
-  @extend .icon-2em;
-  line-height: 2em;
-  display: inline-block;
-}
-
+.icon-service {@extend %icon-2em;}
 @media screen and (min-width: 992px) {
-  .icon-service {
-    height: 80px;
-    width: auto;
-    vertical-align: middle;
-  }
+  .icon-service {@include iconSize($size: 80px,)}
 }
 
 

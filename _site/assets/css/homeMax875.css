@@ -1,4 +1,14 @@
 @charset "UTF-8";
+.icon-21px { height: 21px; vertical-align: middle; }
+
+.icon-80px { height: 80px; vertical-align: middle; }
+
+.icon-96px { height: 96px; vertical-align: middle; }
+
+.services h1 .serviceIcon, .services h2 .serviceIcon, .services .sloganText p .serviceIcon, .sloganText .services p .serviceIcon, .icon-2em { height: 2em; vertical-align: middle; }
+
+.icon-3em { height: 3em; vertical-align: middle; }
+
 html * { margin: 0; padding: 0; box-sizing: border-box; color: inherit; letter-spacing: normal; line-height: 1.5625em; text-align: left; scroll-behavior: smooth; }
 
 body { display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; flex-direction: column; min-height: 100vh; background-color: #fff; color: #454545; }
@@ -16,16 +26,6 @@ body { display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; displa
 @media only screen and (max-width: 1440px) { .sloganFont { font-size: 63.36px; } }
 
 @media only screen and (max-width: 1120px) { .sloganFont { font-size: 49.28px; } }
-
-.icon-21px { height: 21px; vertical-align: middle; }
-
-.icon-80px { height: 80px; vertical-align: middle; }
-
-.icon-96px { height: 96px; vertical-align: middle; }
-
-.icon-2em, .services h1 .serviceIcon, .services h2 .serviceIcon, .services .sloganText p .serviceIcon, .sloganText .services p .serviceIcon { height: 2em; vertical-align: middle; }
-
-.icon-3em { height: 3em; vertical-align: middle; }
 
 .slogan { background-image: url(/assets/images/mascot/Afront.png); background-position: right bottom; background-repeat: no-repeat; background-size: 20% auto; background-clip: border-box; }
 
