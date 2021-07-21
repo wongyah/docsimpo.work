@@ -1,46 +1,16 @@
-//! 文章容器
-
-.pageContainer{
-  @include margin(4rem null);
-  @include displayFlex;
-}
-
-.post{
-  @include flex(27);
-  margin-right: 3%;
-}
-
-.postList {
-  @extend .post;
-}
-
-.aside{
-  @include flex(13);
-  margin-left: 3%;
-}
-
 
 //! 文章索引页
-.postAbstract{
-  @include margin(2rem null);
-  @include padding(2em null);
-  border-bottom: 0.2em dotted rgba($background-color-head, 0.3);
+.card.mb-dotted-light-blue{
+  border: none;
+  border-radius: 0;
+  border-bottom: 0.2em dotted rgba($background-color-head, 0.3) !important;
+}
 
-  h1{
-    font-size: $font-size-headingOne;
-    color: $text-color-title;
-    letter-spacing: $letter-spacing-base;
-    margin-bottom: 0.5em;
-  }
-
-  p{
-    color: lighten($color: $text-color-body, $amount: 30%);
-    line-height: $line-height-content;
-    text-align: justify;
-    margin-top: 1rem;
-    display: inline;
-  }
-
+.abstract p {
+  display: inline;
+  line-height: $line-height-high;
+  text-align: justify;
+  margin-top: 1rem;
 }
 
 
