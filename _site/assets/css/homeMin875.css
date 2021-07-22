@@ -13,9 +13,9 @@
 
 @media screen and (max-width: 1200px) { legend { font-size: calc(1.275rem + 0.3vw); } h1, .h1 { font-size: calc(1.375rem + 1.5vw); } h2, .h2 { font-size: calc(1.325rem + 0.9vw); } h3, .h3 { font-size: calc(1.3rem + 0.6vw); } h4, .h4 { font-size: calc(1.275rem + 0.3vw); } .display-1 { font-size: calc(1.725rem + 5.7vw); } .display-2 { font-size: calc(1.675rem + 5.1vw); } .display-3 { font-size: calc(1.575rem + 3.9vw); } .display-4 { font-size: calc(1.475rem + 2.7vw); } .close { font-size: calc(1.275rem + 0.3vw); } }
 
-html * { margin: 0; padding: 0; box-sizing: border-box; color: inherit; letter-spacing: normal; line-height: 1.5625em; text-align: left; scroll-behavior: smooth; }
+html * { margin: 0; padding: 0; box-sizing: border-box; color: inherit; letter-spacing: normal; line-height: 1.5625em; text-align: inherit; scroll-behavior: smooth; }
 
-body { display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; flex-direction: column; min-height: 100vh; background-color: #fff; color: #454545; }
+body { display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; flex-direction: column; min-height: 100vh; background-color: #fff; color: #454545; text-align: left; }
 
 .bodyHolder { flex-grow: 2; }
 
@@ -123,11 +123,7 @@ span#cong { font-size: 1.5em; color: #f471da; padding-right: 0.1em; /* 拉开高
 
 .abstract p { display: inline; line-height: 1.953125em; text-align: justify; margin-top: 1rem; }
 
-.updatedMeta { padding-top: 4rem; padding-bottom: 2rem; }
-
-.updatedMeta h1 { font-size: 2rem; color: #bd0f9b; letter-spacing: 0.1em; margin-bottom: 1rem; }
-
-.updatedMeta p { font-size: 0.9rem; color: #929292; }
+.post-title { color: #bd0f9b; letter-spacing: 0.1em; margin-bottom: 1rem; }
 
 .postContent { padding-top: 2rem; margin-bottom: 3em; border-top: 0.2em dotted rgba(102, 153, 204, 0.3); border-bottom: 0.2em dotted rgba(102, 153, 204, 0.3); }
 
@@ -151,19 +147,13 @@ span#cong { font-size: 1.5em; color: #f471da; padding-right: 0.1em; /* 拉开高
 
 .postContent :target::before { content: ""; display: block; height: 4em; margin-top: -4em; }
 
-.aside div { margin-top: 4rem; margin-bottom: 6rem; padding: 0.5em 1em; border: 0.5em solid rgba(244, 113, 218, 0.5); border-radius: 0.5em; opacity: 0.7; font-size: 0.9rem; }
+.card.ad-aside-right { margin-top: 4rem; margin-bottom: 4rem; border: 0.5em solid rgba(244, 113, 218, 0.5); border-radius: 0.5em; opacity: 0.7; }
 
-.aside div h1 { font-size: 1.2rem; color: rgba(69, 69, 69, 0.8); margin-top: 0.7em; margin-bottom: 0.7em; }
+.card.ad-aside-right:hover { opacity: 1; border-color: rgba(244, 113, 218, 0.7); }
 
-.aside div p { margin-top: 0.7em; margin-bottom: 0.7em; }
+#toc ol { padding-left: 1em; font-size: 0.9rem; }
 
-.aside div a { color: #6699cc; }
-
-.aside div ol, .aside div ul { padding-left: 2em; }
-
-.aside div ol li, .aside div ul li { margin-top: 0.7em; margin-bottom: 0.7em; }
-
-.aside div:hover { opacity: 1; border-color: rgba(244, 113, 218, 0.7); }
+#toc ol li { margin-top: 0.7em; margin-bottom: 0.7em; }
 
 .tutorialContainer { position: relative; height: 97.5vh; overflow-y: hidden; }
 
