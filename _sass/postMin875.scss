@@ -26,60 +26,11 @@
 
 // 正文
 
-.postContent{
+.post-body {
   @include padding(2rem null null);
   margin-bottom: 3em;
   border-top: 0.2em dotted rgba($background-color-head, 0.3);
   border-bottom: 0.2em dotted rgba($background-color-head, 0.3);
-
-
-  p{
-    @include margin(2em null);
-    line-height: $line-height-content;
-    text-align: justify;
-  }
-
-  img:only-child {
-    width: 100%;
-    height: auto;
-    border-radius: 0.5em;
-  }
-
-  h1{
-    font-size: $font-size-headingOne;
-    letter-spacing: $letter-spacing-base;
-    @include margin(3em null 1em);
-    &:after{
-      content: '▼';
-      color: $text-color-emphasized;
-    }
-  }
-
-  ol, ul {
-    padding-left: 3em;
-    @include margin(-1.5em null 2em);
-  }
-
-  blockquote{
-    font-size: modular-scale(1, $font-size-body, 0.9);
-    background-color: rgba($background-color-head, 0.3);
-    border-radius: 0.5em;
-    @include padding(0.25em 1em);
-    @include margin(2.25em null);
-
-    * {
-      @include margin(1em null);
-      color: $text-color-slogan-p;
-    }
-
-    h1{
-      font-size: $font-size-body;
-      &:after{
-        color: darken($color: $background-color-slogan, $amount: 50%);
-      }
-    }
-
-  }
 
   :target::before{
     content: "";
@@ -87,7 +38,51 @@
     height: $height-header;
     margin-top: -$height-header;
   }
-  
+
+}
+
+.post-body > h1 {
+  font-size: $font-size-h5;
+  @media screen and (min-width: 768px) {
+    font-size: $font-size-h4;
+  }
+  letter-spacing: $letter-spacing-base;
+  color: $text-color-emphasized;
+  @include margin(4em null 2em);
+  &:after{
+    content: '🍃';
+  }
+}
+
+.post-body > p {
+  @include margin(2em null);
+  line-height: $line-height-high;
+  text-align: justify;
+}
+
+.post-body img:only-child {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5em;
+}
+
+.post-body > ul, .post-body > ol {
+  padding-left: 2em;
+  @include margin(-1.5em null 2em);
+}
+
+.post-body > blockquote {
+  font-size: $font-size-small;
+  color: $text-color-slogan-p;
+  background-color: rgba($background-color-head, 0.3);
+  border-radius: 0.5em;
+  @include padding(0.25em 1em);
+  @include margin(2.25em null);
+
+  * {
+    @include margin(1em null);
+  }
+
 }
 
 
@@ -106,11 +101,14 @@
 
 }
 
-#toc ol {
+ol#post-toc {
   padding-left: 1em;
   font-size: 0.9rem;
-  li{
-    @include margin(0.7em null);
-  }
+  li{@include margin(0.5em null);}
+}
+
+ul.card-text {
+  list-style-type: none;
+  li{@include margin(0.5em null);}
 }
 

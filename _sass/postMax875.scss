@@ -15,7 +15,7 @@
   }
 
   h1{
-    font-size: $font-size-headingOne-phone;
+    font-size: $font-size-h5;
     color: $text-color-title;
     letter-spacing: $letter-spacing-base;
     margin-bottom: 0.5em;
@@ -40,14 +40,14 @@
   @include padding(2em null);
 
   h1{
-    font-size: $font-size-title-phone;
+    font-size: $font-size-h4;
     color: $text-color-title;
     letter-spacing: $letter-spacing-base;
     margin-bottom: 1rem;
   }
 
   p{
-    font-size: $font-size-footer;
+    font-size: $font-size-small;
     color: lighten($color: $text-color-body, $amount: 30%);
   }
 
@@ -75,7 +75,7 @@
   }
 
   h1{
-    font-size: $font-size-headingOne-phone;
+    font-size: $font-size-h5;
     color: lighten($color: $text-color-emphasized, $amount: 15%);
     letter-spacing: $letter-spacing-base;
     @include margin(4em null 2em);
@@ -126,7 +126,7 @@
   @include margin(4em null 2em);
   
   div {
-    font-size: $font-size-footer;
+    font-size: $font-size-small;
     margin-bottom: 2em;
     color: lighten($color: $text-color-body, $amount: 40%);
 

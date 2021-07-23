@@ -9,8 +9,6 @@
 
 .icon-3em { height: 3em; vertical-align: middle; }
 
-@media screen and (max-width: 1200px) { legend { font-size: calc(1.275rem + 0.3vw); } h1, .services h2, .sloganText p, .sloganText h2, .h1 { font-size: calc(1.375rem + 1.5vw); } h2, .h2 { font-size: calc(1.325rem + 0.9vw); } h3, .h3 { font-size: calc(1.3rem + 0.6vw); } h4, .h4 { font-size: calc(1.275rem + 0.3vw); } .display-1 { font-size: calc(1.725rem + 5.7vw); } .display-2 { font-size: calc(1.675rem + 5.1vw); } .display-3 { font-size: calc(1.575rem + 3.9vw); } .display-4 { font-size: calc(1.475rem + 2.7vw); } .close { font-size: calc(1.275rem + 0.3vw); } }
-
 html * { margin: 0; padding: 0; box-sizing: border-box; color: inherit; letter-spacing: normal; line-height: 1.5625em; text-align: inherit; scroll-behavior: smooth; }
 
 body { display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; flex-direction: column; min-height: 100vh; background-color: #fff; color: #454545; text-align: left; }
@@ -55,7 +53,7 @@ span#cong { font-size: 1.5em; color: #f471da; padding-right: 0.1em; /* 拉开高
 
 .services h1, .services h2, .services .sloganText h2, .sloganText .services h2, .services .sloganText p, .sloganText .services p { display: inline-block; vertical-align: middle; }
 
-.services h2 { font-size: 1.2rem; line-height: 2em; }
+.services h2 { font-size: 1.25rem; line-height: 2em; }
 
 .services p { margin-top: 0.5em; /* 定义服务名称与服务描述之间的间距 */ }
 
@@ -65,7 +63,7 @@ span#cong { font-size: 1.5em; color: #f471da; padding-right: 0.1em; /* 拉开高
 
 .postAbstract:last-child { margin-bottom: 2em; }
 
-.postAbstract h1, .postAbstract .sloganText h2, .sloganText .postAbstract h2, .postAbstract .sloganText p, .sloganText .postAbstract p, .postAbstract .services h2, .services .postAbstract h2 { font-size: 1.2rem; color: #bd0f9b; letter-spacing: 0.1em; margin-bottom: 0.5em; }
+.postAbstract h1, .postAbstract .sloganText h2, .sloganText .postAbstract h2, .postAbstract .sloganText p, .sloganText .postAbstract p, .postAbstract .services h2, .services .postAbstract h2 { font-size: 1.25rem; color: #bd0f9b; letter-spacing: 0.1em; margin-bottom: 0.5em; }
 
 .postAbstract p { color: #929292; line-height: 2em; text-align: justify; margin-top: 1rem; display: inline; }
 
@@ -81,7 +79,7 @@ span#cong { font-size: 1.5em; color: #f471da; padding-right: 0.1em; /* 拉开高
 
 .postContent img:only-child { width: 100%; height: auto; border-radius: 0.5em; }
 
-.postContent h1, .postContent .sloganText h2, .sloganText .postContent h2, .postContent .sloganText p, .sloganText .postContent p, .postContent .services h2, .services .postContent h2 { font-size: 1.2rem; color: #fab8ed; letter-spacing: 0.1em; margin-top: 4em; margin-bottom: 2em; }
+.postContent h1, .postContent .sloganText h2, .sloganText .postContent h2, .postContent .sloganText p, .sloganText .postContent p, .postContent .services h2, .services .postContent h2 { font-size: 1.25rem; color: #fab8ed; letter-spacing: 0.1em; margin-top: 4em; margin-bottom: 2em; }
 
 .postContent h1:after, .postContent .sloganText h2:after, .sloganText .postContent h2:after, .postContent .sloganText p:after, .sloganText .postContent p:after, .postContent .services h2:after, .services .postContent h2:after { content: '▼'; }
 

@@ -58,7 +58,7 @@
   padding-right: 1em;
   
   h1{
-    font-size: $font-size-headingOne;
+    font-size: $font-size-h4;
     color: lighten($color: $text-color-body, $amount: 30%);
     @include padding(null 1rem);
   }
@@ -98,7 +98,7 @@
 .aside-left{
 
   h1{
-    font-size: $font-size-headingOne;
+    font-size: $font-size-h4;
     @include margin(0.5rem null);
     @include padding(null 1rem);
     background-color: rgb(230, 230, 200);
@@ -128,7 +128,7 @@
 
 .tutorialName{
   h1{
-    font-size: $font-size-headingOne;
+    font-size: $font-size-h4;
     color: lighten($color: $text-color-body, $amount: 30%);
     text-align: right;
     border-bottom: 1pt solid rgb(200, 200, 200);
@@ -137,7 +137,7 @@
 
 .topictitle{
   h1{
-    font-size: $font-size-title;
+    font-size: $font-size-h2;
     color: $text-color-title;
     @include margin(4rem null 1rem);
   }
@@ -157,7 +157,7 @@
   }
 
   h1{
-    font-size: $font-size-headingOne;
+    font-size: $font-size-h4;
     color: lighten($color: $text-color-emphasized, $amount: 15%);
     letter-spacing: $letter-spacing-base;
     border-bottom: 0.1em dotted lighten($color: $text-color-emphasized, $amount: 15%);
@@ -166,7 +166,7 @@
   }
 
   h2{
-    font-size: $font-size-headingTwo;
+    font-size: $font-size-h5;
     @include margin(2em null null);
   }
 
@@ -223,7 +223,7 @@
 pre.highlight{
   @include margin(null null);
   @include padding(0.5em);
-  font-size: $font-size-footer;
+  font-size: $font-size-small;
   color: rgb(230, 230, 200);
   background-color: rgb(55, 55, 55);
   overflow-x: auto;
