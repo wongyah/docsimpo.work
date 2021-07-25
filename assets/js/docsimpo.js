@@ -1,15 +1,15 @@
 
-//! 使用<span lang='cn'>包围<body>内的所有中文字符和中文标点。
+//! 使用<span lang='en'>包围<body>内的所有非中文字符和标点。
 
-document.body.onload = wrapChineseInBody();
-function wrapChineseInBody() {
-  var text = document.body.innerHTML;
-  var wrapped = text.replace(/([^\x00-\xff]+)/gm, "<span lang='cn'>$1</span>");
-  document.body.innerHTML = wrapped;
-}
+$(document).ready(function(){
 
-// function wrapChineseByElement(id) {
-//   var text = document.getElementById("id").innerHTML;
-//   var wrapped = text.replace(/([^\x00-\xff]+)/gm, "<span lang='cn'>$1</span>");
-//   document.getElementById("id").innerHTML = wrapped;
-// }
+  $('body').find("*").not("script, .mermaid, .mermaid *").contents().each(function() {
+    if(this.nodeType == 3 && this.nodeValue.search(/\S/) != -1) {
+        var text = this.textContent;
+        var nonChinese = /(\b[\x00-\xff\n]{2,})\b/g;
+        $(this).replaceWith(text.replace(nonChinese,'<span lang="en">$1</span>'));
+    }
+  });
+
+});
+

@@ -11,7 +11,7 @@
 
 @media screen and (min-width: 768px) { .logo-size { height: 3em; vertical-align: middle; } }
 
-html * { margin: 0; padding: 0; box-sizing: border-box; color: inherit; letter-spacing: normal; line-height: 1.5625em; text-align: inherit; scroll-behavior: smooth; }
+html * { margin: 0; padding: 0; box-sizing: border-box; color: inherit; letter-spacing: inherit; line-height: 1.5625em; text-align: inherit; scroll-behavior: smooth; }
 
 body { display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; flex-direction: column; min-height: 100vh; background-color: #fff; color: #454545; text-align: left; }
 
@@ -25,7 +25,7 @@ a { color: #6699cc; text-decoration: none; letter-spacing: inherit; font-size: i
 
 *:lang(en) { letter-spacing: normal; }
 
-*:lang(cn) { letter-spacing: 0.15625em; }
+*:lang(zh-cn) { letter-spacing: 0.15625em; }
 
 h1, h2, h3, h4, h5, h6 { font-weight: bold; }
 
@@ -40,8 +40,6 @@ h6 { line-height: 1.953125em; }
 @media screen and (min-width: 768px) { .bg-header { background-image: linear-gradient(#6699cc, #8cb3d9 90%, #6699cc); } }
 
 .logo-brand { font-size: 1rem; font-weight: bold; }
-
-.logo-brand span { margin-left: 0.5em; }
 
 .header-nav-icon { display: block; height: 2em; width: 2em; border: none; }
 
