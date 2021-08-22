@@ -8,16 +8,21 @@
     {%- elsif page.name == "index.html" -%}
       <title>{{ page.title }} - {{ site.data.webinfo.general.cn.name }}</title>
     {%- elsif page.url contains "/technical-writing/" -%}
-      <title>{{ page.title | strip_html }} - 技术写作</title>
+      <title>{{ page.title | strip_html }} - {{ site.data.webinfo.header-menu[1].name }}</title>
     {%- elsif page.url contains "/doc-tech/" -%}
-      <title>{{ page.title | strip_html }} - 文档技术</title>
+      <title>{{ page.title | strip_html }} - {{ site.data.webinfo.header-menu[2].name }}</title>
     {%- else -%}
       <title>{{ page.title }}</title>
     {%- endif -%}
     <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/custom.css">
-    <!-- <link rel="stylesheet" media="screen and (max-width: 875px)" href="/assets/css/homeMax875.css">
-    <link rel="stylesheet" media="screen and (min-width: 875px)" href="/assets/css/homeMin875.css"> -->
+    <link rel="stylesheet" href="/assets/css/header-and-footer.css">
+    {%- if page.url == "/" -%}
+      <link rel="stylesheet" href="/assets/css/home.css">
+    {%- elsif page.isPost == true -%}
+      <link rel="stylesheet" href="/assets/css/post.css">
+    {%- elsif page.name contains "index" -%}
+      <link rel="stylesheet" href="/assets/css/post.css">
+    {%- endif -%}
   </head>
   <body>
     {%- include header.html -%}

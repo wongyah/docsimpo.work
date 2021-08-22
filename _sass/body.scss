@@ -13,8 +13,6 @@ html *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  // font-size: 100%;
-  // font-family: $font-family-body !important;
   color: inherit;
   letter-spacing: inherit;
   line-height: $line-height-default;
@@ -31,7 +29,6 @@ body{
   flex-direction: column;
   min-height: 100vh;
   background-color: $background-color-page;
-  // font-family: inherit !important;
   color: $text-color-body;
   text-align: left;
 }

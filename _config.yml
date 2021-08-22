@@ -18,6 +18,7 @@ defaults:
       path: ""
       type: "posts"
     values:
+      isPost: true
       layout: "content-share"
       permalink: "/:categories/:title:output_ext"
   - scope:

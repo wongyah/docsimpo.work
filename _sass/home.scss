@@ -1,8 +1,3 @@
-//! 正文宽度及三分布局
-@each $min-or-max, $screen-width, $precentage, $isPrecentage in $screen-widths {
-  @include content-width($min-or-max, $screen-width, $precentage, $isPrecentage);
-}
-
   
 //! Slogan 宣传语
 
@@ -12,12 +7,6 @@
   $bgslogan: $background-color-slogan;
   background-image: linear-gradient($bgslogan 85%, $bghead);
 }
-
-// 躲避页眉的遮挡
-.header-dodge {
-  padding-top: 3rem;
-  @media screen and (min-width: 768px) {padding-top: 4rem;}
-}  
 
 // 宣传栏高度
 .slogan-height {

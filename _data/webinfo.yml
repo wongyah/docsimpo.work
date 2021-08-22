@@ -16,6 +16,6 @@ header-menu:
   - name: 文档技术
     category: doc-tech
     link: /doc-tech/
-  - name: 在线文档
-    category: projects
-    link: /projects/
+  - name: 产品文档
+    category: tech-docs
+    link: /tech-docs/

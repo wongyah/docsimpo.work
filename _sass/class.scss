@@ -1,80 +1,5 @@
-// 正文宽度 适屏
-
-// flex布局
-
-@mixin flexLayout($h: space-between, $v: stretch,) {
-  @include displayFlex;
-  justify-content: $h;
-  align-items: $v;
-}  
-
-
-// 一级容器（填充满屏背景色）
-
-.c-container {
-  width: 100%;   /* 容器宽度，确保背景颜色填充满屏幕宽度 */
-  @include flexLayout($h: center,);  /* 定义容器类型，并水平居中子容器 */
-}  
-
-
-// 屏幕适配
-
-// .main类
-
-$screen-widths:
-  "min" 1440px 70% ture,
-  "max" 1440px 0.7 false,
-  "max" 1120px 0.7 false;
-
-@mixin content-width($min-or-max, $screen-width, $precentage, $isPrecentage) {
-  @media only screen and (#{$min-or-max}-width: $screen-width) {
-    // 正文宽度
-    .main {
-      @if $isPrecentage {
-        width: $precentage;
-      }
-      @else {
-        width: $screen-width * $precentage;
-      }
-    }
-  }
-}
-
-@mixin sloganHeight($min-or-max, $screen-width) {
-  @media only screen and (#{$min-or-max}-width: $screen-width) {
-    height: $screen-width * 0.5;
-  }
-}
-
-// 字体
-
-.bodyFont{
-  font-family: $font-family-body;
-  font-size: $font-size-body;
-}
-
-@mixin font-size-slogan($min-or-max, $screen-width) {
-  @media only screen and (#{$min-or-max}-width: $screen-width) {
-    font-size: $screen-width * 0.044;
-  }
-}
-
-
-
-
-
-//! 文章缩略图
-
 
 //! 一般元素样式
-
-// 所有链接默认设置：无下划线
-a{
-  color: $background-color-head;
-  text-decoration: none; 
-  letter-spacing: inherit;
-  font-size: inherit;
-}
 
 *:lang(en){
   letter-spacing: $letter-spacing-default;
@@ -91,6 +16,23 @@ h1, h2, h3, h4, h5, h6 {
 h6 {
   line-height: $line-height-high;
 }
+
+// 所有链接默认设置：无下划线
+a{
+  color: $background-color-head;
+  text-decoration: none; 
+  letter-spacing: inherit;
+  font-size: inherit;
+}
+
+:not(a):not(pre) > code {
+  padding: .1em .25em;
+  background-color: $background-color-inline-code;
+  border-radius: .1em;
+  font-size: $font-size-small;
+  word-wrap: break-word;
+}
+
 
 //! Mermaid
 

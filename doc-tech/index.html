@@ -2,12 +2,36 @@
 title: 代码式文档管理是一种技术
 ---
 
-<div class="tutorialList">
-  {%- assign tutorials = site.collections | where: "classification", "tutorial" -%}
-  {%- for tutorial in tutorials -%}
-  {%- assign index = tutorial.docs | first -%}
-    <h1>
-      <a href="{{ index.url }}">{{ tutorial.tutorialName }}</a>
-    </h1>
-  {%- endfor -%}
+<div class="col-lg-8 pr-lg-4">
+  <div class="row my-5">
+    <div class="col">
+
+      <div class="card">
+        <div class="row no-gutters">
+          <div class="col-2 pt-4 pl-3">
+            <img src="/assets/images/tutorial-icon/markdown-icon-purple-white.svg" alt="Markdown图标">
+          </div>
+          <div class="col-10">
+            <div class="card-body">
+              <h3 class="card-title">Markdown</h3>
+              <p class="card-text">Markdown 是一种易读、易写、易学的轻量级标记语言，可以快速转换出 HTML 文件。正是两个特点，使它在产品文档、博客文章、在线文档、在线笔记中获得了广泛应用。</p>
+              <a class="btn btn-primary" href="#">进入教程</a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">相关文章</h5>
+              <p class="card-text">文本文本</p>
+              <a class="card-link" href="#">更多……</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!-- 侧栏 -->
+<div class="col-lg-4 pl-lg-4 aside">
+  {%- include /asideDivs/documentationOnline.html -%}
 </div>

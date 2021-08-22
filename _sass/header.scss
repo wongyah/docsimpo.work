@@ -107,6 +107,12 @@
   }
 }
 
+//! 躲避页眉的遮挡
+.header-dodge {
+  padding-top: 3rem;
+  @media screen and (min-width: 768px) {padding-top: 4rem;}
+}  
+
   
   
   

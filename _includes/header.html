@@ -6,7 +6,7 @@
     <div class="container">
       
       <a class="navbar-brand logo-brand" href="/assets/images/logo.png">
-        <img class="logo-size" src="https://www.docsimpo.work/assets/images/logo.png" alt=""> 单线条文档
+        <img class="logo-size" src="https://www.docsimpo.work/assets/images/logo.png" alt="商标"> 单线条文档
       </a>
 
       <button class="navbar-toggler collapsed p-0 header-nav-icon" type="checkbox" data-toggle="collapse" data-target="#header-nav" aria-controls="header-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,10 +19,9 @@
       <div class="collapse navbar-collapse justify-content-md-end" id="header-nav">
         <div class="navbar-nav mb-5 my-md-auto">
           {%- for item in site.data.webinfo.header-menu -%}
-            {%- assign itemClass = "nav-link" -%}
-            {%- assign currentClass = "nav-link active" -%}
-            <a class="{%- if page.url == item.link or page.categories contains item.category -%} {{ currentClass }} {%- else -%} {{ itemClass }} {%- endif -%}"
-                {%- if page.url == item.link -%} aria-current="page" {%- endif -%}
+            {%- assign itemClass = 'class="nav-link"' -%}
+            {%- assign currentClass = 'class="nav-link active" aria-current="page"' -%}
+            <a {% if page.url == item.link or page.categories contains item.category -%} {{ currentClass }} {%- else -%} {{ itemClass }} {%- endif -%}
                 href="{{ item.link }}">{{ item.name }}</a>
           {%- endfor -%}
         </div>
