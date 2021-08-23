@@ -1,12 +1,12 @@
 <!-- Logo和菜单栏 -->
-<!-- <input type="checkbox" name="navicon" id="headerMenuIcon"> -->
 
-<div class="navbar navbar-expand-md fixed-top p-0 navbar-dark bg-header" role="navigation">
+<div class="navbar navbar-expand-md fixed-top py-0 navbar-dark bg-header" role="navigation">
   <div class="container-fluid">
     <div class="container">
       
-      <a class="navbar-brand logo-brand" href="/assets/images/logo.png">
-        <img class="logo-size" src="https://www.docsimpo.work/assets/images/logo.png" alt="商标"> 单线条文档
+      {%- assign home = site.data.webinfo.header-menu | find: "name", "首页" -%}
+      <a class="navbar-brand logo-brand" href="{{ home.link }}">
+        <img class="logo-size" src="/assets/images/logo.png" alt="商标"> 单线条文档
       </a>
 
       <button class="navbar-toggler collapsed p-0 header-nav-icon" type="checkbox" data-toggle="collapse" data-target="#header-nav" aria-controls="header-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,8 +14,6 @@
           <span class="icon-bar bottom-bar"></span>
       </button>
 
-      <!-- 1. 电脑版 菜单右对齐
-          2. 手机版 菜单上下外边距 1em -->
       <div class="collapse navbar-collapse justify-content-md-end" id="header-nav">
         <div class="navbar-nav mb-5 my-md-auto">
           {%- for item in site.data.webinfo.header-menu -%}
