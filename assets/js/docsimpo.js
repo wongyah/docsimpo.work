@@ -3,7 +3,7 @@
 
 $(document).ready(function(){
 
-  $('body').find("*").not("script, .mermaid, .mermaid *").contents().each(function() {
+  $('body').find("*").not("pre, pre *, code, code *, script, .mermaid, .mermaid *").contents().each(function() {
     if(this.nodeType == 3 && this.nodeValue.search(/\S/) != -1) {
         var text = this.textContent;
         var nonChinese = /(\b[\x00-\xff\n]{2,})\b/g;

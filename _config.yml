@@ -2,13 +2,14 @@
 collections:
   markdown-tutorial:
     output: true
-    classification: tutorial
-    tutorialName: "Markdown 教程"
-    permalink: /:collection/:name:output_ext
-    order:
-      - index.md
-      - title.md
-      - paragraph.md
+    docType: tutorial
+    subject: Markdown
+    permalink: doc-tech/:collection/:name:output_ext
+    sections:
+      - en: "Basic syntax"
+        cn: "基本语法"
+      - en: "Extended syntax"
+        cn: "扩展语法"
 
 
 # 输出 Outputing
@@ -37,12 +38,5 @@ defaults:
       author: "王烨"
 
 disable_disk_cache: BOOL
-
-
-# 插件 Plugins
-whitelist:
-  - jekyll-toc
-plugins:
-  - jekyll-toc
 
 

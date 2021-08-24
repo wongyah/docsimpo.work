@@ -1,70 +1,94 @@
 ---
-layout: container-tutorialPage
+layout: page-container
 ---
 
-<input type="checkbox" name="tocOnOff" id="tutorialTOCInput">
+{%- assign collection = site.collections | find: "label", page.collection -%}
+{%- assign pageName = page.path | split: "/" | last -%}
+{%- assign pageSectionNum = pageName | slice: 0 | plus: 0 -%}
+{%- assign pageSectionIndex = pageSectionNum | minus: 1 -%}
 
-{%- assign currentTutorial = page.collection -%}
-{%- assign tutorials = site.collections | where: "classification", "tutorial" -%}
+<!-- 目录 -->
+<div class="col-lg-3 fixed-top mt-lg-0" id="doc-toc-col">
+  <div class="container p-lg-0">
 
-<div class="tocLable">
-  <label for="tutorialTOCInput" class="tutorialTOC-label">主目录</label>
-</div>
-
-<!-- 教程目录 -->
-<div class="aside-left">
-  <div class="tutorialTOC">
-    {%- for tutorial in tutorials -%}
-      {%- if tutorial.label == currentTutorial -%}
-        {%- assign topics = tutorial.docs | group_by: "section" -%}
-        {%- for section in topics -%}
-          <h1>{{ section.name }}</h1>
-          <ol>
-            {%- for topic in section.items -%}
-              <li><a href="{{ topic.url }}">{{ topic.title }}</a></li>
-            {%- endfor -%}
-          </ol>
-        {%- endfor -%}
-      {%- endif -%}
-    {%- endfor -%}
+    <div class="d-flex justify-content-between d-lg-none">
+      <button class="btn btn-sm doc-toc-icon" type="button" data-toggle="collapse" data-target="#doc-toc-container" aria-expanded="false" aria-controls="doc-toc-container">
+        <img src="https://img.icons8.com/plumpy/24/000000/menu--v2.png" class="icon-1em"/>
+      </button>
+      <a href="{% link _{{ page.collection }}/index.md %}" class="btn btn-sm"><img src="/assets/images/tutorial/markdown-icon-purple-white.svg" alt="Markdown 图标" class="icon-2em"></a>
+    </div>
+  
+    <div class="collapse d-lg-block" id="doc-toc-container">
+      <div class="mb-3 mb-lg-0">
+        <div class="accordion" id="doc-toc-items">
+        
+          {%- assign sectionNum = 1 -%}
+          {%- for section in collection.sections -%}
+            {%- assign sectionNameSlugify = section.en | slugify -%}
+            <div class="card">
+              <div class="card-header position-relative" id="{{ sectionNameSlugify }}">
+                <h3>
+                  <button class="btn btn-link stretched-link" type="button" data-toggle="collapse" data-target="#{{ sectionNameSlugify }}-toc" aria-expanded="{%- if sectionNum == pageSectionNum -%}
+                    true
+                  {%- else -%}
+                    false
+                  {%- endif -%}" aria-controls="{{ sectionNameSlugify }}-toc">
+                    {{ section.cn }}
+                  </button>
+                </h3>
+              </div>
+        
+              <div id="{{ sectionNameSlugify }}-toc" class="collapse {% if sectionNum == pageSectionNum -%}
+                show
+              {%- endif -%}" aria-labelledby="{{ sectionNameSlugify }}-toc" data-parent="#doc-toc-items">
+                <div class="list-group">
+                  {%- assign docs = site[page.collection] -%}
+                  {%- for doc in docs -%}
+                    {%- assign docName = doc.path | split: "/" | last -%}
+                    {%- assign docSectionNum = docName | slice: 0 | plus: 0 -%}
+                    {%- if docSectionNum == sectionNum -%}
+                      <li {% if doc.title == page.title -%}
+                        class="list-group-item position-relative active" aria-current="true"
+                        {%- else -%}
+                        class="list-group-item position-relative"
+                        {%- endif -%} >
+                        <a href="{{ doc.url }}" class="stretched-link">{{ doc.title }}</a>
+                      </li>
+                    {%- endif -%}
+                  {%- endfor -%}
+                </div>
+              </div>
+            </div>
+            {%- assign sectionNum = sectionNum | plus: 1 -%}
+          {%- endfor -%}
+        
+        </div>
+      </div>
+      
+    </div>
   </div>
-</div>
 
+</div>
 
 <!-- 正文 -->
-<div class="topic">
-  <div class="tutorialName">
-    {%- for tutorial in tutorials -%}
-    {%- if tutorial.label == currentTutorial -%}
-      <h1>{{ tutorial.tutorialName }}</h1>
-    {%- endif -%}
-  {%- endfor -%}
+<div class="col-lg-8 offset-lg-1">
 
+  <div class="row no-gutters mt-5 mb-3 pt-4 pt-lg-0 topic-header">
+    <div class="col">
+      <h6 class="text-muted">{{ collection.sections[pageSectionIndex].cn }}</h6>
+      <h1 class="topic-title">{{ page.title }}</h1>
+    </div>
+    <div class="col-auto pr-0 d-flex align-items-end">
+      <h1 class="text-muted">
+        <a href="{% link _{{ page.collection }}/index.md %}" class="btn d-none d-lg-inline-block"><img src="/assets/images/tutorial/markdown-icon-purple-white.svg" alt="Markdown 图标" class="icon-3em"></a>
+      </h1>
+    </div>
   </div>
-  <div class="topictitle">
-    <h1>{{ page.title }}</h1>
+
+  <div class="row">
+    <div class="col topic-body">
+      {{ content }}
+    </div>
   </div>
-  <div id="topicContent">
-    {{ content }}
-  </div>
+
 </div>
-
-<!-- 侧栏 -->
-<!-- <div class="aside-right">
-  <div id="toc">
-    <h1>目录</h1>
-    {%- include toc.html html=content ordered=true -%}
-  </div> -->
-  <!-- {% unless page.categories == empty %}
-    {%- include asideDivs/relatedPosts.html -%}
-  {% endunless %}
-  {%- if page.downloadkey -%}
-    {%- include asideDivs/download.html -%}
-  {%- endif -%} -->
-</div>
-
-
-{%- if page.mermaid -%}
-  {%- include mermaid.html -%}
-{%- endif -%}
-

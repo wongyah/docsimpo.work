@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
   <head>
+    {%- assign collection = site.collections | find: "label", page.collection -%}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     {%- if page.url == "/" -%}
@@ -20,6 +21,8 @@
       <link rel="stylesheet" href="/assets/css/home.css">
     {%- elsif page.isPost == true -%}
       <link rel="stylesheet" href="/assets/css/post.css">
+    {%- elsif collection.docType == "tutorial" -%}
+      <link rel="stylesheet" href="/assets/css/tutorial.css">
     {%- elsif page.name contains "index" -%}
       <link rel="stylesheet" href="/assets/css/sub-index.css">
     {%- endif -%}
