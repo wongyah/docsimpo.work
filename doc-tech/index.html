@@ -2,6 +2,7 @@
 title: 代码式文档管理是一种技术
 ---
 
+{%- assign markdown = site.collections | find: "label", "markdown-tutorial" -%}
 <div class="col-lg-8 pr-lg-4">
   <div class="row my-5">
     <div class="col">
@@ -9,7 +10,7 @@ title: 代码式文档管理是一种技术
       <div class="card tutorial-card">
         <div class="row no-gutters">
           <div class="col-md-4">
-            <img src="/assets/images/tutorial/markdown-header-image.jpg" alt="Markdown教程的头图" class="header-image">
+            <img src="{{ markdown.coverIamge }}" alt="Markdown教程封面图片" class="cover-image">
           </div>
           <div class="col-md-8">
             <div class="card-body py-2">

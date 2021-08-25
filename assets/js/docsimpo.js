@@ -11,5 +11,14 @@ $(document).ready(function(){
     }
   });
 
+  $('code[data-lang]').each(function() {
+    var codeLanguage = $(this).attr("data-lang");
+    // var txt = $("<p class='code-language'></p>").text(codeLanguage);
+    var txt = $("<p></p>");
+    $(txt).text(codeLanguage);
+    $(txt).addClass("code-language "+codeLanguage);
+    $(this).parent().before(txt);
+  })
+
 });
 

@@ -5,6 +5,7 @@ collections:
     docType: tutorial
     subject: Markdown
     permalink: doc-tech/:collection/:name:output_ext
+    coverIamge: "/assets/images/tutorial/markdown-header-image-5mpx.jpg"
     sections:
       - en: "Basic syntax"
         cn: "基本语法"
@@ -27,6 +28,7 @@ defaults:
       type: "markdown-tutorial"
     values:
       layout: "tutorial"
+      headerIamge: "/assets/images/tutorial/markdown-header-image-20mpx.jpg"
   - scope:
       path: "*/index.html"
     values:

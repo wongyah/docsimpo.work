@@ -92,11 +92,23 @@ h1.topic-title{
 
 // 代码块
 
-.highlighter-rouge{
+figure.highlight{
   @include margin(1.5em null);
 }
 
-pre.highlight{
+p.code-language {
+  background-color: $background-color-code-header;
+  border: 1pt solid $background-color-code-header;
+  @include padding(0.5rem 1rem);
+  @include border-top-radius(0.25em);
+  font-size: $font-size-small;
+  letter-spacing: $letter-spacing-default;
+}
+
+p.code-language.markdown {text-transform: capitalize;}
+p.code-language.html {text-transform: uppercase;}
+
+figure.highlight > pre {
   @include margin(null null);
   @include padding(1rem);
   font-size: $font-size-small;
@@ -104,29 +116,6 @@ pre.highlight{
   border: 1pt solid $background-color-code-header;
   overflow-x: auto;
 }
-
-.topic-body > .language-markdown:before{
-  content: "Markdown";
-  display: block;
-  background-color: $background-color-code-header;
-  border: 1pt solid $background-color-code-header;
-  @include padding(0.5rem 1rem);
-  @include border-top-radius(0.25em);
-  font-size: $font-size-small;
-  letter-spacing: $letter-spacing-default;
-}
-
-.language-html:before{
-  content: "HTML";
-  display: block;
-  background-color: $background-color-code-header;
-  border: 1pt solid $background-color-code-header;
-  @include padding(0.5rem 1rem);
-  @include border-top-radius(0.25em);
-  font-size: $font-size-small;
-  letter-spacing: $letter-spacing-default;
-}
-
 
 div.exmp:before{
   content: "输出格式";
@@ -157,6 +146,12 @@ div.exmp blockquote{
     color: $text-color-slogan-p;
   }
 
+}
+
+// 输出格式中的任务列表
+div.exmp ul.contains-task-list {
+  list-style-type: none;
+  padding-left: 1em;
 }
 
 //! 目录

@@ -8,15 +8,18 @@
       <title>{{ site.data.webinfo.general.cn.name }} - {{ site.data.webinfo.general.cn.slogan }}</title>
     {%- elsif page.name == "index.html" -%}
       <title>{{ page.title }} - {{ site.data.webinfo.general.cn.name }}</title>
+    {%- elsif collection.docType == "tutorial" -%}
+      <title>{{ collection.subject }} - {{ site.data.webinfo.header-menu[1].name }} - {{ site.data.webinfo.general.cn.name }}</title>
     {%- elsif page.url contains "/technical-writing/" -%}
-      <title>{{ page.title | strip_html }} - {{ site.data.webinfo.header-menu[1].name }}</title>
+      <title>{{ page.title | strip_html }} - {{ site.data.webinfo.header-menu[1].name }} - {{ site.data.webinfo.general.cn.name }}</title>
     {%- elsif page.url contains "/doc-tech/" -%}
-      <title>{{ page.title | strip_html }} - {{ site.data.webinfo.header-menu[2].name }}</title>
+      <title>{{ page.title | strip_html }} - {{ site.data.webinfo.header-menu[2].name }} - {{ site.data.webinfo.general.cn.name }}</title>
     {%- else -%}
       <title>{{ page.title }}</title>
     {%- endif -%}
     <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/header-and-footer.css">
+    <link rel="stylesheet" href="/assets/css/syntax-highlight-github.css">
     {%- if page.url == "/" -%}
       <link rel="stylesheet" href="/assets/css/home.css">
     {%- elsif page.isPost == true -%}
@@ -25,6 +28,12 @@
       <link rel="stylesheet" href="/assets/css/tutorial.css">
     {%- elsif page.name contains "index" -%}
       <link rel="stylesheet" href="/assets/css/sub-index.css">
+    {%- endif -%}
+    {%- if page.collection == "markdown-tutorial" -%}
+      <meta property='og:title' content='{{ collection.subject }}教程'/>
+      <meta property='og:image' content="{{ page.headerIamge }}" />
+      <meta property='og:description' content='最齐全、最易懂、最中文气儿的 Markdown 教程'/>
+      <meta property='og:url' content='{{ page.url }}'/>
     {%- endif -%}
   </head>
   <body>
