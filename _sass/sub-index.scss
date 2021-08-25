@@ -1,0 +1,47 @@
+//! 文章索引页
+.card.mb-dotted-light-blue{
+  border: none;
+  border-radius: 0;
+  border-bottom: 0.2em dotted rgba($background-color-head, 0.3) !important;
+}
+
+.abstract p {
+  display: inline;
+  line-height: $line-height-high;
+  text-align: justify;
+  margin-top: 1rem;
+}
+
+//! 教程索引页
+
+.cover-image {
+  width: 100%;
+  height: 100%;
+}
+
+//! 右侧栏
+
+.card.ad-aside-right {
+  @include margin(3rem null);
+  border: 0.5em solid rgba($text-color-emphasized, 0.5);
+  border-radius: 0.5em;
+  opacity: 0.7;  // 透明度小于 1 的元素会遮挡其他元素。必须为页眉设置 z-index 值。
+
+  &:hover{
+    opacity: 1;
+    border-color: rgba($text-color-emphasized, 0.7);
+  }
+
+}
+
+ol#post-toc {
+  padding-left: 1em;
+  font-size: 0.9rem;
+  li{@include margin(0.5em null);}
+}
+
+ul.card-text {
+  list-style-type: none;
+  li{@include margin(0.5em null);}
+}
+

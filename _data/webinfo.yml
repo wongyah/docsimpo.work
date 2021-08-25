@@ -8,10 +8,14 @@ general:
 
 header-menu:
   - name: 首页
+    category: home
     link: /
   - name: 技术写作
+    category: technical-writing
     link: /technical-writing/
   - name: 文档技术
+    category: doc-tech
     link: /doc-tech/
-  - name: 示例项目
-    link: /projects/
+  - name: 产品文档
+    category: tech-docs
+    link: /tech-docs/

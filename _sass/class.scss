@@ -1,144 +1,21 @@
-// 正文宽度 适屏
-
-// flex布局
-
-@mixin flexLayout($h: space-between, $v: stretch,) {
-  @include displayFlex;
-  justify-content: $h;
-  align-items: $v;
-}  
-
-@mixin distributedLayout($margin) {
-  @include flexLayout;
-  list-style-type: none; /* 去掉<ul>默认的项目符号 */
-  margin: $margin 0; //定义与上下内容块的间距
-  li{
-    width: 27.5%;
-    &:nth-child(2){
-      margin: 0 5%; /* = (正文宽度 - 3×单元宽度) ÷ 2 */
-    }
-  }
-}
-
-
-
-// 一级容器（填充满屏背景色）
-
-.container {
-  width: 100%;   /* 容器宽度，确保背景颜色填充满屏幕宽度 */
-  @include flexLayout($h: center,);  /* 定义容器类型，并水平居中子容器 */
-}  
-
-.headerContainer{
-  @extend .container;
-  position: fixed;
-  top: 0; /* 将容器固定在屏幕顶端，否则它的起始位置默认与第一个流元素平齐 */
-}  
-
-.footerContainer{
-  @extend .container;
-  background-color: $background-color-head;
-}  
-
-.sloganContainer{
-  @extend .container;
-  $bghead: $background-color-head;
-  $bgslogan: $background-color-slogan;
-  background-image: linear-gradient($bgslogan 85%, $bghead);
-}  
-
-// 二级容器（正文宽度）
-
-.header{
-  h1 {
-    @include flex(0 0 165px);  // 定义商标的宽度，固定不变
-    width: 165px;
-    @include flexLayout($h: start, $v: center);
-    font-size: $font-size-body; /* h1的默认字号比正文大，将其改为正文字号 */
-    color: $text-color-header;
-  }
-}  
-
-
-// 屏幕适配
-
-// .main类
-
-$screen-widths:
-  "min" 1440px 70% ture,
-  "max" 1440px 0.7 false,
-  "max" 1120px 0.7 false;
-
-@mixin content-width($min-or-max, $screen-width, $precentage, $isPrecentage) {
-  @media only screen and (#{$min-or-max}-width: $screen-width) {
-    // 正文宽度
-    .main {
-      @if $isPrecentage {
-        width: $precentage;
-      }
-      @else {
-        width: $screen-width * $precentage;
-      }
-    }
-  }
-}
-
-@mixin sloganHeight($min-or-max, $screen-width) {
-  @media only screen and (#{$min-or-max}-width: $screen-width) {
-    height: $screen-width * 0.5;
-  }
-}
-
-// 字体
-
-.bodyFont{
-  font-family: $font-family-body;
-  font-size: $font-size-body;
-}
-
-@mixin font-size-slogan($min-or-max, $screen-width) {
-  @media only screen and (#{$min-or-max}-width: $screen-width) {
-    font-size: $screen-width * 0.044;
-  }
-}
-
-
-.sloganFont{
-  font-family: $font-family-slogan;
-  color: darken($background-color-head, 5%);
-  text-shadow: 0.032em 0.032em 0px darken($color: $background-color-head, $amount: 50%);
-  letter-spacing: $letter-spacing-expand;
-  @each $min-or-max, $screen-width in $screen-widths {
-    @include font-size-slogan($min-or-max, $screen-width);
-  }
-}
-
-//! 图标
-
-
-$iconSize: 21px, 80px, 2em, 3em;
-
-@each $size, $width in $iconSize {
-  @include iconSize($size, $width);
-}
-
-
-//! Slogan 背景图像
-
-%mascot {
-  background: {
-    image: url(/assets/images/mascot/Afront.png);
-    position: right bottom;
-    repeat: no-repeat;
-    size: 20% auto;
-    clip: border-box;
-  }
-}
-
-//! 文章缩略图
-
 
 //! 一般元素样式
+
+*:lang(en){
+  letter-spacing: $letter-spacing-default;
+}
+
+*:lang(zh-cn){
+  letter-spacing: $letter-spacing-cn;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+h6 {
+  line-height: $line-height-high;
+}
 
 // 所有链接默认设置：无下划线
 a{
@@ -148,8 +25,12 @@ a{
   font-size: inherit;
 }
 
-*:lang(en){
-  letter-spacing: $letter-spacing-en;
+:not(a):not(pre) > code {
+  padding: .1em .25em;
+  background-color: $background-color-inline-code;
+  border-radius: .1em;
+  font-size: $font-size-small;
+  word-wrap: break-word;
 }
 
 

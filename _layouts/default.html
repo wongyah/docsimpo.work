@@ -1,25 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-cn">
   <head>
+    {%- assign collection = site.collections | find: "label", page.collection -%}
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     {%- if page.url == "/" -%}
       <title>{{ site.data.webinfo.general.cn.name }} - {{ site.data.webinfo.general.cn.slogan }}</title>
-      {%- elsif page.name == "index.html" -%}
-        <title>{{ page.title }} - {{ site.data.webinfo.general.cn.name }}</title>
-      {%- elsif page.url contains "/technical-writing/" -%}
-        <title>{{ page.title | strip_html }} - 技术写作</title>
-      {%- elsif page.url contains "/doc-tech/" -%}
-        <title>{{ page.title | strip_html }} - 文档技术</title>
-      {%- else -%}
-        <title>{{ page.title }}</title>
+    {%- elsif page.name == "index.html" -%}
+      <title>{{ page.title }} - {{ site.data.webinfo.general.cn.name }}</title>
+    {%- elsif collection.docType == "tutorial" -%}
+      <title>{{ collection.subject }} - {{ site.data.webinfo.header-menu[1].name }} - {{ site.data.webinfo.general.cn.name }}</title>
+    {%- elsif page.url contains "/technical-writing/" -%}
+      <title>{{ page.title | strip_html }} - {{ site.data.webinfo.header-menu[1].name }} - {{ site.data.webinfo.general.cn.name }}</title>
+    {%- elsif page.url contains "/doc-tech/" -%}
+      <title>{{ page.title | strip_html }} - {{ site.data.webinfo.header-menu[2].name }} - {{ site.data.webinfo.general.cn.name }}</title>
+    {%- else -%}
+      <title>{{ page.title }}</title>
     {%- endif -%}
-    <link rel="stylesheet" media="screen and (max-width: 875px)" href="/assets/css/homeMax875.css">
-    <link rel="stylesheet" media="screen and (min-width: 875px)" href="/assets/css/homeMin875.css">
+    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/header-and-footer.css">
+    <link rel="stylesheet" href="/assets/css/syntax-highlight-github.css">
+    {%- if page.url == "/" -%}
+      <link rel="stylesheet" href="/assets/css/home.css">
+    {%- elsif page.isPost == true -%}
+      <link rel="stylesheet" href="/assets/css/post.css">
+    {%- elsif collection.docType == "tutorial" -%}
+      <link rel="stylesheet" href="/assets/css/tutorial.css">
+    {%- elsif page.name contains "index" -%}
+      <link rel="stylesheet" href="/assets/css/sub-index.css">
+    {%- endif -%}
+    {%- if page.collection == "markdown-tutorial" -%}
+      <meta property='og:title' content='{{ collection.subject }}教程'/>
+      <meta property='og:image' content="{{ page.headerIamge }}" />
+      <meta property='og:description' content='最齐全、最易懂、最中文气儿的 Markdown 教程'/>
+      <meta property='og:url' content='{{ page.url }}'/>
+    {%- endif -%}
   </head>
   <body>
     {%- include header.html -%}
-    <div class="content">{{ content }}</div>
+    <div class="bodyHolder">{{ content }}</div>
     {%- include footer.html -%}
+
+
+
+
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="/assets/js/docsimpo.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
   </body>
 </html>
