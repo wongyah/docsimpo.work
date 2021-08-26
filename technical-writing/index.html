@@ -7,7 +7,7 @@ title: 技术写作是一种技能
   {% for post in site.categories.technical-writing %}
     <div class="card my-5 pb-3 mb-dotted-light-blue">
       <div class="carbody">
-        <h4 class="card-title"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+        <h5 class="card-title post-title"><a href="{{ post.url }}">{{ post.title }}</a></h5>
         <div class="card-text text-muted abstract">
           {{ post.excerpt | markdownify }}
           <a class="ml-3" href="{{ post.url }}">==> 全文</a>

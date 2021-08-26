@@ -76,7 +76,10 @@ span#cong{
 
 //! 服务范围
 
-.services {@include margin(6.5rem null 2.5rem);}
+.services {
+  @include margin(3rem null 2rem);
+  @media screen and (min-width: 992px) {@include margin(6.5rem null 5.5rem);}
+}
 
 .icon-service {@extend %icon-2em;}
 @media screen and (min-width: 992px) {

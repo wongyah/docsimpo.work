@@ -1,8 +1,7 @@
 //! 文章索引页
-.card.mb-dotted-light-blue{
-  border: none;
-  border-radius: 0;
-  border-bottom: 0.2em dotted rgba($background-color-head, 0.3) !important;
+
+h5.post-title {
+  @media screen and (min-width: 992px) {font-size: $font-size-h4;}
 }
 
 .abstract p {
@@ -10,6 +9,12 @@
   line-height: $line-height-high;
   text-align: justify;
   margin-top: 1rem;
+}
+
+.card.mb-dotted-light-blue{
+  border: none;
+  border-radius: 0;
+  border-bottom: 0.2em dotted rgba($background-color-head, 0.3) !important;
 }
 
 //! 教程索引页

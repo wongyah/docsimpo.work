@@ -4,17 +4,18 @@
 
 // 标题、作者、更新时间
 
-.post-title {
+h4.post-title {
   color: $text-color-title;
   letter-spacing: $letter-spacing-base;
   margin-bottom: 1rem;
+  @media screen and (min-width: 992px) {font-size: $font-size-h2;}
 }
 
 // 正文
 
 .post-body {
   @include padding(2rem null null);
-  margin-bottom: 3em;
+  @include margin(null null 3rem);
   border-top: 0.2em dotted rgba($background-color-head, 0.3);
   border-bottom: 0.2em dotted rgba($background-color-head, 0.3);
 
@@ -29,15 +30,11 @@
 
 .post-body > h1 {
   font-size: $font-size-h5;
-  @media screen and (min-width: 768px) {
-    font-size: $font-size-h4;
-  }
+  @media screen and (min-width: 992px) {font-size: $font-size-h3;}
+
   letter-spacing: $letter-spacing-base;
   color: $text-color-emphasized;
-  @include margin(4em null 2em);
-  &:after{
-    content: '🍃';
-  }
+  @include margin(3em null 1.5em);
 }
 
 .post-body > p {
