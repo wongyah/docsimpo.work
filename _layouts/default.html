@@ -34,6 +34,11 @@
       <meta property='og:image' content="{{ page.headerIamge }}" />
       <meta property='og:description' content='最齐全、最易懂、最中文气儿的 Markdown 教程'/>
       <meta property='og:url' content='{{ page.url }}'/>
+    {%- elsif page.url == "/" -%}
+      <meta property='og:title' content='单线条文档'/>
+      <meta property='og:image' content="{{ page.headerIamge }}" />
+      <meta property='og:description' content='贴近用户，从产品文档开始'/>
+      <meta property='og:url' content='{{ page.url }}'/>
     {%- endif -%}
   </head>
   <body>
