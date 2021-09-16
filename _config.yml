@@ -30,7 +30,7 @@ defaults:
       type: "markdown-tutorial"
     values:
       layout: "tutorial"
-      headerIamge: "/assets/images/tutorial/markdown-header-image-20mpx.jpg"
+      headerImage: "/assets/images/tutorial/markdown-header-image-20mpx.jpg"
   - scope:
       path: "*/index.html"
     values:
