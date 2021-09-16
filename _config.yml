@@ -11,6 +11,8 @@ collections:
         cn: "基本语法"
       - en: "Extended syntax"
         cn: "扩展语法"
+      - en: "kramdown syntax"
+        cn: "kramdown 语法"
 
 
 # 输出 Outputing

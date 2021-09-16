@@ -1,5 +1,7 @@
 ---
 title: "华为的技术资料是如何打造出来的?"
+description: 华为内部的技术文档和技术翻译工作流程详解
+headerImage: "assets/images/post/headerImage/001-technicalWritingInHuaWei-header-image-20mpx.jpg"
 mermaid: true
 ---
 

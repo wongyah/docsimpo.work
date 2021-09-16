@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
   <head>
-    {%- assign collection = site.collections | find: "label", page.collection -%}
+    {%- assign collection = site.collections | find: "label", page.collection %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    {%- if page.url == "/" -%}
+    
+    {% if page.url == "/" -%}
       <title>{{ site.data.webinfo.general.cn.name }} - {{ site.data.webinfo.general.cn.slogan }}</title>
     {%- elsif page.name == "index.html" -%}
       <title>{{ page.title }} - {{ site.data.webinfo.general.cn.name }}</title>
@@ -16,11 +17,12 @@
       <title>{{ page.title | strip_html }} - {{ site.data.webinfo.header-menu[2].name }} - {{ site.data.webinfo.general.cn.name }}</title>
     {%- else -%}
       <title>{{ page.title }}</title>
-    {%- endif -%}
+    {%- endif %}
+
     <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/header-and-footer.css">
     <link rel="stylesheet" href="/assets/css/syntax-highlight-github.css">
-    {%- if page.url == "/" -%}
+    {% if page.url == "/" -%}
       <link rel="stylesheet" href="/assets/css/home.css">
     {%- elsif page.isPost == true -%}
       <link rel="stylesheet" href="/assets/css/post.css">
@@ -28,18 +30,24 @@
       <link rel="stylesheet" href="/assets/css/tutorial.css">
     {%- elsif page.name contains "index" -%}
       <link rel="stylesheet" href="/assets/css/sub-index.css">
-    {%- endif -%}
-    {%- if page.collection == "markdown-tutorial" -%}
-      <meta property='og:title' content='{{ collection.subject }}教程'/>
-      <meta property='og:image' content="{{ page.headerIamge }}" />
-      <meta property='og:description' content='最齐全、最易懂、最中文气儿的 Markdown 教程'/>
-      <meta property='og:url' content='{{ page.url }}'/>
-    {%- elsif page.url == "/" -%}
-      <meta property='og:title' content='单线条文档'/>
-      <meta property='og:image' content="{{ page.headerIamge }}" />
-      <meta property='og:description' content='贴近用户，从产品文档开始'/>
-      <meta property='og:url' content='{{ page.url }}'/>
-    {%- endif -%}
+    {%- endif %}
+
+    {% if page.url == "/" -%}
+    <meta property='og:title' content='{{ site.data.webinfo.general.cn.name }}'/>
+    <meta property='og:image' content="{{ page.headerIamge }}" />
+    <meta property='og:description' content='{{ site.data.webinfo.general.cn.slogan }}'/>
+    <meta property='og:url' content='{{ page.url }}'/>
+    {%- elsif page.collection == "posts" -%}
+    <meta property='og:title' content='{{ page.title }}'/>
+    <meta property='og:image' content="{{ page.headerImage }}" />
+    <meta property='og:description' content='{{ page.description }}'/>
+    <meta property='og:url' content='{{ page.url }}'/>
+    {%- elsif page.collection == "markdown-tutorial" -%}
+    <meta property='og:title' content='{{ collection.subject }}教程'/>
+    <meta property='og:image' content="{{ page.headerIamge }}" />
+    <meta property='og:description' content='最齐全、最易懂、最中文气儿的 Markdown 教程'/>
+    <meta property='og:url' content='{{ page.url }}'/>
+    {%- endif %}
   </head>
   <body>
     {%- include header.html -%}

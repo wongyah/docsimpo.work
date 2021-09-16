@@ -89,8 +89,16 @@ h4.topic-title{
   :target::before{
     content: "";
     display: block;
-    height: $height-header;
-    margin-top: -$height-header;
+    height: 7rem;
+    margin-top: -7rem;
+    @media screen and (min-width: 768px) {
+      height: 8rem;
+      margin-top: -8rem;
+    }
+    @media screen and (min-width: 992px) {
+      height: $height-header;
+      margin-top: -$height-header;
+    }
   }
   
 }

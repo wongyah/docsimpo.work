@@ -1,5 +1,7 @@
 ---
 title: 技术传播职业认证，了解一下?
+description: 技术传播在美国的发展现状，以及技术传播职业认证简介
+headerImage: "assets/images/post/headerImage/002-CPTC-header-image-20mpx.png"
 downloadkey: CPTC
 ---
 
@@ -109,7 +111,7 @@ Technical Writer 是指编写技术资料的专业人员，包括但不限于产
 
 获得积分的方式，可以是参加 STC 的在线会议、网络课程、年度峰会等活动，也可以是在技术传播相关的期刊杂志、学术会议上发表文章、论文或演讲，还可以是出版技术传播类的书籍。
 
- STC 对每一种学习方式或贡献方式所能获得的积分都有具体规定，可在 STC 官网查询（[这里](https://www.stc.org/certification/continuing-education/)）。
+ STC 对每一种学习方式或贡献方式所能获得的积分都有具体规定，可在 [STC 官网](https://www.stc.org/certification/continuing-education/) 查询。
 
 # 技术传播专业社区
 
