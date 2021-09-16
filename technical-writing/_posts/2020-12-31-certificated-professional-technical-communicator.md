@@ -1,7 +1,7 @@
 ---
 title: 技术传播职业认证，了解一下?
 description: 技术传播在美国的发展现状，以及技术传播职业认证简介
-headerImage: "assets/images/post/headerImage/002-CPTC-header-image-20mpx.png"
+headerImage: "/assets/images/post/headerImage/002-CPTC-header-image-20mpx.png"
 downloadkey: CPTC
 ---
 
