@@ -4,7 +4,8 @@
     {%- assign collection = site.collections | find: "label", page.collection %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    
+    <meta name="author" content="王烨">
+
     {% if page.url == "/" -%}
       <title>{{ site.data.webinfo.general.cn.name }} - {{ site.data.webinfo.general.cn.slogan }}</title>
     {%- elsif page.name == "index.html" -%}
@@ -40,12 +41,12 @@
     {%- elsif page.collection == "posts" -%}
     <meta property='og:title' content='{{ page.title }}'/>
     <meta property='og:image' content="{{ page.headerImage }}" />
-    <meta property='og:description' content='{{ page.description }}'/>
+    <meta property='og:description' content='{{ page.content | markdownify | strip_html | strip_newlines | truncate: 100 }}'/>
     <meta property='og:url' content='{{ page.url }}'/>
     {%- elsif page.collection == "markdown-tutorial" -%}
-    <meta property='og:title' content='{{ collection.subject }}教程'/>
+    <meta property='og:title' content='{{ collection.subject }}教程：{{ page.title }}'/>
     <meta property='og:image' content="{{ page.headerImage }}" />
-    <meta property='og:description' content='最齐全、最易懂、最中文气儿的 Markdown 教程'/>
+    <meta property='og:description' content='{{ page.content | markdownify | strip_html | strip_newlines | truncate: 100 }}'/>
     <meta property='og:url' content='{{ page.url }}'/>
     {%- endif %}
   </head>
