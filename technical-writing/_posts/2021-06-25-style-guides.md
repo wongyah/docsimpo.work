@@ -1,5 +1,5 @@
 ---
-title: 技术文档写作指南（Style Guide）权威收录
+title: 全球大厂的技术文档写作指南们（Style Guides）！
 description: 微软、谷歌、IBM 等数十家大厂的技术文档写作指南们，全在这里了！
 headerImage: "/assets/images/post/headerImage/003-style-guide-header-image-15mpx.png"
 downloadkey: PDF指南
