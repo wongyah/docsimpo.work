@@ -13,6 +13,17 @@ collections:
         cn: "扩展语法"
       - en: "kramdown syntax"
         cn: "kramdown 语法"
+  manual-writing-cases:
+    output: true
+    docType: manual
+    subject: writing
+    permalink: cases/:collection/:name:output_ext
+    coverImage:
+    sections:
+      - en: "Equipments"
+        cn: "机械设备"
+      - en: "Instruments"
+        cn: "仪器仪表"
 
 
 # 输出 Outputing
@@ -23,11 +34,17 @@ defaults:
       type: "posts"
     values:
       isPost: true
-      layout: "content-share"
+      layout: "post"
       permalink: "/:categories/:title:output_ext"
   - scope:
       path: ""
       type: "markdown-tutorial"
+    values:
+      layout: "tutorial"
+      headerImage: "/assets/images/tutorial/markdown-header-image-20mpx.jpg"
+  - scope:
+      path: ""
+      type: "manual-writing-cases"
     values:
       layout: "tutorial"
       headerImage: "/assets/images/tutorial/markdown-header-image-20mpx.jpg"

@@ -24,6 +24,28 @@ h5.post-title {
   height: 100%;
 }
 
+//! 产品文档索引页
+
+.card.manual-card {
+  margin-bottom: 2em;
+
+  .card-header {
+    h5 {
+      margin: 0;
+      color:  darken($color: $background-color-head, $amount: 10%);
+    }
+  }
+
+  .card-body a:only-child {margin-top: 0;}
+
+  .list-group.tech-doc-tools li {
+    padding-left: 3em;
+    text-indent: -1.75em;
+    &::before {content: "🎀 ";}
+  }
+
+}
+
 //! 右侧栏
 
 .card.ad-aside-right {

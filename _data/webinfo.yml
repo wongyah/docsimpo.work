@@ -17,5 +17,5 @@ header-menu:
     category: doc-tech
     link: /doc-tech/
   - name: 产品文档
-    category: tech-docs
-    link: /tech-docs/
+    category: cases
+    link: /cases/

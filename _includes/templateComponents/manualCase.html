@@ -1,0 +1,38 @@
+
+<div class="accordion" id="manual-portion-{{ case-id }}">
+
+  <div class="card manual-case-tabs">
+    <div class="card-header">
+      <ul class="nav nav-tabs card-header-tabs">
+        <li class="nav-item" id="button-original-{{ case-id }}">
+          <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#original-{{ case-id }}" aria-expanded="true" aria-controls="original-{{ case-id }}">
+            原文
+          </button>
+        </li>
+        <li class="nav-item" id="button-rewrited-{{ case-id }}">
+          <button class="btn btn-secondary collapsed" type="button" data-toggle="collapse" data-target="#rewrited-{{ case-id }}" aria-expanded="false" aria-controls="rewrited-{{ case-id }}">
+            优化后
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div id="original-{{ case-id }}" class="collapse show" aria-labelledby="button-original-{{ case-id }}" data-parent="#manual-portion-{{ case-id }}">
+      <div class="card-body">
+        {{ original-{{ case-id }}
+      </div>
+    </div>
+    <div id="rewrited-{{ case-id }}" class="collapse" aria-labelledby="button-rewrited-{{ case-id }}" data-parent="#manual-portion-{{ case-id }}">
+      <div class="card-body">
+        {{ rewrited-{{ case-id }}
+      </div>
+    </div>
+  </div>
+
+</div>
+
+{% capture case-id -%}{% increment counter %}{%- endcapture %}
+
+
