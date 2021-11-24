@@ -26,14 +26,20 @@ title: 控制系统
 <h6>第 9 页:</h6>
 <figure>
   <img src="/assets/images/manual-cases/01-term-display-b.png" style="border: 1pt solid #454545; padding: 1em;" />
-  <dl class="callout">
-    <dt>A</dt>
-    <dd>Logo</dd>
-    <dt>B</dt>
-    <dd><strong class="term">显示屏</strong></dd>
-    <dt>C</dt>
-    <dd>键盘</dd>
-  </dl>
+  <div class="row justify-content-center mt-3">
+    <div class="col-auto">
+      <span class="callout">A.</span>
+      <span class="def">Logo</span>
+    </div>
+    <div class="col-auto">
+      <span class="callout">B.</span>
+      <span class="def"><strong class="term">显示屏</strong></span>
+    </div>
+    <div class="col-auto">
+      <span class="callout">C.</span>
+      <span class="def">键盘</span>
+    </div>
+  </div>
 </figure>
 <h6>第 7 页:</h6>
 <p>12. 拥有独特的手持式外形结构，单手可握。自带<strong class="term">显示屏</strong>和键盘，使操作更灵活。支持脱机操作。</p>
@@ -52,8 +58,8 @@ title: 控制系统
 {%- endcapture -%}
 
 {%- capture rewrited-{{ case-id }} -%}
-<p>手操盒的键盘上共有 16 个按键。（14 个字）</p>
-<p>在不同的工作状态下，每个按键可提供一项或多项功能。（25 个字）</p>
+<p>手操盒的键盘上共有 16 个按键。（14 个字）<br>
+在不同的工作状态下，每个按键可提供一项或多项功能。（25 个字）</p>
 {%- endcapture -%}
 
 {% include templateComponents/manualCase.html %}
@@ -76,6 +82,84 @@ title: 控制系统
   <li>使用数字键为需要修改的参数设置新值，然后按【归零/确定】键保存设置。</li>
   <li>如果还需要修改其他轴的脉冲当量，重复步骤 2-3。</li>
   <li>修改完成后，退出『脉冲当量』菜单。</li>
+</ol>
+{%- endcapture -%}
+
+{% include templateComponents/manualCase.html %}
+
+# 安全说明
+
+{%- capture original-{{ case-id }} -%}
+<p>机床参数配置菜单用来设置机床硬件相关参数。由机床设备制造商根据设备型号来设置，设置完成后如机床硬件、电器参数无变化不需修改；机床使用用户如需修改该参数，请咨询设备制造商，在厂商技术工程师的指导下进行修改。</p>
+{%- endcapture -%}
+
+{%- capture rewrited-{{ case-id }} -%}
+<p>机床参数配置菜单里包含与机床硬件相关的参数。</p>
+<p>机床参数配置菜单里的参数由机床设备制造商在出厂前完成预设，不需要频繁修改。只有机床硬件或电气参数发生变化时，才有可能需要重新设置这些参数。</p>
+<blockquote class="notice">
+  <p>如果您是机床设备的用户，切勿擅自修改机床参数配置菜单里的参数。参数配置错误可能导致机床不能正常工作！</p>
+  <p>如果确需修改，请联系您的机床设备制造商。机床参数配置菜单里的参数只能在机床设备制造商指定的专业技术人员的指导下进行修改。</p>
+</blockquote>
+{%- endcapture -%}
+
+{% include templateComponents/manualCase.html %}
+
+# 使用表格
+
+{%- capture original-{{ case-id }} -%}
+<p>RichAuto 控制系统包含以下配件：手持运动控制器一个、线路转接板一个、两头榫式 50 针数据传输电缆一根、USB 通讯电缆一根。</p>
+{%- endcapture -%}
+
+{%- capture rewrited-{{ case-id }} -%}
+<p>收到产品包装后，请按照装箱单（见下表）检查包装内的物品是否齐全、完好。如果发现遗失或破损，请马上联系我们。</p>
+<table id="packing-list">
+  <caption>表 1：装箱单</caption>
+  <thead>
+    <tr>
+      <th style="text-align: left">名称</th>      
+      <th style="text-align: center">数量</th>    
+      <th style="text-align: left">备注</th>      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">手操盒</td>    
+      <td style="text-align: center">1</td>       
+      <td style="text-align: left">—</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">线路转接板</td>
+      <td style="text-align: center">1</td>       
+      <td style="text-align: left">—</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">数据传输电缆</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: left">50 针，两头榫式电缆</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">通讯电缆</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: left">USB 接口</td>
+    </tr>
+  </tbody>
+</table>
+{%- endcapture -%}
+
+{% include templateComponents/manualCase.html %}
+
+# 使用列表
+
+{%- capture original-{{ case-id }} -%}
+<p>系统提供了三种手动运动模式：连续、步进和距离。</p>
+{%- endcapture -%}
+
+{%- capture rewrited-{{ case-id }} -%}
+<p>在手动模式下，机床的运动轴有三种运动模式：</p>
+<ol>
+  <li>连续运动模式</li>
+  <li>步进运动模式</li>
+  <li>距离运动模式</li>
 </ol>
 {%- endcapture -%}
 

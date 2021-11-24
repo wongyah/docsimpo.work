@@ -91,6 +91,9 @@ layout: page-container
 
   <div class="row">
     <div class="col topic-body">
+
+      {%- include templateComponents/mathToast.html -%}
+
       {{ content }}
     </div>
   </div>
@@ -100,6 +103,4 @@ layout: page-container
 {%- if page.mermaid -%}
   {%- include mermaid.html -%}
 {%- endif -%}
-{%- if page.math -%}
-  {%- include mathjax.html -%}
-{%- endif -%}
+

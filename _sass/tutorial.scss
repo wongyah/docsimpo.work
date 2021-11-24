@@ -43,6 +43,11 @@ h4.topic-title{
     li{
       @include margin(0.5em);
     }
+
+    li > ol {
+      list-style-type: lower-alpha;
+      padding-left: 1em;
+    }
   
   }
 

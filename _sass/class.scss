@@ -34,6 +34,7 @@ a{
 }
 
 
+
 //! Mermaid
 
 .mermaid{
@@ -41,3 +42,14 @@ a{
   text-align: center;
 }
 
+//! toast格式
+
+.toast.mathShowingError {
+  position: fixed;
+  bottom: 0;
+  border: 2px solid $background-color-toast-header;
+  z-index: 199;
+  .toast-header {
+    background-color: $background-color-toast-header;
+  }
+}

@@ -28,15 +28,27 @@ h5.post-title {
 
 .card.manual-card {
   margin-bottom: 2em;
+  @include border-top-radius(0.5rem);
+  @include border-bottom-radius(0);
 
   .card-header {
+    background-color: $background-color-manual-card-header;
+    padding: 0.5rem 1.25rem;
     h5 {
       margin: 0;
       color:  darken($color: $background-color-head, $amount: 10%);
     }
   }
 
-  .card-body a:only-child {margin-top: 0;}
+  .card-body.btn-row {
+    padding: 0.75rem 1.25rem;
+
+    a {
+      margin-top: 0;
+      font-weight: bold;
+    }
+  }
+
 
   .list-group.tech-doc-tools li {
     padding-left: 3em;

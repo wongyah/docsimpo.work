@@ -83,6 +83,8 @@ h4.post-title {
     @include margin(1em null);
   }
 
+  mjx-container * {margin: 0;}
+
   h6#表-1-1包装清单 {
     font-size: $font-size-small;
     margin: 1em 0 -1.5em;
@@ -93,7 +95,7 @@ h4.post-title {
     border-top: 2px solid lighten($color: $text-color-body, $amount: 20%);
     border-bottom: 2px solid lighten($color: $text-color-body, $amount: 20%);
     padding: 1em 0 0 5em;
-    background-image: url(/assets/images/post/safetyIcon/1-General-arning-J6520-PF.png);
+    background-image: url(/assets/images/post/safetyIcon/1-General-warning-J6520-PF.png);
     background-size: 4em;
     background-repeat: no-repeat;
     background-position-x: left;
@@ -179,7 +181,6 @@ h4.post-title {
 
 .reftext {font-size: $font-size-small;}
 
-mjx-container[jax="SVG"] > svg {vertical-align: middle !important;}
 
 //! 右侧栏
 
@@ -197,7 +198,7 @@ mjx-container[jax="SVG"] > svg {vertical-align: middle !important;}
 }
 
 ol#post-toc {
-  padding-left: 1em;
+  padding-left: 2rem;
   font-size: 0.9rem;
   li{@include margin(0.5em null);}
 }

@@ -1,66 +1,31 @@
 
-//! 主题名称
-
-.topic-header {
-  border-bottom: .1em dotted lighten($color: $text-color-title, $amount: 15%);
-}
-
-h4.topic-title{
-  color: $text-color-title;
-  @media screen and (min-width: 992px) {font-size: $font-size-h2;}
-}
-
 //! 正文
 
 .topic-body {
-  @include margin(null null 3rem);
-
-  & > h1 {
-    font-size: $font-size-h5;
-    @media screen and (min-width: 992px) {font-size: $font-size-h3;}
-
-    color: $text-color-emphasized;
-    border-bottom: .1em dotted lighten($color: $text-color-emphasized, $amount: 15%);
-    @include margin(3em null 1.5em);
-    @include padding(null null 0.2em);
-  }
-  
-  & > h2 {
-    font-size: $font-size-body;
-    @media screen and (min-width: 992px) {font-size: $font-size-h4;}
-    @include margin(2em null 1em);
-  }
-  
-  & > p {
-    @include margin(1em null);
-    text-align: justify;
-  }
 
   figure {
     margin: 2em 0;
   
     img, dl.callout {
       width: 100%;
-      max-width: 400px;
+      max-width: 15rem;
       display: block;
       margin: auto;
     }
 
-    dl.callout {
-      margin-top: 0.5em;
-      dt, dd {
-        display: inline-block;
-        font-weight: normal;
+    table.callout-table {
+      margin: 0.5em auto 2em;
+      width: 100%;
+      max-width: 15rem;
+      
+
+      col.callout {
+        text-align: left;
+        width: 2em;
       }
-      dt {
-        width: 5%;
-        max-width: 2em;
-        &::after {content: ".";}
-      }
-      dd {
-        width: 45%;
-        max-width: 168px;
-      }
+
+      td {border: none;}
+
     }
 
     figcaption {
@@ -69,69 +34,22 @@ h4.topic-title{
       color: lighten($color: $text-color-body, $amount: 20%);
     }
   }
-  
-  ul, ol {
-    padding-left: 2em;
-    @include margin(0.5em null 1em);
-    
-    li{
-      @include margin(0.5em);
-    }
-  
-  }
 
-  & > blockquote{
-    font-size: modular-scale(1, $font-size-body, 0.9);
-    background-color: rgb(230, 230, 230);
-    @include border-left-radius(0.3em);
-    @include border-right-radius(0.3em);
-    @include padding(0.25em 1em);
-    @include margin(2.25em null);
-  
-    * {
-      @include margin(1em null);
-    }
-
+  blockquote.notice {
+    margin-top: 2em;
+    border-top: 2px solid lighten($color: $text-color-body, $amount: 20%);
+    border-bottom: 2px solid lighten($color: $text-color-body, $amount: 20%);
+    padding: 1em 0 1em 5em;
+    background-image: url(/assets/images/post/safetyIcon/1-General-warning-J6520-PF.png);
+    background-size: 4em;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: 1em;
     &::before {
-      content: "小贴士：";
-      display: block;
-      font-size: $font-size-body;
+      content: "注意！";
+      font-size: $font-size-h5;
       font-weight: bold;
-      color: $text-color-emphasized;
-      margin-top: 0.5em;
-    }
-
-  }
-
-  table {
-    width: 100%;
-
-    thead {
-      background-color: $background-color-thead;
-      tr th {
-        @include padding(0.25em 0.5em);
-        border: 1pt solid darken($color: $background-color-thead, $amount: 10%)
-      }
-    }
-    
-    tbody tr td {
-      @include padding(0.25em 0.5em);
-      border: 1pt solid $background-color-thead;
-    }
-  }
-
-  :target::before{
-    content: "";
-    display: block;
-    height: 7rem;
-    margin-top: -7rem;
-    @media screen and (min-width: 768px) {
-      height: 8rem;
-      margin-top: -8rem;
-    }
-    @media screen and (min-width: 992px) {
-      height: $height-header;
-      margin-top: -$height-header;
+      color: rgb(200, 0, 0);
     }
   }
   
@@ -160,14 +78,26 @@ h4.topic-title{
       background-color: #007bff;
       border-color: #007bff;
     }
-
   }
 
   button.btn-secondary {
     border-radius: 0.5em 0.5em 0 0;
   }
-  
-  
+
+}
+
+.manual-case .card-body {
+
+  h5, h6, p {@include margin(0.5em null);}
+
+  table {
+    font-size: $font-size-small;
+    caption {
+      caption-side: top;
+      font-weight: bold;
+      @include margin(0.5em null 0.25em);
+    }
+  }
 }
 
 strong.term {
@@ -175,121 +105,3 @@ strong.term {
   font-weight: bold;
 }
 
-// 代码块
-
-figure.highlight{
-  @include margin(1.5em null);
-}
-
-p.code-language {
-  background-color: $background-color-code-header;
-  border: 1pt solid $background-color-code-header;
-  @include padding(0.5rem 1rem);
-  @include border-top-radius(0.25em);
-  font-size: $font-size-small;
-  letter-spacing: $letter-spacing-default;
-}
-
-p.code-language.markdown {text-transform: capitalize;}
-p.code-language.html {text-transform: uppercase;}
-
-figure.highlight > pre {
-  @include margin(null null);
-  @include padding(1rem);
-  font-size: $font-size-small;
-  background-color: $background-color-code-block;
-  border: 1pt solid $background-color-code-header;
-  overflow-x: auto;
-}
-
-div.exmp:before{
-  content: "输出格式";
-  display: block;
-  background-color: $background-color-code-header;
-  border: 1pt solid $background-color-code-header;
-  @include padding(0.5rem 1rem);
-  @include border-top-radius(0.25em);
-  font-size: $font-size-small;
-}
-
-div.exmp-container{
-  @include padding(1rem);
-  border: 1pt solid $background-color-code-header;
-}
-
-div.exmp blockquote{
-  font-size: modular-scale(1, $font-size-body, 0.9);
-  background-color: rgb(230, 230, 230);
-  border-left: 0.4em solid rgb(200, 200, 200);
-  @include border-left-radius(0);
-  @include border-right-radius(0.5em);
-  @include padding(0.25em 1em);
-  @include margin(1.25 null);
-
-  * {
-    @include margin(1em null);
-    color: $text-color-slogan-p;
-  }
-
-}
-
-// 输出格式中的任务列表
-div.exmp ul.contains-task-list {
-  list-style-type: none;
-  padding-left: 1em;
-}
-
-//! 目录
-
-#doc-toc-col {
-  z-index: 1000;
-  margin-top: 2.5rem;
-  @include padding(0.5rem null 0.25rem);
-  background-color: $background-color-slogan;
-
-  @media screen and (min-width: 768px) {
-    margin-top: 3.5rem;
-  }
-  
-  @media screen and (min-width: 992px) {
-    background-color: transparent;
-    position: static;
-    z-index: 0;
-  }
-}
-
-#doc-toc-items {
-  margin-top: 1rem;
-  max-height: 70vh;
-  overflow-y: auto;
-  border-radius: 0.3rem;
-  @media screen and (min-width: 992px) {
-    margin-top: 3rem;
-    max-height: none;
-  }
-}
-
-.list-group-item {
-  padding-left: 2em;
-  a {color: $text-color-body;}
-
-}
-
-.list-group-item.active {
-  background-color: lighten($color: $background-color-head, $amount: 10);
-  border: none;
-  a {
-    color: $text-color-header;
-    font-weight: bold;
-  }
-}
-
-.btn.doc-toc-icon {
-  height: 2rem;
-  width: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-self: center;
-  border-radius: 100%;
-}

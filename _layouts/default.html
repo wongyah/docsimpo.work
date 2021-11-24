@@ -58,6 +58,11 @@
     <meta property='og:description' content='{{ page.content | markdownify | strip_html | strip_newlines | truncate: 100 }}'/>
     <meta property='og:url' content='{{ page.url }}'/>
     {%- endif %}
+
+    {%- if page.math -%}
+      <!-- <script id="MathJax-script" async src="https://cdn.bootcdn.net/ajax/libs/mathjax/3.0.1/es5/tex-svg.js"></script> -->
+      <script id="MathJax-script" async src="https://cdn.bootcdn.net/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+    {%- endif -%}
   </head>
   <body>
     {%- include header.html -%}

@@ -20,5 +20,7 @@ $(document).ready(function(){
     $(this).parent().before(txt);
   })
 
+  $('.toast').toast("show");
+
 });
 
