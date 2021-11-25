@@ -21,12 +21,12 @@
   <div class="card manual-case">
     <div id="original-{{ case-id }}" class="collapse show" aria-labelledby="button-original-{{ case-id }}" data-parent="#manual-portion-{{ case-id }}">
       <div class="card-body">
-        {{ original-{{ case-id }}
+        {{ original-{{ case-id | markdownify}}
       </div>
     </div>
     <div id="rewrited-{{ case-id }}" class="collapse" aria-labelledby="button-rewrited-{{ case-id }}" data-parent="#manual-portion-{{ case-id }}">
       <div class="card-body">
-        {{ rewrited-{{ case-id }}
+        {{ rewrited-{{ case-id | markdownify}}
       </div>
     </div>
   </div>

@@ -90,6 +90,11 @@
 
   h5, h6, p {@include margin(0.5em null);}
 
+  h6.table-caption {
+    font-size: $font-size-small;
+    @include margin(0.5em null 0.25em);
+  }
+
   table {
     font-size: $font-size-small;
     caption {
