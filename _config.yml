@@ -6,6 +6,7 @@ collections:
     subject: Markdown
     permalink: doc-tech/:collection/:name:output_ext
     coverIamge: "/assets/images/tutorial/markdown-header-image-5mpx.jpg"
+    icon: "/assets/images/icons/markdown-icon-purple-white.svg"
     sections:
       - en: "Basic syntax"
         cn: "基本语法"
@@ -16,9 +17,10 @@ collections:
   manual-writing-cases:
     output: true
     docType: manual
-    subject: writing
+    subject: 技术写作
     permalink: cases/:collection/:name:output_ext
     coverImage:
+    icon: "/assets/images/icons/techWriting.svg"
     sections:
       - en: "Equipments"
         cn: "机械设备"

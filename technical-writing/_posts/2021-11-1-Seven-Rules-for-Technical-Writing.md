@@ -239,7 +239,7 @@ math: true
 2. IBM 技术写作指南（骨灰级教科书）
 3. [微软技术写作指南][]
 
-最后：加油，中国制造！
+另外，本站提供多个行业的（产品手册）[技术写作实例][]，欢迎品鉴！
 
 ---
 
@@ -265,5 +265,7 @@ math: true
 [ASD-STE100]: http://www.asd-ste100.org/request.html
 
 [微软技术写作指南]: https://docs.microsoft.com/zh-cn/style-guide/welcome/
+
+[技术写作实例]: {% link _manual-writing-cases/index.md %}
 
 {:safety-icon: style="width: 5em;"}

@@ -35,7 +35,7 @@
     }
   }
 
-  blockquote.notice {
+  .safety {
     margin-top: 2em;
     border-top: 2px solid lighten($color: $text-color-body, $amount: 20%);
     border-bottom: 2px solid lighten($color: $text-color-body, $amount: 20%);
@@ -45,14 +45,30 @@
     background-repeat: no-repeat;
     background-position-x: left;
     background-position-y: 1em;
-    &::before {
-      content: "注意！";
-      font-size: $font-size-h5;
-      font-weight: bold;
-      color: rgb(200, 0, 0);
+    &:only-child {margin-top: 1em;}
+
+    &-warning {
+      @extend .safety;
+      &::before {
+        content: "警告！";
+        font-size: $font-size-h5;
+        font-weight: bold;
+        color: rgb(200, 0, 0);
+      }
     }
+    
+    &-notice {
+      @extend .safety;
+      &::before {
+        content: "注意！";
+        font-size: $font-size-h5;
+        font-weight: bold;
+        color: rgb(200, 0, 0);
+      }
+    }
+
   }
-  
+
 }
 
 .manual-case-tabs {
