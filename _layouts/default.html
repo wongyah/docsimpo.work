@@ -60,8 +60,7 @@
     {%- endif %}
 
     {%- if page.math -%}
-      <!-- <script id="MathJax-script" async src="https://cdn.bootcdn.net/ajax/libs/mathjax/3.0.1/es5/tex-svg.js"></script> -->
-      <script id="MathJax-script" async src="https://cdn.bootcdn.net/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+      {%- include mathjax.html -%}
     {%- endif -%}
   </head>
   <body>
