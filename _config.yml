@@ -14,6 +14,8 @@ collections:
         cn: "扩展语法"
       - en: "kramdown syntax"
         cn: "kramdown 语法"
+      - en: "Pandoc syntax"
+        cn: "Pandoc 语法"
   manual-writing-cases:
     output: true
     docType: manual
