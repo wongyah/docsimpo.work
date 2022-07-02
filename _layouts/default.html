@@ -25,6 +25,8 @@
     <link rel="stylesheet" href="/assets/css/syntax-highlight-github.css">
     {% if page.url == "/" -%}
       <link rel="stylesheet" href="/assets/css/home.css">
+    {%- elsif page.url contains "services" -%}
+      <link rel="stylesheet" href="/assets/css/home.css">
     {%- elsif page.isPost == true -%}
       <link rel="stylesheet" href="/assets/css/post.css">
     {%- elsif collection.docType == "tutorial" -%}
@@ -35,7 +37,7 @@
       <link rel="stylesheet" href="/assets/css/sub-index.css">
     {%- endif %}
 
-    {% if page.url == "/" -%}
+    {% if page.url == "/"  -%}
     <meta property='og:title' content='{{ site.data.webinfo.general.cn.name }}'/>
     <meta property="og:type" content="website">
     <meta property='og:image' content="{{ page.headerImage }}" />
