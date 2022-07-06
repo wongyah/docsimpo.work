@@ -1,6 +1,6 @@
 ---
-title: 这就是结构化文档！
-description: (宝马旗下)Mini汽车的古董级车主手册全真诠释：这就是结构化文档！
+title: (宝马旗下) Mini 汽车的古董级车主手册全真诠释：这就是结构化文档！
+description: 
 headerImage: "/assets/images/post/headerImage/20220520-structured-authoring-header-image-15mpx.png"
 imageFloder: "/assets/images/post/thisIsStructuredAuthoring"
 downloadkey: PDF指南
@@ -14,7 +14,7 @@ excerpt_separator: <!--more-->
 
 <!--more-->
 
-这些说法都没错，技术写作人员的确需要具备这些路人技能。但孰不知，以 DITA 为主的结构化文档已经在国内悄然兴起，将技术写作的领地从 MS Word 乔迁到了 XML（Web 开发中常用的标记语言之一）。*技术写作，也因此变得更加专业化、流程化和品质化。*
+这些说法都没错，技术写作人员的确需要具备这些路人技能。但孰不知，以 DITA 为主的结构化文档已经在国内悄然兴起，将技术写作的领地从 MS Word 乔迁到了 XML（Web 开发中常用的标记语言之一）。**技术写作，也因此变得更加专业化、流程化和品质化。**
 
 早在二十世纪六七十年代，Robert Horn 就已经提出了结构化文档的概念雏形。但由于当时的技术条件有限，真正实施结构化文档的难度非常大。所以，结构化文档也就只停留在了理论研究阶段，并未获得广泛应用。
 
@@ -37,7 +37,7 @@ excerpt_separator: <!--more-->
 
 你平常用 Word 软件写东西时，是不是一边输入内容，一边为内容设置格式?
 
-其实不只是你，大家都这样。Word 软件的特点是所见即所得：我们在编辑文件的时候就能看到格式设置的效果。实际上，我们*设置格式的目的是*标识信息类型，表达各部分内容之间的逻辑关系。
+其实不只是你，大家都这样。Word 软件的特点是所见即所得：我们在编辑文件的时候就能看到格式设置的效果。实际上，我们**设置格式的目的是**标识信息类型，表达各部分内容之间的逻辑关系。
 
 从下面的 Word 文件里，你是不是一眼就能出哪里是标题，哪里是正文，以及文件的章节结构?
 
@@ -67,7 +67,7 @@ XML 文件是纯文本文件，既可以使用结构化文档软件编辑，也�
 
 如果你需要为 Mini 汽车编写车主手册，你是不是会这样安排写作计划：首先草拟一个写作大纲（架构设计），然后按照大纲里的章节顺序依次编写序言、第一章、第二章……
 
-其实不只是你，大家以往几乎都是这样写书、写文章、写手册的。借用软件开发流程中的概念，我们姑且将这种按照写作大纲从头至尾依次完成写作的方式叫做*瀑布式写作*。
+其实不只是你，大家以往几乎都是这样写书、写文章、写手册的。借用软件开发流程中的概念，我们姑且将这种按照写作大纲从头至尾依次完成写作的方式叫做**瀑布式写作**。
 
 ![瀑布式写作流程图][waterfall-authoring]{: standalone style="max-width: 100%;"}
 
@@ -95,9 +95,9 @@ XML 文件是纯文本文件，既可以使用结构化文档软件编辑，也�
 
 因此，很多 Morris Mini 的内容模块可以无缝组装到 Austin Mini 的车主手册里，一些老款车型的内容模块可以直接平移到新款车型的车主手册里，省去了创建文档时到处复制-粘贴、后续更新时到处修改的大麻烦。
 
-这就是内容模块的另一大特点 —— 可（重）复（使）用，也叫做*内容复用*。
+这就是内容模块的另一大特点 —— 可（重）复（使）用，也叫做**内容复用**。
 
-小而独、易重组、可复用的内容模块有一个术语名称，叫做*主题*（Topic）。基于主题的写作方式，通常被称为*主题化写作*（Topic-based Authoring）。
+小而独、易重组、可复用的内容模块有一个术语名称，叫做**主题**（Topic）。基于主题的写作方式，通常被称为**主题化写作**（Topic-based Authoring）。
 
 ![主题化写作流程图][topic-based-authoring]{: standalone style="max-width: 100%;"}
 
@@ -118,7 +118,7 @@ XML 文件是纯文本文件，既可以使用结构化文档软件编辑，也�
 
 只是与 Word 模板不同，结构化文档的模板不是预设格式和说明文字，而是使用编程语言（DTD 或 Schema）来精确地定义文档结构。
 
-这种精确定义的文档结构，还可以被用来与你编写的主题进行实时比对，并及时反馈比对结果。这个过程，叫做*自动校验*。
+这种精确定义的文档结构，还可以被用来与你编写的主题进行实时比对，并及时反馈比对结果。这个过程，叫做**自动校验**。
 
 为了将愿望照进现实，我们不妨选出一个主题试一试 ↓↓↓
 
@@ -128,7 +128,7 @@ XML 文件是纯文本文件，既可以使用结构化文档软件编辑，也�
 
 这是 DITA 中的任务型主题（task）。任务型主题（的模板）定义了很多严格的规则，比如每个操作步骤（`<step>`）中有且只能有一条操作指令（`<cmd>`）。编写任务型主题时，你必须严格遵守这些规则。否则，你的主题就不能通过校验（Validation），从而被判定为不合格。
 
-支持文档结构定义并提供相应编辑环境的软件，叫做结构化文档软件。使用结构化文档软件创建、编辑文档的方式，叫做*结构化写作*。
+支持文档结构定义并提供相应编辑环境的软件，叫做结构化文档软件。使用结构化文档软件创建、编辑文档的方式，叫做**结构化写作**。
 
 当然，要做到“千人一面”、“异口同声”，单靠结构化写作是不行的，你还要结合[技术写作指南]一起使用。
 
@@ -138,7 +138,7 @@ XML 文件是纯文本文件，既可以使用结构化文档软件编辑，也�
 
 其实，XML 文件就像软件的源代码一样，需要经过“编译”之后才能变成适合我们人类阅读的形式（比如 PDF、网页或电子书）。在“编译”过程中，只要应用不同的程序（样式表），就可以从同一份 XML 文件同时生成多种不同格式的文件。
 
-这就意味着，XML 文件里只存储着车主手册的内容，而车主手册的格式只有在“编译” XML 文件时才会被加载。这叫做*内容和格式分离*。
+这就意味着，XML 文件里只存储着车主手册的内容，而车主手册的格式只有在“编译” XML 文件时才会被加载。这叫做**内容和格式分离**。
 
 ![同源发布：内容和格式分离][seperation-of-content-and-form]{: standalone style="max-width: 100%;"}
 
@@ -153,17 +153,15 @@ XML 文件将信息（内容）存储为半结构化数据，而处理（半）�
 
 
 
----
-
-参考资料：
-{: .reftext}
+###### 参考资料
+{: .ref-caption}
 
 1. [Structured authoring](https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/Artefact/Authoring_Concepts/c_What_is_Structured_Authoring.html)
-2. Mapping Hypertext: Analysis, Linkage, and Display of Knowledge for the next Generation of On-Line Text and Graphics. Robert E. Horn (1989).
+2. Robert E. Horn. Mapping Hypertext: Analysis, Linkage, and Display of Knowledge for the next Generation of On-Line Text and Graphics. 1989.
 3. [Getting Started with DocBook](https://tdg.docbook.org/tdg/5.0/ch01.html#introduction-whats-new)
 4. [S1000D SGML Authoring](https://www.docuneering.com/s1000d/authoring/sgml-author/)
 5. [The Differences in the Morris & Austin Mini Coopers](https://itstillruns.com/differences-morris-austin-mini-coopers-7441817.html)
-{: .reftext}
+{: .ref-text}
 
 
 

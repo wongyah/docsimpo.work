@@ -25,14 +25,30 @@ a{
   font-size: inherit;
 }
 
-:not(a):not(pre) > code {
-  padding: .1em .25em;
-  background-color: $background-color-inline-code;
-  border-radius: .1em;
-  font-size: $font-size-small;
-  word-wrap: break-word;
-}
+:not(a):not(pre) {
+  
+  %general-code-style {
+    padding: .1em .25em;
+    border-radius: .1em;
+    font-size: $font-size-small;
+    word-wrap: break-word;
+  }
 
+  code {
+    @extend %general-code-style;
+    background-color: $background-color-inline-code;
+  }
+  
+  td > code, dt > code {
+    @extend %general-code-style;
+    background-color: transparent;
+  }
+
+  dt > code{
+    font-size: $font-size-body;
+  }
+
+}
 
 
 //! Mermaid

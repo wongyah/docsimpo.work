@@ -1,9 +1,5 @@
 
-
-//! 文章
-
-// 标题、作者、更新时间
-
+//! 标题、作者、更新时间
 h4.post-title {
   color: $text-color-title;
   letter-spacing: $letter-spacing-base;
@@ -11,7 +7,51 @@ h4.post-title {
   @media screen and (min-width: 992px) {font-size: $font-size-h2;}
 }
 
-// 正文
+//! 目录
+ol#post-toc {
+  counter-reset: heading1;
+  margin-left: 1rem;
+  font-size: 0.9rem;
+
+  li{
+    @include margin(0.5em null);
+  }
+
+  a{
+    color: $text-color-body;
+    &:hover{
+      color: $background-color-head;
+      text-decoration: underline;
+    }
+  }
+
+  & > li{
+    list-style-type: none;
+    &::before{
+      content: counter(heading1)"."" ";
+      counter-increment: heading1;
+    }
+  }
+
+  & > li > ol{
+    counter-reset: heading2;
+    margin-left: 1rem;
+
+    & > li{
+      list-style-type: none;
+      &::before{
+        content: counter(heading1)"."counter(heading2)" ";
+        counter-increment: heading2;
+      }
+    }
+    
+  }
+
+
+}
+
+
+//! 正文
 
 .post-body {
   @include padding(2rem null null);
@@ -28,14 +68,34 @@ h4.post-title {
 
 }
 
-.post-body > h1 {
-  font-size: $font-size-h5;
-  @media screen and (min-width: 992px) {font-size: $font-size-h3;}
+.post-body{
+  counter-reset: heading1;
 
-  letter-spacing: $letter-spacing-base;
-  color: $text-color-emphasized;
-  @include margin(3em null 1.5em);
-}
+  h1 {
+    font-size: $font-size-h5;
+    @media screen and (min-width: 992px) {font-size: $font-size-h3;}
+    letter-spacing: $letter-spacing-base;
+    @include margin(3em null 1.5em);
+    counter-reset: heading2;
+    &::before{
+      content: counter(heading1) " ";
+      counter-increment: heading1;
+    }
+  }
+  
+  h2 {
+    font-size: $font-size-body;
+    @media screen and (min-width: 992px) {font-size: $font-size-h5;}
+    letter-spacing: $letter-spacing-base;
+    @include margin(2em null 1em);
+    &::before{
+      content: counter(heading1) "." counter(heading2) " ";
+      counter-increment: heading2;
+    }
+
+  }
+
+} 
 
 .post-body > p {
   @include margin(2em null);
@@ -71,6 +131,29 @@ h4.post-title {
   p {margin: 0.5em 0;}
 }
 
+.post-body h6.table-caption {
+  @include margin(2em null -1em);
+  font-size: $font-size-small;
+  &::before {
+    content: "表：";
+  }
+}
+
+.post-body > dl {
+  @include margin(2em null);
+
+  dt {
+    @include margin(2em null 1em);
+    border-left: 3pt solid lighten($color: $text-color-body, $amount: 50%) ;
+    padding-left: 0.5em;
+  }
+
+  dd {
+    @include margin(1em null);
+  }
+}
+
+// 引用样式
 .post-body > blockquote {
   font-size: $font-size-small;
   color: $text-color-slogan-p;
@@ -85,11 +168,13 @@ h4.post-title {
 
   mjx-container * {margin: 0;}
 
-  h6#表-1-1包装清单 {
+  h6.table-caption {
     font-size: $font-size-small;
     margin: 1em 0 -1.5em;
   }
 
+
+  //! 七大写作原则中的样式
   blockquote.notice {
     margin-top: 2em;
     border-top: 2px solid lighten($color: $text-color-body, $amount: 20%);
@@ -155,7 +240,6 @@ h4.post-title {
 
 }
 
-
 .post-body table {
   margin: 2em 0;
   border-top: 2px solid $text-color-body;
@@ -179,7 +263,41 @@ h4.post-title {
   }
 }
 
-.reftext {font-size: $font-size-small;}
+figure.highlight{
+  @include margin(1.5em null);
+}
+
+// 代码块
+p.code-language {
+  background-color: $background-color-code-header;
+  border: 1pt solid $background-color-code-header;
+  @include padding(0.5rem 1rem);
+  @include border-top-radius(0.25em);
+  font-size: $font-size-small;
+  letter-spacing: $letter-spacing-default;
+}
+
+p.code-language.markdown {text-transform: capitalize;}
+p.code-language.html {text-transform: uppercase;}
+
+figure.highlight > pre {
+  @include margin(null null);
+  @include padding(1rem);
+  font-size: $font-size-small;
+  background-color: $background-color-code-block;
+  border: 1pt solid $background-color-code-header;
+  overflow-x: auto;
+}
+
+// 参考资料
+.ref-text {font-size: $font-size-small;}
+
+.ref-caption{
+  border-top: 1pt solid $text-color-body;
+  padding-top: 0.5em;
+  width: 10em;
+  @include margin(4em null 2em);
+}
 
 
 //! 右侧栏
@@ -195,12 +313,6 @@ h4.post-title {
     border-color: rgba($text-color-emphasized, 0.7);
   }
 
-}
-
-ol#post-toc {
-  padding-left: 2rem;
-  font-size: 0.9rem;
-  li{@include margin(0.5em null);}
 }
 
 ul.card-text {
