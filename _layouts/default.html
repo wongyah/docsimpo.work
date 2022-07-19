@@ -12,7 +12,7 @@
       <title>{{ page.title }} - {{ site.data.webinfo.general.cn.name }}</title>
     {%- elsif collection.docType == "tutorial" -%}
       <title>{{ collection.subject }} - {{ site.data.webinfo.header-menu[1].name }} - {{ site.data.webinfo.general.cn.name }}</title>
-    {%- elsif page.url contains "/technical-writing/" -%}
+    {%- elsif page.url contains "/blog/" -%}
       <title>{{ page.title | strip_html }} - {{ site.data.webinfo.header-menu[1].name }} - {{ site.data.webinfo.general.cn.name }}</title>
     {%- elsif page.url contains "/doc-tech/" -%}
       <title>{{ page.title | strip_html }} - {{ site.data.webinfo.header-menu[2].name }} - {{ site.data.webinfo.general.cn.name }}</title>

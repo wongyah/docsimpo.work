@@ -20,7 +20,7 @@ collections:
     output: true
     docType: manual
     subject: 技术写作
-    permalink: cases/:collection/:name:output_ext
+    permalink: style-guides/:collection/:name:output_ext
     coverImage:
     icon: "/assets/images/icons/techWriting.svg"
     sections:

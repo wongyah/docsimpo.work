@@ -19,7 +19,7 @@
           {%- for item in site.data.webinfo.header-menu -%}
             {%- assign itemClass = 'class="nav-link"' -%}
             {%- assign currentClass = 'class="nav-link active" aria-current="page"' -%}
-            <a {% if page.url == item.link or page.url contains item.category -%} {{ currentClass }} {%- else -%} {{ itemClass }} {%- endif -%}
+            <a {% if page.url == item.link or page.url contains item.link and item.link !="/" -%} {{ currentClass }} {%- else -%} {{ itemClass }} {%- endif -%}
                 href="{{ item.link }}">{{ item.name }}</a>
           {%- endfor -%}
         </div>

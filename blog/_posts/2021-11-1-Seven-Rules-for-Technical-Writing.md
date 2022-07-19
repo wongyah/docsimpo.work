@@ -251,7 +251,7 @@ math: true
 
 [为什么程序员都不愿意写文档?]: https://mp.weixin.qq.com/s/gVWT0gG6a23sqkgDCsfpxg
 
-[全球大厂的技术写作指南们]: {% post_url technical-writing/2021-06-25-style-guides %}
+[全球大厂的技术写作指南们]: {% post_url blog/2021-06-25-style-guides %}
 
 [ASD-STE100]: http://www.asd-ste100.org/request.html
 
