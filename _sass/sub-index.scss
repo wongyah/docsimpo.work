@@ -18,10 +18,22 @@ h5.post-title {
 }
 
 //! 教程索引页
+@media (min-width: 768px){
+  .card.tutorial-link{
+    height: 150px;
+  }
+}
 
-.cover-image {
-  width: 100%;
-  height: 100%;
+.image-box{
+  background-image: url(/assets/images/background-image/desert-tan.jpg);
+  background-repeat: repeat;
+}
+
+.link-image {
+  height: auto;
+  width: auto;
+  max-height: 150px;
+  max-width: 100%;
 }
 
 //! 产品文档索引页
