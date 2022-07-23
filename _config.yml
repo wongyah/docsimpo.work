@@ -5,7 +5,7 @@ collections:
     docType: tutorial
     subject: Markdown
     permalink: doc-tech/:collection/:name:output_ext
-    coverIamge: "/assets/images/tutorial/markdown-header-image-5mpx.jpg"
+    coverIamge: "/assets/images/tutorial/markdown-header-image-5mpx.png"
     icon: "/assets/images/icons/markdown-icon-purple-white.svg"
     sections:
       - en: "Basic syntax"
