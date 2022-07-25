@@ -92,16 +92,16 @@ span#cong{
 
   .card-text{text-align: justify;}
 
-  }
-
-div.card-image-box{
-  text-align: center;
-  img.card-image{
-    width: 240px;
-    height: auto;
-    max-width: 100%;
-    border: 1px solid transparent;
-  }
 }
 
+.image-box{
+  height: 125px;
+  width: 100%;
+}
+
+.link-image{
+  max-height: 125px;
+  max-width: 100%;
+  object-fit: contain;
+}
 
