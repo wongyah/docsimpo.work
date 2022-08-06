@@ -66,5 +66,3 @@ title: 电机中的物理学
 |  热能  |  heat energy  |
 |  燃料  |  fuel  |
 |  通风系统  |  ventilation  |
-
-
