@@ -1,7 +1,9 @@
 ---
 title: "华为的技术资料是如何打造出来的?"
-description: 华为内部的技术文档和技术翻译工作流程详解
+description: 前华为经理详解华为内部技术文档和技术翻译的工作流程。
+tags: 技术写作
 headerImage: "/assets/images/post/headerImage/001-technicalWritingInHuaWei-header-image-20mpx.jpg"
+linkImage: "/assets/images/post/linkImage/tech-writing.svg"
 mermaid: true
 ---
 

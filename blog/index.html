@@ -1,10 +1,34 @@
 ---
-title: 技术写作是一种技能
+title: 博客
 ---
 
+{%- include layout/body-aside-classes.html -%}
+
 <!-- 文章索引 -->
-<div class="col-lg-8 pr-lg-4">
-  {% for post in site.categories.blog %}
+<div class="{{body}}">
+  {% for post in site.posts %}
+  <div class="row my-5">
+    <div class="col">
+
+      <div class="card">
+        <div class="post-link row no-gutters ">
+          <div class="image-box col-4 col-md-3 d-flex justify-content-center align-self-start">
+            <img src="{{post.linkImage}}" alt="博客文章头图" class="link-image">
+          </div>
+          <div class="carbody col-8 col-md-9 d-flex flex-column py-2 px-4">
+            <h6 class="card-title text-truncate"><a href="{{ post.url }}">{{ post.title }}</a></h6>
+            <p class="card-subtitle text-muted small mb-auto">{{post.description}}</p>
+            <p class="card-text text-muted small">{{ post.date | date: ' %Y-%m-%d' }} |{% for tag in post.tags -%}
+              &nbsp;<span class="badge badge-info">{{tag}}</span>
+            {%- endfor -%}</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  {% endfor %}
+  <!-- {% for post in site.categories.blog %}
     <div class="card my-5 pb-3 mb-dotted-light-blue">
       <div class="carbody">
         <h5 class="card-title post-title"><a href="{{ post.url }}">{{ post.title }}</a></h5>
@@ -14,11 +38,12 @@ title: 技术写作是一种技能
         </div>
       </div>
     </div>
-  {% endfor %}
+  {% endfor %} -->
+  
 </div>
 
 
 <!-- 侧栏 -->
-<div class="col-lg-4 pl-lg-4 aside">
+<div class="{{aside}}">
    {%- include /asideDivs/documentationOnline.html -%}
 </div>
