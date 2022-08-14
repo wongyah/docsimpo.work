@@ -1,31 +1,24 @@
 //! 文章索引页
 
 .post-link{
-  height: 9em;
+  height: 7em;
+  @include media-breakpoint-up(md){height: 9em}
 
-  .card-subtitle{
-    overflow: hidden;
-    text-overflow: ellipsis;
-    text-overflow: -o-ellipsis-lastline;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    line-clamp: 2;
-    -webkit-box-orient: vertical;
+  .card-title{
+    font-weight: normal;
+    line-height: $line-height-sm;
+    @include multiline-text-truncate();
+    
+    @include media-breakpoint-up(md){
+      font-weight: $font-weight-bold;
+      line-height: $line-height-lg;
+      @include text-truncate();
+    }
+  }
+
+  .card-subtitle{@include multiline-text-truncate();
   }
 }
-
-// .abstract p {
-//   display: inline;
-//   line-height: $line-height-high;
-//   text-align: justify;
-//   margin-top: 1rem;
-// }
-
-// .card.mb-dotted-light-blue{
-//   border: none;
-//   border-radius: 0;
-//   border-bottom: 0.2em dotted rgba($background-color-head, 0.3) !important;
-// }
 
 //! 教程索引页
 
