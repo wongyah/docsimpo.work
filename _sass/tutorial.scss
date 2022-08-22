@@ -35,6 +35,19 @@ h4.topic-title{
     @include margin(1em null);
     text-align: justify;
   }
+
+  figure{
+    text-align: center;
+    img{
+      width: 100%;
+      max-width: 500px;
+    }
+    figcaption{
+      font-size: $font-size-sm;
+      font-weight: $font-weight-bold;
+      &::before{content: "图：";}
+    }
+  }
   
   ul, ol {
     padding-left: 2em;
@@ -225,4 +238,15 @@ div.exmp ul.contains-task-list {
   justify-content: center;
   align-self: center;
   border-radius: 100%;
+}
+
+
+// 参考资料, 从 post.scss 复制而来
+
+.ref-caption{
+  font-size: $font-size-small;
+  border-top: 1pt solid $gray-500;
+  padding-top: 0.5em;
+  width: 10em;
+  @include margin(4em null 1em);
 }

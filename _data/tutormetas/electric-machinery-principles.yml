@@ -1,14 +1,15 @@
 collection: electric-machinery-principles
 tutorname: 电机中的物理学
 banner: /assets/images/tutorial/ics-tutorials/electric-machine-header-image.png
+icon: /assets/images/icons/ics-tutorial.png
 
 toc:
   - title:
       en: rotational motion
       cn: 定轴转动
     filenames:
-      - newtons-law-of-rotation.md
       - what-is-rotational-motion.md
+      - newtons-law-of-rotation.md
       - work-and-power.md
   - title:
       en: magnetic field

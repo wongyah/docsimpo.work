@@ -20,8 +20,6 @@ collections:
     output: true
     docType: tutorial
     permalink: ics-tutorials/:collection/:name:output_ext
-    coverIamge: "/assets/images/tutorial/markdown-header-image-5mpx.png"
-    icon: "/assets/images/icons/markdown-icon-purple-white.svg"
   manual-writing-cases:
     output: true
     docType: manual
