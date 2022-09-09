@@ -40,15 +40,13 @@ layout: page-container
              {%- assign sectionNameSlugify = section.title.en | slugify -%}
              <div class="card">
                <div class="card-header position-relative" id="{{ sectionNameSlugify }}">
-                 <h3>
-                   <button class="btn btn-link stretched-link" type="button" data-toggle="collapse" data-target="#{{ sectionNameSlugify }}-toc" aria-expanded="{%- if section.filenames contains currentPageName -%}
+                   <button class="btn btn-link stretched-link text-reset" type="button" data-toggle="collapse" data-target="#{{ sectionNameSlugify }}-toc" aria-expanded="{%- if section.filenames contains currentPageName -%}
                    true
                  {%- else -%}
                    false
                  {%- endif -%}" aria-controls="{{ sectionNameSlugify }}-toc">
-                     {{ section.title.cn }}
+                    <span>{{ section.title.cn }}</span> 
                    </button>
-                 </h3>
                </div>
          
                <div id="{{ sectionNameSlugify }}-toc" class="collapse {% if section.filenames contains currentPageName -%}
@@ -66,7 +64,7 @@ layout: page-container
                      {%- else -%}
                      class="list-group-item position-relative"
                      {%- endif -%}>
-                        <a href="{{ tdoc.url }}" class="stretched-link">{{ tdoc.title }}</a>
+                        <a href="{{ tdoc.url }}" class="small stretched-link">{{ tdoc.title }}</a>
                      </li>
                    {%- endfor -%}
                  </div>

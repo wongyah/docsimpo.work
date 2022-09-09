@@ -20,6 +20,10 @@ collections:
     output: true
     docType: tutorial
     permalink: ics-tutorials/:collection/:name:output_ext
+  style-guide-en:
+    output: true
+    docType: tutorial
+    permalink: style-guides/:collection/:name:output_ext
   manual-writing-cases:
     output: true
     docType: manual
@@ -54,6 +58,12 @@ defaults:
       type: "markdown-tutorial"
     values:
       layout: "tutorial"
+      headerImage: "/assets/images/tutorial/markdown-header-image-20mpx.jpg"
+  - scope:
+      path: ""
+      type: "style-guide-en"
+    values:
+      layout: "tutorial-2l"
       headerImage: "/assets/images/tutorial/markdown-header-image-20mpx.jpg"
   - scope:
       path: ""

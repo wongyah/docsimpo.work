@@ -7,7 +7,7 @@
 
 h4.topic-title{
   color: $text-color-title;
-  @media screen and (min-width: 992px) {font-size: $font-size-h2;}
+  @include media-breakpoint-up(lg){font-size: $font-size-h2;}
 }
 
 //! 正文
@@ -17,7 +17,7 @@ h4.topic-title{
 
   & > h1 {
     font-size: $font-size-h5;
-    @media screen and (min-width: 992px) {font-size: $font-size-h3;}
+    @include media-breakpoint-up(lg){font-size: $font-size-h3;}
 
     color: $text-color-emphasized;
     border-bottom: .1em dotted lighten($color: $text-color-emphasized, $amount: 15%);
@@ -27,7 +27,7 @@ h4.topic-title{
   
   & > h2 {
     font-size: $font-size-body;
-    @media screen and (min-width: 992px) {font-size: $font-size-h4;}
+    @include media-breakpoint-up(lg){font-size: $font-size-h4;}
     @include margin(2em null 1em);
   }
   
@@ -109,16 +109,15 @@ h4.topic-title{
     display: block;
     height: 7rem;
     margin-top: -7rem;
-    @media screen and (min-width: 768px) {
+    @include media-breakpoint-up(md){
       height: 8rem;
       margin-top: -8rem;
     }
-    @media screen and (min-width: 992px) {
+    @include media-breakpoint-up(lg){
       height: $height-header;
       margin-top: -$height-header;
     }
   }
-  
 }
 
 // 代码块
@@ -193,11 +192,8 @@ div.exmp ul.contains-task-list {
   @include padding(0.5rem null 0.25rem);
   background-color: $background-color-slogan;
 
-  @media screen and (min-width: 768px) {
-    margin-top: 3.5rem;
-  }
-  
-  @media screen and (min-width: 992px) {
+  @include media-breakpoint-up(md){margin-top: 3.5rem;}
+  @include media-breakpoint-up(lg){
     background-color: transparent;
     position: static;
     z-index: 0;
@@ -209,14 +205,31 @@ div.exmp ul.contains-task-list {
   max-height: 70vh;
   overflow-y: auto;
   border-radius: 0.3rem;
-  @media screen and (min-width: 992px) {
+  @include media-breakpoint-up(lg){
     margin-top: 3rem;
     max-height: none;
   }
+
+  button.btn{
+    font-weight: bold;
+    font-size: $font-size-sm;
+    &::before{
+      content: url(/assets/images/icons/symbols/right-arrow-tutor-nav.svg);
+      display: inline-block;
+      height: 0.75rem;
+      width: 0.75rem;
+      transition: transform 0.35s ease;
+      transform-origin: 50% 85%;
+    }
+    &[aria-expanded="true"]::before{
+      transform: rotate(90deg);
+    }
+  }
+
 }
 
 .list-group-item {
-  padding-left: 2em;
+  padding-left: 3em;
   a {color: $text-color-body;}
 
 }
@@ -239,6 +252,8 @@ div.exmp ul.contains-task-list {
   align-self: center;
   border-radius: 100%;
 }
+
+button.btn.focus, button.btn:focus{box-shadow: none;}
 
 
 // 参考资料, 从 post.scss 复制而来

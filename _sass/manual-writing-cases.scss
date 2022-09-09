@@ -76,6 +76,7 @@
   .card-header {
     padding: 0;
     *:not(button) {margin: 0;}
+    background-color: transparent;
   }
 
   button.btn-secondary.collapsed {
@@ -90,17 +91,17 @@
   button.btn-secondary:not(.collapsed) {
     background-color: #007bff;
     border-color: #007bff;
-    &:hover {
-      background-color: #007bff;
-      border-color: #007bff;
-    }
+    pointer-events: none;
+    box-shadow: none;
   }
 
   button.btn-secondary {
-    border-radius: 0.5em 0.5em 0 0;
+    @include border-top-radius($radius: $btn-border-radius-lg);
+    @include border-bottom-radius($radius: 0);
   }
 
 }
+
 
 .manual-case .card-body {
 

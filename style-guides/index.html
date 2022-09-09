@@ -1,29 +1,31 @@
 ---
-title: 产品文档展示台
+title: 技术写作指南
 ---
 
-<div class="col-lg-8 pr-lg-4">
-  <div class="row my-5">
-    <div class="col">
+{%- include layout/body-aside-classes.html -%}
 
-      <div class="card manual-card technical-instruction">
-        <div class="card-header">
-          <h5 class="card-title">技术写作</h5>
-        </div>
-        <div class="card-body">
-          <p class="card-text">撰写产品文档时，遵循技术写作指南中的写作原则可以让产品文档简单易懂、条理清晰、文风一致。</p>
-        </div>
-        <div class="btn-row card-body text-right border-top">
-          <a href="{% link _manual-writing-cases/index.md %}" class="btn btn-primary">技术写作实例</a></p> 
+<div class="{{body}}">
+  <div class="row my-5">
+    <div class="col-md-6">
+
+      <div class="card">
+        <div class="row no-gutters style-guide-link">
+          <div class="image-box col-4 p-3 d-flex justify-content-center align-self-center">
+            <img src="/assets/images/style-guide/greenbook.svg" alt="教程封面图片" class="link-image">
+          </div>
+          <div class="card-body col-8 d-flex flex-column py-3 px-4">
+            <h6 class="card-subtitle text-muted">英文文档</h6>
+            <h5 class="card-title"><a href="{% link _style-guide-en/index.md %}" class="text-reset stretched-link">技术写作指南</a></h5>
+            <p class="small text-muted mt-auto">单线条文档</p>
+          </div>
         </div>
       </div>
-
 
     </div>
   </div>
 </div>
 
 
-<div class="col-lg-4 pl-lg-4 aside">
+<div class="{{aside}}">
   {%- include /asideDivs/documentationOnline.html -%}
 </div>
