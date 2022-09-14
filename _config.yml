@@ -3,24 +3,20 @@ collections:
   markdown-tutorial:
     output: true
     docType: tutorial
-    subject: Markdown
     permalink: doc-tech/:collection/:name:output_ext
-    coverIamge: "/assets/images/tutorial/markdown-header-image-5mpx.jpg"
-    icon: "/assets/images/icons/markdown-icon-purple-white.svg"
-    sections:
-      - en: "Basic syntax"
-        cn: "基本语法"
-      - en: "Extended syntax"
-        cn: "扩展语法"
-      - en: "kramdown syntax"
-        cn: "kramdown 语法"
-      - en: "Pandoc syntax"
-        cn: "Pandoc 语法"
+  electric-machinery-principles:
+    output: true
+    docType: tutorial
+    permalink: ics-tutorials/:collection/:name:output_ext
+  style-guide-en:
+    output: true
+    docType: tutorial
+    permalink: style-guides/:collection/:name:output_ext
   manual-writing-cases:
     output: true
     docType: manual
     subject: 技术写作
-    permalink: cases/:collection/:name:output_ext
+    permalink: style-guides/:collection/:name:output_ext
     coverImage:
     icon: "/assets/images/icons/techWriting.svg"
     sections:
@@ -35,6 +31,11 @@ collections:
 defaults:
   - scope:
       path: ""
+    values:
+      layout: "default"
+      author: "王烨"
+  - scope:
+      path: ""
       type: "posts"
     values:
       isPost: true
@@ -44,7 +45,13 @@ defaults:
       path: ""
       type: "markdown-tutorial"
     values:
-      layout: "tutorial"
+      layout: "tutorial-2l"
+      headerImage: "/assets/images/tutorial/markdown-header-image-20mpx.jpg"
+  - scope:
+      path: ""
+      type: "style-guide-en"
+    values:
+      layout: "tutorial-2l"
       headerImage: "/assets/images/tutorial/markdown-header-image-20mpx.jpg"
   - scope:
       path: ""
@@ -53,14 +60,15 @@ defaults:
       layout: "tutorial"
       headerImage: "/assets/images/tutorial/markdown-header-image-20mpx.jpg"
   - scope:
+      path: ""
+      type: "electric-machinery-principles"
+    values:
+      layout: "tutorial-2l"
+      headerImage: "/assets/images/tutorial/markdown-header-image-20mpx.jpg"
+  - scope:
       path: "*/index.html"
     values:
       layout: "page-container"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
-      author: "王烨"
 
 disable_disk_cache: BOOL
 

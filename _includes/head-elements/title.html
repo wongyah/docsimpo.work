@@ -1,0 +1,11 @@
+{% if page.url == "/" -%}
+<title>{{ site.data.webinfo.general.cn.name }} - {{ site.data.webinfo.general.cn.slogan }}</title>
+{%- elsif page.name == "index.html" -%}
+<title>{{ page.title }} - {{ site.data.webinfo.general.cn.name }}</title>
+{%- elsif collection.docType == "tutorial" -%}
+<title>{{ tutormeta.tutorname }} - {{ page-menu-cn }} - {{ site.data.webinfo.general.cn.name }}</title>
+{%- elsif page.url contains "/blog/" -%}
+<title>{{ page.title | strip_html }} - {{ site.data.webinfo.header-menu[1].name }} - {{ site.data.webinfo.general.cn.name }}</title>
+{%- else -%}
+<title>{{ page.title }}</title>
+{%- endif %}

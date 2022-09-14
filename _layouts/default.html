@@ -1,41 +1,16 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
   <head>
-    {%- assign collection = site.collections | find: "label", page.collection %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta name="author" content="王烨">
 
-    {% if page.url == "/" -%}
-      <title>{{ site.data.webinfo.general.cn.name }} - {{ site.data.webinfo.general.cn.slogan }}</title>
-    {%- elsif page.name == "index.html" -%}
-      <title>{{ page.title }} - {{ site.data.webinfo.general.cn.name }}</title>
-    {%- elsif collection.docType == "tutorial" -%}
-      <title>{{ collection.subject }} - {{ site.data.webinfo.header-menu[1].name }} - {{ site.data.webinfo.general.cn.name }}</title>
-    {%- elsif page.url contains "/technical-writing/" -%}
-      <title>{{ page.title | strip_html }} - {{ site.data.webinfo.header-menu[1].name }} - {{ site.data.webinfo.general.cn.name }}</title>
-    {%- elsif page.url contains "/doc-tech/" -%}
-      <title>{{ page.title | strip_html }} - {{ site.data.webinfo.header-menu[2].name }} - {{ site.data.webinfo.general.cn.name }}</title>
-    {%- else -%}
-      <title>{{ page.title }}</title>
-    {%- endif %}
+    {%- include custom-site-variables/pageCollection.html -%}
+    {%- include custom-site-variables/tutormeta.html -%}
+    {%- include custom-site-variables/page-menu.html -%}
 
-    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/header-and-footer.css">
-    <link rel="stylesheet" href="/assets/css/syntax-highlight-github.css">
-    {% if page.url == "/" -%}
-      <link rel="stylesheet" href="/assets/css/home.css">
-    {%- elsif page.url contains "services" -%}
-      <link rel="stylesheet" href="/assets/css/home.css">
-    {%- elsif page.isPost == true -%}
-      <link rel="stylesheet" href="/assets/css/post.css">
-    {%- elsif collection.docType == "tutorial" -%}
-      <link rel="stylesheet" href="/assets/css/tutorial.css">
-    {%- elsif collection.docType == "manual" -%}
-      <link rel="stylesheet" href="/assets/css/manual-writing-cases.css">
-    {%- elsif page.name contains "index" -%}
-      <link rel="stylesheet" href="/assets/css/sub-index.css">
-    {%- endif %}
+    {%- include head-elements/title.html -%}
+    {%- include head-elements/stylesheets.html -%}
 
     {% if page.url == "/"  -%}
     <meta property='og:title' content='{{ site.data.webinfo.general.cn.name }}'/>

@@ -1,36 +1,36 @@
 ---
-title: 代码式文档管理是一种技术
+title: 文档技术
 ---
 
+{%- include layout/body-aside-classes.html -%}
 {%- assign markdown = site.collections | find: "label", "markdown-tutorial" -%}
-<div class="col-lg-8 pr-lg-4">
+
+<div class="{{body}}">
+
   <div class="row my-5">
     <div class="col">
-
-      <div class="card tutorial-card">
-        <div class="row no-gutters">
-          <div class="col-md-4">
-            <img src="{{ markdown.coverIamge }}" alt="Markdown教程封面图片" class="cover-image">
+      <div class="card">
+        <div class="row no-gutters tutorial-link">
+          <div class="image-box col-md-4 d-flex justify-content-center align-self-center">
+            <img src="{{site.data.tutormetas.markdown-tutorial.banner}}" alt="教程封面图片" class="link-image">
           </div>
-          <div class="col-md-8">
-            <div class="card-body py-2">
-              <h4 class="card-title my-0">Markdown</h4>
-              <h6 class="card-subtitle text-muted small">一种易读、易写、易学的轻量级标记语言</h6>
-              <p class="card-text small mt-3"> 
+          <div class="card-body col-md-8 d-flex flex-column py-2 px-4">
+              <h4 class="card-title mb-2">{{site.data.tutormetas.markdown-tutorial.tutorname}}</h4>
+              <h6 class="card-subtitle text-muted small mb-auto">一种易读、易写、易学的轻量级标记语言</h6>
+              <p class="card-text small"> 
                 <span>记笔记、写公众号、写文档、制作网站，用它都方便。</span>
-                <a href="{% link _markdown-tutorial/index.md %}" class="stretched-link">打开📖</a>
+                <a href="{% link _markdown-tutorial/index.md %}" class="stretched-link">开始📖</a>
               </p>
-            </div>
           </div>
         </div>
       </div>
-
     </div>
   </div>
+
 </div>
 
 
 <!-- 侧栏 -->
-<div class="col-lg-4 pl-lg-4 aside">
+<div class="{{aside}}">
   {%- include /asideDivs/documentationOnline.html -%}
 </div>

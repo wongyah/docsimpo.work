@@ -1,27 +1,44 @@
 //! 文章索引页
 
-h5.post-title {
-  @media screen and (min-width: 992px) {font-size: $font-size-h4;}
-}
+.post-link{
+  height: 7em;
+  @include media-breakpoint-up(md){height: 9em}
 
-.abstract p {
-  display: inline;
-  line-height: $line-height-high;
-  text-align: justify;
-  margin-top: 1rem;
-}
+  .card-title{
+    font-weight: normal;
+    line-height: $line-height-sm;
+    @include multiline-text-truncate();
+    
+    @include media-breakpoint-up(md){
+      font-weight: $font-weight-bold;
+      line-height: $line-height-lg;
+      @include text-truncate();
+    }
+  }
 
-.card.mb-dotted-light-blue{
-  border: none;
-  border-radius: 0;
-  border-bottom: 0.2em dotted rgba($background-color-head, 0.3) !important;
+  .card-subtitle{@include multiline-text-truncate();
+  }
 }
 
 //! 教程索引页
 
-.cover-image {
-  width: 100%;
+@include media-breakpoint-up(md){
+  .tutorial-link{
+    height: 150px;
+  }
+}
+
+.image-box{
+  background-image: url(/assets/images/background-image/desert-tan.jpg);
+  background-repeat: repeat;
   height: 100%;
+}
+
+.link-image {
+  display: inline-block;
+  max-height: 150px;
+  max-width: 100%;
+  object-fit: scale-down;
 }
 
 //! 产品文档索引页

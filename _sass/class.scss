@@ -25,12 +25,24 @@ a{
   font-size: inherit;
 }
 
-:not(a):not(pre) > code {
+%general-code-style {
   padding: .1em .25em;
-  background-color: $background-color-inline-code;
   border-radius: .1em;
   font-size: $font-size-small;
   word-wrap: break-word;
+}
+
+code{
+  @extend %general-code-style;
+  background-color: $background-color-inline-code;
+}
+
+a, pre, td, dt{
+  code {background-color: transparent; }
+}
+
+dt > code{
+  font-size: $font-size-body;
 }
 
 
