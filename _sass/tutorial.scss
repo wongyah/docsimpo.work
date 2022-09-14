@@ -133,6 +133,7 @@ p.code-language {
   @include border-top-radius(0.25em);
   font-size: $font-size-small;
   letter-spacing: $letter-spacing-default;
+  text-align: left;
 }
 
 p.code-language.markdown {text-transform: capitalize;}
@@ -145,6 +146,7 @@ figure.highlight > pre {
   background-color: $background-color-code-block;
   border: 1pt solid $background-color-code-header;
   overflow-x: auto;
+  text-align: left;
 }
 
 div.exmp:before{
@@ -160,6 +162,7 @@ div.exmp:before{
 div.exmp-container{
   @include padding(1rem);
   border: 1pt solid $background-color-code-header;
+  font-size: $font-size-small;
 }
 
 div.exmp blockquote{
