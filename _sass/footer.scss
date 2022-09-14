@@ -25,11 +25,11 @@
 
 .media {position: relative;}
 
-#icon-linkedin, #icon-wechat {opacity: 0.7;}
+#icon-zhihu, #icon-wechat {opacity: 0.7;}
 
-#icon-linkedin:hover, #icon-wechat:hover {opacity: 1;}
+#icon-zhihu:hover, #icon-wechat:hover {opacity: 1;}
 
-#icon-linkedin:hover {border-bottom: 2px solid #fff;}
+#icon-zhihu:hover {border-bottom: 2px solid #fff;}
 
 // 二维码外观
 .qr{
@@ -43,8 +43,8 @@
 // 将二维码定位在页脚上方，并隐藏
 #wechat-qr {
   position: absolute;
-  top: -6rem;
-  left: 9rem;
+  top: -7rem;
+  left: 2rem;
   display: none;
 }
 

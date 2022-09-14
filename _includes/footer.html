@@ -23,7 +23,7 @@
           <div class="col-md my-2 my-md-0 brand">
             <h6>单线条文档工作室</h6>
             <p class="small">贴近用户，从产品文档开始</p>
-            <p class="small mt-3" id="copyright">&copy; 2021 docSimpo</p>
+            <p class="small mt-3" id="copyright">&copy;2021-{{ "now" | date: "%Y"}} docSimpo</p>
           </div>
 
           <div class="col-md my-2 my-md-0 contact">
@@ -46,16 +46,16 @@
           </div>
 
           <div class="col-md my-2 my-md-0 media">
-            <a class="mr-3 pb-1" id="icon-linkedin" href="https://www.linkedin.com/in/docsimpo">
-              <img class="icon-21px " src="/assets/images/mediaIcon/linkedin@2x.png" alt="领英图标">
-            </a>
             <input type="checkbox" id="wechat-qr-checkbox">
             <label class="pb-1" for="wechat-qr-checkbox" id="icon-wechat">
-              <img class="mr-n2  icon-21px" src="/assets/images/mediaIcon/wechat@4x.png" alt="微信图标">
+              <img class="mr-2 icon-21px" src="/assets/images/mediaIcon/wechat@4x.png" alt="微信图标">
             </label>
             <div id="wechat-qr">
               <img class="icon-96px qr"  src="/assets/images/mediaIcon/qrcode_wechat.jpg" alt="公众号二维码">
             </div>
+            <a class="pb-1" id="icon-zhihu" href="https://www.zhihu.com/people/docSimpo/columns">
+              {%- include svg/media-icon/zhihu.svg -%}
+            </a>
           </div>
 
         </div>
