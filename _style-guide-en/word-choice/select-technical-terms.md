@@ -25,6 +25,8 @@ title: 选用专业术语
 
 > "Oil" 是一个名词术语，不能将其用作动词。使用不同的句型结构，使 "oil" 在句子中成为名词。
 
+{% capture case-id -%}{% increment counter %}{%- endcapture %}
+
 {%- capture original-{{ case-id }} -%}
 **Oil** the steel surfaces.
 {%- endcapture -%}

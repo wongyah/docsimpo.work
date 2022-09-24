@@ -10,4 +10,12 @@ toc:
     filenames:
       - use-ste-words.md
       - select-technical-terms.md
+      - use-us-spelling.md
+  - title:
+      en: language and grammer
+      cn: 语法
+    filenames:
+      - noun-clusters.md
+      - articles.md
+      - verbs.md
 

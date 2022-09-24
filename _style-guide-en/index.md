@@ -11,11 +11,11 @@ title: 英文文档技术写作指南
 1. [ASD-STE100][]
 2. [Microso Style Guide][]
 3. [Chicago Manual of Style][]
-4. [Merriam-Webster][]
+4. [Merriam-Webster 词典][]
 
 
 <!-- 定义链接 -->
 [ASD-STE100]: http://www.asd-ste100.org/request.html
 [Microso Style Guide]: https://docs.microsoft.com/zh-cn/style-guide/welcome/
 [Chicago Manual of Style]: https://www.chicagomanualofstyle.org/home.html
-[Merriam-Webster]: https://www.merriam-webster.com/
+[Merriam-Webster 词典]: https://www.merriam-webster.com/
