@@ -21,9 +21,9 @@ title: 复合名词
 
 要想让复合名词容易理解、不产生歧义，复合名词的长度不应超过 3 个单词。
 
-对于超长的复合名词，可以使用介词（"of"、"on"、"in" 或 "for" 等）将其分解为长度在 3 个单词以内的复合名词。这些介词还能说明分解后的复合单词们之间的逻辑关系。
+对于超长的复合名词，可以使用介词（"of"、"on"、"in" 或 "for" 等）将其分解为长度在 3 个单词以内的复合名词。这些介词还能说明分解后的复合名词们之间的逻辑关系。
 
-在 STE 中，冠词和介词不属于复合单词的组成部分（不计入复合单词的单词数）。
+在 STE 中，冠词和介词不属于复合名词的组成部分（不计入复合名词的单词数）。
 
 {% capture case-id -%}{% increment counter %}{%- endcapture %}
 
@@ -49,7 +49,7 @@ Install the **terminal tags** on the **forward overheat thermocouple** of the **
 
 # 保留超长的复合名词
 
-在很多情况下，我们不得不使用长度在 3 个单词以上的复合名词，不能将它们分解成短小的复合名词。比如，一个复合名词虽然长度在 3 个单词以上，但它在组织内部是通用的或大家所熟知的。
+在很多情况下，我们不得不使用长度在 3 个单词以上的复合名词。比如，一个复合名词虽然长度在 3 个单词以上，但它在组织内部是通用的或大家所熟知的。
 
 在这种情况下，为了让超长的复合名词易于理解，我们需要对它们进行一定的技术处理。
 
@@ -57,7 +57,7 @@ Install the **terminal tags** on the **forward overheat thermocouple** of the **
 
 在技术图纸、零备件手册等产品文档中，经常出现超长的复合名词。使用这些复合名词时，首先在它第一次出现的位置写出全称，然后在下文中使用这个复合名词的简称。
 
-> 本例中，"ramp service door safety connector pin" 是复合名词的全称。然后，在圆括号中对复合名词进行了解释，并为复合名词提供了一个简称（"safety connector pin"）。这个简称也是复合名词，包含 3 个单词，属于短小的复合名词。
+> 本例中，"ramp service door safety connector pin" 是复合名词的全称，后面的圆括号中对复合名词进行了解释，并为复合名词提供了一个简称（"safety connector pin"）。这个简称也是复合名词，包含 3 个单词，属于短小的复合名词。
 
 {%- capture example-{{ case-id }} -%}
 Before you do this procedure, engage the **ramp service door safety connector pin** (the pin that holds the ramp service door, referred to in this procedure as the "**safety connector pin**").
