@@ -147,6 +147,8 @@ figure.highlight > pre {
   border: 1pt solid $background-color-code-header;
   overflow-x: auto;
   text-align: left;
+
+  code.language-html, code.language-markdown{padding: 0;}
 }
 
 div.exmp:before{
