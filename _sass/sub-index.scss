@@ -23,9 +23,9 @@
 //! 教程索引页
 
 @include media-breakpoint-up(md){
-  .tutorial-link{
-    height: 150px;
-  }
+  .tutorial-link{height: 150px;}
+
+  .style-guide-link{height: 150px;}
 }
 
 .image-box{
@@ -36,6 +36,7 @@
 
 .link-image {
   display: inline-block;
+  height: 100%;
   max-height: 150px;
   max-width: 100%;
   object-fit: scale-down;
