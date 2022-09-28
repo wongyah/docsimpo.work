@@ -3,7 +3,6 @@ title: 全球大厂的技术文档写作指南们！
 description: 微软、谷歌、IBM 等数十家大厂的 Style Guides，全在这里了！
 tags: 学习资源
 headerImage: "/assets/images/post/headerImage/003-style-guide-header-image-15mpx.png"
-linkImage: "/assets/images/post/linkImage/style-guides.svg"
 downloadkey: PDF指南
 excerpt_separator: <!--more-->
 ---

@@ -16,7 +16,9 @@ layout: page-container
        <button class="btn btn-sm doc-toc-icon" type="button" data-toggle="collapse" data-target="#doc-toc-container" aria-expanded="false" aria-controls="doc-toc-container">
          <img src="https://img.icons8.com/plumpy/24/000000/menu--v2.png" class="icon-1em"/>
        </button>
-       <a href="{% link _{{ page.collection }}/index.md %}" class="btn btn-sm"><img src="{{ tutormeta.icon }}" alt="{{ tutormeta.tutorname }}图标" class="icon-2em"></a>
+       <a href="{% link _{{ page.collection }}/index.md %}" class="btn btn-sm">
+        <img src="{{ tutormeta.icon }}" alt="{{ tutormeta.tutorname }}图标" class="icon-2em">
+      </a>
      </div>
    
      <div class="collapse d-lg-block" id="doc-toc-container">
@@ -86,7 +88,9 @@ layout: page-container
      <!-- 大屏上的教程（手册实例）图标 -->
      <div class="col-auto pr-0 d-flex align-items-end">
        <h1 class="text-muted">
-         <a href="{% link _{{ page.collection }}/index.md %}" class="btn d-none d-lg-inline-block"><img src="{{ tutormeta.icon }}" alt="{{ tutormeta.tutorname }}图标" class="icon-3em"></a>
+         <a href="{% link _{{ page.collection }}/index.md %}" class="btn d-none d-lg-inline-block">
+          <img src="{{ tutormeta.icon }}" alt="{{ tutormeta.tutorname }}图标" class="icon-3em">
+         </a>
        </h1>
      </div>
    </div>

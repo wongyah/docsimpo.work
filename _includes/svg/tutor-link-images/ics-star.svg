@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 600 600"
+  width="600"
+  height="600"
+  class="icon-2em">
+  <defs>
+    <linearGradient id="linear-gradient"
+      x1="-6.36"
+      y1="695.98"
+      x2="-6.36"
+      y2="696.64"
+      gradientTransform="matrix(-79.3, -138.68, -303.83, 173.74, 211235.62, -121493.41)"
+      gradientUnits="userSpaceOnUse">
+      <stop offset="0"
+        stop-color="#c81414" />
+      <stop offset="1"
+        stop-color="#dc2828" />
+    </linearGradient>
+    <linearGradient id="linear-gradient-2"
+      x1="-5.46"
+      y1="695.24"
+      x2="-5.46"
+      y2="695.9"
+      gradientTransform="matrix(80.45, -138.02, -302.38, -176.26, 210948.81, 122072.44)"
+      gradientUnits="userSpaceOnUse">
+      <stop offset="0"
+        stop-color="#c8c814" />
+      <stop offset="1"
+        stop-color="#dcdc28" />
+    </linearGradient>
+    <linearGradient id="linear-gradient-3"
+      x1="-3.61"
+      y1="695.23"
+      x2="-3.61"
+      y2="695.89"
+      gradientTransform="matrix(159.75, 0.66, 1.45, -350, -129.01, 243607.41)"
+      gradientUnits="userSpaceOnUse">
+      <stop offset="0"
+        stop-color="#14c814" />
+      <stop offset="1"
+        stop-color="#28dc28" />
+    </linearGradient>
+    <linearGradient id="linear-gradient-4"
+      x1="-2.66"
+      y1="695.95"
+      x2="-2.66"
+      y2="696.61"
+      gradientTransform="matrix(79.3, 138.68, 303.83, -173.74, -210919.8, 121576.3)"
+      gradientUnits="userSpaceOnUse">
+      <stop offset="0"
+        stop-color="#14c8c8" />
+      <stop offset="1"
+        stop-color="#28dcdc" />
+    </linearGradient>
+    <linearGradient id="linear-gradient-5"
+      x1="-3.56"
+      y1="696.69"
+      x2="-3.56"
+      y2="697.35"
+      gradientTransform="matrix(-80.45, 138.02, 302.38, 176.26, -210633, -121989.51)"
+      gradientUnits="userSpaceOnUse">
+      <stop offset="0"
+        stop-color="#1414c8" />
+      <stop offset="1"
+        stop-color="#2828dc" />
+    </linearGradient>
+    <linearGradient id="linear-gradient-6"
+      x1="-5.4"
+      y1="696.7"
+      x2="-5.4"
+      y2="697.36"
+      gradientTransform="matrix(-159.75, -0.66, -1.45, 350, 444.81, -243524.48)"
+      gradientUnits="userSpaceOnUse">
+      <stop offset="0"
+        stop-color="#c814c8" />
+      <stop offset="1"
+        stop-color="#dc28dc" />
+    </linearGradient>
+  </defs>
+  <title>工控之星Logo</title>
+  <g id="logo_1"
+    data-name="logo 1">
+    <g id="geom_1"
+      data-name="geom 1">
+      <path d="M278.88,309.43Q98.75,295.78,74.52,415.68q177,31.35,206.64-102.26-67.07,45-138.83,68.79Q212.38,355.41,278.88,309.43Z"
+        style="fill:url(#linear-gradient)" />
+    </g>
+    <g id="geom_1-2"
+      data-name="geom 1">
+      <path d="M281.28,286.42Q203,123.6,87.08,162.57,148.43,331.53,279,290.4q-72.49-35.59-129-85.84Q208.21,251.83,281.28,286.42Z"
+        style="fill:url(#linear-gradient-2)" />
+    </g>
+    <g id="geom_1-3"
+      data-name="geom 1">
+      <path d="M302.4,277Q404.28,127.81,312.56,46.89,196.91,184.5,297.79,277q-5.42-80.58,9.85-154.62Q295.83,196.41,302.4,277Z"
+        style="fill:url(#linear-gradient-3)" />
+    </g>
+    <g id="geom_1-4"
+      data-name="geom 1">
+      <path d="M321.12,290.57q180.14,13.65,204.36-106.25Q348.48,153,318.84,286.58q67.07-45,138.83-68.79Q387.62,244.6,321.12,290.57Z"
+        style="fill:url(#linear-gradient-4)" />
+    </g>
+    <g id="geom_1-5"
+      data-name="geom 1">
+      <path d="M318.72,313.58Q397,476.41,512.92,437.43,451.57,268.47,321,309.6q72.49,35.59,129,85.84Q391.79,348.18,318.72,313.58Z"
+        style="fill:url(#linear-gradient-5)" />
+    </g>
+    <g id="geom_1-6"
+      data-name="geom 1">
+      <path d="M297.6,323Q195.72,472.19,287.44,553.11,403.09,415.5,302.21,323q5.42,80.58-9.85,154.62Q304.18,403.59,297.6,323Z"
+        style="fill:url(#linear-gradient-6)" />
+    </g>
+  </g>
+</svg>

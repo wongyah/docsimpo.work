@@ -3,7 +3,6 @@ title: 什么是结构化文档?
 description: (宝马旗下) Mini 汽车的古董级车主手册全真诠释：这就是结构化文档！
 tags: 结构化文档
 headerImage: "/assets/images/post/headerImage/20220520-structured-authoring-header-image-15mpx.png"
-linkImage: "/assets/images/post/linkImage/programming.svg"
 imageFloder: "/assets/images/post/thisIsStructuredAuthoring"
 downloadkey: PDF指南
 excerpt_separator: <!--more-->

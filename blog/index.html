@@ -14,7 +14,12 @@ title: 博客
       <div class="card">
         <div class="post-link row no-gutters ">
           <div class="image-box col-3 d-flex justify-content-center align-self-start">
-            <img src="{{post.linkImage}}" alt="博客文章头图" class="link-image">
+            {%- assign postTag = post.tags | first -%}
+            {%- for item in site.data.link-images.post-link-images -%}
+              {%- if item.tag == postTag -%}
+                {%- include /svg/post-link-image/{{ item.link-image }}.svg -%}
+              {%- endif -%}
+            {%- endfor -%}
           </div>
           <div class="carbody col-9 d-flex flex-column py-2 px-4">
             <h6 class="card-title"><a href="{{ post.url }}" class="text-reset stretched-link">{{ post.title }}</a></h6>
