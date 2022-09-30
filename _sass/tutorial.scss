@@ -228,20 +228,24 @@ div.exmp ul.contains-task-list {
   button.btn{
     font-weight: bold;
     font-size: $font-size-sm;
-    &::before{
-      content: url(/assets/images/icons/symbols/right-arrow-tutor-nav.svg);
-      display: inline-block;
-      height: 0.75rem;
-      width: 0.75rem;
-      transition: transform 0.35s ease;
-      transform-origin: 50% 85%;
-    }
-    &[aria-expanded="true"]::before{
+    &[aria-expanded="true"]>span.collapse-arrow-box{
       transform: rotate(90deg);
     }
   }
 
 }
+
+.collapse-arrow-box{
+  transition: transform 0.35s ease;
+  transform-origin: 50% 50%;
+}
+
+.collapse-right-arrow{
+  width: 0.9em;
+  height: 0.9em;
+  object-fit: scale-down;
+  vertical-align: middle;
+}  
 
 .list-group-item {
   padding-left: 3em;

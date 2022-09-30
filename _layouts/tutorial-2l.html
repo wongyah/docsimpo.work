@@ -34,7 +34,8 @@ layout: page-container
                  {%- else -%}
                    false
                  {%- endif -%}" aria-controls="{{ sectionNameSlugify }}-toc">
-                    <span>{{ section.title.cn }}</span> 
+                    <span class="collapse-arrow-box d-inline-flex align-items-center justify-content-center">{%- include /svg/symbols/collapse-right-arrow.svg -%}</span>
+                    <span >{{ section.title.cn }}</span>
                    </button>
                </div>
          
