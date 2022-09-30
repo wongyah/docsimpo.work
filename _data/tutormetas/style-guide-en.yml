@@ -1,7 +1,8 @@
 collection: style-guide-en
 tutorname: 英文文档技术写作指南
 banner: /assets/images/style-guide/greenbook.svg
-icon: /assets/images/style-guide/greenbook.svg
+# icon: /assets/images/style-guide/greenbook.svg
+icon: greenbook
 
 toc:
   - title:

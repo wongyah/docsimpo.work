@@ -1,7 +1,8 @@
 collection: markdown-tutorial
 tutorname: "Markdown 完全教程"
 banner: "/assets/images/tutorial/markdown-header-image-5mpx.png"
-icon: "/assets/images/icons/markdown-icon-purple-white.svg"
+# icon: "/assets/images/icons/markdown-icon-purple-white.svg"
+icon: markdown-full
 
 toc:
   - title:

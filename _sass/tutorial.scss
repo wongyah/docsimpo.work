@@ -10,6 +10,16 @@ h4.topic-title{
   @include media-breakpoint-up(lg){font-size: $font-size-h2;}
 }
 
+.tutor-icon{
+  object-fit: scale-down;
+  height: 2em;
+  width: 2em;
+  @include media-breakpoint-up(lg){
+    height: 3em;
+    width: 3em;
+  }
+}
+
 //! 正文
 
 .topic-body {
