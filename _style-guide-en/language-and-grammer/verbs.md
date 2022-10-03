@@ -48,10 +48,10 @@ Cancel a broker deployment only if you are sure that the broker **will never res
 语态分为两种：主动语态和被动语态。在主动语态中，句子的主语是动作的实施者。在被动语态中，句子的主语是动作的承受者。通常，主动语态比被动语态能够表达得更清晰、更简洁。
 
 {%- capture example-{{ case-id }} -%}
-**主动语态：**  
+主动语态：  
 the manufacturer **supplies** the safety procedures.
 
-**被动语态：**  
+被动语态：  
 the safety procedures **are supplied** by the manufacturer.
 {%- endcapture %}
 

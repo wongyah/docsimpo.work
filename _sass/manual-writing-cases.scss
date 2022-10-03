@@ -98,6 +98,7 @@
   button.btn-secondary {
     @include border-top-radius($radius: $btn-border-radius-lg);
     @include border-bottom-radius($radius: 0);
+    font-size: $font-size-sm;
   }
 
 }
@@ -121,6 +122,9 @@
     }
   }
 }
+
+.incorrect-case strong{color:rgb(200, 0, 0);}
+.correct-case strong{color: rgb(0, 150, 0);}
 
 strong.term {
   color:  darken($color: $background-color-head, $amount: 10%) ;
