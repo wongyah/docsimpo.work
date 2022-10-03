@@ -11,7 +11,7 @@ title: 动词
 
 # 优先使用一般现在时
 
-通常，一般现在时是最简单、最易于理解的时态。在技术写作中，要优先使用一般现在时。不能使用一般现在时的情况下，可以使用一般过去时和未来时。
+通常，一般现在时是最简单、最易于理解的时态。在技术写作中，优先使用一般现在时。不能使用一般现在时的情况下，可以使用一般过去时和未来时。
 
 |  允许使用  |  禁止使用  |
 |:---:|:---:|
@@ -96,7 +96,7 @@ The computer **calculate** the energy consumption from these values.
 > 本例中，动作的实施者是系统，使用被动语态更合适。
 
 {%- capture example-{{ case-id }} -%}
-The file is saved when you press Enter.
+**The file is saved** when you press Enter.
 {%- endcapture %}
 
 {% include templateComponents/manualCase-single.html %}
@@ -108,3 +108,181 @@ The file is saved when you press Enter.
 {%- endcapture %}
 
 {% include templateComponents/manualCase-single.html %}
+
+# 使用合适的语气
+
+根据信息类型选择合适的语气：
+
+- 对于操作说明或要求（比如操作步骤），使用祈使语气。
+- 对于说明性信息（比如概念讲解或功能说明），使用陈述语气。
+
+在技术写作中，不要使用虚拟语气。
+
+> 本例中是一个操作说明，应该使用祈使语气。
+
+{%- capture original-{{ case-id }} -%}
+The test can be continued.
+{%- endcapture -%}
+
+{%- capture rewrited-{{ case-id }} -%}
+**Continue** the test.
+{%- endcapture -%}
+
+{% include templateComponents/manualCase.html %}
+
+> 本例中是一个功能说明，应该使用陈述语气。
+
+{%- capture example-{{ case-id }} -%}
+The product provides a powerful way to store information.
+{%- endcapture %}
+
+{% include templateComponents/manualCase-single.html %}
+
+> 本例中使用了虚拟语气，应该改为陈述语气或祈使语气。
+
+{%- capture original-{{ case-id }} -%}
+If you were to save the file ...
+{%- endcapture -%}
+
+{%- capture rewrited-{{ case-id }} -%}
+If you save the file ...
+{%- endcapture -%}
+
+{% include templateComponents/manualCase.html %}
+
+# 只能将过去分词用作形容词
+
+动词的过去分词一般用在被动语态中，但技术写作中不提倡使用被动语态。尽管如此，过去分词仍然可以被用作形容词。
+
+将过去分词用作形容词时，一般有两种形式：
+
+- 放在名词的前面
+- 放在 "to be" 或 "to become" 的后面
+
+在这两种形式中，过去分词的作用是描述事物的状态，和被动语态无关。
+
+只有 ASD-STE100 词汇表中的过去分词是可以使用的。有些动词虽然不是许可动词，但它们的过去分词是许可形容词，可以使用。比如 "specified"、"permitted" 和 "damaged"。
+
+一些不规则动词的过去分词（比如 "be" 的过去分词 "been"）不可能成为形容词，所以它们没有包含在 ASD-STE100 词汇表中，不能使用。
+
+> 本例中，"disconnected" 用在名词前面，是一个形容词。
+
+{%- capture example-{{ case-id }} -%}
+Connect the **disconnected** wires.
+{%- endcapture %}
+
+{% include templateComponents/manualCase-single.html %}
+
+> 本例中，"disconnected" 用在 "to be" 的后面，表示接线的状态，是一个形容词。
+
+{%- capture example-{{ case-id }} -%}
+The wires **are disconnected**.
+{%- endcapture %}
+
+{% include templateComponents/manualCase-single.html %}
+
+> 虽然 "damage" 不是许可动词，但 "damaged" 是许可形容词，可以使用。
+
+{%- capture example-{{ case-id }} -%}
+Make sure that the mating surfaces **are not damaged**.
+{%- endcapture %}
+
+{% include templateComponents/manualCase-single.html %}
+
+# 不要将助动词或情态动词和过去分词一起使用
+
+不要将助动词 "to have" 和过去分词一起使用。否则，它们很可能形成不正确的时态，比如现在完成时。
+
+不要将助动词或情态动词和过去分词一起使用。否则，它们很可能变成被动语态或结构复杂的句子。
+
+> 本例中，"to have" 和过去分词一起使用，形成了现在完成时，属于禁止使用的时态。范例中的句子改用了一般过去时，是允许使用的时态。
+
+{%- capture original-{{ case-id }} -%}
+The operator **has adjusted** the linkage.
+{%- endcapture -%}
+
+{%- capture rewrited-{{ case-id }} -%}
+Tge operator **adjusted** the linkage.
+{%- endcapture -%}
+
+{% include templateComponents/manualCase.html %}
+
+> 本例中，情态动词 "must" 和 过去分词 "adjusted" 一起使用，形成了被动语态。范例中的句子改用了主动语态。
+
+{%- capture original-{{ case-id }} -%}
+The temperature **must be adjusted**.
+{%- endcapture -%}
+
+{%- capture rewrited-{{ case-id }} -%}
+**Adjust** the temperature.
+{%- endcapture -%}
+
+{% include templateComponents/manualCase.html %}
+
+# 不要使用动词的 "-ing" 形式
+
+动词的 "-ing" 形式（以 "-ing" 结尾的单词）不仅容易使句子结构变复杂，还容易产生歧义。所以一般情况下，不要使用动词的 "-ing" 形式。
+
+但动词的 "-ing" 形式在以下两种情况下是可以使用的：
+
+- 专业术语中含有以 "-ing" 结尾的单词
+- 以 "-ing" 结尾的单词属于 ASD-STE100 词汇表中的许可词汇
+
+> "Be" 和 "Doing" 一起使用，形成了现在进行时，属于禁止使用的时态。
+
+{%- capture original-{{ case-id }} -%}
+When you **are doing** this procedure, obey all the safety precautions.
+{%- endcapture -%}
+
+{%- capture rewrited-{{ case-id }} -%}
+When you **do** this procedure, obey all the safety precautions.
+{%- endcapture -%}
+
+{% include templateComponents/manualCase.html %}
+
+> 本例中，以 "-ing" 结尾的单词属于专业术语，可以使用。
+
+{%- capture example-{{ case-id }} -%}
+Cleaning  
+Packaging  
+Shipping  
+Troubleshooting
+{%- endcapture %}
+
+{% include templateComponents/manualCase-single.html %}
+
+> 本例中，专业术语中包含以 "-ing" 结尾的单词，可以使用。
+
+{%- capture example-{{ case-id }} -%}
+Air-conditioning system  
+degreasing agent  
+polishing disc  
+welding torch
+{%- endcapture %}
+
+{% include templateComponents/manualCase-single.html %}
+
+> 本例中，以 "-ing" 结尾的单词属于 ASD-STE100 词汇表中的许可词汇，可以使用。
+
+{%- capture example-{{ case-id }} -%}
+lighting  
+opening
+missing  
+remaining
+{%- endcapture %}
+
+{% include templateComponents/manualCase-single.html %}
+
+# 使用动词描述动作
+
+描述动作时，使用动词，不要使用名词。使用名词描述动作会使表达太含蓄，不如使用动词那样简单直白。
+
+{%- capture original-{{ case-id }} -%}
+The ohmmeter gives an **indication** of 450 ohms.
+{%- endcapture -%}
+
+{%- capture rewrited-{{ case-id }} -%}
+The ohmmeter **shows** 450 ohms.
+{%- endcapture -%}
+
+{% include templateComponents/manualCase.html %}
