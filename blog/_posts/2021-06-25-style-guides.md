@@ -4,14 +4,11 @@ description: 微软、谷歌、IBM 等数十家大厂的 Style Guides，全在�
 tags: 学习资源
 headerImage: "/assets/images/post/headerImage/003-style-guide-header-image-15mpx.png"
 downloadkey: PDF指南
-excerpt_separator: <!--more-->
 ---
 
 产品文档最讲究两点：简明扼要，文风一致。
 
 “简明扼要”尚可依仗技术写作人员的专业能力来实现，可“文风一致”怎么做到呢? 靠技术写作人员的个人感觉吗? 如果产品文档需要多人共同完成，怎样办?
-
-<!--more-->
 
 答案是：**标准化**。参与文档编写的所有人员，遵循统一的标准来进行写作。这个标准，叫做**技术文档写作指南**（Style Guide）。
 
