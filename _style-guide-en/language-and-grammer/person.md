@@ -10,6 +10,8 @@ title: 人称
 
 > 本例使用了第二人称。
 
+{% capture case-id -%}{% increment counter %}{%- endcapture %}
+
 {%- capture example-{{ case-id }} -%}
 When **you** create a database, **you** must provide a unique name.
 {%- endcapture %}

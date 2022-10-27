@@ -255,18 +255,14 @@ sec.
 
 ## 不要使用拉丁语缩写
 
-拉丁语缩写有时会引起误解。所以，使用相应的短语替代拉丁语缩写。
+拉丁语缩写有时会引起误解。所以，使用相应的单词或短语替代拉丁语缩写。
 
 {%- capture original-{{ case-id }} -%}
-e.g.  
-etc.  
-i.e.
+Discard the standard parts (**e.g.** washers, screws, bolts, and nuts) each time you remove them.
 {%- endcapture -%}
 
 {%- capture rewrited-{{ case-id }} -%}
-for example  
-and so on  
-that is
+Discard the standard parts (**for example**, washers, bolts, and nuts) each time you remove them.
 {%- endcapture -%}
 
 {% include templateComponents/manualCase.html %}

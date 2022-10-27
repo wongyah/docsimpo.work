@@ -10,6 +10,8 @@ title: 介词
 
 > 本例中，添加介词 "by" 可以使句子结构更清晰。
 
+{% capture case-id -%}{% increment counter %}{%- endcapture %}
+
 {%- capture original-{{ case-id }} -%}
 Unload the file using the ULOAD utility.
 {%- endcapture -%}
