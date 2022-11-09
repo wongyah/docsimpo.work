@@ -25,4 +25,15 @@ toc:
       - abbreviations.md
       - contractions.md
       - capitalization.md
+  - title:
+      en: punctuation
+      cn: 标点符号
+    filenames:
+      - apostrophes.md
+      - colons.md
+  - title:
+      en: scannable-content
+      cn: 速览式内容
+    filenames:
+      - headings.md
 

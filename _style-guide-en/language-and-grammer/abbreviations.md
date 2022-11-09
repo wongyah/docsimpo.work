@@ -73,7 +73,7 @@ You can use **the FTP command** to send the files to the server.
 
 ## 简称的所有格
 
-不要在简称的末尾加上撇号和小写字母 "s" （"'s"）来表示简称的所有格。要表示简称的所属关系，将简称用作形容词，或者使用简称组成介词短语。
+不要在简称的末尾加上 's 来表示简称的所有格。要表示简称的所属关系，将简称用作形容词，或者使用简称组成介词短语。
 
 {%- capture original-{{ case-id }} -%}
 **HTML's** properties are editable.
