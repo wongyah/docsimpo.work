@@ -2,7 +2,6 @@
 title: 不知不觉，我竟炼成了一枚 Markdown 深度用户
 description: 细数 Markdown 在网络内容中的应用
 tags: Markdown
-headerImage: "/assets/images/post/headerImage/20220829-markdown-super-user-20mpx.png"
 ---
 
 最开始看见 Markdown 这个词，似乎是从招聘网站上。

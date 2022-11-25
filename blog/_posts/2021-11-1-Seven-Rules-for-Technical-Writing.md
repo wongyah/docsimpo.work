@@ -2,7 +2,6 @@
 title: 技术文档写作的七大黄金法则
 description: 技术写作小白快速提升产品手册质量的不二法宝，立竿见影！
 tags: 技术写作
-headerImage: "/assets/images/post/headerImage/004-writing-rule-header-image-15mpx.png"
 downloadkey: PDF指南
 math: true
 ---

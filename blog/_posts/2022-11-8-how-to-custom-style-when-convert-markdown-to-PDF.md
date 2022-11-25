@@ -2,7 +2,6 @@
 title: 都说 Markdown 很香，为什么我用它导出的 PDF 却是“鬼见愁”?
 description: 总结 Markdown 转换为 PDF 时自定义输出样式的三种方法、学习资源、实现路径以及相关的插件或软件。
 tags: Markdown
-headerImage: "/assets/images/post/headerImage/20220829-markdown-super-user-20mpx.png"
 mermaid: true
 ---
 

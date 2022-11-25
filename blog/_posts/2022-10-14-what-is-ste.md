@@ -2,7 +2,6 @@
 title: 什么是 STE?
 description: 从技术写作小白的角度介绍STE的用途、使用方法、技能要求以及应用领域。
 tags: 技术写作
-headerImage: "/assets/images/post/headerImage/20201014-what-is-ste-20mpx.jpg"
 downloadkey: PDF指南
 ---
 
