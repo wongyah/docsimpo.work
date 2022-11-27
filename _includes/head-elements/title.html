@@ -5,7 +5,7 @@
 {%- elsif collection.docType == "tutorial" -%}
 <title>{{ tutormeta.tutorname }} - {{ page-menu-cn }} - {{ site.data.webinfo.general.cn.name }}</title>
 {%- elsif page.url contains "/blog/" -%}
-<title>{{ page.title | strip_html }} - {{ site.data.webinfo.header-menu[1].name }} - {{ site.data.webinfo.general.cn.name }}</title>
+<title>{{ page.title | strip_html }} - {{ site.data.webinfo.header-menu[4].name }} - {{ site.data.webinfo.general.cn.name }}</title>
 {%- else -%}
 <title>{{ page.title }}</title>
 {%- endif %}
