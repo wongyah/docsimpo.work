@@ -86,5 +86,22 @@ span#cong{
   .icon-service {@include iconSize($size: 80px,)}
 }
 
+.card.content-link-service {
+  text-align: center;
+  border: none;
 
+  .card-text{text-align: justify;}
+
+}
+
+.image-box{
+  height: 125px;
+  width: 100%;
+}
+
+.link-image{
+  max-height: 125px;
+  max-width: 100%;
+  object-fit: contain;
+}
 
