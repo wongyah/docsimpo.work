@@ -79,7 +79,7 @@ ol#post-toc {
     @include margin(3em null 1.5em);
     counter-reset: heading2;
     &::before{
-      content: counter(heading1) " ";
+      content: counter(heading1) ". ";
       counter-increment: heading1;
     }
   }
@@ -315,16 +315,10 @@ figure.highlight > pre {
 //! 右侧栏
 
 .card.ad-aside-right {
-  @include margin(4rem null);
-  border: 0.5em solid rgba($text-color-emphasized, 0.5);
-  border-radius: 0.5em;
-  opacity: 0.7;  // 透明度小于 1 的元素会遮挡其他元素。必须为页眉设置 z-index 值。
-
-  &:hover{
-    opacity: 1;
-    border-color: rgba($text-color-emphasized, 0.7);
+  @include margin(null null 2rem);
+  @include media-breakpoint-up(lg){
+    @include margin(4rem null);
   }
-
 }
 
 ul.card-text {
