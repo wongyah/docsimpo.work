@@ -17,7 +17,7 @@ mermaid: true
 
 本文将总结 Markdown 转换为 PDF 时设置输出样式的三种方法（技能）、相关的学习资源、每种方法的实现路径以及应用最广泛或当下最流行的插件或软件：
 
-# CSS
+# 1. CSS
 
 CSS 是专门为 HTML 文件（网页）设置样式的语言。你平时浏览的网页，无论是在电脑端还是手机端上，都是依靠 CSS 来控制页面上的标题、段落、表格、图片等元素以什么样的格式显示在屏幕上。
 
@@ -50,7 +50,7 @@ flowchart TD
 
 **相关教程：** [CSS 教程](https://www.w3school.com.cn/css/index.asp)
 
-# LaTeX
+# 2. LaTeX
 
 LaTeX 是一种在科技领域广泛应用的专业排版系统，可以直接生成 PDF 文件。很多数学类、物理类或计算机科学类的期刊只接收 LaTex 排版的论文。
 
@@ -83,7 +83,7 @@ flowchart TD
 
 **相关教程：**[Learn LaTeX](https://www.learnlatex.org/en/)
 
-# XSL-FO
+# 3. XSL-FO
 
 XSL-FO 是专门为 XML 文件设置样式的语言，主要用于输出可打印的文档格式（如 PDF）。
 

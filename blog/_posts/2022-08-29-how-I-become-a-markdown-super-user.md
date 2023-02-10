@@ -14,7 +14,7 @@ tags: Markdown
 
 本文将回顾那段不经意的“成长”经历，细数那些步步深入的探索之欲，希望能为那些初涉 Markdown 的小伙伴们提供一点有用的参考。
 
-# 学习笔记
+# 1. 学习笔记
 
 我用 Markdown 做的第一件事，是记笔记。
 
@@ -52,7 +52,7 @@ tags: Markdown
 
 *[VS Code]: Visual Studio Code
 
-# 公号文章
+# 2. 公号文章
 
 我用 Markdown 做的第二件事，是写文章。
 
@@ -76,7 +76,7 @@ tags: Markdown
 
 ![我的公号文章排版流程图](/assets/images/post/markdown/my-auto-formatting-workflow.png "我的公号文章排版流程图")
 
-# 小型网站
+# 3. 小型网站
 
 我用 Markdown 做的第三件事，是建网站。
 

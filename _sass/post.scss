@@ -80,11 +80,6 @@ ol#post-toc {
     @media screen and (min-width: 992px) {font-size: $font-size-h3;}
     letter-spacing: $letter-spacing-base;
     @include margin(3em null 1.5em);
-    counter-reset: heading2;
-    &::before{
-      content: counter(heading1) " ";
-      counter-increment: heading1;
-    }
   }
   
   h2 {
@@ -92,11 +87,6 @@ ol#post-toc {
     @media screen and (min-width: 992px) {font-size: $font-size-h5;}
     letter-spacing: $letter-spacing-base;
     @include margin(2em null 1em);
-    &::before{
-      content: counter(heading1) "." counter(heading2) " ";
-      counter-increment: heading2;
-    }
-
   }
 
 } 

@@ -11,7 +11,7 @@ downloadkey: CPTC
 
 2009 年，Technical Writer 被美国劳工统计局认定为独立的职业类别，列为美国劳工部的就业数据统计门类之一。
 
-# 技术传播职业现状
+# 1. 技术传播职业现状
 
 Technical Writer 是指编写技术资料的专业人员，包括但不限于产品手册、操作手册、维修手册、参考手册等。
 
@@ -31,7 +31,7 @@ Technical Writer 是指编写技术资料的专业人员，包括但不限于产
 
 技术写作从业者的年薪中位数比年薪平均值低 5% 左右，表明各个薪资水平上的人员分布呈正偏态分布。也就是说，高薪段的从业人员数量较多。
 
-# 技术传播教育体系
+# 2. 技术传播教育体系
 
 美国高校早在 1958 年就开始开设技术传播（Technical Communication）专业，现在全美已经有几百个技术传播专业的学位项目，本硕博全都有。
 
@@ -53,7 +53,7 @@ Technical Writer 是指编写技术资料的专业人员，包括但不限于产
 
 正如[前华为翻译专家张建农先生]({% link blog/_posts/2020-12-29-technical-documentation-process-in-huawei.md %})所说，产品技术方面的专业知识是技术写作人员的核心能力之一。很多拥有某一领域专业技术背景的人，可以凭借这一优势进入技术写作领域。
 
-# 美国的认证体系
+# 3. 美国的认证体系
 
 对于在职人员来说，如果希望进一步提升专业能力或者寻求一种专业认可，再回学校攻读学位或许并不是一个理想的选择。这时，他们可以选择另一条途径：认证。
 
@@ -69,7 +69,7 @@ Technical Writer 是指编写技术资料的专业人员，包括但不限于产
 
  License 是指那些法律法规强制要求“持证上岗”的执业资格认证，比如执业医师资格证。
 
-# 技术传播职业认证（CPTC）
+# 4. 技术传播职业认证（CPTC）
 
 技术传播类的认证只涉及前两种： Certificate 和 Certification 。
 
@@ -101,7 +101,7 @@ Technical Writer 是指编写技术资料的专业人员，包括但不限于产
 
  STC 的合作伙伴 APMG（一家英国公司），负责 CPTC 的全部考试事宜。考生可以通过[ APMG 官网](https://apmg-international.com/product/cptc) 在线预约并参加考试。
 
-# CPTC 续期要求
+# 5. CPTC 续期要求
 
  CPTC 认证的有效期是两年。
 
@@ -113,7 +113,7 @@ Technical Writer 是指编写技术资料的专业人员，包括但不限于产
 
  STC 对每一种学习方式或贡献方式所能获得的积分都有具体规定，可在 [STC 官网](https://www.stc.org/certification/continuing-education/) 查询。
 
-# 技术传播专业社区
+# 6. 技术传播专业社区
 
 <abbr title="Society for Technical Communication">[STC](https://www.stc.org/)</abbr> 美国最早成立的技术传播专业社区，由航空、军工、电子和制造领域的工程师们发起，主要关注工程领域的技术写作。
 

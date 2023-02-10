@@ -26,7 +26,7 @@ downloadkey: PDF指南
 如果这些还不够，文末还有更权威、更详尽的泰斗级写作指南作后盾呢！
 
 
-# ASD-STE100
+# 1. ASD-STE100
 
 ASD-STE100 起源于航空航天业和国防部门，是专门为了**降低操作手册和维修手册的阅读难度**而编写的一种英语语言规范。
 
@@ -46,7 +46,7 @@ ASD-STE100 不涉及格式、标点符号、缩略语、单位等内容，只能
 
 **官方渠道**：前往 [ASD-STE100 官网](http://www.asd-ste100.org/request.html)下载申请表，填好后发送至 stemg@asd-ste100.org。之后，工作人员会将 PDF 版 ASD-STE100 免费发送到你的邮箱。
 
-# IBM 技术文档写作指南
+# 2. IBM 技术文档写作指南
 
 这是 IBM 于 2011 年出版的技术文档写作指南，堪称**技术写作的教科书**。
 
@@ -56,7 +56,7 @@ ASD-STE100 不涉及格式、标点符号、缩略语、单位等内容，只能
 
 作为 DITA 的开创者，IBM 还在这本书里对主题化写作和 DITA 的三大主题类型进行了科普。
 
-# 微软技术文档写作指南
+# 3. 微软技术文档写作指南
 
 这是微软现行的技术文档写作指南，也是**所有消费型产品在编写产品文档时应该参照的金科玉律**。
 
@@ -70,7 +70,7 @@ ASD-STE100 不涉及格式、标点符号、缩略语、单位等内容，只能
 
 **官方文档**：[Microsoft Style Guide](https://docs.microsoft.com/zh-cn/style-guide/welcome/)
 
-# 谷歌开发者技术文档写作指南
+# 4. 谷歌开发者技术文档写作指南
 
 谷歌写作指南非常注重**屏幕感**，包含一些微软写作指南里没有涉及的建议。
 
@@ -80,7 +80,7 @@ ASD-STE100 不涉及格式、标点符号、缩略语、单位等内容，只能
 
 **官方文档**：[Google Developer Documentation Style Guide](https://developers.google.cn/style)
 
-# 苹果技术文档写作指南
+# 5. 苹果技术文档写作指南
 
 相比于微软与谷歌，苹果的写作指南非常简单，内容上也没什么亮点。
 
@@ -90,7 +90,7 @@ ASD-STE100 不涉及格式、标点符号、缩略语、单位等内容，只能
 
 **官方文档**：[Apple Style Guide](https://help.apple.com/applestyleguide/#/)
 
-# Gitlab 技术文档写作指南
+# 6. Gitlab 技术文档写作指南
 
 作为一家代码托管平台，Gitlab 的技术文档写作指南格外注重**内容重用**和**协作共享**，科技感十足。
 
@@ -102,7 +102,7 @@ Gitlab 使用 Git 对文档进行版本管理，就像管理代码一样。作�
 
 **官方文档**：[Gitlab Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/index.html)
 
-# SUSE 技术文档写作指南
+# 7. SUSE 技术文档写作指南
 
 SUSE 是德国的一家操作系统（Linux）提供商。
 
@@ -114,7 +114,7 @@ SUSE 写作指南的独特之处在于，它是一本使用 DocBook 编写产品
 
 **官方文档**：[SUSE Documentation Style Guide](https://documentation.suse.com/en-us/style/current/single-html/docu_styleguide/#)
 
-# Mailchimp 技术文档写作指南
+# 8. Mailchimp 技术文档写作指南
 
 Mailchimp 是一家邮件营销软件提供商。
 
@@ -126,7 +126,7 @@ Mailchimp 是一家邮件营销软件提供商。
 
 **官方文档**：[Mailchimp Content Style Guide](https://styleguide.mailchimp.com/)
 
-# 红帽技术文档写作指南
+# 9. 红帽技术文档写作指南
 
 红帽公司是总部位于美国的一家开源解决方案供应商，2018 年被 IBM 收购。
 
@@ -134,7 +134,7 @@ Mailchimp 是一家邮件营销软件提供商。
 
 **官方文档**：[The Red Hat Style Guide](http://stylepedia.net/style/)
 
-# 格式手册和词典
+# 10. 格式手册和词典
 
 技术文档写作指南可繁可简，最重要的是适合企业自身的实际需要。
 
