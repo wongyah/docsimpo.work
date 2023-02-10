@@ -11,13 +11,13 @@ mermaid: true
 
 刚接触 Markdown 时，很多文章安利从 Markdown 输出 PDF 文件有多方便。但现实往往很很很骨感，提供这项功能的网站要么收费，要么输出的 PDF 难看到“鬼见愁”。
 
-![升级会员才能使用的功能](/assets/images/post/markdown/youdao-buying-VIP-to-export-PDF-from-md.jpg "升级会员才能使用Markdown转换PDF功能")
+![升级会员才能使用的功能](/assets/images/post/markdown/youdao-buying-VIP-to-export-PDF-from-md.jpg "升级会员才能使用Markdown转换PDF功能"){: standalone}
 
 泡在 Markdown 里的时间久了之后，我才发现借助一些开源的插件或软件，不仅能实现 Markdown 到 PDF 的 DIY，而且还能根据自己的喜好自由设置 PDF 的输出样式。不过，要完成这些成就感满满的任务需要掌握一些额外的技能……
 
 本文将总结 Markdown 转换为 PDF 时设置输出样式的三种方法（技能）、相关的学习资源、每种方法的实现路径以及应用最广泛或当下最流行的插件或软件：
 
-# 1. CSS
+# CSS
 
 CSS 是专门为 HTML 文件（网页）设置样式的语言。你平时浏览的网页，无论是在电脑端还是手机端上，都是依靠 CSS 来控制页面上的标题、段落、表格、图片等元素以什么样的格式显示在屏幕上。
 
@@ -50,7 +50,7 @@ flowchart TD
 
 **相关教程：** [CSS 教程](https://www.w3school.com.cn/css/index.asp)
 
-# 2. LaTeX
+# LaTeX
 
 LaTeX 是一种在科技领域广泛应用的专业排版系统，可以直接生成 PDF 文件。很多数学类、物理类或计算机科学类的期刊只接收 LaTex 排版的论文。
 
@@ -83,7 +83,7 @@ flowchart TD
 
 **相关教程：**[Learn LaTeX](https://www.learnlatex.org/en/)
 
-# 3. XSL-FO
+# XSL-FO
 
 XSL-FO 是专门为 XML 文件设置样式的语言，主要用于输出可打印的文档格式（如 PDF）。
 

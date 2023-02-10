@@ -14,7 +14,7 @@ tags: Markdown
 
 本文将回顾那段不经意的“成长”经历，细数那些步步深入的探索之欲，希望能为那些初涉 Markdown 的小伙伴们提供一点有用的参考。
 
-# 1. 学习笔记
+# 学习笔记
 
 我用 Markdown 做的第一件事，是记笔记。
 
@@ -28,7 +28,7 @@ tags: Markdown
 
 就这样，我开始使用有道云笔记里面的 Markdown。记笔记时，我使用网页版中的 Markdown 在线编辑器（我在电脑上阅读 Adobe FrameMaker 的文档）。翻阅笔记时，我大多使用手机上的 APP。
 
-![我的笔记](/assets/images/post/markdown/youdao-note-display.png "我的笔记")
+![我的笔记](/assets/images/post/markdown/youdao-note-display.png "我的笔记"){: standalone}
 
 相对于 Word 文档中丰富的格式设置，有道云笔记中 Markdown 的预览格式自然是简约得很。但对于笔记而言，已经足够了。
 
@@ -36,7 +36,7 @@ tags: Markdown
 
 但也有不爽之处：在线编辑器不仅编辑区域小，而且功能有限，时不时还会遇到一两个尴尬的设计。比如，输入列表时，双回车并不能结束列表，而是会留下一个带编号的空行，需要手动删除。
 
-![有道云笔记中的尴尬设计](/assets/images/post/markdown/youdao-md-error.gif "有道云笔记中的尴尬设计")
+![有道云笔记中的尴尬设计](/assets/images/post/markdown/youdao-md-error.gif "有道云笔记中的尴尬设计"){: standalone}
 
 现在，我已经改用 VS Code 中的 Markdown 记笔记了。一般情况下，将笔记存储在电脑上。如果的确需要在手机上翻阅的，再将它们导入有道云笔记。
 
@@ -52,7 +52,7 @@ tags: Markdown
 
 *[VS Code]: Visual Studio Code
 
-# 2. 公号文章
+# 公号文章
 
 我用 Markdown 做的第二件事，是写文章。
 
@@ -62,7 +62,7 @@ tags: Markdown
 
 我跑题了吗? 没有。我之所以改用 Markdown 写文章，除了可以写得更省心以外，更重要的原因是**可以实现自动排版**。
 
-![自动排版公众号文章](/assets/images/post/markdown/wechat-auto-formatting.gif "自动排版公众号文章")
+![自动排版公众号文章](/assets/images/post/markdown/wechat-auto-formatting.gif "自动排版公众号文章"){: standalone}
 
 说起 Markdown，如今的人们都会将它描述为一种轻量级标记**语言**。但实际上，Markdown 原本是 [John Gruber 在 2004 年发布的一款格式转换器 （converter）](https://daringfireball.net/projects/markdown/) —— 一个能将纯文本文件转换为 HTML 文件的小软件。
 
@@ -74,9 +74,9 @@ tags: Markdown
 
 好在，HTML 也是标记语言，可以使用 XSLT 进行批量处理。再借助 PowerShell（或 BAT），就可以像动图里那样在分分钟内搞定公众号文章的排版了。
 
-![我的公号文章排版流程图](/assets/images/post/markdown/my-auto-formatting-workflow.png "我的公号文章排版流程图")
+![我的公号文章排版流程图](/assets/images/post/markdown/my-auto-formatting-workflow.png "我的公号文章排版流程图"){: standalone}
 
-# 3. 小型网站
+# 小型网站
 
 我用 Markdown 做的第三件事，是建网站。
 

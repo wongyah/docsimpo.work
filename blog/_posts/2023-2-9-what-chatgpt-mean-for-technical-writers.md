@@ -14,7 +14,7 @@ tags: 文档技术
 
 本文将分享我和这些国外同行们体验 ChatGPT 的过程，一窥人工智能 (AI) 在技术传播中的发展现状和未来潜力。
 
-# 1. ChatGPT 是什么?
+# ChatGPT 是什么?
 
 ChatGPT 是一款对话式人工智能语言模型，由人工智能研究实验室 OpenAI 于 2022 年 11 月 30 日发布。
 
@@ -70,7 +70,7 @@ ChatGPT 是一款对话式人工智能语言模型，由人工智能研究实验
   <div class="text-muted ml-4" style="flex: 1;">是的，我是一种智能聊天机器人，可以帮助人们解决问题，并且能够以有趣的方式与用户进行交流。</div>
 </div>
 
-# 2. ChatGPT 的技术写作能力
+# ChatGPT 的技术写作能力
 
 可能由于 ChatGPT 的开场秀太惊艳了：
 
@@ -115,7 +115,7 @@ Cherryleaf 公司的员工尝试使用 ChatGPT 生成操作说明：
 
 [微软官方文档]: https://mmbiz.qpic.cn/mmbiz_jpg/h11VMG8jwadMU6K5aWGCR4tiar4KAqFbYmWY6Lj3emPJR69vtCFY6qkdc3H0H0G4kfnB37l0c9kyA4qpnYrAXew/0?wx_fmt=jpeg
 
-# 3. ChatGPT 的局限性
+# ChatGPT 的局限性
 
 虽然 ChatGPT 在众多领域的问答式对话中表现不俗，俨然一个全能选手，但它的核心仍然是搜索引擎。
 
@@ -213,7 +213,7 @@ ChatGPT 可以流畅地与人交流，但它说的话不一定是真的，甚至
 
 2022 年微信在【聊天记录空间管理】中新增了一个选项“自定义时间”。如果你让 ChatGPT 写一份操作说明，详细介绍如何清理特定时间段内的聊天记录，恐怕它只能告诉你如何清理“三个月前”或“一年前”的聊天记录，无法按照自定义时间段清理（比如2022年3月1日至2023年2月1日的聊天记录）。
 
-![微信在2022年新增的功能之一](/assets/images/post/2023/wechat-new-function.jpg){: standalone style="max-width: 500px;"}
+![微信在2022年新增的功能之一](/assets/images/post/2023/wechat-new-function.jpg "微信在2022年新增的功能之一"){: standalone style="max-width: 500px;"}
 
 其原因已在上文提到过，ChatGPT 对 2022 年发生的事情一无所知。因为ChatGPT 目前的训练数据都是 2021 年以前的，并不会实时更新。也就是说，ChatGPT 生成的内容也有可能是过时的。
 
@@ -225,13 +225,13 @@ ChatGPT 可以流畅地与人交流，但它说的话不一定是真的，甚至
 
 在这情况下，你不得不自行查找内容的来源，检查内容的发布时间，并认真核对。别忘了，ChatGPT 不提供它所生成的内容的信息来源和发布时间。
 
-# 4. ChatGPT 在技术写作中的发展潜力
+# ChatGPT 在技术写作中的发展潜力
 
 ChatGPT 目前仍处于测试阶段，会根据用户提供的反馈来训练语言模型（LLM），不断修改和完善回答。
 
 就在我准备这篇文章的过程中，有关 ChatGPT 的新闻和趣闻仍在不断刷屏。有调查称，89% 的美国大学生使用 ChatGPT 写作业，甚至还有[教授评选出的最佳论文最后发现竟是学生用 ChatGPT 写出来的][最佳论文]。Gmail 之父 Paul Buchheit 也在近日预言，[ChatGPT 等人工智能聊天机器人将会在两年内取代目前的搜索引擎][Gmail之父的预言]。
 
-![今日凌晨新版微软必应正式发布](/assets/images/post/2023/Microsoft-Bing-new-interface.png)
+![今日凌晨新版微软必应正式发布](/assets/images/post/2023/Microsoft-Bing-new-interface.png "今日凌晨新版微软必应正式发布"){: standalone}
 
 还有一个国外开发者，[利用 ChatGPT 为苹果手机的语音助手 Siri 赋能，使其快速变身成为一个超级聪明的智能家居小助手][ChatGPT赋能Siri]（链接内有演示视频）。整个开发过程仅仅包括三个步骤，不需要编写任何代码。
 
@@ -247,7 +247,7 @@ ChatGPT 对技术传播领域的影响或许不止于此。如果有一天，Cha
 
 OpenAI 显然已经预见到类似应用场景中蕴含的商机，在它的 API 价目表中将其称为微调模型（Fine-tuned models）。微调模型的费用包含两部分，一部分是训练费用，另一部分是访问费用。
 
-![ChatGPT 微调模型的收费标准](/assets/images/post/2023/Price-of-chatgdp-FineTunedModels.jpg){: standalone style="max-width: 600px;"}
+![ChatGPT 微调模型的收费标准](/assets/images/post/2023/Price-of-chatgdp-FineTunedModels.jpg "ChatGPT 微调模型的收费标准"){: standalone style="max-width: 600px;"}
 
 > ChatGPT API 价目表中的收费单位是每一千个标记（1K tokens）。按照 OpenAI 的估算，每一千个标记大约相当于 750 个单词。//
 > 
