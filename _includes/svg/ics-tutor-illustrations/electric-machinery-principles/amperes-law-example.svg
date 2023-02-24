@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 558.31 310.27"
+  width="558.31"
+  height="310.27"
+  class="w-100 my-3">
+  <title>magnetic-field</title>
+  <g style="opacity:0.8">
+    <polyline points="400.34 166.76 355.2 152.79 306.89 166"
+      style="fill:#a0c8ff" />
+    <line x1="400.34"
+      y1="166.76"
+      x2="398.43"
+      y2="166.17"
+      style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.175px" />
+    <polyline points="392.85 164.44 355.2 152.79 311.63 164.7"
+      style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.175px;stroke-dasharray:3.8888020515441895,5.833202838897705" />
+    <line x1="308.82"
+      y1="165.47"
+      x2="306.89"
+      y2="166"
+      style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.175px" />
+  </g>
+  <polyline points="306.89 166 355.42 183.89 400.34 166.76"
+    style="fill:#a0c8ff;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.17451612256832px;opacity:0.8" />
+  <path d="M400.34,166.76V57.18C388,54.27,234.44,18.11,214.16,14c-5.55-1.14-44.86,3.5-48.49,4.12"
+    style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.17451612256832px" />
+  <path d="M355.46,65.43c-9-2.41-183.25-45.22-188.84-46.74"
+    style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.17451612256832px" />
+  <path
+    d="M204.69,219.67c7,3.93,13.92,7.92,20.94,11.79q29.48,16.22,59,32.34c16.32,8.86,32.73,17.53,49.1,26.28q8.92,4.79,17.89,9.52a8,8,0,0,0,7.62,0c13.55-6.41,27.14-12.72,40.71-19.07.16-.07.26-.24.77-.75,0-.76-.51-92.75-.38-94"
+    style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.17451612256832px" />
+  <path d="M306.89,90v137L203,178.78V58.93C204.74,59.25,305.57,89.59,306.89,90Z"
+    style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.17451612256832px" />
+  <path d="M166.24,199.3l36.54,20"
+    style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.17451612256832px" />
+  <path d="M240.46,53.32l-1.92-.57"
+    style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75px" />
+  <path d="M236.75,52.22c-3.28-1-6.56-2-9.83-3"
+    style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75px;stroke-dasharray:1.8670880794525146,1.8670880794525146,3.7341761589050293,5.601263999938965" />
+  <path d="M224.25,48.41l-.14,0c-9.41-3-18.79-6.07-28.18-9.12-9.1-2.94-14.47,5-13.79,11.81.58,5.79.43,11.67.45,17.5.06,13.38,0,26.75,0,40.13"
+    style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75px;stroke-dasharray:3.7341761589050293,1.8670880794525146,1.8670880794525146,1.8670880794525146,3.7341761589050293,5.601263999938965" />
+  <path d="M182.45,111.48c-.08.66-.16,1.32-.22,2"
+    style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75px" />
+  <polygon points="239.98 51.8 244.27 54.47 239.23 54.31 239.98 51.8" />
+  <path d="M263.31,58.66a3.22,3.22,0,0,1,.76,0l1.19.34"
+    style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75px" />
+  <path d="M267.15,59.54l10.42,3"
+    style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75px;stroke-dasharray:1.9682011604309082,1.9682011604309082,3.9364023208618164,5.904603481292725" />
+  <path
+    d="M280.41,63.29q11.25,3.18,22.48,6.43c4.23,1.23,8.84,2,12.47,4.31,9.46,5.91,14,15,14.13,26.12.17,18.14.05,36.28.05,54.43v20s.41,62.92-.12,70.62-4.22,13.16-14.66,9c-8.56-3.42-16.59-8.17-24.8-12.42-9-4.64-17.9-9.35-26.84-14"
+    style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75px;stroke-dasharray:3.9364023208618164,1.9682011604309082,1.9682011604309082,1.9682011604309082,3.9364023208618164,5.904603481292725" />
+  <path d="M260.51,226.31l-1.77-.93"
+    style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75px" />
+  <path d="M182.61,114v2"
+    style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75px" />
+  <path d="M182.61,117.93v10.49"
+    style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75px;stroke-dasharray:1.9079326391220093,1.9079326391220093,3.8158652782440186,5.723797798156738" />
+  <path d="M182.61,131.28v1.6c0,11.42.17,22.84,0,34.26-.24,12.66,4.77,21.42,16.73,26.78,12.74,5.72,25.11,12.29,37.59,18.61"
+    style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75px;stroke-dasharray:3.8158652782440186,1.9079326391220093,1.9079326391220093,1.9079326391220093,3.8158652782440186,5.723797798156738" />
+  <path d="M239.44,213.82l1.79.9"
+    style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75px" />
+  <path d="M240.47,169q22.65,9.14,45.3,18.26c6.82,2.73,13.7,5.34,20.55,8"
+    style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.17451612256832px" />
+  <path d="M108,108.9q27.6,9.9,55.2,19.78a13.25,13.25,0,0,0,2.28.39"
+    style="fill:none;stroke:#0078c8;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px" />
+  <path d="M212,208.05c-5.19,8.62-12.23,15.74-19.94,22.22-11.37,8.07-23.77,8.07-36.38,8.07"
+    style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.175px" />
+  <polygon points="209.49 208.25 214.97 202.54 213.08 210.22 209.49 208.25" />
+  <path d="M240.09,169c-7.17,1.89-32.8,8.49-37.12,9.76"
+    style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.17451612256832px" />
+  <path d="M389.06,179.21c6,5.92,13.88,8.73,22,10.57,9.69,2.19,19.75,2.73,29.64,4"
+    style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.175px" />
+  <polygon points="388.45 181.55 385.11 174.37 391.59 178.92 388.45 181.55" />
+  <path d="M141.63,47.86q-10.53-3.27-21.07-6.51a3.94,3.94,0,0,0-1.14,0"
+    style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.175px" />
+  <polygon points="140.9 45.49 147.59 49.71 139.69 49.41 140.9 45.49" />
+  <path d="M400.34,185.79c-.13-5.58.12-13.45,0-19"
+    style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.17451612256832px" />
+  <path
+    d="M109.53,48c7.23,2.54,14.44,5.12,21.7,7.6,11.28,3.85,22.58,7.62,33.87,11.43l1.52.76,15.23,4.57,1.52.76c5.08,1.65,10.14,3.33,15.23,4.93a34.58,34.58,0,0,0,3.8.78h.76c8.13-1.4,16.25-2.75,24.36-4.21,3.7-.66,9.12-2,13-2.81"
+    style="fill:none;stroke:#0078c8;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;opacity:0.8" />
+  <line x1="165.67"
+    y1="18.07"
+    x2="166.24"
+    y2="199.3"
+    style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.17451612256832px" />
+  <line x1="240.09"
+    y1="169.02"
+    x2="240.09"
+    y2="70.46"
+    style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.17451612256832px" />
+  <path
+    d="M240.51,83a1.1,1.1,0,0,1,.91.46c.24.42-.24,1.57-.6,2a1.08,1.08,0,0,1-.43.33,30.71,30.71,0,0,1-6,1.39c-8.62,1.69-17.14,3.19-25.85,5.07-5.57,1.21-10.26-.81-15.24-2.05-3.35-.83-6.61-2-9.91-3l-1.9-1.14c-5.71-1.53-12.14-3.3-16.52-5.86"
+    style="fill:none;stroke:#0078c8;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px" />
+  <path
+    d="M240.51,96.83a1.1,1.1,0,0,1,.91.46c.24.42.05,2.07-.7,2.23-11.09,2.42-23.81,4.83-34.89,7.09-.88.18-1.78.26-2.67.39h-.76c-.63-.13-1.28-.2-1.9-.39-5.71-1.76-11.42-3.55-17.13-5.32l-1.52-.76c-5.62-2.21-11.82-3-16.54-6.22"
+    style="fill:none;stroke:#0078c8;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px" />
+  <path
+    d="M240.51,110a1.11,1.11,0,0,1,.91.45c.23.4-.1,1.29-.31,1.77a.73.73,0,0,1-.47.42,53.68,53.68,0,0,1-5.89,1.6c-9.5,2-19,3.86-28.54,5.72a16.32,16.32,0,0,1-3.05,0h-.76a37.08,37.08,0,0,1-3.8-.78c-5.09-1.6-10.15-3.28-15.23-4.93l-.76-.21L165.28,108"
+    style="fill:none;stroke:#0078c8;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px" />
+  <path d="M240.51,124.21a1.1,1.1,0,0,1,.91.46c.2.35,0,1.2-.22,1.79a1.11,1.11,0,0,1-.84.74c-6.88,1.39-15.56,3.22-22.35,4.53-4.94,1-9.9,1.79-14.85,2.67h0l-15.86-3.74s-17-5.77-21.84-9.15"
+    style="fill:none;stroke:#0078c8;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px" />
+  <path
+    d="M240.51,138.15a1.1,1.1,0,0,1,.91.46c.21.36,0,1.2-.26,1.73a.88.88,0,0,1-.66.56c-5.76,1.14-13,2.7-18.69,3.77-6.21,1.18-12.43,2.29-18.65,3.44h-.76a17.82,17.82,0,0,1-2.65-.4c-5.47-1.74-10.92-3.54-16.38-5.31,0,0-13.22-3.44-17.67-6.76"
+    style="fill:none;stroke:#0078c8;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px" /><text transform="matrix(1.21, 0.26, -0.32, 0.97, 246.98, 57.71)"
+    style="font-size:12px;stroke:#000;stroke-miterlimit:10;stroke-width:0.15000000596046448px;font-family:Calibri-Light, Calibri;font-weight:300">φ</text>
+  <path
+    d="M253.08,226.07c0,.06,0,.1,0,.14a.46.46,0,0,1-.05.1.18.18,0,0,1-.05.07l-.11.08-.29.11a2.84,2.84,0,0,1-.44.1,4.17,4.17,0,0,1-.52.05,3.39,3.39,0,0,1-.55,0,2.8,2.8,0,0,1-1-.3,1.8,1.8,0,0,1-.66-.55,1.76,1.76,0,0,1-.3-.8,2.53,2.53,0,0,1,.06-1,3.07,3.07,0,0,1,.43-1.07,2.29,2.29,0,0,1,.71-.68,2.37,2.37,0,0,1,.89-.32,3.55,3.55,0,0,1,1,0,2.68,2.68,0,0,1,.49.11,2.41,2.41,0,0,1,.43.16,2.63,2.63,0,0,1,.33.2,1.31,1.31,0,0,1,.2.17l.08.1a.29.29,0,0,1,0,.09.37.37,0,0,1,0,.11,1.06,1.06,0,0,0,0,.14.53.53,0,0,1-.11.26.18.18,0,0,1-.15.05.35.35,0,0,1-.19-.11L253,223a2.11,2.11,0,0,0-.4-.24,2,2,0,0,0-.58-.17,1.52,1.52,0,0,0-1.2.29,2.06,2.06,0,0,0-.66,1.22,2.52,2.52,0,0,0-.06.75,1.41,1.41,0,0,0,.17.57,1.08,1.08,0,0,0,.41.38,1.75,1.75,0,0,0,.61.19,2.14,2.14,0,0,0,.62,0,2.66,2.66,0,0,0,.49-.13l.36-.14a.44.44,0,0,1,.22-.05l.07,0a.15.15,0,0,1,0,.08.47.47,0,0,1,0,.12A.55.55,0,0,1,253.08,226.07Z"
+    style="stroke:#000;stroke-miterlimit:10;stroke-width:0.223606797749979px" />
+  <path d="M247,211.9a80.14,80.14,0,0,0-1.77,8,2.2,2.2,0,0,0,1,2.38c1.05.54,2.47-2.11,2.47-2.11"
+    style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:1.23039285526075px" /><text transform="translate(130.68 40.06)"
+    style="font-size:20px;font-family:ScriptMTBold, Script MT Bold">i</text><text transform="translate(444.92 199.3)"
+    style="font-size:14px;font-family:YOUSHEhaoshenti">横截面<tspan x="36.96"
+      y="0"
+      style="letter-spacing:0.19991629464285715em">积</tspan>
+    <tspan x="52.08"
+      y="0"
+      style="font-size:16px;font-family:Calibri">A</tspan>
+  </text><text transform="translate(64.58 243.19)"
+    style="font-size:14px;font-family:YOUSHEhaoshenti">铁芯的平均长度</text>
+  <path d="M400.34,57.51c-7.62,1.53-38.85,6.76-44.88,7.92-.14.93-.42,166.16-.44,230.75,0,1.39-.23,2.79-.36,4.18"
+    style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.17451612256832px" /><text transform="translate(248.01 118.99)"
+    style="font-size:16px;font-family:Calibri">
+    <tspan style="letter-spacing:0.0999755859375em">N</tspan>
+    <tspan x="11.93"
+      y="0"
+      style="font-size:14px;font-family:YOUSHEhaoshenti">匝</tspan>
+  </text>
+</svg>
