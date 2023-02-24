@@ -10,3 +10,9 @@ toc:
     filenames:
       - what-is-rotational-motion.md
       - newtons-law-of-rotation.md
+      - work-and-power-of-rotation-motion.md
+  - title:
+      en: magnetic field
+      cn: 磁场
+    filenames:
+      - amperes-law.md
