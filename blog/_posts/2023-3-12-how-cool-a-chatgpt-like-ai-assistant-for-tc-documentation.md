@@ -128,7 +128,7 @@ em…… 我想说的是，你完全可以尝试一下其他模型，或许性�
 6. 使用（已确定好的）角色引导语、用户提问的内容以及作为上下文环境的相关文件的内容组成完整的提示（prompt）。
 7. 根据提示，使用达芬奇模型自动生成回答，并将该回答实时返回给用户。
 
-![大眼夹的创建过程](/assets/images/post/2023/supabase-workflow.jpg "大眼夹的创建过程"){: standalone style="max-width: 500px;"}
+![大眼夹的创建过程](/assets/images/post/2023/supabase-workflow.jpg "大眼夹的创建过程"){: standalone style="width: 100%; max-width: 500px;"}
 
 如果想了解更多细节，可以好好研究一下下面的 Github 存储库：
 
