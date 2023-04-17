@@ -94,7 +94,7 @@ STE 写作规范中的很多准则与语法有关。虽然语法很晦涩很无�
 3. [Language learning: comparing native and non-native spearker vocabulary](https://blog.cyracom.com/the-lifelong-pursuit-of-language-learning-how-the-vocabularies-of-native-and-non-native-speakers-compare#:~:text=The%20researchers%20found%20that%20native%20adult%20speakers%20of,day%2C%20over%20twice%20the%20rate%20of%20native%20speakers.)
 4. [STEMG Members > 5.0 Operating Rules](https://www.asd-ste100.org/membership.html)
 5. [Why training is necessary](https://www.asd-ste100.org/training.html)
-{: .ref-text}
+{: .small}
 
 <!-- abbreviation definition -->
 *[STE]: Simplified Technical English

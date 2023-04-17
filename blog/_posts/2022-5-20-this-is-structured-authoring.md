@@ -160,7 +160,7 @@ XML 文件将信息（内容）存储为半结构化数据，而处理（半）�
 3. [Getting Started with DocBook](https://tdg.docbook.org/tdg/5.0/ch01.html#introduction-whats-new)
 4. [S1000D SGML Authoring](https://www.docuneering.com/s1000d/authoring/sgml-author/)
 5. [The Differences in the Morris & Austin Mini Coopers](https://itstillruns.com/differences-morris-austin-mini-coopers-7441817.html)
-{: .ref-text}
+{: .small}
 
 
 

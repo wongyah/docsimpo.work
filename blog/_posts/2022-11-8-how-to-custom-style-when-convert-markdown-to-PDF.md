@@ -123,7 +123,7 @@ flowchart TD
 1. [Paged Media Properties for CSS3 - W3](https://www.w3.org/1999/06/WD-css3-page-19990623#:~:text=Paged%20Media%20Properties%20for%20CSS3%201%201.%20Requirements,only%20to%20the%20%27before%3A%27%20and%20%27after%3A%27%20pseudo-elements.%20)
 2. [XSL-FO Is Dead, CSS Paged Media Is Prime Suspect](https://readwritecode.net/ebooks/2019/04/27/xsl-fo-is-dead-css-paged-media-is-prime-suspect.html)
 3. [XSL-FO is alive and kicking](https://readwritecode.net/ebooks/2019/04/28/xsl-fo-is-alive-and-kicking.html)
-
+{: .small}
 
 <!-- link definition -->
 [本文的姊妹篇]: {% link blog/_posts/2022-08-29-how-I-become-a-markdown-super-user.md %} "不知不觉，我竟炼成了一枚 Markdown 深度用户"

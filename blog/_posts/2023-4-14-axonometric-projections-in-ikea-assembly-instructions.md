@@ -135,13 +135,14 @@ tags: 文档技术
 > XVL Studio 有两个版本： [XVL Studio 3D CAD Corel Edition][SOLIDWORKS XVL Studio] 和 [XVL Studio Corel Edition (Lattice3D Studio)][Lattice3D Studio]。它们都只提供部分 YouTube 视频教程。
 
 
-# 参考资料
+###### 参考资料
+{: .ref-caption}
 
 1. 马连弟, 刘运符. 透视学原理. 吉林美术出版社, 2006: 3.
 2. 何斌, 陈锦昌等. 建筑制图: 第七版. 北京: 高等教育出版社, 2014.
 3. Bettina Giemsa (PTC). Technical Illustration in the 21st Century: A Primer for Today's Professionals.
 4. Unknown. [Axonometric projection](http://www.contrib.andrew.cmu.edu/~ramesh/teaching/course/48-175/lectures/10.AxonometricProjections.pdf).
-
+{: .small}
 
 <!-- link definition -->
 

@@ -272,7 +272,7 @@ ChatGPT 的火热出圈激发的不只是全球网友的好奇心，还有竞争
 3. 肖涵. [SEO 已死，LLMO 万岁][]. CSDN[2022-12-28].
 4. Ben Dickson. [Why ChatGPT is not a threat to Google Search](https://bdtechtalks.com/2023/01/02/chatgpt-google-search/).
 5. 齐健. [微软的AI赌局，谷歌为何没敢接]. 虎嗅APP[2023-01-07].
-
+{: .small}
 
 
 <!-- link definition -->

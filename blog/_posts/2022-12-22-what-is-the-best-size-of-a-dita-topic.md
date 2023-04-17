@@ -82,4 +82,4 @@ John Carroll 及其团队通过长期观察用户在使用手册过程中的各�
 4. Laura Bellamy, Michelle Carey, etc. DITA Best Practices. IBM Press, 2012: 15-44.
 5. Francis DeRespinls, Peter Hayward, etc. The IBM Style Guide. IBM Press, 2012: 119, 122, 126.
 6. Keith Schengili-Roberts. [What size should a DITA tipic be?](https://www.ditawriter.com/what-size-should-a-dita-topic-be/)
-
+{: .small}

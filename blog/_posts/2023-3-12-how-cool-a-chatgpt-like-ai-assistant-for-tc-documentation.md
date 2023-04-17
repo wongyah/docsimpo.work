@@ -145,7 +145,7 @@ em…… 我想说的是，你完全可以尝试一下其他模型，或许性�
 4. OpenAI. [Pricing: Simple and flexible, only pay for what you use](https://openai.com/pricing).
 5. Tabarak Khan. [What are tokens and how to count them?](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them)
 6. OpenAI. [Introducing text and code embeddings](https://openai.com/blog/introducing-text-and-code-embeddings).
-  
+{: .small}  
 
 <!-- link definition -->
 [ChatGPT-1]: {https://mp.weixin.qq.com/s?__biz=MzA5NzU4ODAwOQ==&mid=2247487045&idx=1&sn=2d30d29feefa37e8d7fe342dabc6d759&chksm=909fc803a7e84115a9903ae9be0c6761dc2f1c3d122995e72478c46f05ba9090a9c07c8993d0#rd}
