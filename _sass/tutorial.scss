@@ -23,7 +23,6 @@ h4.topic-title{
 //! 正文
 
 .topic-body {
-  @include margin(null null 3rem);
 
   & > h1 {
     font-size: $font-size-h5;

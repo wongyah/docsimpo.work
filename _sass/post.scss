@@ -56,8 +56,6 @@ ol#post-toc {
 //! 正文
 
 .post-body {
-  @include padding(2rem null);
-  @include margin(null null 3rem);
   border-top: 0.2em dotted rgba($background-color-head, 0.3);
   border-bottom: 0.2em dotted rgba($background-color-head, 0.3);
   max-width: 100%;
@@ -73,7 +71,6 @@ ol#post-toc {
 }
 
 .post-body{
-  counter-reset: heading1;
 
   h1 {
     font-size: $font-size-h5;
