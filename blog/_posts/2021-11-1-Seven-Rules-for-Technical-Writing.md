@@ -257,6 +257,5 @@ math: true
 
 [微软技术写作指南]: https://docs.microsoft.com/zh-cn/style-guide/welcome/
 
-[技术写作实例]: {% link _manual-writing-cases/index.md %}
 
 {:safety-icon: style="width: 5em;"}

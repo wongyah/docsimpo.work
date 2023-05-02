@@ -5,44 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta name="author" content="王烨">
 
-    {%- include custom-site-variables/pageCollection.html -%}
-    {%- include custom-site-variables/tutormeta.html -%}
-    {%- include custom-site-variables/page-menu.html -%}
+    {% include custom-site-variables/pageCollection.html %}
 
-    {%- include head-elements/title.html -%}
-    {%- include head-elements/stylesheets.html -%}
+    {% include head-elements/stylesheets.html %}
 
-    {% if page.url == "/"  -%}
-    <meta property='og:title' content='{{ site.data.webinfo.general.cn.name }}'/>
-    <meta property="og:type" content="website">
-    <meta property='og:image' content="{{ page.headerImage }}" />
-    <meta property='og:description' content='{{ site.data.webinfo.general.cn.slogan }}'/>
-    <meta property='og:url' content='{{ page.url }}'/>
-
-    {%- elsif page.collection == "posts" -%}
-    {%- comment -%}search for the base name of the hearder image{%- endcomment -%}
-    {%- for item in site.data.link-images.post-link-images -%}
-    {%- if page.tags contains item.tag -%}
-        {%- assign imageBaseName = item.link-image -%}
-      {%- endif -%}
-    {%- endfor -%}
-    <meta property='og:title' content='{{ page.title }}'/>
-    <meta property="og:type" content="article">
-    <meta property="og:article:author" content="王烨">
-    <meta property="og:article:published_time" content="{{ page.date | date: '%F' }}">
-    <meta property='og:image' content="/assets/images/post/headerImage/{{ imageBaseName }}-20hpx.jpg" />
-    <meta property='og:description' content='{{ page.description }}'/>
-    <meta property='og:url' content='{{ page.url }}'/>
-    
-    {%- elsif page.collection == "markdown-tutorial" -%}
-    <meta property='og:title' content='{{ collection.subject }}教程：{{ page.title }}'/>
-    <meta property="og:type" content="article">
-    <meta property="og:article:author" content="王烨">
-    <meta property="og:article:published_time" content="{{ page.date | date: '%F' }}">
-    <meta property='og:image' content="{{ page.headerImage }}" />
-    <meta property='og:description' content='{{ page.content | markdownify | strip_html | strip_newlines | truncate: 100 }}'/>
-    <meta property='og:url' content='{{ page.url }}'/>
-    {%- endif %}
+    {% seo %}
 
     {%- if page.math -%}
       {%- include mathjax.html -%}
@@ -52,8 +19,6 @@
     {%- include header.html -%}
     <div class="bodyHolder">{{ content }}</div>
     {%- include footer.html -%}
-
-
 
 
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
