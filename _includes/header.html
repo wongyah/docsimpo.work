@@ -5,8 +5,9 @@
     <div class="container">
       
       {%- assign home = site.data.webinfo.header-menu | find: "name", "首页" -%}
-      <a class="navbar-brand logo-brand" href="{{ home.link }}">
-        <img class="logo-size" src="/assets/images/logo.png" alt="商标"> 单线条文档
+      <a class="navbar-brand logo-brand py-2" href="{{ home.link }}">
+        <span class="logo-size d-inline-block">{% include svg/logo/site-logo-white.svg %}</span>
+        <span class="d-inline-block h-100">单线条文档</span>
       </a>
 
       <button class="navbar-toggler collapsed p-0 header-nav-icon" type="checkbox" data-toggle="collapse" data-target="#header-nav" aria-controls="header-nav" aria-expanded="false" aria-label="Toggle navigation">

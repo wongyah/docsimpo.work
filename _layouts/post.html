@@ -5,29 +5,28 @@ layout: page-container
 {% include layout/body-aside-classes.html %}
 
 <!-- 正文 -->
-<!-- <div class="col-lg-8 pr-lg-4"> -->
 <div class="{{ body }}">
   <div class="mt-lg-5 py-4">
     <h4 class="post-title">{{ page.title }}</h4>
     <p class="small text-muted">{{ page.author }} 发布于 {{ page.date | date: ' %Y 年 %m 月 %d 日' }}</p>
   </div>
-  <div class="post-body postContent mb-5 py-4">
-    
-    {{ content }}
-    
-  </div>
-</div>
 
-<!-- 侧栏 -->
-<!-- <div class="col-lg-4 pl-lg-4 aside"> -->
-<div class="{{ aside }}">
-  {%- include asideDivs/postTOC.html -%}
-  {% unless page.categories == empty %}
-    {%- include asideDivs/relatedPosts.html -%}
-  {% endunless %}
+  <div class="post-body postContent mb-5 py-4">
+    {{ content }}
+  </div>
+
   {%- if page.downloadkey -%}
     {%- include asideDivs/download.html -%}
   {%- endif -%}
+  
+  {% unless page.categories == empty %}
+    {%- include asideDivs/relatedPosts.html -%}
+  {% endunless %}
+</div>
+
+<!-- 侧栏 -->
+<div class="{{ aside }} py-5 d-none d-lg-block">
+  {%- include asideDivs/postTOC.html -%}
 </div>
 
 {%- if page.mermaid -%}

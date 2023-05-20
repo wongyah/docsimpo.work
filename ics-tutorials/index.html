@@ -26,6 +26,10 @@ title: 工控教程
 </div>
 
 
-<div class="{{aside}}">
-  {%- include /asideDivs/documentationOnline.html -%}
+<!-- 侧栏 -->
+<div class="{{ aside }} position-fixed py-5 d-none d-lg-block" style="right: 0;">
+  {%- assign platform = "wechat" -%}
+  {%- assign id = "icsdocs" -%}
+  {%- assign extension = "jpg" -%}
+  {%- include asideDivs/follow-wechat.html -%}
 </div>

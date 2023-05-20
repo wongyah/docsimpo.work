@@ -301,23 +301,4 @@ p.code-language.html {text-transform: uppercase;}
   ol{list-style-type: decimal;}
 }
 
-//! 右侧栏
-
-.card.ad-aside-right {
-  @include margin(4rem null);
-  border: 0.5em solid rgba($text-color-emphasized, 0.5);
-  border-radius: 0.5em;
-  opacity: 0.7;  // 透明度小于 1 的元素会遮挡其他元素。必须为页眉设置 z-index 值。
-
-  &:hover{
-    opacity: 1;
-    border-color: rgba($text-color-emphasized, 0.7);
-  }
-
-}
-
-ul.card-text {
-  list-style-type: none;
-  li{@include margin(0.5em null);}
-}
 

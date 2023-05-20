@@ -26,6 +26,9 @@ title: 写作指南
 </div>
 
 
-<div class="{{aside}}">
-  {%- include /asideDivs/documentationOnline.html -%}
+<div class="{{ aside }} position-fixed py-5 d-none d-lg-block" style="right: 0;">
+  {%- assign platform = "wechat" -%}
+  {%- assign id = "docsimpo" -%}
+  {%- assign extension = "jpg" -%}
+  {%- include asideDivs/follow-wechat.html -%}
 </div>
