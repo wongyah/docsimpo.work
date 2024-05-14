@@ -1,0 +1,57 @@
+/* ==========================================================================
+   SINGLE PAGE
+   ========================================================================== */
+
+#main {
+  padding-left: 0;
+  padding-right: 0;
+  
+  @include breakpoint($large) {
+    padding-left: 1em;
+    padding-right: 1em;
+
+  }
+}
+
+.page {
+  @include breakpoint($large) {
+    float: left;
+  }
+
+  .page__inner-wrap {
+    background-color: $page-background-color;
+    border-radius: $border-radius-page;
+    box-shadow: $box-shadow-page;
+    padding: 1.5em 0;
+
+    .page__title,
+    .page__content,
+    .page__meta,
+    .page__share {
+      padding-left: 24px;
+    }
+  }
+}
+
+.page__content {
+  margin-top: 16px;
+  margin-bottom: 16px;
+
+  h2 {
+    border-bottom: none;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    text-indent: -0.35em;
+    .header-link {
+      left: 0;
+      font-size: 0.5em;
+    }
+  }
+
+  hr {
+    &:first-of-type {
+      margin-top: 48px;
+    }
+  }
+}

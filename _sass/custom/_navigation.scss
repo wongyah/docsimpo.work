@@ -1,0 +1,72 @@
+/* ==========================================================================
+   NAVIGATION
+   ========================================================================== */
+
+/*
+   Priority plus navigation
+   ========================================================================== */
+
+.greedy-nav {
+   background: $masthead-bg-color;
+
+   .hidden-links {
+      border: 1px solid #fff;
+      background: $focus-color;
+
+      .masthead__menu-item {
+         a{
+            color: $masthead-link-color-hover;
+         }
+      }
+      
+   }
+
+   a {
+      &.site-title {
+         color: $masthead-site-title-color;
+      }
+   }
+
+   .visible-links {
+      a {
+         padding-top: $masthead-link-padding-vertical;
+         padding-bottom: $masthead-link-padding-vertical;
+         &:before {
+            height: 2px;
+            background: $masthead-link-color-hover;
+         }
+
+         &:hover:before {
+            -webkit-transform: scale(1,1);
+            -ms-transform: scale(1,1);
+            transform: scale(1,1); // reveal
+          }
+
+         &.current {
+            padding-left: $masthead-link-padding-horizontal-current;
+            padding-right: $masthead-link-padding-horizontal-current;
+            color: $masthead-link-color-current;
+            background-color: $focus-color;
+            border-radius: 0.25em;
+         }
+
+         &.disabled {
+            pointer-events: none;
+            cursor: default;
+         }
+    
+      }
+   }
+}
+
+/*
+     Table of contents navigation
+     ========================================================================== */
+
+.toc {
+   background-color: $page-background-color;
+
+   .nav__title {
+      background: $masthead-bg-color;
+   }
+}
