@@ -93,6 +93,7 @@ footer:
 head_scripts:
   - https://code.jquery.com/jquery-3.2.1.min.js
   - "/assets/js/github-alerts.js"
+  - https://cdn.bootcdn.net/ajax/libs/mermaid/10.9.0/mermaid.min.js
 
 # Reading Files
 include:

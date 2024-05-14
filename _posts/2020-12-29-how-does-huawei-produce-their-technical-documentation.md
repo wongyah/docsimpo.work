@@ -22,7 +22,7 @@ mermaid: true
 华为的技术资料一般使用中文起稿撰写，然后将中文版翻译成英文版，再由英文版翻译成其他语种。这也是目前国内厂商普遍采用的流程。
 
 <pre class="mermaid">
-flowchart TD
+flowchart LR
   A(中文版)-->B(英文版)
   B(英文版)-->C(其他语种)
 </pre>

@@ -17,12 +17,18 @@
  @import "custom/masthead";
  @import "custom/navigation";
  @import "custom/footer";
- @import "custom/github-alerts";
-
+ 
  /* Utility classes */
-@import "custom/utilities";
+ @import "custom/utilities";
+ 
+ /* Layout specific */
+ @import "custom/page";
+ @import "custom/sidebar";
+ @import "custom/post";
+ 
+ /* Contents */
+ @import "custom/github-alerts";
+ @import "custom/mermaid";
 
-/* Layout specific */
-@import "custom/page";
-@import "custom/sidebar";
-@import "custom/post";
+
+
