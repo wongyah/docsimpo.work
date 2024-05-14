@@ -22,26 +22,46 @@
     background-color: $page-background-color;
     border-radius: $border-radius-page;
     box-shadow: $box-shadow-page;
-    padding: 1.5em 0;
+    padding-top: 3em;
 
+    /* Page margins on the left and right.
+       If the page__content class has a property of padding-right, the toc box is push to left by margin. 
+       Solution: Set margin-left and margin right to all children except for the toc box.  */
     .page__title,
     .page__content,
     .page__meta,
     .page__share {
-      padding-left: 24px;
+      padding-left: 1rem;
+      padding-right: 1rem;
+
+      @include breakpoint($large) {
+        padding-left: 0;
+        padding-right: 0;
+
+        & > *:not(.sidebar__right) {
+          margin-left: 2rem;
+          margin-right: 2rem;
+        }
+      }
     }
+  }
+}
+
+.page__title {
+  a {
+    color: $primary-color;
   }
 }
 
 .page__content {
   margin-top: 16px;
-  margin-bottom: 16px;
 
   h2 {
     border-bottom: none;
   }
 
   h1, h2, h3, h4, h5, h6 {
+    color: mix(#000, $primary-color, 10%);
     text-indent: -0.35em;
     .header-link {
       left: 0;

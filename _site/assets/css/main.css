@@ -8,6 +8,7 @@
    colors
    ========================================================================== */
 /* user-defined variables */
+/* type scale */
 /* headline scale */
 /* brands */
 /* Others */
@@ -858,7 +859,7 @@ blockquote {
   padding-left: 1em;
   padding-right: 1em;
   font-style: italic;
-  border-left: 0.25em solid #31202e;
+  border-left: 0.25em solid #f5ba3a;
 }
 blockquote cite {
   font-style: italic;
@@ -1251,10 +1252,10 @@ textarea[readonly] {
      ========================================================================== */
 input:focus,
 textarea:focus {
-  border-color: #31202e;
+  border-color: #f5ba3a;
   outline: 0;
   outline: thin dotted \9 ;
-  box-shadow: inset 0 1px 3px rgba(32, 33, 36, 0.06), 0 0 5px rgba(49, 32, 46, 0.7);
+  box-shadow: inset 0 1px 3px rgba(32, 33, 36, 0.06), 0 0 5px rgba(245, 186, 58, 0.7);
 }
 
 input[type=file]:focus,
@@ -1478,15 +1479,15 @@ th {
   margin-left: -0.5em; /* override for hidden text*/
 }
 .btn--primary {
-  background-color: #31202e;
-  color: #fff;
+  background-color: #f5ba3a;
+  color: #3d4144;
 }
 .btn--primary:visited {
-  background-color: #31202e;
-  color: #fff;
+  background-color: #f5ba3a;
+  color: #3d4144;
 }
 .btn--primary:hover {
-  background-color: #271a25;
+  background-color: #c4952e;
   color: #fff;
 }
 .btn--inverse {
@@ -1692,9 +1693,9 @@ blockquote.notice {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", "Noto Sans", "Liberation Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.75em !important;
   text-indent: initial; /* override*/
-  background-color: #cbc9cc;
+  background-color: #f3e8ce;
   border-radius: 4px;
-  box-shadow: 0 1px 1px rgba(49, 32, 46, 0.25);
+  box-shadow: 0 1px 1px rgba(245, 186, 58, 0.25);
 }
 .notice--primary h4 {
   margin-top: 0 !important; /* override*/
@@ -1716,17 +1717,17 @@ blockquote.notice {
   padding-top: 0;
 }
 .notice--primary a {
-  color: #2c1d29;
+  color: #dda734;
 }
 .notice--primary a:hover {
-  color: #191017;
+  color: #7b5d1d;
 }
 blockquote.notice--primary {
-  border-left-color: #2c1d29;
+  border-left-color: #dda734;
 }
 
 .notice--primary code {
-  background-color: #dfdedf;
+  background-color: #f2ede1;
 }
 .notice--primary pre code {
   background-color: inherit;
@@ -2129,7 +2130,7 @@ blockquote.notice--danger {
 }
 .pagination li a.current, .pagination li a.current.disabled {
   color: #fff;
-  background: #31202e;
+  background: #f5ba3a;
 }
 .pagination li a.disabled {
   color: rgba(144, 144, 146, 0.5);
@@ -2261,7 +2262,7 @@ blockquote.notice--danger {
   left: 0;
   bottom: 0;
   height: 4px;
-  background: #31202e;
+  background: #f5ba3a;
   width: 100%;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -2501,12 +2502,12 @@ blockquote.notice--danger {
 .toc .nav__title {
   color: #fff;
   font-size: 0.75em;
-  background: #31202e;
+  background: #f5ba3a;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
 .toc .active a {
-  background-color: #d6d2d5;
+  background-color: #fdf1d8;
   color: #3d4144;
 }
 
@@ -2647,14 +2648,14 @@ blockquote.notice--danger {
   height: 2rem;
   border: 0;
   outline: none;
-  color: #31202e;
+  color: #f5ba3a;
   background-color: transparent;
   cursor: pointer;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
 .search__toggle:hover {
-  color: #251823;
+  color: #b88c2c;
 }
 
 .search-icon {
@@ -2746,13 +2747,13 @@ blockquote.notice--danger {
 }
 
 .archive__item-title .ais-Highlight {
-  color: #31202e;
+  color: #f5ba3a;
   font-style: normal;
   text-decoration: underline;
 }
 
 .archive__item-excerpt .ais-Highlight {
-  color: #31202e;
+  color: #f5ba3a;
   font-style: normal;
   font-weight: bold;
 }
@@ -3365,7 +3366,7 @@ body:hover .visually-hidden button {
   position: relative;
   width: 1.5rem;
   height: 0.25rem;
-  background: #31202e;
+  background: #f5ba3a;
   margin: auto;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -3376,7 +3377,7 @@ body:hover .visually-hidden button {
   left: 0;
   width: 1.5rem;
   height: 0.25rem;
-  background: #31202e;
+  background: #f5ba3a;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -3434,7 +3435,7 @@ body:hover .visually-hidden button {
 .greedy-nav__toggle:hover .navicon,
 .greedy-nav__toggle:hover .navicon:before,
 .greedy-nav__toggle:hover .navicon:after {
-  background: #251823;
+  background: #b88c2c;
 }
 .greedy-nav__toggle:hover.close .navicon {
   background: transparent;
@@ -5134,7 +5135,7 @@ h5,
 h6 {
   margin: 2em 0 0.5em;
   line-height: 1.5;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 h1 {
@@ -5232,7 +5233,17 @@ a {
   background-color: #fff;
 }
 .toc .nav__title {
-  background: #6699cc;
+  background: #f5ba3a;
+  font-size: 0.75em;
+}
+
+@media (min-width: 64em) {
+  .toc__menu {
+    font-size: 0.75em;
+  }
+}
+.toc__menu a:hover {
+  color: #0065b3;
 }
 
 .page__footer {
@@ -5421,24 +5432,50 @@ a {
   background-color: #fff;
   border-radius: 2px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
-  padding: 1.5em 0;
+  padding-top: 3em;
+  /* Page margins on the left and right.
+     If the page__content class has a property of padding-right, the toc box is push to left by margin. 
+     Solution: Set margin-left and margin right to all children except for the toc box.  */
 }
 .page .page__inner-wrap .page__title,
 .page .page__inner-wrap .page__content,
 .page .page__inner-wrap .page__meta,
 .page .page__inner-wrap .comment__date,
 .page .page__inner-wrap .page__share {
-  padding-left: 24px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+@media (min-width: 64em) {
+  .page .page__inner-wrap .page__title,
+  .page .page__inner-wrap .page__content,
+  .page .page__inner-wrap .page__meta,
+  .page .page__inner-wrap .comment__date,
+  .page .page__inner-wrap .page__share {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .page .page__inner-wrap .page__title > *:not(.sidebar__right),
+  .page .page__inner-wrap .page__content > *:not(.sidebar__right),
+  .page .page__inner-wrap .page__meta > *:not(.sidebar__right),
+  .page .page__inner-wrap .comment__date > *:not(.sidebar__right),
+  .page .page__inner-wrap .page__share > *:not(.sidebar__right) {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+
+.page__title a {
+  color: #f5ba3a;
 }
 
 .page__content {
   margin-top: 16px;
-  margin-bottom: 16px;
 }
 .page__content h2 {
   border-bottom: none;
 }
 .page__content h1, .page__content h2, .page__content h3, .page__content h4, .page__content h5, .page__content h6 {
+  color: #dda734;
   text-indent: -0.35em;
 }
 .page__content h1 .header-link, .page__content h2 .header-link, .page__content h3 .header-link, .page__content h4 .header-link, .page__content h5 .header-link, .page__content h6 .header-link {

@@ -67,6 +67,19 @@
    background-color: $page-background-color;
 
    .nav__title {
-      background: $masthead-bg-color;
+      background: $primary-color;
+      font-size: $type-size-6;
+   }
+}
+
+.toc__menu {
+   @include breakpoint($large) {
+      font-size: $type-size-6;
+   }
+
+   a {
+      &:hover {
+         color: $link-color;
+      }
    }
 }
