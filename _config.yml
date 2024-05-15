@@ -90,8 +90,8 @@ footer:
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:wongyah@126.com?subject=Awesome%20technical%20writing%20learning"
 
-head_scripts:
-  - https://code.jquery.com/jquery-3.2.1.min.js
+after_footer_scripts:
+  # - https://code.jquery.com/jquery-3.2.1.min.js
   - "/assets/js/github-alerts.js"
   - https://cdn.bootcdn.net/ajax/libs/mermaid/10.9.0/mermaid.min.js
 

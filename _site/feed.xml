@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-05-14T18:03:14+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">技术传播百态说</title><subtitle>解密文档技术，精研技术写作，评说行业百态。</subtitle><author><name>王烨</name></author><entry><title type="html">我的GitHub资源库：神奇的技术写作研习路</title><link href="http://localhost:4000/2024/04/25/awesome-technical-writing-learning.html" rel="alternate" type="text/html" title="我的GitHub资源库：神奇的技术写作研习路" /><published>2024-04-25T00:00:00+08:00</published><updated>2024-04-25T00:00:00+08:00</updated><id>http://localhost:4000/2024/04/25/awesome-technical-writing-learning</id><content type="html" xml:base="http://localhost:4000/2024/04/25/awesome-technical-writing-learning.html"><![CDATA[<p>引言</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-05-15T11:35:57+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">技术传播百态说</title><subtitle>解密文档技术，精研技术写作，评说行业百态。</subtitle><author><name>王烨</name></author><entry><title type="html">我的GitHub资源库：神奇的技术写作研习路</title><link href="http://localhost:4000/2024/04/25/awesome-technical-writing-learning.html" rel="alternate" type="text/html" title="我的GitHub资源库：神奇的技术写作研习路" /><published>2024-04-25T00:00:00+08:00</published><updated>2024-04-25T00:00:00+08:00</updated><id>http://localhost:4000/2024/04/25/awesome-technical-writing-learning</id><content type="html" xml:base="http://localhost:4000/2024/04/25/awesome-technical-writing-learning.html"><![CDATA[<p>引言</p>
 
 <ol id="markdown-toc">
   <li><a href="#标题" id="markdown-toc-标题">标题</a></li>
@@ -8,7 +8,10 @@
 
 <h2 id="标题">标题</h2>
 
-<p>正文</p>
+<blockquote>
+  <p>[!TIP]
+这是一条提示信息。</p>
+</blockquote>
 
 <h2 id="标题-1">标题</h2>
 
@@ -131,13 +134,13 @@ flowchart LR
 
 <p>近年来人工智能、机器学习的发展助推了机器翻译的译文质量提升，使用范围也越来越广，正在很多领域逐步取代传统的人工翻译。</p>
 
+<figure>
+  <img src="https://pic2.zhimg.com/80/v2-d5214e206af3d93659b0b430f7e60291_720w.webp" alt="" />
+  <figcaption></figcaption>
+</figure>
+
 <p>技术翻译因为对专业性和精确性要求较高，机器翻译的质量尚不能完全满足要求。但是，技术资料本身的规则性很可能成为日后机器学习助力机器翻译的有利因素。</p>
 
 <p>除了机器翻译，机器写作近来也屡屡出来晒成绩。比如新华社的快笔小新、腾迅的 Dreamwriter，国外很多媒体也早已采用了机器人撰写部分新闻稿件的技术。</p>
 
-<p>未来，机器写作有可能在技术写作领域取得进展，尤其是安装手册、维修手册等较为规则化的文档。</p>
-
-<figure>
-  <img src="https://pic2.zhimg.com/80/v2-d5214e206af3d93659b0b430f7e60291_720w.webp" alt="" />
-  <figcaption></figcaption>
-</figure>]]></content><author><name>王烨</name></author><category term="技术写作" /><summary type="html"><![CDATA[前华为经理详解华为内部技术文档和技术翻译的工作流程。]]></summary></entry></feed>
+<p>未来，机器写作有可能在技术写作领域取得进展，尤其是安装手册、维修手册等较为规则化的文档。</p>]]></content><author><name>王烨</name></author><category term="技术写作" /><summary type="html"><![CDATA[前华为经理详细讲解华为内部技术文档和技术翻译的工作流程。]]></summary></entry></feed>
