@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-05-15T11:35:57+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">技术传播百态说</title><subtitle>解密文档技术，精研技术写作，评说行业百态。</subtitle><author><name>王烨</name></author><entry><title type="html">我的GitHub资源库：神奇的技术写作研习路</title><link href="http://localhost:4000/2024/04/25/awesome-technical-writing-learning.html" rel="alternate" type="text/html" title="我的GitHub资源库：神奇的技术写作研习路" /><published>2024-04-25T00:00:00+08:00</published><updated>2024-04-25T00:00:00+08:00</updated><id>http://localhost:4000/2024/04/25/awesome-technical-writing-learning</id><content type="html" xml:base="http://localhost:4000/2024/04/25/awesome-technical-writing-learning.html"><![CDATA[<p>引言</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-05-16T11:52:48+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">技术传播百态说</title><subtitle>解密文档技术，精研技术写作，评说行业百态。</subtitle><author><name>王烨</name></author><entry><title type="html">我的GitHub资源库：神奇的技术写作研习路</title><link href="http://localhost:4000/2024/04/25/awesome-technical-writing-learning.html" rel="alternate" type="text/html" title="我的GitHub资源库：神奇的技术写作研习路" /><published>2024-04-25T00:00:00+08:00</published><updated>2024-04-25T00:00:00+08:00</updated><id>http://localhost:4000/2024/04/25/awesome-technical-writing-learning</id><content type="html" xml:base="http://localhost:4000/2024/04/25/awesome-technical-writing-learning.html"><![CDATA[<p>引言</p>
 
 <ol id="markdown-toc">
   <li><a href="#标题" id="markdown-toc-标题">标题</a></li>
@@ -19,7 +19,316 @@
 
 <h2 id="标题-2">标题</h2>
 
-<p>正文</p>]]></content><author><name>王烨</name></author><summary type="html"><![CDATA[引言]]></summary></entry><entry><title type="html">华为的技术资料是如何打造出来的?</title><link href="http://localhost:4000/2020/12/29/how-does-huawei-produce-their-technical-documentation.html" rel="alternate" type="text/html" title="华为的技术资料是如何打造出来的?" /><published>2020-12-29T00:00:00+08:00</published><updated>2020-12-29T00:00:00+08:00</updated><id>http://localhost:4000/2020/12/29/how-does-huawei-produce-their-technical-documentation</id><content type="html" xml:base="http://localhost:4000/2020/12/29/how-does-huawei-produce-their-technical-documentation.html"><![CDATA[<p>昨天下午，前华为翻译中心南京分部经理、华为 2012 实验室南研分部部长张建农先生做客 2020 年中国技术传播论坛，分享了华为在技术写作和技术翻译方面的诸多实践经验，也为技术写作和技术翻译方面的从业者指明了努力方向。</p>
+<p>正文</p>]]></content><author><name>王烨</name></author><summary type="html"><![CDATA[引言]]></summary></entry><entry><title type="html">全球大厂的技术文档写作指南们！</title><link href="http://localhost:4000/2021/06/25/top-10-editorial-style-guides-for-technical-writing.html" rel="alternate" type="text/html" title="全球大厂的技术文档写作指南们！" /><published>2021-06-25T00:00:00+08:00</published><updated>2021-06-25T00:00:00+08:00</updated><id>http://localhost:4000/2021/06/25/top-10-editorial-style-guides-for-technical-writing</id><content type="html" xml:base="http://localhost:4000/2021/06/25/top-10-editorial-style-guides-for-technical-writing.html"><![CDATA[<p>产品文档最讲究两点：简明扼要，文风一致。</p>
+
+<p>“简明扼要”尚可依仗技术写作人员的专业能力来实现，可“文风一致”怎么做到呢? 靠技术写作人员的个人感觉吗? 如果产品文档需要多人共同完成，怎样办?</p>
+
+<p>答案是：<strong>标准化</strong>。参与文档编写的所有人员，遵循统一的标准来进行写作。这个标准，叫做<strong>技术文档写作指南</strong>（editorial style guides for technical writing）。</p>
+
+<p>写作指南里，可以规定写作原则、术语库、标题和缩略语的写法、标点符号的使用方法、单位的使用方法、无障碍阅读设计原则、以及跨设备阅读设计原则等方方面面的内容。</p>
+
+<p>有了写作指南，技术写作人员在写作时就有章可循、有规可守，即使多人协作也能“异口同声”。</p>
+
+<p>有些行业推行业内通用的技术文档写作指南，比如航空业的 ASD-STE100 。但大多数行业没有统一标准，需要企业自行编写。</p>
+
+<p>还没有自己的技术文档写作指南? 别愁！虽然编写作指南的难度系数很高，但你完全不需要从零开始。</p>
+
+<p>很多“个高”的公司（比如微软、谷歌、苹果），不仅编写出了优质的技术文档写作指南，实时维护，还把它们免费公开了！</p>
+
+<p>虽然你可能属于不同的行业，但这些写作指南里的很多写作原则却是通用的，而且已经被广泛验证过。</p>
+
+<p>如果这些还不够，文末还有更权威、更详尽的泰斗级写作指南作后盾呢！</p>
+
+<h2 id="asd-ste100">ASD-STE100</h2>
+
+<p>ASD-STE100 起源于航空航天业和国防部门，是专门为了<strong>降低操作手册和维修手册的阅读难度</strong>而编写的一种英语语言规范。</p>
+
+<p>在很多领域里，英语是使用率最高的国际通用语言。但对于很多人来说，英语并非母语，很难读懂手册里的多义词、生僻单词、俗语、以及结构复杂的长句子。</p>
+
+<p>一旦飞行员、维修工程师、培训人员等工作人员对手册里的操作规范理解有误，进行了不正当操作，势必会危及全体乘客的生命安全。</p>
+
+<p>正是基于这种需求，欧洲航空航天和国防工业协会（ASD）联合美国航空航天工业协会（AIA）共同调研并编制了 ASD-STE100。</p>
+
+<p>ASD-STE100 要求在手册中使用简洁的语言向读者传递准确、不包含歧义的信息。它由两大部分构成：写作原则和受控词库。</p>
+
+<p>ASD-STE100 不涉及格式、标点符号、缩略语、单位等内容，只能作为技术文档写作指南的一部分，并不能独立使用。</p>
+
+<p>目前，ASD-STE100 的使用范围已经远远超出了航空航天业，在很多行业中推广开来。</p>
+
+<p><strong>官方渠道</strong>：前往 <a href="http://www.asd-ste100.org/request.html">ASD-STE100 官网</a>下载申请表，填好后发送至 stemg@asd-ste100.org。之后，工作人员会将 PDF 版 ASD-STE100 免费发送到你的邮箱。</p>
+
+<h2 id="ibm-技术文档写作指南">IBM 技术文档写作指南</h2>
+
+<p>这是 IBM 于 2011 年出版的技术文档写作指南，堪称<strong>技术写作的教科书</strong>。</p>
+
+<p>这里面，英语语法、标点符号、文档架构、单位、格式、词汇表等写作指南的标准构件一应俱全。</p>
+
+<p>难能可贵的是，这本书不仅给出了这些元素的基本概念，还现身说法——为每一条写作原则提供写作实例和讲解。很多技术写作人员把它当成<strong>技术写作的入门必备教材</strong>。</p>
+
+<p>作为 DITA 的开创者，IBM 还在这本书里对主题化写作和 DITA 的三大主题类型进行了科普。</p>
+
+<h2 id="微软技术文档写作指南">微软技术文档写作指南</h2>
+
+<p>这是微软现行的技术文档写作指南，也是<strong>所有消费型产品在编写产品文档时应该参照的金科玉律</strong>。</p>
+
+<p>像平常聊天一样讲述产品，友善、轻松、简洁、清晰，想用户所想。这，是微软技术写作的最高原则。</p>
+
+<p>微软写作指南将最高原则分解成十大原则，然后又将十大原则分解成一条条简单的小原则、小技巧。</p>
+
+<p>这本指南本身，就是产品文档的范本。有情怀，有格调，有方法，完美！</p>
+
+<p>这是我最喜欢的一本技术文档写作指南，谷歌也将它列为官方参考资料之一呢！</p>
+
+<p><strong>官方文档</strong>：<a href="https://docs.microsoft.com/zh-cn/style-guide/welcome/">Microsoft Style Guide</a></p>
+
+<h2 id="谷歌开发者技术文档写作指南">谷歌开发者技术文档写作指南</h2>
+
+<p>谷歌写作指南非常注重<strong>屏幕感</strong>，包含一些微软写作指南里没有涉及的建议。</p>
+
+<p>比如，如何使用 HTML 元素，Markdown 与 HTML 之间如何选择，为了方便屏幕阅读而限定每行不能多于 80 个字符 ……</p>
+
+<p>如果你的产品文档也提供网页版，不妨好好看看这本写作指南。谷歌甚至还有一本 <a href="https://google.github.io/styleguide/htmlcssguide.html">Google HTML/CSS Style Guide</a> 呢！</p>
+
+<p><strong>官方文档</strong>：<a href="https://developers.google.cn/style">Google Developer Documentation Style Guide</a></p>
+
+<h2 id="苹果技术文档写作指南">苹果技术文档写作指南</h2>
+
+<p>相比于微软与谷歌，苹果的写作指南非常简单，内容上也没什么亮点。</p>
+
+<p>不过这本指南的官网<strong>界面设计</strong>非常不错，首页还提供了四本界面设计指南的链接。</p>
+
+<p>如果你正要为自己的产品文档创建网页版，看完谷歌的技术建议之后，不妨也顺道来这里取取经，找找灵感。</p>
+
+<p><strong>官方文档</strong>：<a href="https://help.apple.com/applestyleguide/#/">Apple Style Guide</a></p>
+
+<h2 id="gitlab-技术文档写作指南">Gitlab 技术文档写作指南</h2>
+
+<p>作为一家代码托管平台，Gitlab 的技术文档写作指南格外注重<strong>内容重用</strong>和<strong>协作共享</strong>，科技感十足。</p>
+
+<p>Gitlab 使用 Markdown 编写文档。写作指南里对 Markdown 中各种元素的使用方法进行了详细说明，并使用测试程序自动验证文档格式是否正确、链接是否有效。如果文档不符合规范，就不能成功提交。</p>
+
+<p>Gitlab 使用 Git 对文档进行版本管理，就像管理代码一样。作为一款开源软件，Gitlab 文档的贡献者众多。为此，写作指南中不仅对文档修改和提交流程进行了详细说明，还对 Gitlab 的文档架构进行了详尽的阐述。</p>
+
+<p>如果你正苦于不知道如何进行文档管理，这本写作指南可算是雪中送炭了！</p>
+
+<p><strong>官方文档</strong>：<a href="https://docs.gitlab.com/ee/development/documentation/styleguide/index.html">Gitlab Documentation Style Guide</a></p>
+
+<h2 id="suse-技术文档写作指南">SUSE 技术文档写作指南</h2>
+
+<p>SUSE 是德国的一家操作系统（Linux）提供商。</p>
+
+<p>SUSE 写作指南的独特之处在于，它是一本使用 DocBook 编写产品文档的写作指南。</p>
+
+<p>写作指南里详细说明了产品文档的章节划分和内容架构，以及各部分内容应该使用的 DocBook 元素，并配有 XML 代码实例。</p>
+
+<p>如果你也使用 DocBook，这本技术写作指南可不容错过哦！</p>
+
+<p><strong>官方文档</strong>：<a href="https://documentation.suse.com/en-us/style/current/single-html/docu_styleguide/#">SUSE Documentation Style Guide</a></p>
+
+<h2 id="mailchimp-技术文档写作指南">Mailchimp 技术文档写作指南</h2>
+
+<p>Mailchimp 是一家邮件营销软件提供商。</p>
+
+<p>可能出于职业习惯，除了技术写作的原则之外，Mailchimp 还不遗余力地总结了：</p>
+<ul>
+  <li>营销邮件的写作原则；</li>
+  <li>在社交平台（如微博、朋友圈、知乎、领英）上发布内容的创作规范。</li>
+</ul>
+
+<p>虽然 Mailchimp 是在规范自己的营销行为，但这似乎一点也不妨碍我们照猫画虎（吧?）。</p>
+
+<p><strong>官方文档</strong>：<a href="https://styleguide.mailchimp.com/">Mailchimp Content Style Guide</a></p>
+
+<h2 id="红帽技术文档写作指南">红帽技术文档写作指南</h2>
+
+<p>红帽公司是总部位于美国的一家开源解决方案供应商，2018 年被 IBM 收购。</p>
+
+<p>红帽的写作指南很传统，很详细，强调正式感和庄重感。在这一点上，红帽与微软的风格截然不同。</p>
+
+<p><strong>官方文档</strong>：<a href="http://stylepedia.net/style/">The Red Hat Style Guide</a></p>
+
+<h2 id="格式手册和词典">格式手册和词典</h2>
+
+<p>技术文档写作指南可繁可简，最重要的是适合企业自身的实际需要。</p>
+
+<p>但不管写作指南是繁是简，都不可能包罗万象。产品文档编写过程中，总会遇到没有在写作指南中预设的场景。在这种情况下，可以将一些外部资源作为写作指南的补充。</p>
+
+<p>以下是技术文档写作指南中常用的参考资源：</p>
+<ol>
+  <li><a href="https://www.chicagomanualofstyle.org/home.html">Chicago Manual of Style</a></li>
+  <li><a href="https://ahdictionary.com/">The American Heritage Dictionary</a></li>
+  <li><a href="https://www.merriam-webster.com/">Merriam-Webster Dictionary</a></li>
+</ol>
+
+<p>写作指南中最好明确说明，哪些外部资源可供参考，这些外部资源有没有优先级，等等。</p>
+
+<p>现在，你可以站在巨人们的肩头上编写自己的技术文写作指南了！</p>]]></content><author><name>王烨</name></author><category term="学习资源" /><summary type="html"><![CDATA[微软、谷歌、IBM 等数十家大厂的 Style Guides，全在这里了！]]></summary></entry><entry><title type="html">技术传播职业认证，了解一下?</title><link href="http://localhost:4000/2020/12/31/certificated-professional-technical-communicator.html" rel="alternate" type="text/html" title="技术传播职业认证，了解一下?" /><published>2020-12-31T00:00:00+08:00</published><updated>2020-12-31T00:00:00+08:00</updated><id>http://localhost:4000/2020/12/31/certificated-professional-technical-communicator</id><content type="html" xml:base="http://localhost:4000/2020/12/31/certificated-professional-technical-communicator.html"><![CDATA[<p>技术写作，早在 20 世纪 50 年代初就引起美国工业界的重视（尤其是航空、军工、电子和生产制造领域），并且出现了专门致力于发展技术传播的组织。</p>
+
+<p>之后经过 50 多年的发展，尤其是 2000 年以后计算机软件对在线技术文档的需求急剧增加，Technical Writer 的职业影响力显著提升。</p>
+
+<p>2009 年，Technical Writer 被美国劳工统计局认定为独立的职业类别，列为美国劳工部的就业数据统计门类之一。</p>
+
+<blockquote>
+  <p>本文基于中国技术传播大会上一位嘉宾的分享，经过资料再确认和再收集后重新编辑而成。但这位嘉宾并未在直播时透露自己的身份。</p>
+</blockquote>
+
+<h2 id="技术传播发展现状">技术传播发展现状</h2>
+
+<p>Technical Writer 是指编写技术资料的专业人员，包括但不限于产品手册、操作手册、维修手册、参考手册等。</p>
+
+<blockquote>
+  <p>Technical Writer 在国内一般叫做技术文档工程师。遗憾的是，直到现在这个工种都没有取得国家认可的专业类别。</p>
+</blockquote>
+
+<p>按照美国劳工统计局的数据，2019 年美国共有 5.8 万名技术写作从业者，大多具有本科以上学历，年薪中位数将近 7.3 万美元（约合 47 万元人民币），平均从业经验在 5 年以内。</p>
+
+<figure>
+  <img src="https://pic2.zhimg.com/80/v2-9a1e77ed251afe8a1d5798b81838b795_720w.webp" alt="数据来源：STC薪资数据库（2018-2019）" />
+  <figcaption>数据来源：STC薪资数据库（2018-2019）</figcaption>
+</figure>
+
+<figure>
+  <img src="https://pic4.zhimg.com/80/v2-231d1bc0effa74fbc6173c22545e971b_720w.webp" alt="数据来源：STC薪资数据库（2018-2019）" />
+  <figcaption>数据来源：STC薪资数据库（2018-2019）</figcaption>
+</figure>
+
+<p>从 2014-2018 年的从业人数和薪资增长幅度来看，技术写作目前在美国处于平稳发展期，从业人员数量和薪资水平都是缓慢增长的状态。</p>
+
+<p>与其他媒体类岗位相比，技术写作的从业人数不算多（和翻译人员、作家差不多），但薪资水平在这里面却是最高的。</p>
+
+<figure>
+  <img src="https://pic1.zhimg.com/80/v2-77fed627f5635f12aa64b40e8349d1b0_720w.webp" alt="数据来源：STC薪资数据库（2018-2019）" />
+  <figcaption>数据来源：STC薪资数据库（2018-2019）</figcaption>
+</figure>
+
+<p>技术写作从业者的年薪中位数比年薪平均值低 5% 左右，表明各个薪资水平上的人员分布呈正偏态分布。也就是说，高薪段的从业人员数量较多。</p>
+
+<h2 id="技术传播教育体系">技术传播教育体系</h2>
+
+<p>美国高校早在 1958 年就开始开设技术传播（Technical Communication）专业，现在全美已经有几百个技术传播专业的学位项目，本硕博全都有。</p>
+
+<blockquote>
+  <p>美国的学位有两种：Undergraduate 和 Graduate 。</p>
+
+  <p>Undergraduate 相当于中国的本科，Graduate 相当于中国的研究生阶段，既可以是硕士研究生，也可以是博士研究生。</p>
+
+  <p>另外，Majors 和我们常说的“你是哪个专业的”里的“专业”同义。而 Minors 指的是辅修专业。</p>
+</blockquote>
+
+<p>这些学位项目里，有面向未来的技术写作从业者的，也有面向未来的技术传播教育者（教师）的，还有作为辅修专业学习的。</p>
+
+<p>据统计，美国的技术写作从业者中有 32% 是科班出身，拥有技术传播专业的学位。</p>
+
+<p>那——，另外的 68% 又是怎样具备这些专业技能并被认可的呢?</p>
+
+<p>工业界的工程师们最先关注到技术写作的问题，开设技术传播课程最多的其实也是工科院校。只不过，这些课程是作为提高工科学生技术写作能力的普通课程而设置的，并不专门授予学位。</p>
+
+<blockquote>
+  <p>目前中国还没有开设技术传播专业学位课的高校。但很多高校已经有关于技术写作的普通课程，北京大学、东南大学等少数院校正在尝试将其向学位方向发展。</p>
+</blockquote>
+
+<p>正如<a href="/2020/12/29/how-does-huawei-produce-their-technical-documentation.html">前华为翻译专家张建农先生</a>所说，产品技术方面的专业知识是技术写作人员的核心能力之一。很多拥有某一领域专业技术背景的人，可以凭借这一优势进入技术写作领域。</p>
+
+<h2 id="美国的认证体系">美国的认证体系</h2>
+
+<p>对于在职人员来说，如果希望进一步提升专业能力或者寻求一种专业认可，再回学校攻读学位或许并不是一个理想的选择。这时，他们可以选择另一条途径：认证。</p>
+
+<p>美国的认证体系很发达，通常又细分为几种：</p>
+
+<p>Certificate 是最容易的一种认证。这个认证的授予机构一般是为你提供课程或培训的单位，仅表示你完成了某个课程或者培训。比如：</p>
+
+<p>Certification 是一种专业认证，有标准的评估流程。认证机构通常是国际机构、政府机构、具有资质的第三方独立机构等。申请人自愿参加，但需要具备一定着资历或资质，比如从业年限、某项认证等。这种认证一般都有有效期限（比如 2 年或 3 年），并不是一劳永逸，从此就高枕无忧了。</p>
+
+<p>License 是指那些法律法规强制要求“持证上岗”的执业资格认证，比如执业医师资格证。</p>
+
+<h2 id="技术传播职业认证">技术传播职业认证</h2>
+
+<p>技术传播类的认证只涉及前两种：Certificate 和 Certification。</p>
+
+<p>Certificate 类的认证有很多。高校、专业协会、甚至技术写作类的公司也会提供这类的培训课程，比如 <a href="https://learningdita.com/">learningDITA</a> 网站的用户每完成一个章节的学习，都会收到一个小证书。</p>
+
+<p>Certification 类的技术传播认证一般是指由 <a href="www.stc.org">STC</a> 组织的 <a href="https://www.stc.org/certification/">CPTC 认证</a>。该认证分 3 个等级：</p>
+
+<ul>
+  <li>基础级 (Foundation)</li>
+  <li>应用级 (Practitioner)</li>
+  <li>专家级 (Expert)</li>
+</ul>
+
+<blockquote>
+  <p>STC 是美国成立最早的技术传播组织。
+ CPTC 是 STC 的技术传播认证项目。</p>
+</blockquote>
+
+<figure>
+  <img src="https://pica.zhimg.com/80/v2-6fdbb5493b30aaddeec19c6a67c796a3_720w.jpeg?source=d16d100b" alt="" style="max-width: 790px;" />
+  <figcaption></figcaption>
+</figure>
+
+<p><a href="https://www.stc.org/certification/foundation-certification/"><strong>基础级</strong></a>主要评估考生对技术传播理论知识的掌握情况。考卷包含 50 道多项选择题，考试通过需要答对 70% 以上，考试时间 40 分钟，闭卷考试。考试费用为 515 美元，STC 成员可享 260 美元的优惠价。</p>
+
+<figure>
+  <img src="https://picx.zhimg.com/80/v2-c117b1d9a754d80ff5ec1a2ac200b040_720w.jpeg?source=d16d100b" alt="CPTC基础级考试信息" style="max-width: 469px;" />
+  <figcaption>CPTC基础级考试信息</figcaption>
+</figure>
+
+<p><a href="https://www.stc.org/certification/practitioner-certification/"><strong>应用级</strong></a>主要评估考生在实际场景中灵活应用技术传播理论的能力，更加注重实操。考卷包含 4 个情景题，每个情景题包含 20 个问题行，考试时间 100 分钟，闭卷考试。和基础级一样，考试通过需要答对 70% 以上。考试费用为 615 美元，STC 成员可享 360 美元的优惠价。</p>
+
+<figure>
+  <img src="https://picx.zhimg.com/80/v2-dcde18fdff25dd37fe030231a5cadd43_720w.jpeg?source=d16d100b" alt="CPTC应用级考试信息" style="max-width: 453px;" />
+  <figcaption>CPTC应用级考试信息</figcaption>
+</figure>
+
+<p><strong>专家级</strong>需要有实际的工作成果，并进行专家面试。目前专家级考试正在改革中，没有开放申请。</p>
+
+<p>CPTC 认证考试的<strong>指定教材</strong>是由 Richard Johnson-Sheehan 编写的 <em>Technical Communication Today</em>。</p>
+
+<p>想自学的同学还可以从 STC 官网下载以下资料（点击链接即可）:</p>
+
+<ul>
+  <li><a href="https://www.stc.org/wp-content/uploads/2020/04/cptcstudyguide-Foundation.pdf">STC Foundation Study Guide</a>;</li>
+  <li><a href="https://www.stc.org/certification/sample-questions/">Sample Questions</a>（基础级）;</li>
+  <li><a href="https://www.stc.org/wp-content/uploads/2020/04/CPTC-Practitioner-Study-Guide.pdf">STC Practitioner Study Guide</a>;</li>
+</ul>
+
+<p>另外，<a href="https://mk0avenuetjo4k1o6nk6.kinstacdn.com/wp-content/uploads/2020/04/Intercom-Jan2016-2.pdf">2016 年 1 月期</a> 和 <a href="https://mk0avenuetjo4k1o6nk6.kinstacdn.com/wp-content/uploads/2020/04/Intercom-Mar2017.pdf">2017 年 3 月期</a> 的 STC 刊物 <em>Intercom</em> 里，有关于基础级认证的更多详细信息。</p>
+
+<p>STC 的合作伙伴 APMG（一家英国公司），负责 CPTC 的全部考试事宜。考生可以通过 <a href="https://apmg-international.com/product/cptc">APMG 官网</a> 在线预约并参加考试。</p>
+
+<h2 id="续期要求">续期要求</h2>
+
+<p>CPTC 认证的有效期是两年，另外还有两年的宽限期。</p>
+
+<p>如果不想让证书失效，你需要通过不断地学习或者持续的工作业绩来获得积分。每两年积 12 分，可以让证书顺利进入下一个有效期。</p>
+
+<p>如果万一你在证书到期前没有积满 12 分，证书也不会马上失效，还有两年的宽限期。只要你在宽限期多多努力，把前两年没积满的分补回来即可（积满 24 分，即 12 + 12）。</p>
+
+<p>获得积分的方式，可以是参加 STC 的在线会议、网络课程、年度峰会等活动，也可以是在技术传播相关的期刊杂志、学术会议上发表文章、论文或演讲，还可以是出版技术传播类的书籍。</p>
+
+<p>STC 对每一种学习方式或贡献方式所能获得的积分都有具体规定，可在 <a href="https://www.stc.org/certification/continuing-education/">STC 官网</a>查询。</p>
+
+<figure>
+  <img src="https://picx.zhimg.com/80/v2-000ab2782a6f3befa56a6ccdeec053b9_720w.jpeg?source=d16d100b" alt="获取积分的方式" style="max-width: 790px;" />
+  <figcaption>获取积分的方式</figcaption>
+</figure>
+
+<h2 id="技术传播专业社区">技术传播专业社区</h2>
+
+<p><abbr title="Society for Technical Communication"><a href="https://www.stc.org/">STC</a></abbr> 美国最早成立的技术传播专业社区，由航空、军工、电子和制造领域的工程师们发起，主要关注工程领域的技术写作。</p>
+
+<p>它，就是上面啰嗦了一都堆的 CPTC 认证的主办方。</p>
+
+<p><abbr title="IEEE Professional Communication Society"><a href="https://procomm.ieee.org/">PCS</a></abbr> 成立于 1957 年，由 <abbr title="The Institute of Radio Engineers">IRE</abbr> 的一群成员发起。</p>
+
+<p>他们觉得工程师领域的沟通变得越来越复杂，工程师的技术沟通技巧需要提高。后来，所有的工程学院都被要求设置技术写作课程。</p>
+
+<p>1978 年 PCS 更名为现在的名字，成为 IEEE 的下属机构。</p>
+
+<p>PCS 每年举办 ProComm 会议，定期出版 <em>Transactions on Professional Communication</em>（出版物）。</p>
+
+<p><abbr title="Special Interest Group on Design of Communication"><a href="http://sigdoc.acm.org/">SIGDOC</a></abbr> 是计算机领域的技术写作人员组成的技术传播组织，隶属于 <abbr title="Association for Computing Machinery">ACM</abbr>。</p>
+
+<p><abbr title="Association of Teachers of Technical Writing"><a href="http://attw.org/">ATTW</a></abbr> 和 <abbr title="Council for Programs in Technical and Scientific Communication"><a href="http://cptsc.org/">CPTSC</a></abbr> 是技术传播教育工作者组成的社区，分别成立于 1973 年和 1974 年，旨在促进技术传播专业教育的发展。</p>]]></content><author><name>王烨</name></author><category term="职业发展" /><summary type="html"><![CDATA[带你了解技术传播在美国的发展现状、美国的认证体系、以及技术传播职业认证 (CPTC) 的详情与价值。]]></summary></entry><entry><title type="html">华为的技术资料是如何打造出来的?</title><link href="http://localhost:4000/2020/12/29/how-does-huawei-produce-their-technical-documentation.html" rel="alternate" type="text/html" title="华为的技术资料是如何打造出来的?" /><published>2020-12-29T00:00:00+08:00</published><updated>2020-12-29T00:00:00+08:00</updated><id>http://localhost:4000/2020/12/29/how-does-huawei-produce-their-technical-documentation</id><content type="html" xml:base="http://localhost:4000/2020/12/29/how-does-huawei-produce-their-technical-documentation.html"><![CDATA[<p>昨天下午，前华为翻译中心南京分部经理、华为 2012 实验室南研分部部长张建农先生做客 2020 年中国技术传播论坛，分享了华为在技术写作和技术翻译方面的诸多实践经验，也为技术写作和技术翻译方面的从业者指明了努力方向。</p>
 
 <h2 id="技术写作和技术翻译是一个岗位吗">技术写作和技术翻译是一个岗位吗?</h2>
 
@@ -30,7 +339,7 @@
 <p>早年，技术写作人员归属于技术资料部，现已被分拆到各个产品线的研发团队。市场的发展与竞争，使产品研发周期从 2 年左右缩短到 1~2 个月。分拆的目的，主要是为了加强技术写作人员与研发人员的协同合作。</p>
 
 <figure>
-  <img src="https://pic4.zhimg.com/80/v2-5fd993345885b65c25810cad08adf9af_720w.webp" alt="" />
+  <img src="https://pic3.zhimg.com/80/v2-c57cf20997ec38c1a19281104046c212_720w.webp" alt="" />
   <figcaption></figcaption>
 </figure>
 
@@ -53,9 +362,7 @@ flowchart LR
 <p>华为现在正在对这种方式进行试点，但全面实施尚有难度。</p>
 
 <blockquote>
-  <p><strong>为什么不直接从中文版翻译成其他语种?</strong></p>
-
-  <p>因为具备如此能力的翻译人员太难找了！</p>
+  <p><strong>为什么不直接从中文版翻译成其他语种?</strong> 因为具备如此能力的翻译人员太难找了！</p>
 
   <p>中国学生在中学时期一般学英语。小语种专业的学生也是从大学才开始学起的。到毕业时，小语种专业的学生也只学了 4 年左右，实在难以胜任此类工作。
 想想看，有多少学生学了 10 年英语还存在阅读困难的！</p>
@@ -87,7 +394,7 @@ flowchart LR
 </blockquote>
 
 <figure>
-  <img src="https://pic3.zhimg.com/80/v2-e198f21b61c35b4b367481c8f57eb836_720w.webp" alt="" />
+  <img src="https://pic4.zhimg.com/80/v2-34332710b8820d68b973aeb90fa85693_720w.webp" alt="" />
   <figcaption></figcaption>
 </figure>
 
@@ -124,7 +431,7 @@ flowchart LR
 <p>产品在更新，技术在发展。平时多了解竞争对手的发展动向，新技术新工具的市场情况，努力跟上（最好超越）国际最新的发展趋势和先进水平。</p>
 
 <figure>
-  <img src="https://pic4.zhimg.com/80/v2-f77ddd30021685948e3234b0babda907_720w.webp" alt="" />
+  <img src="https://pic2.zhimg.com/80/v2-8f279880cd694944fac42aef04860b71_720w.webp" alt="" />
   <figcaption></figcaption>
 </figure>
 
@@ -135,7 +442,7 @@ flowchart LR
 <p>近年来人工智能、机器学习的发展助推了机器翻译的译文质量提升，使用范围也越来越广，正在很多领域逐步取代传统的人工翻译。</p>
 
 <figure>
-  <img src="https://pic2.zhimg.com/80/v2-d5214e206af3d93659b0b430f7e60291_720w.webp" alt="" />
+  <img src="https://pic2.zhimg.com/80/v2-b1b4122e79fc8463ab7a12bc085cd95d_720w.webp" alt="" />
   <figcaption></figcaption>
 </figure>
 
