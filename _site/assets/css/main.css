@@ -5345,12 +5345,6 @@ figure img {
   }
 }
 
-@media (min-width: 64em) {
-  .page {
-    float: left;
-  }
-}
-
 .page__content {
   background-color: #fff;
   border-radius: 2px;
@@ -5394,58 +5388,6 @@ figure img {
 /* ==========================================================================
    SIDEBAR
    ========================================================================== */
-.sidebar {
-  clear: both;
-}
-.sidebar::after {
-  clear: both;
-  content: "";
-  display: table;
-}
-@media (min-width: 64em) {
-  .sidebar {
-    float: right;
-    clear: right;
-  }
-}
-.sidebar div[itemscope], .sidebar .sidebar__wrapper {
-  position: relative;
-  width: 100%;
-  background-color: #fff;
-  padding: 1.5em 6%;
-  border-radius: 2px;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
-}
-
-/* Author profile: Place the `Follow` button to the top right. */
-.author__urls-wrapper {
-  position: absolute;
-  right: 20px;
-  top: 20px;
-}
-@media (min-width: 64em) {
-  .author__urls-wrapper {
-    position: static;
-  }
-}
-
-.sidebar__wrapper {
-  display: none;
-}
-@media (min-width: 64em) {
-  .sidebar__wrapper {
-    display: block;
-  }
-  .sidebar__wrapper h3 {
-    font-size: 1em;
-    margin: 0 0 1em;
-  }
-  .sidebar__wrapper img {
-    border: 1px dotted #bdc1c4;
-    max-width: 110px;
-  }
-}
-
 /* ==========================================================================
    POST
    ========================================================================== */

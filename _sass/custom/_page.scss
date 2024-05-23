@@ -13,12 +13,6 @@
   }
 }
 
-.page {
-  @include breakpoint($large) {
-    float: left;
-  }
-}
-
 .page__content {
   background-color: $page-background-color;
   border-radius: $border-radius-page;
