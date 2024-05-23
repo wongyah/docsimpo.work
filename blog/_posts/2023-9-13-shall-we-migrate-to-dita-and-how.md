@@ -187,15 +187,15 @@ Markdown 语法简单易学，学习资料特别丰富，配套的开源工具�
 
 如果日后公司由于业务发展而变成了 DITA 的刚需，那时再置换到 DITA 就好。相信到时候，这段部署和实践 Markdown 的经历一定会让你在面对更为复杂的 DITA 时轻松很多。
 
-###### 参考资料
-{: .ref-caption}
+# 参考资料 {#refs}
+{:.no_toc}
 
 1. Laura Bellamy, Michelle Carey, etc. DITA Best Practices. IBM Press, 2012: 180-202.
 2. James Whitehead, Morgan Friedman. [What is the Cost of Adobe Experience Manager?](https://weareuv.com/what-is-the-cost-of-adobe-experience-manager/#:~:text=And%20so%20if%20we%20were%20to%20generalize%20we,can%20go%20well%20under%20to%20well%20over%20that)
 3. [Adobe FrameMaker User Guide: Convert Word documents to DITA](https://help.adobe.com/en_US/framemaker/using/using-framemaker/user-guide/frm_structauth_sa-convert-word-to-dita.html).
 4. Radu Coravu. [Migrating MS Word to DITA using the Batch Documents Converter](https://blog.oxygenxml.com/topics/migrating_word_to_dita_bdc/migrating_word_to_dita_using_batch_documents_converter.html). Oxygen XML Blog: 2022-11-29.
 5. Cosmin Duna. [Migrating Unstructured Adobe FrameMaker Content to DITA](https://blog.oxygenxml.com/topics/migratingFmToDita.html). Oxygen XML Blog: 2022-10-28.
-
+{:.small}
 
 
 <!-- link definition -->

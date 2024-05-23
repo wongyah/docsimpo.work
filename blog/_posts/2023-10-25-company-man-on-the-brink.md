@@ -188,14 +188,15 @@ tags: 职业发展
 
 
 
-###### 参考资料
-{: .ref-caption}
+# 参考资料 {#refs}
+{:.no_toc}
 
 1. Mike F. Robbins. [PowerShell 101: The No-Nonsense Beginner's Guide to PowerShell][PowerShell 101] [M/OL]. LeanPub, 2018: i~ii.
 2. 玛希·埃尔博尔. 成就斜杠人生：未来全新的工作模式[M]. 毛大庆, 译. 北京: 北京联合出版公司, 2020.
 3. Tom Johnson. [Reflecting seven years later about why we were laid off: Part I-VI](https://idratherbewriting.com/blog/reflecting-seven-years-later-about-layoff-intro/) [OL]. (2020-7-1)[2023-10-21].
 4. Tom Johnson. [My life story, or reflections on what shaped my life's career trajectory](https://idratherbewriting.com/blog/life-story-what-shapes-your-lifes-trajectory/) [OL]. (2021-3-18)[2023-10-21].
 5. 波得·德鲁克. 管理的实践[M]. 机械工业出版社, 2019.
+{:.small}
 
 
 <!-- link definition -->

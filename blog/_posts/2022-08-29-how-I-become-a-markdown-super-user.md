@@ -102,7 +102,7 @@ Github 个人主页、[Jekyll][] 和 [Hugo][] 等静态网站生成工具的出�
 
 最后，送上一份不容错过的优质资源：
 
-- [Markdown 完全教程]({% link _markdown-tutorial/index.md %})
+- [Markdown 完全教程](https://www.docsimpo.work/doc-tech/markdown-tutorial/index.html)
 - [Markdown 编译器大全](https://github.com/markdown/markdown.github.com/wiki/Implementations)
 
 

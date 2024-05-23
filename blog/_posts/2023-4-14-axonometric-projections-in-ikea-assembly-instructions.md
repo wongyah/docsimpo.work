@@ -135,8 +135,8 @@ tags: 技术插图
 > XVL Studio 有两个版本： [XVL Studio 3D CAD Corel Edition][SOLIDWORKS XVL Studio] 和 [XVL Studio Corel Edition (Lattice3D Studio)][Lattice3D Studio]。它们都只提供部分 YouTube 视频教程。
 
 
-###### 参考资料
-{: .ref-caption}
+# 参考资料 {#refs}
+{:.no_toc}
 
 1. 马连弟, 刘运符. 透视学原理. 吉林美术出版社, 2006: 3.
 2. 何斌, 陈锦昌等. 建筑制图: 第七版. 北京: 高等教育出版社, 2014.
