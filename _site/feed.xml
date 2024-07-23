@@ -1,4 +1,700 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-05-23T14:50:59+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">技术传播百态说</title><subtitle>解密文档技术，精研技术写作，评说行业百态。</subtitle><author><name>王烨</name></author><entry><title type="html">我的GitHub资源库：神奇的技术写作研习路</title><link href="http://localhost:4000/2024/04/25/awesome-technical-writing-learning.html" rel="alternate" type="text/html" title="我的GitHub资源库：神奇的技术写作研习路" /><published>2024-04-25T00:00:00+08:00</published><updated>2024-04-25T00:00:00+08:00</updated><id>http://localhost:4000/2024/04/25/awesome-technical-writing-learning</id><content type="html" xml:base="http://localhost:4000/2024/04/25/awesome-technical-writing-learning.html"><![CDATA[<p>引言</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-23T17:57:29+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">技术传播百态说</title><subtitle>解密文档技术，精研技术写作，评说行业百态。</subtitle><author><name>王烨</name></author><entry><title type="html">2017-2024年DITA满意度调查报告</title><link href="http://localhost:4000/2024/07/23/2024-DITA-satisfaction-report.html" rel="alternate" type="text/html" title="2017-2024年DITA满意度调查报告" /><published>2024-07-23T00:00:00+08:00</published><updated>2024-07-23T00:00:00+08:00</updated><id>http://localhost:4000/2024/07/23/2024-DITA-satisfaction-report</id><content type="html" xml:base="http://localhost:4000/2024/07/23/2024-DITA-satisfaction-report.html"><![CDATA[<p>DITA (Darwin Information Typing Architecture) 原是 IBM 的技术文档专家开发的内部标准，2004 年 IBM 将其捐赠给了结构化信息标准促进组织 (OASIS)。</p>
+
+<p>2005 年 6 月 1 日，OASIS 正式发布了 DITA 的首个版本 (1.0 版)。从此之后，DITA 变成了一个开放的标准。</p>
+
+<p>如今，将近 20 年过去了。使用 DITA 的人数仍然在稳步增长，分布区域也越来越广。</p>
+
+<p>那么，DITA 到底给人们带来了怎样的体验? 人们在使用 DITA 的过程中又会经历哪些困难和挑战? 面对这些困难和挑战时，我们又应该怎样克服呢?</p>
+
+<p>带着这些问题，结构化内容服务公司 Precision Content 和 技术传播领域的新媒体公司 Content Wrangler 分别在 2017 年、2020 年和 2024 年进行了三次 DITA 满意度调查。</p>
+
+<p>让我们一起来看看这些报告里的新发现吧！</p>
+
+<blockquote>
+  <p><a href="https://www.surveymonkey.com/r/DPHN5WM">2024 年 DITA 满意度调查</a>仍在进行中，赶紧去参与一下吧。</p>
+</blockquote>
+
+<h2 id="用户数量">用户数量</h2>
+
+<p>早在 2014 年左右，技术传播领域的著名博主 Keith Schengili-Roberts 就根据领英网站 (LinkedIn) 上的用户简历查找和统计全球范围内的 DITA 用户数量和地理分布情况。</p>
+
+<p>2017 年初，Keith 在其博客网站 DITA Writer 上发布了统计结果《<a href="https://www.ditawriter.com/current-worldwide-distribution-of-dita-users/" title="DITA 用户的全球地理分布">DITA 用户的全球地理分布</a>》。不过，在此之后 Keith 再没有更新过这份统计数据。</p>
+
+<p>为了获得最新的 DITA 用户数据，在今年的 DITA 满意度调查中 Rob Hanna “接手”了 Keith 的统计工作。他使用的统计方法与 Keith 一模一样，以确保数据之间的可比性。</p>
+
+<figure>
+  <img src="https://pic1.zhimg.com/80/v2-2c49cb3fa6388a86e65e213e6af121a8_720w.webp" alt="图表：DITA 全球用户数量稳定增长" />
+  <figcaption>图表：DITA 全球用户数量稳定增长</figcaption>
+</figure>
+
+<blockquote>
+  <p>Rob Hanna 根据领英网站上的用户简历统计 2024 年的 DITA 用户数量时，对数据进行了四舍五入。数据误差为 ±50。</p>
+</blockquote>
+
+<p>十年间，DITA 的用户数量翻了将近一倍，但增长速度有所放缓。2014-2017 年间，DITA 用户的年均增长率为 10.6%。2017-2024 年间，DITA 用户的年均增长率为 4.5%。</p>
+
+<h2 id="地理分布">地理分布</h2>
+
+<p>作为发源于美国的技术写作方法，2014 年以前 DITA 的用户群主要集中在以英语为母语的国家，即美国、加拿大和英国。其中，美国的用户最多，占全球用户的一半以上。</p>
+
+<figure>
+  <img src="https://pic1.zhimg.com/80/v2-93caefa5e194b823dad97c1b1f378a64_720w.webp" alt="图表：DITA 全球用户的地理分布" />
+  <figcaption>图表：DITA 全球用户的地理分布</figcaption>
+</figure>
+
+<p>2014 年以后，欧洲用户的全球占比有所增长，但变化不大。最引人关注的是，亚洲用户的全球占比增长迅猛，尤其是 2017 年之后。在今年的统计数据中，亚洲用户的全球占比在 30% 以上，已超出了欧洲一大截。</p>
+
+<figure>
+  <img src="https://pic4.zhimg.com/80/v2-bdce8437dee2a81a7dbfe843da823fbb_720w.webp" alt="图表：2017 年 DITA 用户最多的 12 个国家" />
+  <figcaption>图表：2017 年 DITA 用户最多的 12 个国家</figcaption>
+</figure>
+
+<p>在亚洲，DITA 用户最多的三个国家是印度、日本和中国。2017 年的统计数据显示，印度成为了除美国之外 DITA 用户最多的国家，全球占比高达 16%。但印度的 DITA 用户大多来自于承接欧美的外包业务，其本土企业的 DITA 使用率并不是太高。日本的 DITA 用户虽然没有印度那么多，但大多来自本土企业。</p>
+
+<blockquote>
+  <p>Keith 为 DITA 用户最多的国家制作图表时，可能把日本给漏掉了。文章里重点提了日本，但图表里却没有它。</p>
+</blockquote>
+
+<p>Keith 从 2012 年开始收集那些<a href="https://www.ditawriter.com/companies-using-dita/" title="DITA企业用户列表">使用 DITA 创建和管理文档的公司</a>信息，并将这些公司信息整理成列表后发布在其博客网站 DITA Writer 上。这份列表的最后编辑时间是 2022 年 5 月 8 日。</p>
+
+<p>在这份列表中，有 24 家日本企业在使用 DITA。印度和中国紧随其后，分别为 10 家企业和 7 家企业。</p>
+
+<p>Keith 和 Rob 的统计主要依靠领英的数据以及用户的主动提交。这些数据肯定是不全面的，一些国家和地区的 DITA 用户因为没有在领英“露面”而被忽略掉了。不过，对于正在寻求职业发展和业务拓展的个人或企业来说，这些数据展现出的趋势和迹象依然很有参考价值。</p>
+
+<h2 id="参与人员的来源">参与人员的来源</h2>
+
+<p>到现在为止，DITA 满意度调查已经进行了三次，时间分别是 2007 年、2020 年和 2024 年。</p>
+
+<p>今年，共有来自 40 个国家、200 多家公司的员工或管理人员参与了 DITA 满意度调查。参与调查的人员，大部分来自欧美，少部分来自亚洲及其他地区。往年的 DITA 满意度调查，参与人员的情况也大致如此。</p>
+
+<figure>
+  <img src="https://pic3.zhimg.com/80/v2-71199d778987f16646bf469c32c6f72e_720w.webp" alt="图表：DITA 满意度调查参与人员的来源分析" />
+  <figcaption>图表：DITA 满意度调查参与人员的来源分析</figcaption>
+</figure>
+
+<p>在参与调查的人员中，84% 的人具有 DITA 使用经验，10% 的人正打算使用 DITA 创建和管理文档。其余的人，既没用过 DITA 也没有要用 DITA 的打算，属于无效问卷，不会计入以下的统计数据。</p>
+
+<h2 id="dita-满意度">DITA 满意度</h2>
+
+<p>在 DITA 满意度调查问卷中，满意度分为四个等级：非常满意、比较满意、不太满意和非常不满意。</p>
+
+<p>在以往的调查结果中，对 DITA 使用情况表示非常满意或比较满意的总人数占比一般在 90% 左右。今年的情况也大体如此。</p>
+
+<figure>
+  <img src="https://pic4.zhimg.com/80/v2-deb583529661b193e36d283288599927_720w.webp" alt="图表：2017 年和 2024 年的 DITA 满意度情况" />
+  <figcaption>图表：2017 年和 2024 年的 DITA 满意度情况</figcaption>
+</figure>
+
+<blockquote>
+  <p>2020 年的调查问卷中，满意度选项只有三个：“满意”、“不满意”和“二者都不是”。选择“满意”的人数占 76%，选择“不满意”的人数占 10%，其余 14% 的人选择了“二者都不是”。</p>
+
+  <p>由于选项设置的问题，一些人有可能“被迫”进行了二选一，从而推高了“满意”和“不满意”的人数占比。所以，2020 年的数据没有放进上面的图里。</p>
+</blockquote>
+
+<p>但今年的调查结果有一个明显的变化：与 2017 年相比，对 DITA 使用情况表示非常满意的人显著增多，而对 DITA 使用情况表示比较满意的人相应地减少了。</p>
+
+<p>在参与 DITA 满意度调查的人员中，技术文档工程师、技术文档团队负责人、信息架构师和内容策略师的人数最多。他们对 DITA 的满意度普遍较高，非常满意的人数占比都在 50% 以上，非常不满意的人数均低于 5%。</p>
+
+<p>一些编辑、技术插图工程师、行政管理人员和其他岗位的人员也参与了调查，但他们对 DITA 的满意度相对较低。</p>
+
+<p>在历次的 DITA 满意度调查中，都有大约 10% 左右的人对 DITA 不太满意或非常不满意。在今年的调查中，这部分人的占比相较以往还多了那么一点儿。</p>
+
+<h2 id="用户痛点">用户痛点</h2>
+
+<p>当被问及他们在使用 DITA 的过程中遇到的最大困难时，他们的回答五花八门。Rob 最初将这些回答归为 10 类，后来精减为 8 类，进行数据统计。</p>
+
+<figure>
+  <img src="https://pic2.zhimg.com/80/v2-61bb39a729efe582d7b96c5366dbfa8d_720w.webp" alt="图表：2017-2024年 DITA 用户的痛点变化趋势" />
+  <figcaption>图表：2017-2024年 DITA 用户的痛点变化趋势</figcaption>
+</figure>
+
+<p>在 2017 年的调查中，大家在各个方面都感觉困难重重，只有“翻译”稍微好一些。而在今年的调查中，大家明显感觉自信多了，回答各类困难的人数占比都有不同程度的减少。</p>
+
+<p>在这些困难中，内容创建、格式控制、翻译和内容重用方面的问题已得到极大的改善。这说明，熟练使用 DITA 的人越来越多了，人们掌握的技能也越来越全面了。</p>
+
+<p>然而，内容管理、员工招聘、员工培训和软件工具的选用方面的问题只是有所缓解，改善程度并不大。显然，单纯提高团队成员的个人技能是解决不了这些问题的。这些问题反映出来的，是团队建设和团队管理方面的欠缺。</p>
+
+<p>调查还发现，除了技术文档团队之外，其他部门也会使用 DITA。其中，产品研发部门和教育培训相关部门使用 DITA 的积极性最高。</p>
+
+<p>发现问题是为了解决问题。根据 DITA 满意度调查报告提供的解题方向，结合自己多年的工作经验，Rob 精确定位了 DITA 用户的三大痛点，并给出了相当实用的解决方法和改进建议。</p>
+
+<p>由于这些建议中需要划重点的地方实在太多了，我还是另外单起一篇吧。</p>
+
+<h2 id="refs" class="no_toc">参考资料</h2>
+
+<ol class="small">
+  <li>Rob Hanna. <a href="https://www.brighttalk.com/webcast/9273/605851">Lessons Learned From The DITA Satisfaction Survey</a> [OL]. [2024-06-21][2024-07-08].</li>
+  <li>The Content Wrangler. <a href="https://calipercontentservices.com/wp-content/uploads/2022/06/DITA_Satisfaction_Survey_2020_web_ready.pdf">2020 DITA Satisfaction Report</a> [R/OL]. [-][2024-07-15].</li>
+  <li>Keith Schengili-Roberts. <a href="https://www.ditawriter.com/current-worldwide-distribution-of-dita-users/">Current Worldwide Distribution of DITA Users</a> [OL]. [2017-05-04][2024-07-08].</li>
+  <li>Keith Schengili-Roberts. <a href="https://www.ditawriter.com/where-in-the-world-is-dita-being-used-january-2013-update/">Where in the World is DITA Being Used? (January 2013 updated)</a> [OL]. [2013-01-08][2024-07-08].</li>
+  <li>Keith Schengili-Roberts. <a href="https://www.ditawriter.com/where-in-the-world-is-dita-being-used/">Where in the World is DITA Being Used?</a> [OL]. [2012-02-16][2024-07-08].</li>
+</ol>
+
+<!-- link definition -->]]></content><author><name>王烨</name></author><category term="DITA" /><summary type="html"><![CDATA[十年来，DITA 用户稳定增长。熟练使用 DITA 的人越来越多，但结构化内容团队的建设和管理依然不容乐观。]]></summary></entry><entry><title type="html">逆向追踪『谷歌搜索意外流出2500多页API文档』</title><link href="http://localhost:4000/2024/06/18/how-google-search-internal-documentation-leaked.html" rel="alternate" type="text/html" title="逆向追踪『谷歌搜索意外流出2500多页API文档』" /><published>2024-06-18T00:00:00+08:00</published><updated>2024-06-18T00:00:00+08:00</updated><id>http://localhost:4000/2024/06/18/how-google-search-internal-documentation-leaked</id><content type="html" xml:base="http://localhost:4000/2024/06/18/how-google-search-internal-documentation-leaked.html"><![CDATA[<p>近日，谷歌又双叒叕摊上事儿了，还是一份 API 文档惹出来的大事！</p>
+
+<p>5 月 27 日，两位搜索引擎优化 (SEO) 专家菲哥 (Rand Fishkin) 和王哥 (Mike King) 分别在各自的博客爆料，<a href="https://ipullrank.com/google-algo-leak">谷歌搜索意外流出 2500 多页 API 文档</a>。这份内部文档是谷歌云的一份 API 文档，内容涉及谷歌神秘的搜索排名算法。</p>
+
+<p>消息一出，SEO 圈儿立马炸了。大伙儿纷纷赶去围观这份免费的大礼，拜读 SEO 专家的解析文章，热议谷歌是不是又被啪啪打脸了……</p>
+
+<p>不过，咱对 SEO 知道的不多，就不班门弄斧了。咱从自己的专业角度刨根问底一下，这些个 API 文档到底是怎么从谷歌的眼皮子底下偷偷溜出来的? 难道真是机器人的锅?</p>
+
+<h2 id="面世">面世</h2>
+
+<p>5 月 5 日（星期日），菲哥收到一封匿名邮件。在邮件里，爆料人说他手里有谷歌搜索部门的内部文件 —— 多达 2500 页的 API 文档，文档内容与谷歌多年来的公开声明自相矛盾。</p>
+
+<p>菲哥是 SEO 界的大佬，SparkToro 公司的联合创始人和 CEO，自然不会一听就信。他先跟爆料者通了几封邮件，然后在 5 月 24 日和对方进行了视频通话。</p>
+
+<p>视频通话时，爆料人向菲哥展示了这些 API 文档，以及其中的小部分细节。爆料人还说，他希望菲哥发一篇文章将这些文件披露出去，并揭露谷歌多年来公开宣称的“谎言”。</p>
+
+<p>不过，爆料人并没有在视频通话中露脸，只将名字告诉了菲哥，还要求菲哥为他保密。</p>
+
+<figure>
+  <img src="https://pic4.zhimg.com/80/v2-cf34ad1f16b8bb7654af77de18b3da3b_720w.webp" alt="截图：菲哥和爆料人进行视频通话" />
+  <figcaption>截图：菲哥和爆料人进行视频通话</figcaption>
+</figure>
+
+<p>之后，菲哥联系了几位以前在谷歌工作过的朋友，请他们帮忙看一下这份 API 文档是不是伪造的。他收到了三位朋友的回复，都说这份 API 文档是严格按照谷歌的内部文档标准和命名规范编写的，需要花不少时间呢。</p>
+
+<p>初步验证了文档的可信度之后，接下来要做的事情就是对这份文档进行深入地分析与解读了。</p>
+
+<p>菲哥 6 年前就不做 SEO 了，虽说以前写过 API，但那已经是 20 年前的事情了。所谓“三日不弹，手生荆棘”，这活儿还是请现役高手帮忙吧!</p>
+
+<p>菲哥请的高手就是本文开头提到的王哥 (Mike King)， 技术型的 SEO 大神，<a href="https://ipullrank.com/">iPULLRANK 公司</a>创始人。</p>
+
+<p>5 月 24 日下午（和爆料人视频通话的当天），菲哥找王哥泡了 40 分钟的电话粥。王哥认真看过文档之后认为，这好像确实是谷歌搜索部门的内部文档，文档中含有大量关于谷歌搜索内部算法的信息，其中的很多信息都是此前外界无法证实的。</p>
+
+<p>接下来的周末，王哥加班加点地对这份长达 2500 页的 API 文档进行了初步分析。5 月 27 日（周一），菲哥和王哥在各自的博客上同时发文分享了赶工出来的分析结果。舆论哗然！</p>
+
+<h2 id="真容">真容</h2>
+
+<p>王哥在文章里透露，从谷歌搜索泄露出来的内部文档是<a href="https://hexdocs.pm/google_api_content_warehouse/api-reference.html">谷歌内容仓库的 API 文档</a> (internal documentation for Content Warehouse API)。</p>
+
+<p>该文档被意外发布到了谷歌在 GitHub 上的一个公开存储库，而且这个公开存储库还使用了 Apache 2.0 开源许可证。按照 Apache 2.0 中的条款，任何人都可以免费使用、复制、转发或修改这个公开存储库中的东西，包括这份意外流出的文档，且一经授权不可撤销。</p>
+
+<p>目前，这份文档依然是可访问状态。不过为了谨慎起见，菲哥和王哥没有在文章中晒出相关链接。然而，猎奇心爆棚的网友们可不会放过一探究竟的好机会，没两天就顺着大神提供的线索摸到了这份文档。</p>
+
+<figure>
+  <img src="https://pic2.zhimg.com/80/v2-4035844c6c6debed9a37d9c1ee651d25_720w.webp" alt="截图：谷歌意外流出的 API 文档" />
+  <figcaption>截图：谷歌意外流出的 API 文档</figcaption>
+</figure>
+
+<p>这份 API 文档中共有 2596 个模块页面 (modules)。所有的模块页面都是按照统一的结构编写的，从前到后依次为属性 (Attributes)、摘要 (Summary)、类型 (Types)和函数 (Functions)。</p>
+
+<figure>
+  <img src="https://pic3.zhimg.com/80/v2-05aba727f1b53c3bcb0dded3c6b03262_720w.webp" alt="截图：谷歌 API 文档中的模块页面" />
+  <figcaption>截图：谷歌 API 文档中的模块页面</figcaption>
+</figure>
+
+<p>其中，属性一节提供的信息最有价值，也是 SEO 圈儿最为关注的部分。通俗一点说，这些属性很可能是影响谷歌搜索排名的影响因子。据统计，这份 API 文档中共有 14014 个属性。</p>
+
+<p>顺便说一下，文档首页 “<a href="https://hexdocs.pm/google_api_content_warehouse/api-reference.html">API Reference</a>” 是一个目录页，里面包含了指向所有模块页面的索引。而很多国内媒体报道这件事时说的 “2500 页”，实际是 2500 多个网页页面，而不是 A4 页面。<s>（其实，就差 4 个就到 2600 页了）</s></p>
+
+<h2 id="流出时间线">流出时间线</h2>
+
+<p>这份 API 文档的源文件，来自谷歌的一个 GitHub 公开存储库里的子文件夹：<a href="https://github.com/googleapis/elixir-google-api/tree/master/clients/content_warehouse">googleapis/elixir-google-api/clients/content_warehouse</a>。</p>
+
+<figure>
+  <img src="https://pic1.zhimg.com/80/v2-065fb1a1f77c5b2635888461c132241c_720w.webp" alt="截图：谷歌 API 文档的源文件位置" />
+  <figcaption>截图：谷歌 API 文档的源文件位置</figcaption>
+</figure>
+
+<p>该存储库里包含谷歌 API 的所有客户端库 (client libraries)。这些客户端库都放在子文件夹 <code class="language-plaintext highlighter-rouge">clients</code> 里。谷歌 API 文档的源文件就来源于 <code class="language-plaintext highlighter-rouge">clients</code> 文件夹的子文件夹 <code class="language-plaintext highlighter-rouge">content_warehouse</code>。为了叙述方面，下文中我会将 <code class="language-plaintext highlighter-rouge">content_warehouse</code> 文件夹称为<a href="https://github.com/googleapis/elixir-google-api/tree/master/clients/content_warehouse">谷歌内容仓库</a>。</p>
+
+<p>从谷歌内容仓库的提交历史可以看出，目前共有 4 次提交。第一次提交发生在 2024 年 3 月 13 日，最后一次提交发生在 2024 年 5 月 7 日。</p>
+
+<figure>
+  <img src="https://pic4.zhimg.com/80/v2-983c4f59759b7c7df5090ca6e38ebb5b_720w.webp" alt="截图：内容仓库的提交历史" />
+  <figcaption>截图：内容仓库的提交历史</figcaption>
+</figure>
+
+<p>谷歌内容仓库中有一个文件叫 <code class="language-plaintext highlighter-rouge">mix.exs</code>，里面提供了谷歌内容仓库的版本信息。打开各次提交中的 <code class="language-plaintext highlighter-rouge">mix.exs</code> 文件后可以发现，这四次提交分别对应谷歌内容仓库的四个版本 <code class="language-plaintext highlighter-rouge">v0.2.0</code>、<code class="language-plaintext highlighter-rouge">v0.3.0</code>、<code class="language-plaintext highlighter-rouge">v0.4.0</code> 和 <code class="language-plaintext highlighter-rouge">v0.5.0</code>，也对应前文中谷歌内容仓库 API 文档的四个版本。</p>
+
+<figure>
+  <img src="https://pic4.zhimg.com/80/v2-19704982974a2ba11a5346e94e86b84b_720w.webp" alt="截图：谷歌内容仓库的版本信息" />
+  <figcaption>截图：谷歌内容仓库的版本信息</figcaption>
+</figure>
+
+<p>GitHub 使用 Git 进行版本管理。每完成一次提交，Git 都会统计一下这次增加了多少内容、删除了多少内容以及增删的总次数。统计增删数据时，以行为单位。</p>
+
+<p>从谷歌内容仓库各次提交的增删数据不难看出，第一次提交时增加了大量的内容，中间的两次提交是对内容的更新，最后一次提交时删除了大量的内容。</p>
+
+<figure>
+  <img src="https://pic1.zhimg.com/80/v2-bbbe03d88718511aebd9781dabc8fd24_720w.webp" alt="截图：谷歌内容仓库的内容增删数据" />
+  <figcaption>截图：谷歌内容仓库的内容增删数据</figcaption>
+</figure>
+
+<p>还记得菲哥哪一天收到了爆料人的邮件吗? 5 月 5 日。仅仅两天后，谷歌内容仓库的内容就被大量删除了。</p>
+
+<p>我们到这儿基本可以确定，爆料人向菲哥提供的 API 文档是 2024 年 3 月 27 日提交的版本，即 <a href="https://hexdocs.pm/google_api_content_warehouse/0.4.0/api-reference.html">v0.4.0</a> 版。而该文档中的主要内容第一次流出的日期是 2024 年 3 月 13 日，被删除的日期是 2024 年 5 月 7 日。</p>
+
+<p>然而，真的被删了吗? 并没有。</p>
+
+<p>Git 最大的特点是宽进严出，就像咱们中国的大学一样。它非常擅长往存储库里增加内容，却不擅长从存储库里删除内容。如果已经把内容推送到了远程存储库（比如 GitHub），那要删起来更是难上加难。</p>
+
+<p>谷歌内容仓库虽然在最后一次提交时被删除了大量的内容，但前三次提交的内容依然完完整整地保存在老地方。如果你现在打开 2024 年 3 月 27 日的提交（即 <code class="language-plaintext highlighter-rouge">v0.4.0</code> 版），找到下图中的 <code class="language-plaintext highlighter-rouge">model</code> 文件夹，你会发现里面依然有 2593 个模块。加上其他文件夹里的 3 个模块 (<code class="language-plaintext highlighter-rouge">connection.ex</code>、<code class="language-plaintext highlighter-rouge">metadata.ex</code> 和 <code class="language-plaintext highlighter-rouge">mix.exs</code>)，总共 2596 个模块。一个都没少！</p>
+
+<figure>
+  <img src="https://pic4.zhimg.com/80/v2-72bfc285f733b82ab6af8e977cadaff7_720w.webp" alt="截图：v0.4.0 版谷歌内容仓库中的模块数量" />
+  <figcaption>截图：v0.4.0 版谷歌内容仓库中的模块数量</figcaption>
+</figure>
+
+<p>和前文中菲哥说的一样，谷歌内容仓库使用了 Apache 2.0 开源许可证，而且还特意在每个文件都进行了 Apache 2.0 许可声明。Apache 2.0 意味着什么，前面已经说过了，这里就不重复了。</p>
+
+<figure>
+  <img src="https://pic4.zhimg.com/80/v2-d433d7b84270345df9dcf6286e25e5af_720w.webp" alt="截图：谷歌内容仓库的开源许可证" />
+  <figcaption>截图：谷歌内容仓库的开源许可证</figcaption>
+</figure>
+
+<p>现在，我的脑海里循环播放着一句话：“智者千虑，必有一失。” 就让我们从智者的这“一失”中学习、巩固或反思经验与教训吧！</p>
+
+<p>不过，谷歌好像已经泄露过好多文件了。有人专门打包整理一份<a href="https://www.zachvorhies.com/google_leaks/">谷歌泄密集锦</a>，有兴趣的可以去围观一下。</p>
+
+<h2 id="流出路径">流出路径</h2>
+
+<p>谷歌内容仓库的 API 文档所在的网站叫 <a href="https://hexdocs.pm/">HexDocs</a>。这个网站名字起得挺好，一看就知道是个文档托管网站，就像 <a href="https://docs.readthedocs.io/en/stable/">Read the Docs</a> 和 <a href="https://www.gitbook.com/">GitBook</a> 一样。</p>
+
+<figure>
+  <img src="https://pic2.zhimg.com/80/v2-40de8cefe22959999e1e25809a7dfee9_720w.webp" alt="截图：谷歌内容仓库 API 文档的网址" />
+  <figcaption>截图：谷歌内容仓库 API 文档的网址</figcaption>
+</figure>
+
+<p>只不过，HexDocs 是 Elixir 软件包管理平台 Hex 的御用文档托管网站，只为 Hex 平台上的软件包 (Hex packages) 托管文档。</p>
+
+<figure>
+  <img src="https://pic4.zhimg.com/80/v2-30ddaeda65d3364b00ae523c54a67ef7_720w.webp" alt="截图：HexDocs 官网首页" />
+  <figcaption>截图：HexDocs 官网首页</figcaption>
+</figure>
+
+<p><a href="https://elixir-lang.org/">Elixir</a> 是一种编程语言，就像 <a href="https://www.python.org/">Python</a>、<a href="https://www.java.com/zh-CN/">Java</a> 和 <a href="https://www.ruby-lang.org/en/">Ruby</a> 一样。谷歌内容仓库中的源文件就是用 Elixir 编写的。Elixir 文件的扩展名是 <code class="language-plaintext highlighter-rouge">exs</code> 或 <code class="language-plaintext highlighter-rouge">ex</code>。</p>
+
+<figure>
+  <img src="https://pic1.zhimg.com/80/v2-aa3b77d6f8ae7038c2eacd50c670b2f4_720w.webp" alt="截图：谷歌内容仓库中的 Elixir 文件" />
+  <figcaption>截图：谷歌内容仓库中的 Elixir 文件</figcaption>
+</figure>
+
+<p>Elixir 语言格外重视软件文档，可以<a href="https://hexdocs.pm/elixir/writing-documentation.html">使用 Elixir 文档语法在源代码中编写文档</a>。Elixir 的文档声明语法与属性的写法差不多 (比如 @moduledoc 和 @doc)，文档正文使用 Markdown。</p>
+
+<figure>
+  <img src="https://pic2.zhimg.com/80/v2-cfd661e77645af7b94e95e3867a959cd_720w.webp" alt="截图：Elixir 官方文档" />
+  <figcaption>截图：Elixir 官方文档</figcaption>
+</figure>
+
+<p>Elixir 语言有一个官方的软件包管理平台，叫做 <a href="https://hex.pm/">Hex</a>。开发者可以将自己开发的 Elixir 软件包发布到 Hex 上，也可以从 Hex 上下载别人的软件包，还可以使用 Hex 对软件包进行便捷高效的管理。</p>
+
+<p>当开发者在 Hex 上发布 Elixir 软件包时，Hex 会使用文档生成工具自动生成文档，然后将文档自动发布到 HexDocs 上。</p>
+
+<figure>
+  <img src="https://pic1.zhimg.com/80/v2-36a2e21f05dabde0977e8a29822ee614_720w.webp" alt="截图：Hex 官网首页" />
+  <figcaption>截图：Hex 官网首页</figcaption>
+</figure>
+
+<p>目前，应用最广泛的 Elixir 文档生成工具是 <a href="https://github.com/elixir-lang/ex_doc">ExDoc</a>。谷歌内容仓库的 API 文档就是使用 ExDoc 自动生成的。</p>
+
+<figure>
+  <img src="https://pic3.zhimg.com/80/v2-547469a1f0ebdcb690f3c4130b3e0f16_720w.webp" alt="截图：谷歌内容仓库 API 文档的生成工具" />
+  <figcaption>截图：谷歌内容仓库 API 文档的生成工具</figcaption>
+</figure>
+
+<p><a href="https://hex.pm/packages/google_api_content_warehouse">谷歌内容仓库软件包的 Hex 主页</a>显示，它的所有者 (owner) 和发布者 (publisher) 是谷歌云 (google-cloud)。目前，该帐号下共有 309 个谷歌 API 软件包。</p>
+
+<figure>
+  <img src="https://pic2.zhimg.com/80/v2-1ef079221517e46aa47cfed5659362ed_720w.webp" alt="截图：谷歌内容仓库的 Hex 主页" />
+  <figcaption>截图：谷歌内容仓库的 Hex 主页</figcaption>
+</figure>
+
+<p>不过，谷歌内容仓库软件包的发布记录显示，前三个版本的发布时间比 GitHub 源代码库对应版本的提交时间晚 1~2 天。从这一点似乎可以推断，谷歌内容仓库软件包及其文档并不是从 GitHub 源代码库自动发布的。</p>
+
+<figure>
+  <img src="https://pic3.zhimg.com/80/v2-6ecc973509556fa2e6c4756da07a06da_720w.webp" alt="截图：谷歌内容仓库软件包的发布记录" />
+  <figcaption>截图：谷歌内容仓库软件包的发布记录</figcaption>
+</figure>
+
+<p>我在<a href="https://github.com/googleapis/elixir-google-api">谷歌 API 存储库</a>中找到了 Hex 软件包的自动发布程序，位于 <code class="language-plaintext highlighter-rouge">.kokoyo</code> 文件夹下的三个文件。其中，<code class="language-plaintext highlighter-rouge">release.cfg</code> 是主程序。不过，我并没有找到触发 kokoyo 执行的程序或工作流 (GitHub Actions)。</p>
+
+<p><img src="https://pic4.zhimg.com/80/v2-698f4cf314f74e9153919fb0f250d67f_720w.webp" alt="截图：谷歌 API 的 Hex 软件包自动发布程序" /></p>
+
+<h2 id="始作俑者">始作俑者</h2>
+
+<p>谷歌内容仓库的所有提交均来自一个叫 <a href="https://github.com/yoshi-code-bot">yoshi-code-bot</a> 的帐号（下文中简称为 Yoshi）。该帐号目前复刻 (Fork) 有 39 个存储库，其中绝大部分存储库来自谷歌官方帐号 <a href="https://github.com/googleapis">googleapis</a>。</p>
+
+<figure>
+  <img src="https://pic3.zhimg.com/80/v2-cb1e2258843bec199e733b2220994fc2_720w.webp" alt="截图：yoshi-code-bot 帐号信息" />
+  <figcaption>截图：yoshi-code-bot 帐号信息</figcaption>
+</figure>
+
+<p>Yoshi 是谷歌使用开源工具 <a href="https://github.com/dazuma/toys">Toys</a> 制作的流程自动化小工具，在这次泄密风波中被很多媒体称为“谷歌的内部机器人” —— 泄密的始作俑者。</p>
+
+<figure>
+  <img src="https://pic3.zhimg.com/80/v2-cd9dde0bc83e0d9725361122af834f36_720w.webp" alt="截图：与 Yoshi 有关的开源项目" />
+  <figcaption>截图：与 Yoshi 有关的开源项目</figcaption>
+</figure>
+
+<p>在谷歌 API 存储库中，Yoshi 的工作任务包括构建环境、更新相关软件（依赖）、生成或更新客户端代码、更新版本号以及提交代码等工作。</p>
+
+<figure>
+  <img src="https://pic4.zhimg.com/80/v2-ae61e820b956d375d1bac59613362907_720w.webp" alt="截图：Yoshi 中定义的代码提交信息" />
+  <figcaption>截图：Yoshi 中定义的代码提交信息</figcaption>
+</figure>
+
+<p>Yoshi 的工作安排通过 <a href="https://docs.github.com/en/actions">GitHub Actions</a> 设置和触发。每天，Yoshi 会在（世界标准时间，即 UTC 时间）下午 1:02 分开始自己的例行工作。如果存储库维护人员下达临时指令，Yoshi 也会随时响应。</p>
+
+<figure>
+  <img src="https://pic1.zhimg.com/80/v2-2d783abcd7920814dad09f5d4282c370_720w.webp" alt="截图：使用 GitHub Action 为 Yoshi 设置的定时任务" />
+  <figcaption>截图：使用 GitHub Action 为 Yoshi 设置的定时任务</figcaption>
+</figure>
+
+<blockquote>
+  <p><a href="https://kkgithub.com/googleapis/elixir-google-api/tree/main/.github/workflows">.github/workflows</a> 文件夹中的另一个文件 <a href="https://github.com/googleapis/elixir-google-api/blob/main/.github/workflows/generate-updates.yml">generate-updates.yml</a> 可以为 Yoshi 下达临时任务，即手动触发工作流。</p>
+</blockquote>
+
+<p>在谷歌内容仓库中，每个文件中都有一个自动生成代码文件的声明。声明中的 Elixir 代码生成器就是指 Yoshi 吧?</p>
+
+<figure>
+  <img src="https://pic2.zhimg.com/80/v2-0400b7797ce8ee6efdda6e13940a32a9_720w.webp" alt="截图：谷歌内容仓库的自动生成文件声明" />
+  <figcaption>截图：谷歌内容仓库的自动生成文件声明</figcaption>
+</figure>
+
+<p>上图中的文件 <a href="https://kkgithub.com/googleapis/elixir-google-api/blob/main/clients/content_warehouse/mix.exs">mix.exs</a> 是谷歌内容仓库的项目配置文件，在前文里稍微提过一下下。该文件里有项目描述、版本信息以及需要安装的软件等信息，也注明了项目维护人员的信息。</p>
+
+<figure>
+  <img src="https://pic1.zhimg.com/80/v2-d67aa9ffd972f4bccfbfcc6038178be0_720w.webp" alt="截图：谷歌内容仓库的维护人员" />
+  <figcaption>截图：谷歌内容仓库的维护人员</figcaption>
+</figure>
+
+<p>由于没有更多信息，各路媒体大多都让 Yoshi 当了背锅侠。Yoshi 应该很委屈：我就是个听命干活的，咋都算在我头上了?</p>
+
+<p>现在，我们又有了两位新的嫌疑人：Jeff Ching 和 Daniel Azuma。</p>
+
+<p>那这两位项目维护人员是真正的始作俑者吗? 还是这哥儿俩被哪位新来的猪队友给坑了?</p>
+
+<h2 id="事后花絮">事后花絮</h2>
+
+<p>菲哥和王哥爆出谷歌搜索内部文件泄露事件之后，<a href="https://www.theverge.com/2024/5/29/24167407/google-search-algorithm-documents-leak-confirmation">谷歌发言人 Davis Thompson 曾在一封邮件中低调承认了被泄露文件的真实性</a>，但对其他的任何询问都三缄其口。</p>
+
+<p>这时，之前一直神神秘秘地爆料人却迫不及待地跑出来高调“示众”了。</p>
+
+<figure>
+  <img src="https://pic1.zhimg.com/v2-4dd8d99878e5df097b45527ad34cabac_b.webp" alt="谷歌搜索内部文件泄露事件爆料人" />
+  <figcaption>谷歌搜索内部文件泄露事件爆料人</figcaption>
+</figure>
+
+<p>这位爆料人叫 Erfan Azimi，是 SEO 服务公司 (<a href="https://eaeagledigital.com/">EA Eagle Digital</a>)的 CEO。从公司网站的内容看，这家公司应该刚刚成立不久或者规模特别小，正需要扩大知名度呢！</p>
+
+<p>现在，Erfan Azimi 已经把“发现谷歌搜索意外流出的 2500 多页算法文件”作为一项重大成就高亮显示在自己的简介中。</p>
+
+<figure>
+  <img src="https://pic1.zhimg.com/80/v2-c87a3e606f2917170bc870f740223f80_720w.webp" alt="截图：爆料人公司网站上的个人简介" />
+  <figcaption>截图：爆料人公司网站上的个人简介</figcaption>
+</figure>
+
+<p>这招欲擒故纵、吊人胃口的营销把戏玩得真挺溜的，咱也顺便学一下?</p>
+
+<h2 id="refs" class="no_toc">参考资料</h2>
+
+<ol class="small">
+  <li>Rand Fishkin. <a href="https://sparktoro.com/blog/an-anonymous-source-shared-thousands-of-leaked-google-search-api-documents-with-me-everyone-in-seo-should-see-them/">An Anonymous Source Shared Thousands of Leaked Google Search API Documents with Me; Everyone in SEO Should See Them</a> [OL]. [2024-05-27][2024-06-08].</li>
+  <li><a href="https://www.tripinfo.com/itm/articles/an-anonymous-source-shared-thousands-of-leaked-google-search-api-documents-with-me-everyone-in-seo-should-see-them">Repost from SparkToro: An Anonymous Source Shared Thousands of Leaked Google Search API Documents with Me; Everyone in SEO Should See Them</a> [OL]. [2024-05-27][2024-06-08].</li>
+  <li>Mike King. <a href="https://ipullrank.com/google-algo-leak">Secrets from the Algorithm: Google Search’s Internal Engineering Documentation Has Leaked</a> [OL]. [2024-05-27][2024-06-08].</li>
+  <li>Marie Haynes. <a href="https://www.mariehaynes.com/what-is-this-leaked-google-code-digging-into-the-api-docs/">What is this leaked Google code? Digging into the API Docs</a> [OL]. [2024-05-29][2024-06-08].</li>
+  <li>Mia Sato. <a href="https://www.theverge.com/2024/5/29/24167407/google-search-algorithm-documents-leak-confirmation">Google confirms the leaked Search documents are real</a></li>
+  <li>Google. <a href="https://hexdocs.pm/google_api_content_warehouse/0.4.0/api-reference.html">google_api_content_warehouse</a> [OL]. [2024-05-29][2024-06-08] [OL]. [2024-05-30][2024-06-08].</li>
+  <li><a href="https://github.com/googleapis/elixir-google-api/tree/master/clients/content_warehouse">GitHub Repository: Elixir Google APIs</a> [OL]. [2024-05-07][2024-06-11].</li>
+  <li><a href="https://hex.pm/packages/google_api_content_warehouse">Hex package: google_api_content_warehouse</a> [OL]. [2024-05-07][2024-06-15].</li>
+  <li><a href="https://hexdocs.pm/elixir/writing-documentation.html">Elixir Docs: Writing documentation</a> [OL]. [-][2024-06-15].</li>
+  <li><a href="https://hex.pm/">Hex homepage</a> [OL]. [-][2024-06-15].</li>
+  <li><a href="https://hex.pm/docs/publish">Hex Docs: Publishing a package</a> [OL]. [-][2024-06-15].</li>
+  <li><a href="https://github.com/elixir-lang/ex_doc">GitHub Repository: ExDoc</a> [OL]. [2024-06-15][2024-06-15].</li>
+  <li><a href="https://github.com/dazuma/toys">GitHub Repository: Toys</a> [OL]. [2024-05-15][2024-06-17].</li>
+  <li><a href="https://github.com/googleapis/ruby-common-tools">GitHub Repository: Ruby Common Tools</a> [OL]. [2024-05-15][2024-06-17].</li>
+  <li><a href="https://dazuma.github.io/toys/gems/toys/v0.15.6/file.guide.html">Toys User Guide</a> [OL]. [2024-05-15][2024-06-17].</li>
+</ol>]]></content><author><name>王烨</name></author><category term="行业八卦" /><summary type="html"><![CDATA[都说这是 Yoshi 惹的祸！Yoshi 应该很委屈：我就是个听命干活的，咋都算在我头上了?]]></summary></entry><entry><title type="html">我该怎样部署内容管理系统，私有化部署还是云服务模式?</title><link href="http://localhost:4000/2024/05/28/how-to-deploy-content-management-systems.html" rel="alternate" type="text/html" title="我该怎样部署内容管理系统，私有化部署还是云服务模式?" /><published>2024-05-28T00:00:00+08:00</published><updated>2024-05-28T00:00:00+08:00</updated><id>http://localhost:4000/2024/05/28/how-to-deploy-content-management-systems</id><content type="html" xml:base="http://localhost:4000/2024/05/28/how-to-deploy-content-management-systems.html"><![CDATA[<p>一提内容管理系统，准让钱包抖三抖。为啥? 因为它太费钱了，十几万起步，几百万司空见惯。</p>
+
+<p>这么奢华的东西，谁买都得费费神。产品样数多，价格弹性大，买完还得要维护。头疼！</p>
+
+<p>不久前，美国内容策略咨询公司 CEO 莎姐 (Sarah O’Keefe) 和 Ellucian 公司资深信息架构师帕姐 (Pam Noreault) 一起在 BrightTALK 上开了一场网络研讨会 (<a href="https://www.brighttalk.com/webcast/9273/595413?utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_campaign=all-channels&amp;utm_content=channels-grid">Managing Content With Tools Beyond Your Control</a>)。</p>
+
+<p>在研讨会上，她们深入探讨了内容管理系统的主要部署方式、每一种部署方式的优缺点和潜在风险，还在采购决策、软件定制和沟通管理等方面碰撞出了很多实用又独到的见解。</p>
+
+<p>本文是一篇精心整理的笔记，借花献佛。如果你正在挑选内容管理系统，希望它能雪中送炭。如果你已经入手内容管理系统了，希望能引发你的共鸣和分享欲。如果你的日程表上还没有采购内容管理系统这件事，收藏一下，说不定以后有大用处。</p>
+
+<h2 id="部署方式">部署方式</h2>
+
+<p>内容管理系统的部署方式分为两种：私有化部署和云服务模式。</p>
+
+<p><strong>私有化部署</strong> (on-premise)，也叫做本地部署或独立部署，是指将内容管理系统部署在自己可以控制的独立服务器、虚拟主机或云服务器上。</p>
+
+<p>私有化部署的优点是，企业对内容管理系统拥有较高的自主权，可以根据自身需要对系统进行定制开发或二次开发。它的缺点是，系统上线后，企业得自己负责软件维护工作，成本较高。</p>
+
+<p><strong>云服务模式</strong>，也叫 SaaS (Software as a Service) 或云部署，是指订阅第三方供应商（即云服务供应商）提供的互联网软件。第三方供应商负责内容管理系统的部署、升级和维护。</p>
+
+<p>云服务模式的优点是，功能丰富，扩展性好，安全可靠，免费更新，无需维护。它的缺点是，企业缺少自主权（比如无法控制软件要不要升级、什么时候升级），故障修复周期长，定制开发的费用高等。</p>
+
+<h2 id="更新和维护">更新和维护</h2>
+
+<p><strong>如果采用私有化部署</strong>，内容管理系统的更新和维护一般由企业的 IT 部门负责。</p>
+
+<p>按常理来说，内部部门之间沟通起来会比较方便，协同解决问题的效率会比较高。但如果 IT 部门的能力有限，或者企业中的“部门墙”现象比较严重，当你遇到问题或故障时，他们可能不会帮你及时解决。</p>
+
+<p>在研讨会上，莎姐和帕姐让听众投票评价自己公司的 IT 部门。投票结果显示，约 2/3 的人对 IT 部门不太满意。</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">选项</th>
+      <th style="text-align: center">票数占比</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">IT 部门很棒，总是能及时解决问题。</td>
+      <td style="text-align: center">28%</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">对IT部门来说，内容管理系统方面的问题不属于优先事项。</td>
+      <td style="text-align: center">49%</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">根据律师的建议，我拒绝回答这个问题。</td>
+      <td style="text-align: center">21%</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">慎言！我就在 IT 部门工作。</td>
+      <td style="text-align: center">0</td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote>
+  <p>有些软件公司使用文档注释的方法编写文档，即在源代码中使用特殊的注释格式描述代码的功能、使用方法、参数和返回值等信息。文档注释可以由相应的工具从源代码中自动提取，经编译后自动生成文档。</p>
+
+  <p>在这种情况下，文档编写和发布的工具往往由研发团队负责更新和维护。帕姐认为，文档注释作为源代码的一部分，使文档成为了公司的显性资产，有助于提升文档的价值。</p>
+</blockquote>
+
+<p><strong>如果采用云服务模式</strong>，内容管理系统的更新和维护由第三方供应商负责。</p>
+
+<p>更新和维护内容管理系统时，第三方供应商需要按照服务等级协议 (Service Level Agreement, SLA) 中的规定进行。服务等级协议是客户与第三方供应商协商签定的一个具有法律效力的服务合同。</p>
+
+<p>有正式的合同作保障，当你遇到问题或故障时，一般都能及时解决。万一解决不了，你的问题也会按照上报流程向上级反映。</p>
+
+<p>不过，如果你遇到的问题或故障只是个例，并非大多数用户都会遇到共性问题，可能会花很长时间才能解决，甚至可能永远解决不了。</p>
+
+<p>研讨会的听众还参与了一个关于“谁负责管理 (control) 你的内容管理系统”的投票。投票结果很有趣，40% 的听众说他们的文档团队亲自管理他们的内容管理系统。帕姐认为，这些文档团队可能有内容管理系统的管理员权限或某些配置的管理权限。不过，这个话题不在今天的议题范围内，希望今后有机会深入探讨一下。</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">选项</th>
+      <th style="text-align: center">票数占比</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">文档团队</td>
+      <td style="text-align: center">40%</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">IT 部门</td>
+      <td style="text-align: center">35%</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">第三方供应商</td>
+      <td style="text-align: center">10%</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">啥是“管理 (control)”?</td>
+      <td style="text-align: center">13%</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="定制开发">定制开发</h2>
+
+<p><strong>如果是私有化部署</strong>，企业可以更放心地对内容管理系统进行定制开发。</p>
+
+<p>因为公司的 IT 部门都是自己的员工，既熟悉自家的软硬件设施和定制需求，又拥有内容管理系统的管理权限，比如要不要升级、何时升级等。</p>
+
+<p><strong>如果是云服务模式</strong>，对内容管理系统进行定制开发需要格外谨慎。</p>
+
+<p>定制开发有可能产生高额费用。定制开发属于一次性服务。如果定制开发完成后，第三方供应商对内容管理系统进行了升级，定制的功能可能就不能正常工作了。如果要修复它，你需要额外付费。</p>
+
+<p>在云服务模式下，企业没有内容管理系统的管理权限，不能自己决定升不升级、什么时候升级这些事情。这就恐怖了，不知道哪天一觉醒来，又升级了，又不工作了，又要厚着脸皮去跟老板申请预算了…</p>
+
+<p><strong>无论采用哪种部署方式</strong>，定制开发前都要做一下成本收益分析。只有一项功能带来的便利和高效大于它的定制开发成本和长期维护成本时，这项功能才值得去定制。</p>
+
+<p>定制开发时，尽量不要动内容管理系统的核心软件或核心代码。否则，定制开发的功能越多，长期维护成本越高。</p>
+
+<h2 id="选购流程">选购流程</h2>
+
+<p>首先，确定核心需求。想清楚你需要内容管理系统必须具备哪些特性，哪些特性是有了更好、没有也能凑合的。然后，将这些特性整理成需求清单。需求清单要遵循最小化原则，力求简洁。</p>
+
+<p>然后，评估现有资源。比如评估文档团队、IT 部门、研发团队和第三方供应商的团队规模、技术能力、优势和劣势等，并将这些评估数据做成一张评估表。</p>
+
+<p>最后，筛选最佳方案。将选购内容管理系统当做员工招聘，IT 部门、研发团队和第三方供应商就像是应聘者，你可以通过评估他们在各方面的能力和经验筛选出最合适的“人选”。</p>
+
+<p>一般而言，公司越小或者文档团队的规模越小，越适合云服务模式。公司越大或者内容管理系统需要对接的系统越多，越适合私有化部署。需要对接的系统中，常见的有翻译系统、客服系统、测试系统和搜索引擎等。</p>
+
+<p>当然，这还和公司内部 IT 部门的能力有关。很多公司一开始压根儿不考虑云服务模式，但由于 IT 部门一直不给力，或者 IT 部门经常忙得顾不上解决内容管理系统的事儿，只好转向了云服务模式。</p>
+
+<h2 id="风险防范">风险防范</h2>
+
+<p><strong>如果需要对内容管理系统进行定制开发，一定要先搞清楚定制需求背后的真正原因。</strong></p>
+
+<p>作为一名资深顾问，莎姐在回答听众的问题时，道出了一个非常戳心的事实：很多公司的定制开发，实际上只是在想方设法地维持原来的工作方式罢了。</p>
+
+<p>花那么多钱买了内容管理系统，为什么还要花更多的钱把它变没了（和没有它时一样）?</p>
+
+<p>有了新的内容管理系统，员工就需要重新学习、重新适应、重做很多工作。但他们心里很清楚，公司往往希望员工在原有的工作节奏上无缝切换，还不提供相关的培训，不预留学习和适应的时间，更没有任何奖励和回报。</p>
+
+<p>于是，员工本能地将新工具带来的干扰和压力变成了“定制需求”。</p>
+
+<p><strong>如果对内容管理系统进行了定制开发，一定要将功能描述、安装方法和开发人员信息等关键内容写成文档。</strong></p>
+
+<p>无论采用哪种部署方式，定制开发都需要持续地更新或维护。如果最初负责定制开发的员工调岗了或离职了，文档可以确保其他人可以顺利接手，不会造成“失传”现象。</p>
+
+<p>对云服务模式下的定制开发，帕姐分享了一条特别实用的经验：让第三方供应商将你的定制需求做成软件的标准功能 —— 让所有用户都可以用的定制选项。</p>
+
+<p>既然是标准功能，第三方供应商自然就会将这个定制选项的功能和使用方法写进官方文档里，软件升级时也不会导致功能失效。</p>
+
+<p><strong>与负责更新和维护内容管理系统的团队（比如 IT 部门、第三方供应商）沟通时，做好预期管理，注意方式方法。</strong></p>
+
+<p>如果是公司内部的 IT 部门，一定地清楚地告诉对方你需要他做什么，你希望做成什么样的，什么时间做好，等等。</p>
+
+<p>你还可以制定一个问题上报流程。当问题得不到及时解决时，按照上报流程向上级反映。</p>
+
+<p>如果是云服务模式，你和第三方供应商会签定一个服务等级协议。签定协议前，一定要认真审核协议条款，最大限度地保障自己的权益。</p>]]></content><author><name>王烨</name></author><category term="软件工具" /><summary type="html"><![CDATA[资深专家深入探讨内容管理系统的主要部署方式、优缺点、定制开发的注意事项等。]]></summary></entry><entry><title type="html">从技术传播角度看，雷军营销“神”在哪?</title><link href="http://localhost:4000/2024/05/02/why-leijun-is-so-sucessful-on-marketing-in-tcers-view.html" rel="alternate" type="text/html" title="从技术传播角度看，雷军营销“神”在哪?" /><published>2024-05-02T00:00:00+08:00</published><updated>2024-05-02T00:00:00+08:00</updated><id>http://localhost:4000/2024/05/02/why-leijun-is-so-sucessful-on-marketing-in-tcers-view</id><content type="html" xml:base="http://localhost:4000/2024/05/02/why-leijun-is-so-sucessful-on-marketing-in-tcers-view.html"><![CDATA[<p>自从小米汽车在去年年底举行技术发布会以来，有关 CEO 兼主讲人雷军的话题屡屡被送上热搜。雷军的营销方法，不仅受到各路媒体的大力追捧，还引来不少大佬们的艳羡和效仿……</p>
+
+<p>前有京东创始人刘强东甘拜下风，后有 360 创始人<s>昔日死对头</s>周鸿祎潜心研究雷军行为学。小鹏汽车董事长何小鹏也在北京车展上公开表示，“雷总的营销能力比我强。”</p>
+
+<figure>
+  <img src="https://pic4.zhimg.com/80/v2-c91810e5653c59e034d479ac4eadc6c7_720w.webp" alt="" style="max-width: 650px;" />
+  <figcaption></figcaption>
+</figure>
+
+<p>不过，也有网友认为，雷总只是产品做得好、人设立得住，所谓“营销能力强”还不是因为友商们太拉跨?！</p>
+
+<figure>
+  <img src="https://pic4.zhimg.com/80/v2-83952c301ce4ffcf1c1a5818453765ab_720w.webp" alt="" style="max-width: 650px;" />
+  <figcaption></figcaption>
+</figure>
+
+<p>正好，这届北京车展车模都没来，老总们全来了。咱让雷总和其他车企老总一起跑个分，怎么样?</p>
+
+<p>跑分是一种基准程序测试，可以用直观的数据展现设备的综合性能。据说，雷总早年投资安兔兔、Zealer等评测机构，率先将跑分概念引入了手机行业。</p>
+
+<p>虽然人们对跑分褒贬不一，但它胜在简单、直接、可衡量，用在这种众说纷纭、莫衷一是的情形下再合适不过了。</p>
+
+<p>营销界里花活儿多，要测就测基本功。在新媒体时代，无论运营图文内容（如微博、公众号）、视频内容（如抖音、视频号）还是现场发布会，都需要良好的沟通和表达能力。</p>
+
+<p>无论沟通对象是谁，无论要表达什么内容，无论要达成怎样的营销目标，首先得保证对方能听得懂。也就是说，你说的话、写的稿、发的文必须通俗易懂。对于科技企业而言，这一点尤其重要。</p>
+
+<p>本文将从小米汽车北京车展发布会的官方视频中提取雷总的演讲文稿，将其与其他车企的演讲文稿一起进行文本易读性评测。然后根据评测数据分析一下，雷总到底是营销天才还是劳模出圈，希望能为那些艳羡雷总身上泼天流量的人们找点取经之道。</p>
+
+<h2 id="什么是文本易读性">什么是文本易读性?</h2>
+
+<p>文本易读性是指阅读文字内容的难易程度。文本易读性好，说明内容通俗易懂，大多数读者能一看就懂。文本易读性差，说明内容晦涩难懂，需要读者具备较高的阅读理解能力。</p>
+
+<p>早在 19 世纪，随着教育的普及和民众识字率的提高，一些欧美学者就意识到了文本易读性的重要性，开始倡导简单清晰的表达方式。</p>
+
+<p>到了 20 世纪初的大萧条时期，成年人的阅读需求激增，但当时的很多书籍都很晦涩，受教育程度不高的人们往往看不懂。</p>
+
+<p>芝加哥大学出版社的两位研究人员调查研究发现，影响书籍易读性的因素主要有四种：内容、写作方式、排版（即格式）和结构（即内容的组织方式）。其中，作者的写作方式对书籍的易读性影响最大，比如选用的词语、句子的平均长度等。</p>
+
+<p>他们将研究成果整理成书，书名叫做《怎样让书籍更好读》(<a href="https://www.amazon.com/What-Makes-Book-Readble-William/dp/102288316X">What Makes A Book Readble</a>, 1935)。该书一经出版，立刻在教育界引起了强烈反响，并引来一波研究热潮。</p>
+
+<h2 id="文本易读性评测">文本易读性评测</h2>
+
+<p>在这波热潮里，学界不仅研究如何提高书籍的易读性，还想尽办法设计用来衡量文本易读性的计算公式。</p>
+
+<p><strong>弗雷奇易读性公式</strong> (Flesch Reading Ease) 是产生较早、应用最广泛的易读性公式：</p>
+
+\[206.835 - 1.015 \times \frac{单词总数}{句子总数} - 84.6 \times \frac{音节总数}{单词总数}\]
+
+<p>弗雷奇易读性公式只考虑两项指标，句子长度和单词复杂度。计算结果就是易读性得分，分值在 0~100 之间。得分越高，说明易读性越好。</p>
+
+<blockquote>
+  <p>该公式发表在弗雷奇 1949 年出版的《易读性著作的艺术》(<a href="https://www.amazon.com/Art-Readable-Writing-Rudolf-Flesch/dp/0020464703/ref=monarch_sidesheet">The Art of Readable Writing</a>) 一书中。</p>
+</blockquote>
+
+<p>古往今来，太阳底下没有新鲜事。易读性公式产生之后，有人喜欢有人厌。</p>
+
+<p>当时，有一个美国出版商叫冈宁。哥伦比亚大学对他的书籍进行了易读性评测。评测报告显示，他写的书太晦涩了，根本不是给人看的。</p>
+
+<p>冈宁看到评测报告后，非常愤怒。他决定写一篇文章狠狠地驳斥一下。</p>
+
+<p>但写着写着，冈宁惊讶了！他已经不知不觉地开始字斟句酌，而且还渐渐喜欢上了这种简洁的文风。</p>
+
+<p>然后，冈宁不仅黑转粉，还专门创建了一家提供易读性咨询服务的公司，在 1952 年研究出了一种新的易读性公式 —— <strong>迷雾指数</strong> (Gunning Fog Index)：</p>
+
+\[0.4 \times \Big (\frac{单词总数}{句子总数} + 100 \times \frac{难词总数}{单词总数} \Big)\]
+
+<p>其中，难词是指包含三个或三个以上音节的单词。</p>
+
+<p>根据迷雾指数的计算结果（易读性得分），可以评估一本书或一篇文章对读者在受教育水平方面的基本要求。</p>
+
+<p>比如，如果一篇文章的迷雾指数是 6，那么读者的受教育水平至少得达到小学六年级以上才能读得懂；如果一本书籍的迷雾指数是 17，那么读者至少得达到本科毕业生水平才能读得懂。</p>
+
+<p>据说，比尔·盖茨演讲的迷雾指数为 9.37，乔布斯演讲的迷雾指数为 6.9。也就是说，要听懂乔布斯的演讲，只要达到初中一年级水平就可以了；而要听懂比尔·盖茨的演讲，至少得达到初中毕业生的水平才可以。</p>
+
+<p>通常，面向普通公众的演讲、文章或书籍，迷雾指数一般在 8 左右。</p>
+
+<p>迷雾指数是第一个将文本易读性与受教育水平联系起来的易读性公式，使文本易读性更直观、更易于理解。</p>
+
+<p>1970 年代，美国海军对弗雷奇易读性公式进行了改进，也将其计算结果转换为了受教育水平，用于评测海军培训时使用的技术手册。</p>
+
+<p>除了弗雷奇易读性公式和迷雾指数，还有很多其他的易读性公式，比如 SMOG 指数、Spache 公式、新易读性公式等。</p>
+
+<h2 id="中文易读性评测">中文易读性评测</h2>
+
+<p>上一节中提到的文本易读性公式都是用来评测英文内容的，不能直接用于中文内容的评测。</p>
+
+<p>英文的易读性公式通常将单词数量、音节数、句子长度等因素作为计算因子。对于英文，这些都是很简单的事情。很多易读性公式，用手算就可以完成了。</p>
+
+<p>但如果换做中文，这些就变成了比较难的事情，甚至完全不适用了。</p>
+
+<p>在英文中，单词与单词之间使用空格分隔，识别单词比较容易。而在中文中，词语和词语之间没有分界符，需要借助自然语言处理技术来识别词语（分词处理）。</p>
+
+<p>在英文中，长单词或多音节词相对比较难或者使用频率比较低。但在中文中，80% 以上的词语由一个字或两个字组成，只有少数词语由三个字或四个字组成。中文词语的长度变化很小，不适合作为衡量词语难度的指标。</p>
+
+<p>所以评测中文内容的易读性更为复杂，可供借鉴的经验很少。国内虽已有相关研究，但仍然处于起步阶段，还没有成熟的易读性评测工具。</p>
+
+<p>本文将使用今年 3 月份刚刚在 GitHub 上发布的中文文本易读性评测工具 <a href="https://github.com/leileibama/AlphaReadabilityChinese">AlphaReadabilityChinese (ARC)</a> 来进行评测。该工具是上海外国语大学在中文文本易读性方面的阶段性研究成果。</p>
+
+<h2 id="雷总跑分">雷总跑分</h2>
+
+<p>为了评测的客观公正，本文为雷总选择的友商是理想汽车。双方都在今年的北京车展上举行了发布会，都是 CEO 亲自站台，发布的内容类型也比较相似，具有较强的可比性。</p>
+
+<p>我从双方的发布会官方视频中提取了演讲词，整理成了文本文件，并统一了格式。然后使用 ARC 进行文本易读性评测：</p>
+
+<figure>
+  <img src="https://pic3.zhimg.com/80/v2-266a01f5a81ca8edc7446bb7135b409a_720w.webp" alt="ARC 界面" />
+  <figcaption>ARC 界面</figcaption>
+</figure>
+
+<p>雷总（<a href="https://www.bilibili.com/video/BV1Cb421Y72t/">小米汽车北京车展发布会</a>）和李想（<a href="https://www.bilibili.com/video/BV1Lt421A73E/">理想汽车北京车展发布会</a>）演讲文稿的易读性评测结果如下：</p>
+
+<figure>
+  <img src="https://pic3.zhimg.com/80/v2-f9ebb220903e222ae53b09c9bf790602_720w.webp" alt="红色的数据代表两个文件中更难懂的一个" />
+  <figcaption>红色的数据代表两个文件中更难懂的一个</figcaption>
+</figure>
+
+<p>ARC 现在还不能计算每个文件的综合得分，但从各个单项得分上依然可以看出雷总的演讲更通俗易懂。</p>
+
+<p>上表中，如果指标所在行的背景为白色，指标值越低表示内容越容易懂；如果指标所在行的背景为浅灰色，指标值越高表示内容越容易懂。我用红色标记了每个单项得分中更难懂的那一个。</p>
+
+<p>在九个单项得分中，雷总的演讲文稿跑赢了七项。其中，有一项（语义噪音）遥遥领先，有四项具有明显优势。其余指标的得分都很接近。</p>
+
+<p>由此可见，传统营销和新媒体营销都不是玄学，而是一门精深的技术。</p>
+
+<h2 id="refs" class="no_toc">参考资料</h2>
+
+<ol class="small">
+  <li>雷蕾, 韦瑶瑜, 刘康龙. 2024. AlphaReadabilityChinese：汉语文本可读性工具开发与应用. 外语与外语教学. 46(1):83-93.</li>
+  <li>Readable. <a href="https://readable.com/readability/history-of-readability/">The history of readability</a> [OL]. [2024-05-02].</li>
+  <li>Readable. <a href="https://readable.com/readability/gunning-fog-index/">The Gunning Fog Index</a> [OL]. [2024-05-02].</li>
+  <li>Brain Scott. <a href="https://readabilityformulas.com/the-gunnings-fog-index-or-fog-readability-formula/">The Gunning’s Fog Index (or FOG) Readability Formula</a> [OL]. (2023-11-01)[2024-05-02].</li>
+  <li>百度百科. <a href="https://baike.baidu.com/item/易读性测量/1699408?fr=ge_ala">易读性测量</a> [OL]. [2024-05-02].</li>
+  <li>百度百科. <a href="https://baike.baidu.com/item/迷雾指数/422446?fr=ge_ala">迷雾指数</a> [OL]. [2024-05-02].</li>
+</ol>]]></content><author><name>王烨</name></author><category term="行业八卦" /><summary type="html"><![CDATA[用雷军现身说法，带你一起了解文本易读性、评测方法和评测工具。]]></summary></entry><entry><title type="html">我的GitHub资源库：神奇的技术写作研习路</title><link href="http://localhost:4000/2024/04/25/awesome-technical-writing-learning.html" rel="alternate" type="text/html" title="我的GitHub资源库：神奇的技术写作研习路" /><published>2024-04-25T00:00:00+08:00</published><updated>2024-04-25T00:00:00+08:00</updated><id>http://localhost:4000/2024/04/25/awesome-technical-writing-learning</id><content type="html" xml:base="http://localhost:4000/2024/04/25/awesome-technical-writing-learning.html"><![CDATA[<p>引言</p>
 
 <ol id="markdown-toc">
   <li><a href="#标题" id="markdown-toc-标题">标题</a></li>
@@ -19,7 +715,649 @@
 
 <h2 id="标题-2">标题</h2>
 
-<p>正文</p>]]></content><author><name>王烨</name></author><summary type="html"><![CDATA[引言]]></summary></entry><entry><title type="html">全球大厂的技术文档写作指南们！</title><link href="http://localhost:4000/2021/06/25/top-10-editorial-style-guides-for-technical-writing.html" rel="alternate" type="text/html" title="全球大厂的技术文档写作指南们！" /><published>2021-06-25T00:00:00+08:00</published><updated>2021-06-25T00:00:00+08:00</updated><id>http://localhost:4000/2021/06/25/top-10-editorial-style-guides-for-technical-writing</id><content type="html" xml:base="http://localhost:4000/2021/06/25/top-10-editorial-style-guides-for-technical-writing.html"><![CDATA[<p>产品文档最讲究两点：简明扼要，文风一致。</p>
+<p>正文</p>]]></content><author><name>王烨</name></author><summary type="html"><![CDATA[引言]]></summary></entry><entry><title type="html">我也在GitHub上开了一个Awesome系列的资源库：神奇的技术写作研习路</title><link href="http://localhost:4000/2024/04/23/awesome-technical-writing-learning.html" rel="alternate" type="text/html" title="我也在GitHub上开了一个Awesome系列的资源库：神奇的技术写作研习路" /><published>2024-04-23T00:00:00+08:00</published><updated>2024-04-23T00:00:00+08:00</updated><id>http://localhost:4000/2024/04/23/awesome-technical-writing-learning</id><content type="html" xml:base="http://localhost:4000/2024/04/23/awesome-technical-writing-learning.html"><![CDATA[<p>春节前查资料时候，我的浏览器又慢成树懒了。打开收藏夹一看， 果然不出所料，我随手收藏的网页又变成一堆一堆的了。</p>
+
+<p>为什么是“又”? 在改用 Microsoft Edge 之前，我已经用废了一个搜狗浏览器了。</p>
+
+<p>收藏夹塞得满满当当，但启动特别慢。删不得又用不了，所以它至今还在我的电脑桌面上玩葛优躺呢！总不能再装一个浏览器吧?</p>
+
+<p>如果把这些资料的名称、网址以链接的形式收集起来，再分门别类地整理到文件里，每次需要用时只要点链接就好了，岂不是比收藏夹还方便? 要想跨设备同步，只要把文件做成在线文档就行，比如有道云笔记、腾讯文档。</p>
+
+<p>原本我打算在有道云笔记里整理这些资料。可整理到一半的时候，我转念一想：“既然花了这么多时间，为什么不把它们分享出来呢? 可能有人正在查找这些资料呢！如果有人喜欢，还可以一起维护。”</p>
+
+<p>于是，我先调查了一下 GitHub 上技术写作类资源库的大致情况，发现我收藏的资源和分类整理的思路与现有的资源库都不一样。然后，我就创建了一个自己的 GitHub 存储库，还制作了一个小网站。</p>
+
+<h1 id="技术写作类-github-资源库概况">技术写作类 GitHub 资源库概况</h1>
+
+<p>目前，GitHub 上共有 311 个公开存储库标记了 “technical-writing”（话题标签）。按星数 (Star) 排名前十位的存储库中，有 4 个资源（收集）库。</p>
+
+<figure>
+  <img src="https://pic2.zhimg.com/80/v2-989de4c68488bc617fb1b8d70111ff09_720w.webp" alt="" />
+  <figcaption></figcaption>
+</figure>
+
+<p>排名第一位的《文档汇编》 (<a href="https://github.com/kylelobo/The-Documentation-Compendium">The Documentation Compendium</a>) 以收集代码库中常用的各类文档模板为主，比如 readme 模板、拉取请求模板 (pull requests) 和问题模板 (issues) 等。</p>
+
+<p>其余 3 个都是以收集学习资料为主，但收集的资料种类和对资料的分类方式略有差别。</p>
+
+<p>两个 Awesome 系列的资源库按照资源的类型或媒介形式分类，比如课程、书籍、视频、音频（播客）等。《神奇的技术写作》 (<a href="https://github.com/BolajiAyodeji/awesome-technical-writing">Awesome Technical Writing</a>) 创建时间最早、星数最多。《神奇的技术传播》 (<a href="https://github.com/lilin90/awesome-technical-communication">Awesome Technical Communication</a>) 专门为中文资源设置了一个大类。</p>
+
+<p>《技术写作资源》 (<a href="https://github.com/CynthiaPeter/Technical-Writing-Resources">Technical Writing Resources</a>) 按照资源的用途分类，比如技术写作入门、文档类型（即编写API 文档、入门教程、博客文章等不同类型文章的资源子类）、软件工具等。《技术写作资源》创建时间较晚，但星数增长较快，极具流行潜力。</p>
+
+<h1 id="我的-github-资源库">我的 GitHub 资源库</h1>
+
+<p>从 GitHub 上现有的技术写作资源库可以看出，每个资源库都琳琅满目。虽然各个库之间难免有些资源是雷同的，但仍然各具特色。</p>
+
+<p>由于技术写作这个话题有些冷门，各个库中参与贡献的人都不多，主要靠创建者自己维护。因此，资源库的特色主要源自创建者的专业领域、成长路径和个人偏好。</p>
+
+<p>作为一个在工业制造领域有多年工作经验的技术文档工程师，我创建的资源库里除了入门课程和各类技术写作指南等常规资源，还搜罗了工业产品技术文档中必不可少的技术插图、大中型技术文档常用的架构标准 (DITA 和 S1000D) 以及批量处理等方面的资源。</p>
+
+<p>在对资源进行分类时，我主要考虑两个因素：用途和难度。无论是大类还是子类，都按照<strong>由浅入深、先易后难</strong>的原则排序。每个类别、每项资源都配有<strong>通俗易懂、言简意赅的简介</strong>，即使零基础的读者也能在点开链接前对资源有个大致的了解。</p>
+
+<p>差点忘了最重要的一点，<strong>所有资源都是免费的</strong>，除了极个别特别经典的书籍（比如 IBM 出版的那几本骨灰级教科书）和商用软件（市场上压根儿没有免费版的）。</p>
+
+<p>GitHub 存储库：<a href="https://github.com/wongyah/awesome-technical-writing-learning">Awesome Technical Writing Learning</a><br />
+网站：<a href="https://resources.docsimpo.work/">Awesome Technical Writing Learning</a></p>
+
+<h1 id="贡献指南">贡献指南</h1>
+
+<p>如今，技术写作涉及的领域越来越广，新的知识、新的资源每天都在产生。</p>
+
+<p>我现在创建的资源库，只是一个起点，以后会不断上新。</p>
+
+<p>如果你有优质资源，不管是你的原创、你的私藏还是你的发现，欢迎来和我一起分享。</p>
+
+<p>资源库《神奇的技术写作研习路》(<a href="https://resources.docsimpo.work/">Awesome Technical Writing Learning</a>) 会和公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA5NzU4ODAwOQ==&amp;mid=2247487464&amp;idx=1&amp;sn=c57c1b993dcb2c166d88bc2c0d414a10&amp;chksm=909fc9aea7e840b874ebe3e37d0e2a58de7c4c4c5e18f1355b1a4be6378b5752c571c4aeddd4#rd">@技术传播百态说</a>一起，让更多人看见你的作品、你的专业积累和你的分享精神。</p>
+
+<p>如果你对资源库的分类、管理和筛选标准等方面有任何想法，可以在讨论区 (<a href="https://github.com/wongyah/awesome-technical-writing-learning/discussions">Disccussions</a>) 发贴讨论。</p>
+
+<p>你还可以将讨论区作为一个咨询求助中心。如果遇到任何与技术写作相关的问题或困难，来发个贴试一下，说不定会碰上哪个路过的大神帮忙指点迷津呢！</p>
+
+<p>新库开张，急需背书。如果你也喜欢这个资源库，顺便去 <a href="https://github.com/wongyah/awesome-technical-writing-learning">GitHub</a> 点个星呗！</p>
+
+<h1 id="refs" class="no_toc">参考资料</h1>
+
+<ol class="small">
+  <li><a href="https://github.com/kylelobo/The-Documentation-Compendium">The Documentation Compendium</a></li>
+  <li><a href="https://github.com/BolajiAyodeji/awesome-technical-writing">Awesome Technical Writing</a></li>
+  <li><a href="https://github.com/CynthiaPeter/Technical-Writing-Resources">Technical Writing Resources</a></li>
+  <li><a href="https://github.com/lilin90/awesome-technical-communication">Awesome Technical Communication</a></li>
+  <li><a href="https://github.com/wongyah/awesome-technical-writing-learning">Awesome Technical Writing Learning</a></li>
+</ol>]]></content><author><name>王烨</name></author><category term="学习资源" /><summary type="html"><![CDATA[技术写作资源精选，免费！]]></summary></entry><entry><title type="html">使用国产AI大模型“猜写”BBC科技文章《走进说明书的世界》</title><link href="http://localhost:4000/2024/03/12/recovery-bbc-article-from-voice-input-draft.html" rel="alternate" type="text/html" title="使用国产AI大模型“猜写”BBC科技文章《走进说明书的世界》" /><published>2024-03-12T00:00:00+08:00</published><updated>2024-03-12T00:00:00+08:00</updated><id>http://localhost:4000/2024/03/12/recovery-bbc-article-from-voice-input-draft</id><content type="html" xml:base="http://localhost:4000/2024/03/12/recovery-bbc-article-from-voice-input-draft.html"><![CDATA[<p>前段时间，我无意间搜到一篇来自 BBC Future 的科技文章《走进说明书的世界》(<a href="http://www.bbc.com/future/story/20180403-inside-the-world-of-instruction-manuals">Inside the World of Instruction Manuals</a>)。</p>
+
+<p>我非常想看这篇文章，但国内无法访问 BBC 官网。在好奇心的驱使下，我非常幸运地找到了一期<a href="https://www.podomatic.com/podcasts/howtosleep/episodes/2019-06-07T06_27_50-07_00">诵读这篇文章的播客</a>。</p>
+
+<p>由于咱们大都能猜到的原因（<s>英语听力不如阅读理解能力好</s>），我尝试把这期播客的音频转换成文本，方便以后随时查阅。</p>
+
+<p>我用语音识别软件将播客的音频文件转换成了文本，但文本中存在很多错误。例如，很多单词的拼写不对或者写成了发音相似的单词，很多标点符号的后面没有插入空格，很多地方存在错误断句（一词一句现象很多），等等。</p>
+
+<figure>
+  <img src="https://pic3.zhimg.com/80/v2-f51e47c7be49a19d14a39a25ffc98f62_720w.webp" alt="从音频转换而来的初稿" style="box-shadow: 2px 2px 6px grey; border-radius: 10px;" />
+  <figcaption>从音频转换而来的初稿</figcaption>
+</figure>
+
+<blockquote>
+  <p>我用有道云笔记中的语音速记转换了一小半，免费额度就用完了。剩下的部分，我使用的是搜狗输入法的语音输入。总体来说，有道云笔记的语音速记比搜狗输入法的语音输入转换的效果要好一些。</p>
+
+  <p>不过我今天刚发现，阿里的通义听悟转换得又快又好，还免费。如果早一点发现，就不需要做后面的事情了。</p>
+</blockquote>
+
+<p>刚开始，我听着音频手动修改这些错误。听一遍音频，改一处错误。改好一个句子需要听好几遍音频。实在是太慢了！</p>
+
+<p>第二天，我突然开窍了：为什么不用 AI 大模型试试呢?！这一试不要紧，好像发现了新大陆。我一下子从苦工变成了监工，身心解放了（阶层跃迁了一丢丢）！</p>
+
+<p>本文将展示我用来整理这些杂乱文本的分步计划和提示词，分析大模型的处理结果，并随机总结国产 AI 大模型目前的一些基本情况。希望这篇文章能抛砖引玉，启发你在更多的应用场景下想到 AI 大模型，或者在使用 AI 大模型时萌发更好的解题思路。</p>
+
+<h1 id="分步处理计划">分步处理计划</h1>
+
+<p>ChatGPT 火爆出圈之后，国内的 AI 大模型们相继于去年下半年向公众开放。目前比较流行的国产大模型有百度的文心一言、阿里云的通义千问、科大讯飞的星火认知大模型、以及百川大模型等。</p>
+
+<blockquote>
+  <p>更多国产 AI 大模型，请参见 Github 存储库《<a href="https://github.com/wgwang/LLMs-In-China">中国大模型列表</a>》。</p>
+</blockquote>
+
+<p>这些大模型一般对提示词的长度有一定的限制。比如文心一言 3.5 的提示词不能超过 2000 个字符，通义千问的提示词长度不能超过 10000 个字符。</p>
+
+<p>在计算提示词的长度时，汉字、英文字母、数字、标点符号、空格和换行符等都按一个字符计算。也就是说，提示词中的英文内容比较消耗字符数。</p>
+
+<blockquote>
+  <p>据统计，在一篇英文文章中单词的平均长度大约是 5~6 个英文字符。也就是说，文心一言 3.5 提示框中单次最多可以输入 300~400 个单词，通义千问提示框中单次最多可输入 1500~2000 个单词。</p>
+</blockquote>
+
+<p><a href="https://www.podomatic.com/podcasts/howtosleep/episodes/2019-06-07T06_27_50-07_00">播客音频《走进说明书的世界》</a>经语音识别后转换成的文字版草稿，总共包含 16712 个字符（2781 个单词）。显然，草稿本身的长度已经超出了提示词的上限。</p>
+
+<p>使用 AI 大模型处理文章时，提示词由两部分构成：任务说明和待处理的文章内容。由于尚未积累到丰富且非常成功的经验，我先根据一些提示工程方面的教程和文档做了两个假设：</p>
+
+<ul>
+  <li>任务说明越详细，大模型返回的答案越符合预期。</li>
+  <li>待处理的文章内容越长，答案中含有的意外元素越多。</li>
+</ul>
+
+<p>基于这两个假设，我打算在开始时一小段一小段将草稿提供给大模型。然后根据音频对大模型的答案进行人工校对，并将校对后的原文提供给大模型进行对比学习。</p>
+
+<p>如果小段内容修改得很顺利，再逐渐增加每次提供的内容长度。希望它能在互动和反馈中不断成长，返回与《走进说明书的世界》原文越来越接近的答案。</p>
+
+<h1 id="提示词与答案分析">提示词与答案分析</h1>
+
+<blockquote>
+  <p>本节中使用的大模型是通义千问。你也可以在其他大模型中使用这些提示词。虽然各个大模型之间可能会有些差异，但提示词的写作技巧总是有相通之处的。</p>
+
+  <p>由于提示词中英文内容太占空间，不便于在文中完整地展示。感兴趣的小伙伴儿，可以在<a href="https://tongyi.aliyun.com/qianwen/share?shareId=f04fbd02-d4ae-4e06-8607-cb9e9ba8d83f">我分享的对话链接</a>中查看完整的对话：</p>
+</blockquote>
+
+<p>在第一段提示词中，我详细描述了任务产生的背景信息，说明了修改方法和输出模板，并提供了第一部分需要修改的内容。</p>
+
+<p>我在提示词中使用了成对儿的特殊符号（“【】”和“《》”）来标记关键词，比如《初稿》、《优化稿》、【分步修改策略】、【优化稿模板】等。</p>
+
+<section class="prompt" style="font-size: 13px; color: rgb(150, 150, 150); line-height: 2em; border: 1pt solid rgb(150, 150, 150); border-radius: 1em; padding: 0.5em 1em; margin-top: 2em;">
+
+  <p><strong style="color: rgb(50, 50, 50)">第一段提示词</strong></p>
+
+  <p>你是一名出色的英文编辑。你发现了一篇非常精彩的英文文章《原文》，但你无法直接阅读到这篇文章《原文》，只找到了一段诵读这篇文章的《音频》。</p>
+
+  <p>为了将这篇文章分享给读者，你使用音频识别软件将《音频》转换成了文本《初稿》。由于音频识别软件转换得不准确，文本《初稿》与文章《原文》有很大的出入。比如单词存在拼写错误或者完全写成了同音异意词，标点符号后面没有空格等。</p>
+
+  <p>所以，你现在要根据我给出的提示，凭借自己出色的语言能力对这份《初稿》进行修改，以最大程度地还原文章《原文》。</p>
+
+  <p>为了让你修改后的《优化稿》更加接近《原文》，我们采用分步修改的策略。</p>
+
+  <p>【分步修改策略】</p>
+
+  <ol>
+    <li>我提供一部分《初稿》给你。</li>
+    <li>你使用【最少修改原则】并根据【修改说明】对这部分内容《初稿》进行修改，按照【优化稿模板】输出修改好的内容《优化稿》。</li>
+    <li>我按照《音频》对《优化稿》进行校对，还原出这部分内容的《原文》，并将这部分《原文》提供给你。</li>
+    <li>你通过对比这部分内容的《初稿》和《原文》，学习怎样才能使你修改的《优化稿》与《原文》一致。</li>
+    <li>我提供下一部分《初稿》给你。</li>
+    <li>你按照以上步骤继续修改，直到我提示你整篇文章已修改完成。</li>
+  </ol>
+
+  <p>【最少修改原则】</p>
+
+  <ul>
+    <li>能不修改的地方尽量不修改。</li>
+    <li>不修改【初稿】中的单词。</li>
+    <li>不能向【初稿】中的句子中添加单词。</li>
+    <li>不能调整【初稿】中句子顺序和句子内的单词顺序。</li>
+  </ul>
+
+  <p>【优化稿模板】</p>
+
+  <p>《优化稿第#部分》</p>
+
+  <p>你对初稿第#部分进行修改后的内容。</p>
+
+  <hr />
+
+  <p>你准备好了吗?我们现在开始吧！以下是修改说明和初稿的第一部分：</p>
+
+  <p>【修改说明】</p>
+
+  <p>请修改初稿的第一部分。修改时，重点修改标点符号、重复的单词、发音相似但词义和上下文不搭的单词。遵守【最少修改原则】。</p>
+
+  <p>《初稿第一部分》</p>
+
+  <p>Maybe you diligently read an instruction manual … there’s almost always a time and a place when. Instruction. Manuals. Come. In handy.</p>
+
+  <p>如果你在修改的过程中遇到任何问题，比如我没有提供必要的资料给你、我没有说清楚该如何修改或者提示词中有冲突的地方，可以随时向我提问。</p>
+</section>
+
+<section class="ai" style="font-size: 13px; color: rgb(150, 150, 150); line-height: 2em; border: 1pt solid rgb(150, 150, 150); border-radius: 1em; padding: 0.5em 1em; margin-bottom: 2em;">
+
+  <p><strong style="color: rgb(50, 50, 50)">通义千问</strong></p>
+
+  <p>《优化稿第一部分》</p>
+
+  <p>Maybe you diligently read an instruction manual … there will almost always come a time and a place where instruction manuals prove to be quite handy.</p>
+
+  <p>（注：根据【最少修改原则】，本段仅对标点符号、重复及可能因语音识别导致的误听进行了修正，未改动原有单词也未新增单词，同时保持了句子顺序和内部单词顺序不变。）</p>
+</section>
+
+<p>大模型在回答时使用了【优化稿模板】输出修改后的内容，在末尾使用圆括号备注了一下修改范围，还特别提到了【最少修改原则】。</p>
+
+<p>我在新的对话中输入相同的提示词时，大模型的回答不尽相同。基于上文中的提示词，大模型也经常在回答结束时提醒我接下来要做的事情和它下一步需要的资料。显然，这是它在执行【分步修改策略】中的步骤。</p>
+
+<figure>
+  <img src="https://pic2.zhimg.com/80/v2-69849a1b9c72a8746631651d18c6e461_720w.webp" alt="大模型在提醒后续任务" style="box-shadow: 2px 2px 6px grey; border-radius: 10px;" />
+  <figcaption>大模型在提醒后续任务</figcaption>
+</figure>
+
+<p>使用特殊符号标记的关键词，就像技术写作中的术语、软件编程中的函数和参数一样，可以重复使用而不产生歧义。这是我从 <a href="https://idratherbewriting.com/">I’d Rather Be Writing</a> 的博主 Tom Johnson 那里学到的技巧。在后续的对话中，你可以注意一下它对大模型的持续影响。</p>
+
+<p>在这一轮修改中，一些标点符号、重复的单词以及不恰当的字母大小写等问题得到了很好的修正，基本保持了文章中原有的句式和用词。不过，大模型在个别地方添加了额外的单词，甚至换了说法。</p>
+
+<p>因此，我在第二段提示词的【修改说明】中首先表扬了它这次的表现，然后指出它在修改中破坏了最少修改原则的地方。我专门挑选了两个修改不当的示例，希望它学过之后不再随便增删单词或词组。</p>
+
+<p>因为第一段提示词中已经提供了输出模板（【优化稿模板】），这次的提示词里就不再提供模板了，而是直接写上第一部分内容的原文和第二部分需要修改的内容。</p>
+
+<section class="prompt" style="font-size: 13px; color: rgb(150, 150, 150); line-height: 2em; border: 1pt solid rgb(150, 150, 150); border-radius: 1em; padding: 0.5em 1em; margin-top: 2em;">
+
+  <p><strong style="color: rgb(50, 50, 50)">第二段提示词</strong></p>
+
+  <p>【修改说明】</p>
+
+  <p>改得非常好，棒棒嗒！</p>
+
+  <p>不过，你在修改时还是破坏了【最少修改原则】，比如在句子中添加多余的单词，更改句子的结构。</p>
+
+  <p>【最少修改原则】示例</p>
+
+  <p>“you file the information…”应保持原样，不能将其修改成“you file the information away…”。否则，“away”就是多余的单词，破坏了最少修改原则。</p>
+
+  <p>“never to be found again…”应保持原样，不能将其修改为“never to be retrieved again…“。否则不仅画蛇添足，还破坏了最少修改原则。</p>
+
+  <hr />
+
+  <p>《原文第一部分》</p>
+
+  <p>Maybe you diligently read an instruction manual … there’s almost always a time and a place when instruction manuals come in handy.</p>
+
+  <hr />
+
+  <p>《初稿第二部分》</p>
+
+  <p>While we may think of them as … a former curator. At. London. Science Museum.</p>
+</section>
+
+<section class="ai" style="font-size: 13px; color: rgb(150, 150, 150); line-height: 2em; border: 1pt solid rgb(150, 150, 150); border-radius: 1em; padding: 0.5em 1em; margin-bottom: 2em;">
+
+  <p><strong style="color: rgb(50, 50, 50)">通义千问</strong></p>
+
+  <p>《优化稿第二部分》</p>
+
+  <p>While we may think of them as … a former curator at the London Science Museum, also tells us about how we’ve changed over time.</p>
+
+  <p>（注：本段严格遵循【最少修改原则】，未添加多余单词，未调整句子顺序和内部单词顺序，仅对语法、标点和可能的语音识别错误进行了修正。）</p>
+</section>
+
+<p>额~，很多原本没问题的单词和词组被修改了！看来修改说明、示例和原文好像都没起作用，大模型虽然嘴上（备注里）说得挺好，但实际上偷偷地加了一些料。</p>
+
+<p>我之前已经在多轮对话里有过很多次类似的体验。在对话刚开始时，大模型的表现挺好的。但几次对话之后，大模型的回答就有点不管不顾了。</p>
+
+<p>这次，我和大模型交流了一下。我找了两个不当修改的例子，先询问它为什么这么改，然后我对它做的修改表示理解，同时也说明了在当前的场景中不应该这么改的理由。</p>
+
+<p>它完全同意了我的观点。在我的真诚求教之下，它还帮我写了一份【修改说明】，以确保它以后不再进行此类的修改。</p>
+
+<p>在第三段提示词里，我使用了大模型自己写的【修改说明】。由于主播在音频中会将引号读出来，第三部分内容里正好有这种情况，我在【修改说明】里添加了关于如何修改引号的说明。当然，我还提供了第二部分内容的原文和第三部分需要修改的内容。</p>
+
+<section class="prompt" style="font-size: 13px; color: rgb(150, 150, 150); line-height: 2em; border: 1pt solid rgb(150, 150, 150); border-radius: 1em; padding: 0.5em 1em; margin-top: 2em;">
+
+  <p><strong style="color: rgb(50, 50, 50)">第三段提示词</strong></p>
+
+  <p>好的，那我们就愉快地继续吧！</p>
+
+  <p>【修改说明】</p>
+
+  <p>请严格依据音频内容，仅对初稿中的明显识别错误（如单词拼写错误、同音异义词误用、标点符号缺失或误用、以及单词间无空格等情况）进行修正，务必避免对原文的句式结构、词汇选择等方面进行优化或改进，即使这些地方在语义上可能存在不够精确或流畅之处。</p>
+
+  <p>除此之外，如果在初稿中出现“quote”和”end quote”（不区分大小写），请修改为一对儿双引号。”end quote”有时也会错写成了”and quote”。</p>
+
+  <hr />
+
+  <p>《原文第二部分》</p>
+
+  <p>While we may think of them as … a former curator at London Science Museum.</p>
+
+  <hr />
+
+  <p>《初稿第三部分》</p>
+
+  <p>Quote.Instructions are there … a rule that modern manufacturers could do well to. Emulate and. Quote.</p>
+</section>
+
+<section class="ai" style="font-size: 13px; color: rgb(150, 150, 150); line-height: 2em; border: 1pt solid rgb(150, 150, 150); border-radius: 1em; padding: 0.5em 1em; margin-bottom: 2em;">
+
+  <p><strong style="color: rgb(50, 50, 50)">通义千问</strong></p>
+
+  <p>《优化稿第三部分》</p>
+
+  <p>“Instructions are there … a rule that modern manufacturers could well emulate.”</p>
+
+  <p>（注：本段修改过程中，已经严格按照【修改说明】，只针对明显的识别错误进行了修正，包括标点符号的错误、单词间的空格问题以及替换掉“quote”和“end quote”为双引号。同时，确保了句式结构和词汇选择均保持原文样式。）</p>
+</section>
+
+<p>哇，简直和原文一模一样了！果然还是自己最了解自己。不过，大模型没有将优秀一直保持下去，最后四分之一左右的内容都被改得天马行空了。</p>
+
+<p>在这之后，为了调整大模型的状态，我尝试了很多方法，但都失败了。大模型好像有根据上下文自动优化内容的嗜好，不改点什么会觉得手氧难耐。</p>
+
+<p>在多轮对话中，大模型的回答一旦变差了，似乎就无药可医了。无论怎样修改提示词，它都恢复不到此前的状态。在这种情况下，最好的办法就是新建对话。让它忘掉过去，重启未来。</p>
+
+<p>回头看一眼，在这次对话里大模型是不是对使用特殊符号标记的关键词最执着，比如输出模板（【优化稿模板】）?</p>
+
+<h1 id="总结">总结</h1>
+
+<p><strong>使用大模型整理文本内容比纯手工整理快得多</strong>。即使不在提示词上玩花活儿，只对大模型说“帮我修改下面的英文文章”，它也能帮我们节省很多时间。</p>
+
+<p><strong>使用特殊符号标记关键词，是在提供词中为规则和模板命名的有效方法</strong>。在后续的对话中，你可以将规范名称和模板名称当作术语或命令使用，使提示词既准确又精简；也可以将规范名称和模板名称当作参数使用，根据大模型的实时表现来管理或更新参数值。</p>
+
+<p><strong>大模型有自动优化语义的倾向，不喜欢维持原样</strong>。如果让它处理一些内容，它总是喜欢改点什么才行。如果你让它背诵一段文本或者将几段文本拼接在一起，它只能坚持一小会儿，然后就忍不住又要改改改了。</p>
+
+<p><strong>提示词的长短要适度</strong>。提示词太短或太简单，提供不了足够的信息。提示词太长或者太复杂，会让大模型陷入混乱模式或懈怠模式。</p>
+
+<p><strong>大模型的回答一旦陷入困局，最好的解决方法是新建对话</strong>。在这种情况下，修改提示词往往不顶用或者只能暂时好转一小会儿。与你花上琢磨提示词上的时间和精力相比，收获显得没有性价比。</p>
+
+<blockquote>
+  <p>BBC Future 的完整文字版《走进说明书的世界》(<a href="https://docs.qq.com/document/DZG1maUpCVnZJR0Vo">Inside the World of Instruction Manuals</a>)。</p>
+</blockquote>
+
+<h2 id="refs" class="no_toc">参考资料</h2>
+
+<ol class="small">
+  <li>CharacterCounter.com. <a href="https://charactercounter.com/characters-to-words#:~:text=On%20average%2C%20text%20contains%20between%205%20and,6.5%20characters%20per%20word%20including%20spaces%20and%20punctuation.">How many characters are there per word?</a> [OL]. (unknown)[2024-3-14].</li>
+  <li>Tom Johnson. <a href="https://idratherbewriting.com/ai/prompt-engineering-populating-documentation-templates.html">Populating documentation templates using AI</a> [OL]. (2024-3-2)[2024-3-15].</li>
+  <li>阿里云. <a href="https://files.alicdn.com/tpsservice/f6648a7e019575dfa4b708f0c635b4f2.pdf">如何写好 Prompt?</a> [OL]. (unknown)[2024-3-20].</li>
+</ol>]]></content><author><name>王烨</name></author><category term="文档技术" /><summary type="html"><![CDATA[用实例展示生成式人工智能的提示词写作技巧和生成质量。]]></summary></entry><entry><title type="html">Sora 并非首个视频生成模型，为何还能一出场就惊艳了所有人?</title><link href="http://localhost:4000/2024/02/20/Sora-and-similar-applications.html" rel="alternate" type="text/html" title="Sora 并非首个视频生成模型，为何还能一出场就惊艳了所有人?" /><published>2024-02-20T00:00:00+08:00</published><updated>2024-02-20T00:00:00+08:00</updated><id>http://localhost:4000/2024/02/20/Sora-and-similar-applications</id><content type="html" xml:base="http://localhost:4000/2024/02/20/Sora-and-similar-applications.html"><![CDATA[<p>上周四，OpenAI 发布了首个视频生成模型 Sora。栩栩如生的高清视频让众多网友惊呼“真假难辨，以后连视频证据都不可信了吧”！</p>
+
+<div style="margin: 2em 10px;">
+  <video width="100%" height="auto" controls="controls" src="https://vdn6.vzuu.com/HD/23450c92-cf93-11ee-b01f-d246a47ad65d-v8_f2_t1_2WZXfTu4.mp4?pkey=AAUwoGA2TO4RAbZN9c9rnhTb9KyCnNqRp6hl892ISf5o9igmGCizoY2donSrAe7HJL7duq_yRwTXAeg9g71O4Cmf&amp;c=avc.8.0&amp;f=mp4&amp;pu=e59e796c&amp;bu=1513c7c2&amp;expiration=1708593331&amp;v=ks6&amp;pp=ChMxNDAxNjIzODY1NzM5NTc5MzkyGGMiC2ZlZWRfY2hvaWNlMhMxMzY5MDA1NjA4NTk5OTA0MjU3PXu830Q%3D&amp;pf=Web&amp;pt=zhihu"></video>
+</div>
+
+<p>作为一个正对视频号跃跃欲试的技术传播小号主，自然知道视频制作的门槛。之前，哪怕只是想做个好一点的动图，也需要花好长时间。每次动手前，我都得进行一下心理建设！</p>
+
+<p>对于像我这样的业余选手来说，“龙年一开年，Sora 霸屏了”绝对是个好消息。</p>
+
+<p>本文将从一个普通群众的角度总结一下 Sora 及其竞品的功能特性，从而更全面地展现人工智能在视频制作领域的发展现状，说不定能帮助很多像我一样的小伙伴挑选到更顺手的工具呢！</p>
+
+<h1 id="sora">Sora</h1>
+
+<p>根据 OpenAI 的技术报告，Sora 可以根据用户输入的提示词、图片和视频等素材自动生成视频。</p>
+
+<p>Sora 生成的视频最长可达一分钟，视频尺寸可以是 1920×1080p（宽屏）、1080×1920p（竖屏）以及二者之间的任意尺寸。也就是说，Sora 可以直接生成可在各种设备上播放的视频，无需后续编辑。</p>
+
+<blockquote>
+  <p>如果你想观看视频样片，请移步 OpenAI 官网：<a href="https://openai.com/sora">《Sora 简介》</a>和<a href="https://openai.com/research/video-generation-models-as-world-simulators">《Sora 官方技术报告》</a></p>
+</blockquote>
+
+<p>除了自动生成视频，Sora 还可以生成图片、编辑图片和视频。</p>
+
+<p>图片可以被视为单帧视频。Sora 可以生成任意尺寸的图片，分辨率最高可达 2048×2048。</p>
+
+<p>如果你给 Sora 输入图片和提示词，它能按照提示词将图片变成视频。</p>
+
+<p>如果你给 Sora 输入视频和提示词，它能按照提示词为视频添加片头或片尾、变换视频风格或者将视频无缝拼接在一起。</p>
+
+<p>目前，Sora 还没有对公众开放。但 OpenAI 已经邀请红队成员、视觉艺术家、设计师和电影制作人等各领域的专业人士试用 Sora，以评估关键领域的危害和风险，为后续的改进和完善模型收集专业的反馈意见。</p>
+
+<blockquote>
+  <p>红队是网络安全中的术语，指通过模拟真实的攻击手法测试和评估系统弱点的安全专家团队。</p>
+</blockquote>
+
+<h1 id="其他视频生成模型">其他视频生成模型</h1>
+
+<p>Sora 并不是地球上的首个视频生成模型。OpenAI 发布 Sora 之前，Runway AI、Stability AI、 MoonValley AI 和 Pika Labs AI 等许多创业公司早已发布了类似的视频生成模型。</p>
+
+<figure>
+  <img src="https://pic2.zhimg.com/v2-b9a2c8553b58e925c3a6e170b2e406d9_b.webp" alt="Runway 的文生视频样片" />
+  <figcaption>Runway 的文生视频样片</figcaption>
+</figure>
+
+<p>各个模型生成的视频质量虽然参差不齐，但也有一些不错的视频样片。那么，为什么 Sora 还是惊艳了所有人呢?</p>
+
+<p>除了在画面内容的丰富度、逼真度和流畅度上逊色很多之外，其他视频生成模型的最大硬伤还有视频时长，尤其是在文生视频方面。</p>
+
+<p>除了 Runway 的视频生成模型 Gen-2 支持生成最长 16 秒的视频，其他的视频生成模型都只能生成几秒钟的视频（或许叫“动图”更合适）。</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">开发者</th>
+      <th style="text-align: center">模型</th>
+      <th style="text-align: center">最大视频长度</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><a href="https://openai.com" title="OpenAI官网">OpenAI</a></td>
+      <td style="text-align: center">Sora</td>
+      <td style="text-align: center">60 s</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://runwayml.com/" title="Runway官网">Runway</a></td>
+      <td style="text-align: center">Gen-2</td>
+      <td style="text-align: center">16 s</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://stability.ai/" title="Stability官网">Stability</a></td>
+      <td style="text-align: center">SVD</td>
+      <td style="text-align: center">6 s</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://moonvalley.ai/" title="MoonValley官网">MoonValley</a></td>
+      <td style="text-align: center">MoonValley</td>
+      <td style="text-align: center">5 s</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://pikalabsai.org/" title="Pika官网">Pika Labs</a></td>
+      <td style="text-align: center">Pika</td>
+      <td style="text-align: center">4 s</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- link definition -->
+
+<h1 id="ai-辅助视频生成工具">AI 辅助视频生成工具</h1>
+
+<p>除了视频生成模型，还有一类基于素材库的视频生成工具虽然智能程度不高，却比较实用。知乎曾经上线过类似的功能可以一键【生成视频】。<em style="color: rgb(150, 150, 150); font-style: normal;">不过，知乎的这个功能现在不能用了。</em></p>
+
+<p>在了解视频生成模型的时候，我意外发现了一个叫做 <a href="https://fliki.ai/" title="Fliki官网">Fliki</a> 的视频生成工具。</p>
+
+<p><img src="https://pic1.zhimg.com/80/v2-85dc642235b6fe4508aa393e6a451198_720w.webp" alt="standalone" /></p>
+
+<p>它可以根据文字生成带语音的视频。视频素材可以从自带的 Fliki 素材库中选取，也可以上传自己的素材。</p>
+
+<p>它允许为每个段落（场景）单独设置语音参数（比如使用哪种语言、哪种口音、男声还是女声等）、单独选取视频素材，还能设置标题和背景音乐等。</p>
+
+<p>显然，Fliki 的智能程度比视频生成模型要差很多，但在很多场合里它仍然是一个非常好的选择。</p>
+
+<p><img src="https://pic3.zhimg.com/80/v2-bb8089a1f1b79c7e07fea5da234304e6_720w.webp" alt="standalone" /></p>]]></content><author><name>王烨</name></author><category term="文档技术" /><summary type="html"><![CDATA[总结 Sora及其竞品的功能特性，全面展现人工智能在视频制作领域的发展现状。]]></summary></entry><entry><title type="html">被称为“国之重器”的工业巨无霸们，为啥对婆婆妈妈的 S1000D 青睐有加?</title><link href="http://localhost:4000/2024/01/09/s1000d-features.html" rel="alternate" type="text/html" title="被称为“国之重器”的工业巨无霸们，为啥对婆婆妈妈的 S1000D 青睐有加?" /><published>2024-01-09T00:00:00+08:00</published><updated>2024-01-09T00:00:00+08:00</updated><id>http://localhost:4000/2024/01/09/s1000d-features</id><content type="html" xml:base="http://localhost:4000/2024/01/09/s1000d-features.html"><![CDATA[<p>在年初的 tcworld 中国大会上，我做了一场题为《<a href="https://mp.weixin.qq.com/s?__biz=MzA5NzU4ODAwOQ==&amp;mid=2247487549&amp;idx=1&amp;sn=c87b4943cefe8e8868c95e17b05a790f&amp;chksm=909fd67ba7e85f6db3aacc11bdda8deb7bc73736cd3e5e4c03a07cabae768e4312e09a4bc34c#rd" title="我在 tcworld 2023 中国大会上的演讲">道阻且长：在高端装备制造业中实现技术文档高质量交付的实践与思考</a>》的演讲。</p>
+
+<p>在那次演讲中，我以一个欧美地铁列车项目为例，详细介绍了高端装备制造业中技术文档的交付要求和交付流程，并且还分享了项目中遇到的难点和痛点：</p>
+
+<ul>
+  <li>必须按照客户的要求（合同条款）编制，可回旋的余地很小。</li>
+  <li>内容的专业性特别强，对供应商手册进行内容整合的难度很大。</li>
+  <li>项目周期特别长，进度难以把控，管理难度大。</li>
+</ul>
+
+<p>针对这些问题，虽然我进行过很多思考，但都不足以从根本上解决问题。</p>
+
+<p>最近，我有机会和一位航空航天方面的同行聊了聊 S1000D，并借机向他了解了一下 S1000D 在轨道交通行业的应用情况。</p>
+
+<p>实际上，我在演讲中提到的这些难点和痛点，也同样困扰着那些在国际市场上声名显赫的轨道交通装备制造商们。</p>
+
+<p>早在 2013 年，法国轨道交通装备制造商阿尔斯通 (<a href="https://www.alstom.com/">ALSTOM</a>)、加拿大交通运输设备制造商庞巴迪 (<a href="https://bombardier.com/en">Bombardier</a>) 和法国国营铁路公司 (<a href="https://www.sncf.com/en">SNCF</a>) 就曾联合成立了一个指导委员会和工作组。</p>
+
+<p>他们希望能像海运业一样，基于 S1000D 制定出一套行业通用的数据交换协议 (RailDex)，使运营商（铁路公司、地铁公司等）、制造商和供应商可以遵循统一的规范来编制手册及其相关文档，以最大限度地减少各方在信息互通互用方面的成本。</p>
+
+<blockquote>
+  <p>海运业中通用的数据交换协议叫 Shipdex，首版发布于 2008 年。<br />
+Shipdex 使船东、造船厂、修船厂、船级社等都使用统一的规范编写手册及相关文档，以最大限度地减少各方在信息互通互用方面的成本。</p>
+</blockquote>
+
+<p>虽然 RailDex 后来非常遗憾地无疾而终了，但 S1000D 在轨道交通行业仍然是备受青睐的技术文档编制规范。只是大家在具体实施的时候各自为政罢了，不像航空航天和海运业那样在整个行业内实现了大一统。</p>
+
+<p>航空航天、船舶工程以及轨道交通装备都是以产品复杂度高、专业性强和产品使用寿命长而著称的行业。为什么这些行业都对 S1000D 青睐有加? S1000 到底有何独特之处?</p>
+
+<p>本文将从一个技术文档工程师的角度细说原委，希望能为那些对 S1000D 持观望态度的同行和企业提供更进一步的依据和勇气，也为那些没有机会实施 S1000D 但正面临相似困境的小伙伴们提供一些理念上的借鉴和参考。</p>
+
+<h1 id="管理模式">管理模式</h1>
+
+<p>在软件开发中，有两种开发方式经常被放在一起比较：敏捷开发和瀑布模型。敏捷开发通常是时尚、迅捷的代表，而瀑布模型往往以老旧、雍肿的“慢半拍”形象陪衬。</p>
+
+<p>但瀑布模型却和 S1000D 是一对儿管理搭子。S1000D 是起源于航空航天业的技术文档编制和管理规范，后来逐渐扩散到国防工业、船舶工程、轨道交通等行业。</p>
+
+<p>这些行业和航空航天业类似，都属于产品复杂度高、专业性强、产品使用寿命长的行业。在这些行业里，产品的研制都有非常规范、成熟的流程，属于典型的瀑布式研发。</p>
+
+<figure>
+  <img src="https://pic3.zhimg.com/80/v2-063b2e51f5267ff9b4807003aaeb733a_720w.webp" alt="" style="width: 100%; max-width: 550px;" />
+  <figcaption></figcaption>
+</figure>
+
+<p>在如此典型的瀑布式研发环境里，产品手册的编制自然也需要按照瀑布模型来进行。</p>
+
+<p>产品手册中需要涵盖的内容范围和深度，一般在项目初期就会确定下来，通常是按照客户要求或者合同条款来确定。</p>
+
+<p>产品手册的编写进度、验证计划和交付时间也需要配合产品的研发节点来安排。比如民用飞机的首飞、试飞取证、首架飞机交付和批生产，地铁列车的样车交付和量产车交付等。</p>
+
+<p>为了契合这些行业中瀑布式研发的需求，S1000D 规范不仅定义了基于模块化和结构化的手册编写方法，还使用业务规则、信息集和数据模块需求清单等方式来指导和规范内容规划阶段的工作。</p>
+
+<figure>
+  <img src="https://pic2.zhimg.com/80/v2-0036bd9c86aca6658ad79aaeb9feb96d_720w.webp" alt="" style="width: 100%; max-width: 550px;" />
+  <figcaption></figcaption>
+</figure>
+
+<h1 id="协同范围">协同范围</h1>
+
+<p>由于产品复杂度高、专业性强，飞机、邮轮、火车或地铁列车等产品的手册编写和维护不只需要多人协作，还需要多家公司协作。</p>
+
+<p>除了制造商，这些高度复杂的工业巨无霸们在研制过程中还需要众多零部件供应商的高度配合。</p>
+
+<p>例如，芝加哥 L 线 (Chicago L) 新一代地铁列车 CTA7000 有 24 家供应商，中国首艘大型邮轮爱达·魔都号有 361 家供应商，民航史上最成功的机型之一波音 737 有 600 多家供应商。</p>
+
+<figure>
+  <img src="https://pic1.zhimg.com/v2-4b9fe60fd2e41ae95b8ab2e5fa332c04_b.webp" alt="" />
+  <figcaption></figcaption>
+</figure>
+
+<p>无论是地铁公司、航空公司还是船东，运营商们都会要求制造商随产品一起交付内容完整、风格统一、正确无误的产品手册。</p>
+
+<p>如果没有统一的规范，各个供应商在编写手册时自成一派，那制造商就必须按照自己的写作规范将所有的供应商手册重写一遍，才能将这些内容整合进自己的手册里。</p>
+
+<p>工作量巨大不说，一些零部件（尤其是核心零部件）的技术含量特别高，制造商通常难以驾驭、甚至无法驾驭这些零部件手册的内容重写工作。</p>
+
+<p>即使是技术文档写作规范相对成熟的航空航天业，制造商在整合纸质版和 PDF 版的供应商手册时也需要做大量的重复性编辑工作，比如文字录入、复制粘贴和手册排版等。</p>
+
+<p>产品交付后，运营商需要根据产品手册制作作业指导书、维修卡片和培训材料等许多内部文件。在产品长长的寿命周期里，这些文件还需要根据手册的定期和不定期更新作出相应的修改。所以，大量枯燥的编辑工作也是运营商的恶梦。</p>
+
+<p>为了解决运营商、制造商和供应商在手册内容协作共享上的面临的困境，S1000D 规范除了能像其他结构化标准一样进行<a href="https://mp.weixin.qq.com/s?__biz=MzA5NzU4ODAwOQ==&amp;mid=2247486764&amp;idx=1&amp;sn=3aab543ff20d45dc1134734020f578a6&amp;chksm=909fcb6aa7e8427cb39bca43776bb26fea1779d2a937fad2fca2bc7011c6cd6357aa129d23e0#rd" title="什么是结构化文档">同源发布</a>以外，还支持各方以文件数据包的形式进行<strong>数据交换</strong>。</p>
+
+<p><strong>文件数据包</strong>里有数据模块（DM）、出版物模块 (PM)、数据模块里引用的所有插图和多媒体文件、以及记录文件数据包中所有文件信息的数据分发说明 (DDN) 等。</p>
+
+<figure>
+  <img src="https://pic1.zhimg.com/80/v2-b9879b1a5106975cf2a6349c44503d70_720w.webp" alt="S1000D 支持数据交换" title="S1000D 支持数据交换" style="width: 100%; max-width: 600px;" />
+  <figcaption>S1000D 支持数据交换</figcaption>
+</figure>
+
+<p>当然，S1000D 也为文件数据包制定了打包规则，比如文件命名规则、数据包内应该包含的文件种类和数量等。</p>
+
+<h1 id="定制方式">定制方式</h1>
+
+<p>S1000D 规范最初是专为军用飞机制定的技术文档编制规范，后来逐渐将适用范围扩展到各类军用和民用的海陆空装备。</p>
+
+<p>当一个企业或项目决定应用 S1000D 时，必须根据自身情况从 S1000D 规范中挑选出适合自己的部分。这个挑选过程，在 S1000D 中被称为<strong>裁剪</strong> (tailoring)。</p>
+
+<p>对于 S1000D 来说，裁剪有两层含义：</p>
+
+<p><strong>第一，去除不需要的部分。</strong>例如，S1000D 中定义了 20 多种数据模块类型，但如果船东要求制造商按照 Shipdex 2.3 交付产品手册，那么制造商就只能挑选出三种类型的数据模块来用 —— 描述类 (Descript)、维修程序类 (Procedure) 和图解零件数据类 (IPD)。</p>
+
+<blockquote>
+  <p>在上面的例子中，制造商在手册编制过程中也可以挑选更多的数据模块来用，比如适用性类数据模块和业务规则交换类数据模块。但是，制造商向船东交付的文件数据包里只能包含上述三种类型的数据模块。</p>
+
+  <p>也就是说，如果制造商在手册编制过程中使用了其他类型的数据模块，就必须在打包前完成对其他类型数据模块的解析。</p>
+</blockquote>
+
+<p><strong>第二，禁止创建新“枝叶”。</strong>例如，S1000D 中定义了三个等级的安全信息 —— 警告 (<code class="language-plaintext highlighter-rouge">&lt;warning&gt;</code>)、小心 (<code class="language-plaintext highlighter-rouge">&lt;caution&gt;</code>)和提示 (<code class="language-plaintext highlighter-rouge">&lt;note&gt;</code>)，如果船东要求制造商按照 ANSI Z535 的要求编写手册中的安全信息，那么制造商只能通过为 <code class="language-plaintext highlighter-rouge">&lt;warning&gt;</code> 设置属性的方式来标记“危险 (Danger) ”等级的安全信息，而不是自行创建一个新元素 <code class="language-plaintext highlighter-rouge">&lt;danger&gt;</code>。</p>
+
+<blockquote>
+  <p>ANSI Z535 定义了四个等级的安全信息：危险 (Danger)、警告 (Warning)、小心 (Caution) 和注意 (Notice)。</p>
+</blockquote>
+
+<h6 class="table-caption" id="shipdex-对于-ansi-z535-型安全信息的元素和属性使用规定">Shipdex 对于 ANSI Z535 型安全信息的元素和属性使用规定</h6>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">ANSI Z535</th>
+      <th style="text-align: left">元素</th>
+      <th style="text-align: left">属性</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Danger</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">&lt;warning&gt;</code></td>
+      <td style="text-align: left">vital = 1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Warning</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">&lt;warning&gt;</code></td>
+      <td style="text-align: left">vital = 0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Caution</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">&lt;caution&gt;</code></td>
+      <td style="text-align: left">type = 0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Notice</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">&lt;caution&gt;</code></td>
+      <td style="text-align: left">type = 1</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>裁剪的两层含义，意味着 S1000D 不具备任何扩展性。正是这种无扩展性设计，为企业与企业之间进行数据交换提供了最大程度的便捷。</p>
+
+<p>否则，如果制造商创建了新元素 <code class="language-plaintext highlighter-rouge">&lt;danger&gt;</code>，而船东的发布程序不认识 <code class="language-plaintext highlighter-rouge">&lt;danger&gt;</code>，还会将其标记为非法元素，这就尴尬了！</p>
+
+<p>为了让用户快速上手，S1000D 规范提供了一个叫做<strong>业务规则决策点索引</strong>的裁剪工具。这份索引就像一份调查问卷一样，里面包含 500 多个问题，比如：</p>
+
+<ul>
+  <li>请问你需要使用哪个版本的 S1000D?</li>
+  <li>请问你需要用到 S1000D 中的哪些信息集?</li>
+  <li>请问你是否需要使用 <code class="language-plaintext highlighter-rouge">@warningType</code> 属性? 如果使用，怎么用?</li>
+</ul>
+
+<p>当然，不是每个问题都必须回答，根据自身情况挑选跟自己相关的问题就行了。如果需要，你还可以提出新问题。</p>
+
+<p>问题回答完了，裁剪也就完成了。裁剪形成的答卷，叫做<strong>业务规则</strong>。裁剪中使用的问题，叫做<strong>业务规则决策点</strong> (BRDP)。</p>
+
+<figure>
+  <img src="https://pic3.zhimg.com/80/v2-537161b33ee15583f708a8c3109e2b16_720w.webp" alt="业务规则的制定过程" title="业务规则的制定过程" style="width: 100%; max-width: 650px;" />
+  <figcaption>业务规则的制定过程</figcaption>
+</figure>
+
+<h1 id="实施成本">实施成本</h1>
+
+<p>S1000D 是一种开放的标准，你可以通过 S1000D 官网免费下载或在线阅读。</p>
+
+<p>但 S1000D 并没有开源，不仅相关的开源软件特别特别少，而且免费的学习资源也不多。</p>
+
+<figure>
+  <img src="https://pic1.zhimg.com/80/v2-7e9941712fd8e76c867607f4e9b42b60_720w.webp" alt="" />
+  <figcaption></figcaption>
+</figure>
+
+<p>这种资源贫瘠的状况，自然与 S1000D 较高的入门门槛脱不了干系。</p>
+
+<p>最新版 S1000D 规范（PDF版）有 3500 页左右，文档长度远远超过其他结构化标准。除了前文提到的诸多内容之外，S1000D 还可以提供源数据管理、公共信息库 (CIR)、技术插图的制作规范以及用于信息管理的各种编码规范等等等等~~</p>
+
+<p>说它包罗万象、事无巨细一点也不为过，但学习难度也高啊！一般情况下，从传统的文档编制方法过渡到 S1000D 都需要专家指导。否则，过渡期会变得相当漫长，甚至会长到无法接受。</p>
+
+<p>其实，大多数主流的结构化文档编辑器和内容管理系统都支持 S1000D。只是由于选择使用 S1000D 的都是结构复杂、专业性强、使用寿命长的产品，需要更多的开发工作，所以部署 S1000D 的价格会高一些。</p>
+
+<p>按照 @技术传播百态说 的光荣传统，文末提供一点零星的资源：</p>
+
+<ul>
+  <li><a href="https://users.s1000d.org/Default.aspx" style="font-size: 14px;">S1000D 规范下载</a></li>
+  <li><a href="https://kibook.github.io/s1kd-tools/TUTORIAL.html" style="font-size: 14px;">S1000D 入门教程</a></li>
+</ul>
+
+<h1 id="refs" class="no_toc">参考资料</h1>
+
+<ol class="small">
+  <li>马小骏, 吉凤贤等. 基于S1000D规范的民用飞机维修类技术出版物开发技术[M]. 北京: 科学出版社, 2017.</li>
+  <li>Blandineau D, Ferland M, etc. <a href="https://www.aaig.at/wp-content/uploads/P6-Blandineau_Ferland-S1000D-UF-2013-Raildex.pdf">A Presentation on S1000D User Form 2013: RailDex</a> [OL]. [2013-9-16][2024-1-7].</li>
+  <li>Shipdex. <a href="https://ww2.shipdex.org/download/">The Shipdex Protocol, Issue 2.3</a> [M/OL]. [2015-6-20][2024-1-7].</li>
+  <li>Fandom. <a href="https://metro.fandom.com/wiki/7000-series_(CTA)">Metro Wiki: 7000-series (CTA)</a> [OL]. [2022-2-18][2024-1-7].</li>
+  <li>新华网. <a href="https://baijiahao.baidu.com/s?id=1786879972224550194&amp;wfr=spider&amp;for=pc">国产首艘大型邮轮“爱达·魔都号”开启商业首航</a>[OL]. [2024-1-2][2024-1-7].</li>
+  <li>Elaine Schwartz. <a href="https://econlife.com/2020/01/the-737-max-supply-chain/#:~:text=More%20than%20a%20U.S.%2C%20airplane%2C%20the%20Boeing%20737,the%20600%20companies%20in%20its%20global%20supply%20chain.">A Global Look at the 737 MAX</a> [OL]. [2020-1-13][2024-1-7].</li>
+  <li>轩振原等. 基于S1000D的动产组IETM管理平台研究[J]. 计算机应用, 2022, 31(3): 42-47.</li>
+  <li>王辉等. 基于S1000D的动车组技术信息结构化方法[J]. 中国铁路,2016(2):5.</li>
+</ol>
+
+<!-- link definition -->]]></content><author><name>王烨</name></author><category term="文档技术" /><summary type="html"><![CDATA[从技术文档工程师的角度解读S1000D的独特之处。]]></summary></entry><entry><title type="html">全球大厂的技术文档写作指南们！</title><link href="http://localhost:4000/2021/06/25/top-10-editorial-style-guides-for-technical-writing.html" rel="alternate" type="text/html" title="全球大厂的技术文档写作指南们！" /><published>2021-06-25T00:00:00+08:00</published><updated>2021-06-25T00:00:00+08:00</updated><id>http://localhost:4000/2021/06/25/top-10-editorial-style-guides-for-technical-writing</id><content type="html" xml:base="http://localhost:4000/2021/06/25/top-10-editorial-style-guides-for-technical-writing.html"><![CDATA[<p>产品文档最讲究两点：简明扼要，文风一致。</p>
 
 <p>“简明扼要”尚可依仗技术写作人员的专业能力来实现，可“文风一致”怎么做到呢? 靠技术写作人员的个人感觉吗? 如果产品文档需要多人共同完成，怎样办?</p>
 
@@ -162,292 +1500,4 @@
 
 <p>写作指南中最好明确说明，哪些外部资源可供参考，这些外部资源有没有优先级，等等。</p>
 
-<p>现在，你可以站在巨人们的肩头上编写自己的技术文写作指南了！</p>]]></content><author><name>王烨</name></author><category term="学习资源" /><summary type="html"><![CDATA[微软、谷歌、IBM 等数十家大厂的 Style Guides，全在这里了！]]></summary></entry><entry><title type="html">技术传播职业认证，了解一下?</title><link href="http://localhost:4000/2020/12/31/certificated-professional-technical-communicator.html" rel="alternate" type="text/html" title="技术传播职业认证，了解一下?" /><published>2020-12-31T00:00:00+08:00</published><updated>2020-12-31T00:00:00+08:00</updated><id>http://localhost:4000/2020/12/31/certificated-professional-technical-communicator</id><content type="html" xml:base="http://localhost:4000/2020/12/31/certificated-professional-technical-communicator.html"><![CDATA[<p>技术写作，早在 20 世纪 50 年代初就引起美国工业界的重视（尤其是航空、军工、电子和生产制造领域），并且出现了专门致力于发展技术传播的组织。</p>
-
-<p>之后经过 50 多年的发展，尤其是 2000 年以后计算机软件对在线技术文档的需求急剧增加，Technical Writer 的职业影响力显著提升。</p>
-
-<p>2009 年，Technical Writer 被美国劳工统计局认定为独立的职业类别，列为美国劳工部的就业数据统计门类之一。</p>
-
-<blockquote>
-  <p>本文基于中国技术传播大会上一位嘉宾的分享，经过资料再确认和再收集后重新编辑而成。但这位嘉宾并未在直播时透露自己的身份。</p>
-</blockquote>
-
-<h2 id="技术传播发展现状">技术传播发展现状</h2>
-
-<p>Technical Writer 是指编写技术资料的专业人员，包括但不限于产品手册、操作手册、维修手册、参考手册等。</p>
-
-<blockquote>
-  <p>Technical Writer 在国内一般叫做技术文档工程师。遗憾的是，直到现在这个工种都没有取得国家认可的专业类别。</p>
-</blockquote>
-
-<p>按照美国劳工统计局的数据，2019 年美国共有 5.8 万名技术写作从业者，大多具有本科以上学历，年薪中位数将近 7.3 万美元（约合 47 万元人民币），平均从业经验在 5 年以内。</p>
-
-<figure>
-  <img src="https://pic2.zhimg.com/80/v2-9a1e77ed251afe8a1d5798b81838b795_720w.webp" alt="数据来源：STC薪资数据库（2018-2019）" />
-  <figcaption>数据来源：STC薪资数据库（2018-2019）</figcaption>
-</figure>
-
-<figure>
-  <img src="https://pic4.zhimg.com/80/v2-231d1bc0effa74fbc6173c22545e971b_720w.webp" alt="数据来源：STC薪资数据库（2018-2019）" />
-  <figcaption>数据来源：STC薪资数据库（2018-2019）</figcaption>
-</figure>
-
-<p>从 2014-2018 年的从业人数和薪资增长幅度来看，技术写作目前在美国处于平稳发展期，从业人员数量和薪资水平都是缓慢增长的状态。</p>
-
-<p>与其他媒体类岗位相比，技术写作的从业人数不算多（和翻译人员、作家差不多），但薪资水平在这里面却是最高的。</p>
-
-<figure>
-  <img src="https://pic1.zhimg.com/80/v2-77fed627f5635f12aa64b40e8349d1b0_720w.webp" alt="数据来源：STC薪资数据库（2018-2019）" />
-  <figcaption>数据来源：STC薪资数据库（2018-2019）</figcaption>
-</figure>
-
-<p>技术写作从业者的年薪中位数比年薪平均值低 5% 左右，表明各个薪资水平上的人员分布呈正偏态分布。也就是说，高薪段的从业人员数量较多。</p>
-
-<h2 id="技术传播教育体系">技术传播教育体系</h2>
-
-<p>美国高校早在 1958 年就开始开设技术传播（Technical Communication）专业，现在全美已经有几百个技术传播专业的学位项目，本硕博全都有。</p>
-
-<blockquote>
-  <p>美国的学位有两种：Undergraduate 和 Graduate 。</p>
-
-  <p>Undergraduate 相当于中国的本科，Graduate 相当于中国的研究生阶段，既可以是硕士研究生，也可以是博士研究生。</p>
-
-  <p>另外，Majors 和我们常说的“你是哪个专业的”里的“专业”同义。而 Minors 指的是辅修专业。</p>
-</blockquote>
-
-<p>这些学位项目里，有面向未来的技术写作从业者的，也有面向未来的技术传播教育者（教师）的，还有作为辅修专业学习的。</p>
-
-<p>据统计，美国的技术写作从业者中有 32% 是科班出身，拥有技术传播专业的学位。</p>
-
-<p>那——，另外的 68% 又是怎样具备这些专业技能并被认可的呢?</p>
-
-<p>工业界的工程师们最先关注到技术写作的问题，开设技术传播课程最多的其实也是工科院校。只不过，这些课程是作为提高工科学生技术写作能力的普通课程而设置的，并不专门授予学位。</p>
-
-<blockquote>
-  <p>目前中国还没有开设技术传播专业学位课的高校。但很多高校已经有关于技术写作的普通课程，北京大学、东南大学等少数院校正在尝试将其向学位方向发展。</p>
-</blockquote>
-
-<p>正如<a href="/2020/12/29/how-does-huawei-produce-their-technical-documentation.html">前华为翻译专家张建农先生</a>所说，产品技术方面的专业知识是技术写作人员的核心能力之一。很多拥有某一领域专业技术背景的人，可以凭借这一优势进入技术写作领域。</p>
-
-<h2 id="美国的认证体系">美国的认证体系</h2>
-
-<p>对于在职人员来说，如果希望进一步提升专业能力或者寻求一种专业认可，再回学校攻读学位或许并不是一个理想的选择。这时，他们可以选择另一条途径：认证。</p>
-
-<p>美国的认证体系很发达，通常又细分为几种：</p>
-
-<p>Certificate 是最容易的一种认证。这个认证的授予机构一般是为你提供课程或培训的单位，仅表示你完成了某个课程或者培训。比如：</p>
-
-<p>Certification 是一种专业认证，有标准的评估流程。认证机构通常是国际机构、政府机构、具有资质的第三方独立机构等。申请人自愿参加，但需要具备一定着资历或资质，比如从业年限、某项认证等。这种认证一般都有有效期限（比如 2 年或 3 年），并不是一劳永逸，从此就高枕无忧了。</p>
-
-<p>License 是指那些法律法规强制要求“持证上岗”的执业资格认证，比如执业医师资格证。</p>
-
-<h2 id="技术传播职业认证">技术传播职业认证</h2>
-
-<p>技术传播类的认证只涉及前两种：Certificate 和 Certification。</p>
-
-<p>Certificate 类的认证有很多。高校、专业协会、甚至技术写作类的公司也会提供这类的培训课程，比如 <a href="https://learningdita.com/">learningDITA</a> 网站的用户每完成一个章节的学习，都会收到一个小证书。</p>
-
-<p>Certification 类的技术传播认证一般是指由 <a href="www.stc.org">STC</a> 组织的 <a href="https://www.stc.org/certification/">CPTC 认证</a>。该认证分 3 个等级：</p>
-
-<ul>
-  <li>基础级 (Foundation)</li>
-  <li>应用级 (Practitioner)</li>
-  <li>专家级 (Expert)</li>
-</ul>
-
-<blockquote>
-  <p>STC 是美国成立最早的技术传播组织。
- CPTC 是 STC 的技术传播认证项目。</p>
-</blockquote>
-
-<figure>
-  <img src="https://pica.zhimg.com/80/v2-6fdbb5493b30aaddeec19c6a67c796a3_720w.jpeg?source=d16d100b" alt="" style="max-width: 790px;" />
-  <figcaption></figcaption>
-</figure>
-
-<p><a href="https://www.stc.org/certification/foundation-certification/"><strong>基础级</strong></a>主要评估考生对技术传播理论知识的掌握情况。考卷包含 50 道多项选择题，考试通过需要答对 70% 以上，考试时间 40 分钟，闭卷考试。考试费用为 515 美元，STC 成员可享 260 美元的优惠价。</p>
-
-<figure>
-  <img src="https://picx.zhimg.com/80/v2-c117b1d9a754d80ff5ec1a2ac200b040_720w.jpeg?source=d16d100b" alt="CPTC基础级考试信息" style="max-width: 469px;" />
-  <figcaption>CPTC基础级考试信息</figcaption>
-</figure>
-
-<p><a href="https://www.stc.org/certification/practitioner-certification/"><strong>应用级</strong></a>主要评估考生在实际场景中灵活应用技术传播理论的能力，更加注重实操。考卷包含 4 个情景题，每个情景题包含 20 个问题行，考试时间 100 分钟，闭卷考试。和基础级一样，考试通过需要答对 70% 以上。考试费用为 615 美元，STC 成员可享 360 美元的优惠价。</p>
-
-<figure>
-  <img src="https://picx.zhimg.com/80/v2-dcde18fdff25dd37fe030231a5cadd43_720w.jpeg?source=d16d100b" alt="CPTC应用级考试信息" style="max-width: 453px;" />
-  <figcaption>CPTC应用级考试信息</figcaption>
-</figure>
-
-<p><strong>专家级</strong>需要有实际的工作成果，并进行专家面试。目前专家级考试正在改革中，没有开放申请。</p>
-
-<p>CPTC 认证考试的<strong>指定教材</strong>是由 Richard Johnson-Sheehan 编写的 <em>Technical Communication Today</em>。</p>
-
-<p>想自学的同学还可以从 STC 官网下载以下资料（点击链接即可）:</p>
-
-<ul>
-  <li><a href="https://www.stc.org/wp-content/uploads/2020/04/cptcstudyguide-Foundation.pdf">STC Foundation Study Guide</a>;</li>
-  <li><a href="https://www.stc.org/certification/sample-questions/">Sample Questions</a>（基础级）;</li>
-  <li><a href="https://www.stc.org/wp-content/uploads/2020/04/CPTC-Practitioner-Study-Guide.pdf">STC Practitioner Study Guide</a>;</li>
-</ul>
-
-<p>另外，<a href="https://mk0avenuetjo4k1o6nk6.kinstacdn.com/wp-content/uploads/2020/04/Intercom-Jan2016-2.pdf">2016 年 1 月期</a> 和 <a href="https://mk0avenuetjo4k1o6nk6.kinstacdn.com/wp-content/uploads/2020/04/Intercom-Mar2017.pdf">2017 年 3 月期</a> 的 STC 刊物 <em>Intercom</em> 里，有关于基础级认证的更多详细信息。</p>
-
-<p>STC 的合作伙伴 APMG（一家英国公司），负责 CPTC 的全部考试事宜。考生可以通过 <a href="https://apmg-international.com/product/cptc">APMG 官网</a> 在线预约并参加考试。</p>
-
-<h2 id="续期要求">续期要求</h2>
-
-<p>CPTC 认证的有效期是两年，另外还有两年的宽限期。</p>
-
-<p>如果不想让证书失效，你需要通过不断地学习或者持续的工作业绩来获得积分。每两年积 12 分，可以让证书顺利进入下一个有效期。</p>
-
-<p>如果万一你在证书到期前没有积满 12 分，证书也不会马上失效，还有两年的宽限期。只要你在宽限期多多努力，把前两年没积满的分补回来即可（积满 24 分，即 12 + 12）。</p>
-
-<p>获得积分的方式，可以是参加 STC 的在线会议、网络课程、年度峰会等活动，也可以是在技术传播相关的期刊杂志、学术会议上发表文章、论文或演讲，还可以是出版技术传播类的书籍。</p>
-
-<p>STC 对每一种学习方式或贡献方式所能获得的积分都有具体规定，可在 <a href="https://www.stc.org/certification/continuing-education/">STC 官网</a>查询。</p>
-
-<figure>
-  <img src="https://picx.zhimg.com/80/v2-000ab2782a6f3befa56a6ccdeec053b9_720w.jpeg?source=d16d100b" alt="获取积分的方式" style="max-width: 790px;" />
-  <figcaption>获取积分的方式</figcaption>
-</figure>
-
-<h2 id="技术传播专业社区">技术传播专业社区</h2>
-
-<p><abbr title="Society for Technical Communication"><a href="https://www.stc.org/">STC</a></abbr> 美国最早成立的技术传播专业社区，由航空、军工、电子和制造领域的工程师们发起，主要关注工程领域的技术写作。</p>
-
-<p>它，就是上面啰嗦了一都堆的 CPTC 认证的主办方。</p>
-
-<p><abbr title="IEEE Professional Communication Society"><a href="https://procomm.ieee.org/">PCS</a></abbr> 成立于 1957 年，由 <abbr title="The Institute of Radio Engineers">IRE</abbr> 的一群成员发起。</p>
-
-<p>他们觉得工程师领域的沟通变得越来越复杂，工程师的技术沟通技巧需要提高。后来，所有的工程学院都被要求设置技术写作课程。</p>
-
-<p>1978 年 PCS 更名为现在的名字，成为 IEEE 的下属机构。</p>
-
-<p>PCS 每年举办 ProComm 会议，定期出版 <em>Transactions on Professional Communication</em>（出版物）。</p>
-
-<p><abbr title="Special Interest Group on Design of Communication"><a href="http://sigdoc.acm.org/">SIGDOC</a></abbr> 是计算机领域的技术写作人员组成的技术传播组织，隶属于 <abbr title="Association for Computing Machinery">ACM</abbr>。</p>
-
-<p><abbr title="Association of Teachers of Technical Writing"><a href="http://attw.org/">ATTW</a></abbr> 和 <abbr title="Council for Programs in Technical and Scientific Communication"><a href="http://cptsc.org/">CPTSC</a></abbr> 是技术传播教育工作者组成的社区，分别成立于 1973 年和 1974 年，旨在促进技术传播专业教育的发展。</p>]]></content><author><name>王烨</name></author><category term="职业发展" /><summary type="html"><![CDATA[带你了解技术传播在美国的发展现状、美国的认证体系、以及技术传播职业认证 (CPTC) 的详情与价值。]]></summary></entry><entry><title type="html">华为的技术资料是如何打造出来的?</title><link href="http://localhost:4000/2020/12/29/how-does-huawei-produce-their-technical-documentation.html" rel="alternate" type="text/html" title="华为的技术资料是如何打造出来的?" /><published>2020-12-29T00:00:00+08:00</published><updated>2020-12-29T00:00:00+08:00</updated><id>http://localhost:4000/2020/12/29/how-does-huawei-produce-their-technical-documentation</id><content type="html" xml:base="http://localhost:4000/2020/12/29/how-does-huawei-produce-their-technical-documentation.html"><![CDATA[<p>昨天下午，前华为翻译中心南京分部经理、华为 2012 实验室南研分部部长张建农先生做客 2020 年中国技术传播论坛，分享了华为在技术写作和技术翻译方面的诸多实践经验，也为技术写作和技术翻译方面的从业者指明了努力方向。</p>
-
-<h2 id="技术写作和技术翻译是一个岗位吗">技术写作和技术翻译是一个岗位吗?</h2>
-
-<p>在华为，这是<strong>两个</strong>彼此独立但经常通力合作的部门。</p>
-
-<p>技术写作人员，又叫技术文档工程师或 Technical Writer，大多具有理工科专业背景（比如通信专业），负责撰写技术资料的中文版本或英文版本。</p>
-
-<p>早年，技术写作人员归属于技术资料部，现已被分拆到各个产品线的研发团队。市场的发展与竞争，使产品研发周期从 2 年左右缩短到 1~2 个月。分拆的目的，主要是为了加强技术写作人员与研发人员的协同合作。</p>
-
-<figure>
-  <img src="https://pic3.zhimg.com/80/v2-c57cf20997ec38c1a19281104046c212_720w.webp" alt="" />
-  <figcaption></figcaption>
-</figure>
-
-<p>技术翻译人员，大多具有语言专业背景，负责将中文版的技术资料翻译成英文，或者将英文版的技术资料翻译成其他语种（120 多种语言）。</p>
-
-<p>华为的技术资料一般使用中文起稿撰写，然后将中文版翻译成英文版，再由英文版翻译成其他语种。这也是目前国内厂商普遍采用的流程。</p>
-
-<pre class="mermaid">
-flowchart LR
-  A(中文版)--&gt;B(英文版)
-  B(英文版)--&gt;C(其他语种)
-</pre>
-
-<p>和技术写作团队不同，技术翻译部门在华为经历的是一个完成相反的历程。最初技术翻译人员是编制在各个产品线上的。2008 年以后，收拢成立华为翻译中心，作为独立核算的实体进行运营。</p>
-
-<p>很多国外企业使用英文起稿撰写，然后将其翻译成其他语种。这种方式，显然会降低翻译成本，但对技术写作人员的要求更高。</p>
-
-<p>实际上，即使采用英文起稿，这些工作也是大多交由国外的技术文档团队完成，或者公司团队中的外籍技术写作人员（成本又上去了）。</p>
-
-<p>华为现在正在对这种方式进行试点，但全面实施尚有难度。</p>
-
-<blockquote>
-  <p><strong>为什么不直接从中文版翻译成其他语种?</strong> 因为具备如此能力的翻译人员太难找了！</p>
-
-  <p>中国学生在中学时期一般学英语。小语种专业的学生也是从大学才开始学起的。到毕业时，小语种专业的学生也只学了 4 年左右，实在难以胜任此类工作。
-想想看，有多少学生学了 10 年英语还存在阅读困难的！</p>
-</blockquote>
-
-<h2 id="工作流程是什么样的">工作流程是什么样的?</h2>
-
-<p>技术写作和技术翻译都必须遵循华为的集成产品开发流程，即 IPD 流程。</p>
-
-<p>项目伊始，技术写作人员和技术翻译人员便参与到客户的需求分析流程中，从项目文件中提取相关标准、术语规范等，综合考虑华为公司标准以及相关国际标准后制定出项目标准。</p>
-
-<p>技术资料的写作和翻译过程，均采用软件开发中常用的敏捷开发和迭代开发方法，小批快翻，快速迭代，快速响应，与研发进程保持同步。</p>
-
-<p>对技术资料进行翻译前，必须进行原文质量检查（入口检查）。如果原文质量差，译文的质量只能更差。</p>
-
-<p>检查的依据，就是项目开始时制定出的项目标准，比如 Style Guide。如果原文中存在与标准不符的地方，译员便可将其退回给原作者（技术写作人员）修改。</p>
-
-<blockquote>
-  <p>如果技术写作人员确实很忙，译员也会帮忙修改。但这种情况非常少见。<br />
-因为华为翻译中心是独立核算的，译员帮的忙是收费项目。被帮忙的员工要拿着收费清单，报主管批准才行（通常，主管很不乐意批这种单子）。</p>
-</blockquote>
-
-<p>翻译完成的技术资料，要进行测试验证后才能发布。测试验证可以交由其他部门来做，比如研发人员、测试人员、技术写作人员。</p>
-
-<blockquote>
-  <p>其实这里对各个部门的人员提出了一个隐含的要求：<br />
-每个岗位的员工只掌握自己岗位的专业知识的不够的，还需要对关联岗位的专业技能也有所涉猎。<br />
-不然，在入口检查、测试验证时很可能提出很多无效的问题，浪费公司的资源、同事的精力。</p>
-</blockquote>
-
-<figure>
-  <img src="https://pic4.zhimg.com/80/v2-34332710b8820d68b973aeb90fa85693_720w.webp" alt="" />
-  <figcaption></figcaption>
-</figure>
-
-<p>技术资料发布后，技术写作人员和技术翻译人员还会追踪客户满意度。这里的客户，既包括内部客户，也包括外部客户。</p>
-
-<p>以技术翻译为例，内部客户可能是原文作者，也可能是产品线负责人，他们会对交付的译文进行打分，特别不满意时还可以进行投诉。</p>
-
-<p>对于外部客户，华为每年都会安排一次拜访，技术写作人员和技术翻译人员均会参与其中，收集客户对技术资料的使用情况、意见建议，并形成客户满意度调查报告。</p>
-
-<p>对于客户满意度调查报告中指出的问题和建议，技术写作人员和技术翻译人员将共同协商制定出改进措施和完成时间表，并追踪执行情况。</p>
-
-<p>除此之外，华为还会组织第三方满意度调查，并将调查结果与竞争对手的数据进行比较，进而形成对产品研发团队或翻译中心的团队考评。</p>
-
-<p>无论是来自内部客户的打分、投诉，还是来自第三方满意度调查的团队考评，最终都会直接影响到年终奖金和升职加薪。</p>
-
-<h2 id="岗位要求和核心能力有哪些">岗位要求和核心能力有哪些?</h2>
-
-<p>一名优秀的技术写作人员或技术翻译人员必须掌握产品知识，努力成为特定领域的产品技术专家。</p>
-
-<p>华为的技术文档工程师大多是工科毕业生，对产品知识的接受能力很强。</p>
-
-<p>译员大多来自语言专业，产品相关的专业基础薄弱，但是现在已经出现理工科背景毕业生增多的趋势。</p>
-
-<p>如果技术文档工程师不懂产品技术，就不能与研发人员流畅地沟通，从而不能获得技术资料所需的信息，更写不出用户需要的技术资料。</p>
-
-<p>如果译员看不懂技术资料的原文，就翻译不出高质量的译文，还不如直接使用机器翻译。</p>
-
-<p>这就是为什么这些岗位如此看重产品技术方面的专业能力的原因。</p>
-
-<p>华为也会采用多种方式为员工提升这方面专业能力创造机会。比如到生产制造部门实习，上岗前进行产品应用培训，创建和维护公司知识库等。</p>
-
-<p>除此之外，语言能力、写作能力、自我管理能力也是技术写作人员和技术翻译人员的必备能力。</p>
-
-<p>产品在更新，技术在发展。平时多了解竞争对手的发展动向，新技术新工具的市场情况，努力跟上（最好超越）国际最新的发展趋势和先进水平。</p>
-
-<figure>
-  <img src="https://pic2.zhimg.com/80/v2-8f279880cd694944fac42aef04860b71_720w.webp" alt="" />
-  <figcaption></figcaption>
-</figure>
-
-<h2 id="未来发展趋势">未来发展趋势</h2>
-
-<p>翻译，传统上属于劳动密集型行业。</p>
-
-<p>近年来人工智能、机器学习的发展助推了机器翻译的译文质量提升，使用范围也越来越广，正在很多领域逐步取代传统的人工翻译。</p>
-
-<figure>
-  <img src="https://pic2.zhimg.com/80/v2-b1b4122e79fc8463ab7a12bc085cd95d_720w.webp" alt="" />
-  <figcaption></figcaption>
-</figure>
-
-<p>技术翻译因为对专业性和精确性要求较高，机器翻译的质量尚不能完全满足要求。但是，技术资料本身的规则性很可能成为日后机器学习助力机器翻译的有利因素。</p>
-
-<p>除了机器翻译，机器写作近来也屡屡出来晒成绩。比如新华社的快笔小新、腾迅的 Dreamwriter，国外很多媒体也早已采用了机器人撰写部分新闻稿件的技术。</p>
-
-<p>未来，机器写作有可能在技术写作领域取得进展，尤其是安装手册、维修手册等较为规则化的文档。</p>]]></content><author><name>王烨</name></author><category term="技术写作" /><summary type="html"><![CDATA[前华为经理详细讲解华为内部技术文档和技术翻译的工作流程。]]></summary></entry></feed>
+<p>现在，你可以站在巨人们的肩头上编写自己的技术文写作指南了！</p>]]></content><author><name>王烨</name></author><category term="学习资源" /><summary type="html"><![CDATA[微软、谷歌、IBM 等数十家大厂的 Style Guides，全在这里了！]]></summary></entry></feed>
