@@ -1,4 +1,351 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-23T17:57:29+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">技术传播百态说</title><subtitle>解密文档技术，精研技术写作，评说行业百态。</subtitle><author><name>王烨</name></author><entry><title type="html">2017-2024年DITA满意度调查报告</title><link href="http://localhost:4000/2024/07/23/2024-DITA-satisfaction-report.html" rel="alternate" type="text/html" title="2017-2024年DITA满意度调查报告" /><published>2024-07-23T00:00:00+08:00</published><updated>2024-07-23T00:00:00+08:00</updated><id>http://localhost:4000/2024/07/23/2024-DITA-satisfaction-report</id><content type="html" xml:base="http://localhost:4000/2024/07/23/2024-DITA-satisfaction-report.html"><![CDATA[<p>DITA (Darwin Information Typing Architecture) 原是 IBM 的技术文档专家开发的内部标准，2004 年 IBM 将其捐赠给了结构化信息标准促进组织 (OASIS)。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-05T17:14:57+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">技术传播百态说</title><subtitle>解密文档技术，精研技术写作，评说行业百态。</subtitle><author><name>王烨</name></author><entry><title type="html">编程小白，借助AI大模型真能摇身一变成为“伪程序员”吗?</title><link href="http://localhost:4000/2024/09/03/how-to-become-a-developer-with-ai.html" rel="alternate" type="text/html" title="编程小白，借助AI大模型真能摇身一变成为“伪程序员”吗?" /><published>2024-09-03T00:00:00+08:00</published><updated>2024-09-03T00:00:00+08:00</updated><id>http://localhost:4000/2024/09/03/how-to-become-a-developer-with-ai</id><content type="html" xml:base="http://localhost:4000/2024/09/03/how-to-become-a-developer-with-ai.html"><![CDATA[<p>近日，北京语言大学高级翻译学院的<a href="https://mp.weixin.qq.com/s/a8D-beu-Q3SZ6GV2Z_6a5Q">韩林涛老师利用 AI 大模型和腾讯云的产品文档《云点播开发指南》成功开发出了一种非常实用的交互式英语口语学习工具</a>。</p>
+
+<p>通过这个工具，学生们不仅可以一边看视频，一边练口语，还能通过 AI 评测实时了解练习成绩。更厉害的是，所有的口语练习素材都是依靠 AI 大模型从视频中自动提取的。</p>
+
+<figure>
+  <img src="https://pic3.zhimg.com/80/v2-11c7f55bf1a21e4d7ad565c49be6df88_720w.webp" alt="" style="max-width: 600px;" />
+  <figcaption></figcaption>
+</figure>
+
+<p>听上去很高深吧? 但韩林涛老师坦言，自己其实是实打实的“英语专业出身”，最多只能算个“半路出家的伪程序员”！</p>
+
+<p>“这种级别的伪程序员，也高出普通人十万八千里吧?！”</p>
+
+<p>“又是一个喜欢钻研、不断突破自己的人间偶像！”</p>
+
+<p>你是不是也正在这样腹诽呢?</p>
+
+<p>或许这些都对，但绝对没你想的那么遥不可及。</p>
+
+<p><a href="/2024/08/06/2024-stackoverflow-developer-survey.html" title="2024年Stack Overflow开发者年度调查">Stack Overflow 的最新调查</a>显示，现在学习编程的人里有将近一半没有接受过高等教育，只有高中或以下文化水平。不管是专业程序员还是尚在学习阶段的新手，都喜欢使用 AI 辅助编程。他们认为，AI 可以大大提高他们的工作效率和学习效率。</p>
+
+<p>去年年底写 <a href="https://mp.weixin.qq.com/s?__biz=MzA5NzU4ODAwOQ==&amp;mid=2247487616&amp;idx=1&amp;sn=3bcc84fe9bd05dcc3c770cd445250286&amp;chksm=909fd6c6a7e85fd080bdcd6ef8869eb1ce35c4cb4f0e664b3ba266798180647f53f2cca25170&amp;token=1881577163&amp;lang=zh_CN&amp;poc_token=HFmqwWajJ1qcKUYhvCOOKsxidb_WfTSGsv8I6z7y" title="技术传播百态说2023年年终总结">2023 年年终总结</a> 时，我决定尝试使用 AI 大模型来提高工作效率。半年多过去了，我发现我用 AI 大模型做得最多的事情也是编程。</p>
+
+<p>除了提高编程速度之外，AI 大模型还让我做到了很多我以前不敢做、做不了的事情。赋能，这或许就是 AI 大模型让我们欲罢不能的根本原因吧！</p>
+
+<p>借着这个话头，我也来一次现身说法：</p>
+
+<p>AI 辅助编程，其实一点也不难。只要你会说话，把你的需要或者你的问题告诉 AI 大模型，不需要多么深厚的编程基础，不需要懂什么提示工程，你就能做很多事情。</p>
+
+<p>接下来，我会介绍几个真实的、高频出现的应用场景。在这些场景里，你只要让 AI 大模型帮忙写写使用说明、解释一下代码、修改一下现有的代码或者编写一小段代码，就能发现很多小而美的工具，告别很多枯燥的工作，甚至还能写出自己的小应用呢！</p>
+
+<blockquote>
+  <p>我常用的 AI 大模型是通义千问，主要是考虑它允许的提示词长度最大，可以上传文件，免费的语音转文字，功能齐全。<br />
+但我并不是它的宣传大使，你可以根据自己的喜好选择合适的 AI 大模型。我相信，它们都能做好本文提到的这些事情。</p>
+</blockquote>
+
+<h2 id="发掘长尾工具">发掘长尾工具</h2>
+
+<p><a href="https://www.brighttalk.com/" title="BrightTALK官网">BrightTALK</a> 是一个国外很流行的在线研讨会 (Webinars) 平台，很多企业界的资深专业人员在那里进行专业演讲或举行专业访谈。</p>
+
+<p>我经常去 BrightTALK 听一些技术传播类的专业分享。所有的演讲和访谈使用的语言都是英语，没有字幕。</p>
+
+<figure>
+  <img src="https://pic1.zhimg.com/80/v2-20cf05ce540588a778de14cad04955da_720w.webp" alt="" style="max-width: 600px;" />
+  <figcaption></figcaption>
+</figure>
+
+<p>如果演讲嘉宾或访谈对象的母语是英语，他们的语速会比较快，表达方式也相当灵活，经常一从到底（一段话里只有一个句子，这个句子里连着用了七八个从句甚至更多）。如果演讲嘉宾或访谈对象也像我们一样，将英语作为第二语言，他们的语速稍微慢一些，但口音会有些重。</p>
+
+<p>总之，我说了这么多就是想表达一个意思，“我听不懂，不是因为我英语不好”。<s>而是，他们太不会“说话”了。还有，为什么就没有个字幕?</s></p>
+
+<p>所以，我打算把视频下载下来，用通义千问转成文本。我只搜到了 GitHub 上的一个小工具好像可以用来下载 BrightTALK 视频。这个小工具叫 <a href="https://github.com/alfredzou/BrightTalk-video-downloader" title="BrightTALK Video Downloader">BrightTalk 视频下载器</a>，只有两颗星 (Star)，基本处于无人问津的状态。</p>
+
+<figure>
+  <img src="https://picx.zhimg.com/80/v2-e910134c80d4ac9e175383aa1cd9b441_720w.webp" alt="" style="max-width: 600px;" />
+  <figcaption></figcaption>
+</figure>
+
+<p>要在以前，我看到这种无人问津的代码库就会扭头就走。主要是因为，这类代码库要么没有使用说明，要么使用说明写得很粗糙，我这三脚猫的水平根本就不会安装。</p>
+
+<p>这次，我决定试一试。如果安装不顺利，就找通义千问帮帮忙。</p>
+
+<p>我按照 Readme 中的安装说明做完了所有的步骤，但一运行就报错。果然不出所料啊！</p>
+
+<p>于是，我把这个事情的概要、BrightTalk 视频下载器的存储库地址和运行时的报错一起发给了通义千问。</p>
+
+<p>在它的指导下，我又安装了两个 Python 软件包（图形用户界面软件包 <a href="https://pysimplegui.com/">PySimpleGUI</a> 和 FFmpeg 功能调用软件包 <a href="https://pypi.org/project/python-ffmpeg/">ffmpeg-python</a>），BrightTalk 视频下载器才能正常运行了。</p>
+
+<figure>
+  <img src="https://pic4.zhimg.com/80/v2-4879f1e74b25d371d33fb7a1b17729db_720w.webp" alt="" />
+  <figcaption></figcaption>
+</figure>
+
+<p>和通义千问交流时，我的提示词一点也不讲究，甚至还有点二，就像在向一个朋友求助一样。但就算这样，咱把事儿给办了！</p>
+
+<p>GitHub 上的存储库浩如烟海，像 BrightTalk 视频下载器这样用户少、文档不完善的小应用还有很多很多。如果你也去发掘一下，我相信你也会遇见独一无二的惊喜！</p>
+
+<h2 id="批量处理文件">批量处理文件</h2>
+
+<p>作为一个公众号号主，我每年都要从微信公众平台下载很多数据进行统计分析，比如用户增长数据、流量和渠道分布数据等。</p>
+
+<p>由于平台只允许单次下载最多 90 天的数据（大约 3 个月），我需要下载 6 次才能获得一年的数据。也就是说，每年每项数据都需要下载至少 6 张 Excel 表。</p>
+
+<figure>
+  <img src="https://picx.zhimg.com/80/v2-bfa0b43ca9cddcfd78993e3aaa2f4a99_720w.webp" alt="" />
+  <figcaption></figcaption>
+</figure>
+
+<p>这些 Excel 表往往不能直接使用，得先进行一些处理。比如，有些 Excel 表中都是文本型数据，需要全部转换为数字格式才能做进一步的统计；有些 Excel 表的第一行是标题行，不便于多表合并。</p>
+
+<figure>
+  <img src="https://pic3.zhimg.com/80/v2-9e3009c93ad350615fa7f60f05d118e2_720w.webp" alt="" />
+  <figcaption></figcaption>
+</figure>
+
+<p>如果只统计一年的数据，这些繁琐又细致的工作还可以用咱强大的意志力忍一忍。但如果是四、五年甚至更久呢? 如果同时运营多个公众号呢? 先不说别的，上百张工作表堆在面前，咱还能保证得了不出错吗?</p>
+
+<p>技术的进步都是靠懒惰推动的。为了未来每一年的年末能轻松一点，我觉得应该数据库来管理这些数据。我选择的数据库是微软办公软件中的 Access。</p>
+
+<p>要将这些数据导入 Access 数据库，我同样躲不过一些苦差事：</p>
+
+<ol>
+  <li>将所有的用户增长数据工作表从 .xsl 格式转换成 .xslx 格式。这些 Excel 表在打开时有错误提示，转换之后才能成功导入 Access 数据库。</li>
+  <li>如果 Excel 表中有标题行，删除标题行。</li>
+  <li>如果 Excel 表中有文本型数据，全部转换为数字格式。</li>
+  <li>将整理过的所有 Excel 表一张张地导入 Access 数据库中。</li>
+</ol>
+
+<p>不过，微软的办公软件是可以使用 VBA 执行批量处理任务的。微软办公软件已经诞生了 30 多年了，我刚说的那些苦差事应该早就有“懒人”写出标准答案了。果不其然，我真从网上搜到了这么两段 VBA 代码。</p>
+
+<p>第一段代码可以<a href="https://www.extendoffice.com/documents/excel/1349-excel-batch-convert-xls-to-xlsx.html#:~:text=If%20you%20want%20to%20convert%20multiple%20xls%20files,paste%20the%20following%20code%20in%20the%20Module%20Window">将 .xsl 格式的 Excel 文件批量转换为 .xslx 格式</a>。</p>
+
+<figure>
+  <img src="https://pic1.zhimg.com/80/v2-a93a975bb0cf7e4325d557af8ff2c2c8_720w.webp" alt="" style="max-width: 600px;" />
+  <figcaption></figcaption>
+</figure>
+
+<p>第二段代码可以<a href="https://answers.microsoft.com/en-us/msoffice/forum/all/import-multiple-excel-spreadsheets-into-a-single/00d0be17-dadc-450b-a605-916e71fbc1c0">将 Excel 表批量导入 Access 数据库</a>。</p>
+
+<figure>
+  <img src="https://pic4.zhimg.com/80/v2-841f1ee78f0361a6a0ee308c2176683d_720w.webp" alt="" style="max-width: 600px;" />
+  <figcaption></figcaption>
+</figure>
+
+<p>要在以前，我不知要花多少时间和精力才能将这两段代码改成我能用的样子呢！因为我一点也没学过 VBA，一切都得从零基础教程开始。</p>
+
+<p>这一次，我先让文心一言帮我逐行解释代码，以搞清楚代码的大致结构。然后，我告诉它需要修改或增加的功能，它就能帮我修改代码了。</p>
+
+<figure>
+  <img src="https://pic4.zhimg.com/80/v2-568aa54dc4620ba0a381b2691971e9e1_720w.webp" alt="" />
+  <figcaption></figcaption>
+</figure>
+
+<p>这是我去年年底为了统计公众号的数据而修改的代码，图中展示的只是其中的一部分。当时，我还在用着文心一言呢！</p>
+
+<p>有时候，AI 大模型修改出来的代码运行不了，或者输出结果不符合预期，我也会自己动手调试、排查错误。</p>
+
+<p>一般而言，AI 大模型写出的代码结构、用到的对象和方法等还是很靠谱的。我只要有针对性地去详细了解一下它们，就可以给出越来越准确的修改要求，AI 大模型的表现就会越来越好。</p>
+
+<p>或许，今年年底我还会借助 AI 大模型进一步完善这些代码，使它们越来越好用。如果你也去尝试一下，我相信你也会效率翻倍，告别很多枯燥和乏味！</p>
+
+<h2 id="开发小插件">开发小插件</h2>
+
+<p>今年年初，我在 GitHub 上创建了一个技术写作资源库 <a href="https://github.com/wongyah/awesome-technical-writing-learning" title="Awesome Technical Writing Learning">Awesome Technical Writing Learning</a>。资源库的核心文件只有一个：Readme。</p>
+
+<p>Readme 里有一个技术写作资源列表，列表里都是精心挑选出来的免费学习资源和软件工具。</p>
+
+<p>编写列表时，我用到了 GitHub 网站特有的 <a href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts" title="GitHub Alerts语法">Markdown 扩展语法 Alerts</a>。Alerts 语法提供了 5 种警示标识，可以在 GitHub 网站的任何沟通场景中使用，比如 Readme、问题说明 (Issues) 或拉取请求说明 (Pull Requests) 等。</p>
+
+<figure>
+  <img src="https://pic2.zhimg.com/80/v2-daa027fb482b8421d5085a1bb84dba75_720w.webp" alt="" style="max-width: 600px;" />
+  <figcaption></figcaption>
+</figure>
+
+<p>然而，其他软件和平台并不支持 Alerts 语法，包括 GitHub 主页默认使用的静态网站生成工具 Jekyll。当我基于资源库的 Readme 生成 GitHub 主页时，Tip 图标和所有格式都不见了，取而代之的是 Markdown 源码 <code class="language-plaintext highlighter-rouge">[!TIP]……</code></p>
+
+<figure>
+  <img src="https://pic4.zhimg.com/80/v2-9dbcb317c340a1bcedfeb450d0a432ed_720w.webp" alt="" style="max-width: 600px;" />
+  <figcaption></figcaption>
+</figure>
+
+<p>我倒是找到一个可以模仿 GitHub Alerts 的小插件，叫做 <a href="https://github.com/Adamkadaban/jekyll-alerts-plugin" title="Jekyll Alerts Plugin">Jekyll Alerts 插件</a>。但是，该插件只是模仿 GitHub Alerts 的外观（CSS 样式表），输入警示信息时使用的语法却是完全不一样的。</p>
+
+<figure>
+  <img src="https://pic3.zhimg.com/80/v2-f1ab96e4f82aaf218c1679871f1467cc_720w.webp" alt="" style="max-width: 600px;" />
+  <figcaption></figcaption>
+</figure>
+
+<p>为了让资源库的 Readme 保持简洁，我只好自己写个小插件来正确显示 GitHub 主页里的警示信息了。</p>
+
+<p>我先让通义千问解释了一下 Jekyll Alerts 插件的源代码，以搞清楚这个插件的制作原理。然后，我就让通义千问帮忙写了一段 jQuery 代码来实现类似的功能。</p>
+
+<figure>
+  <img src="https://pic1.zhimg.com/80/v2-c81bf673d51f39803890c0d1191d0716_720w.webp" alt="" />
+  <figcaption></figcaption>
+</figure>
+
+<p>相对于解释代码、写使用说明和修改代码，让 AI 大模型从零开始编写程序确实会复杂一些。不管是布置任务还是沟通问题，我使用的提示词都比较长。除此之外，我还得时不时地亲自修改代码、简化问题以及选择解决方法。</p>
+
+<p>不管过程多曲折，总好过自己从零开始写。完成之后，还会​收获满满的成就感。如果你也去尝试一下，我相信你也会硕果累累​！</p>
+
+<blockquote>
+  <p>如果你想了解更多细节，可以查看<a href="https://lxblog.com/qianwen/share?shareId=59d194d4-0dae-42f9-bcc1-365c9c7111a9">完整的对话记录</a>。<br />
+访问 GitHub 存储库 <a href="https://github.com/wongyah/awesome-technical-writing-learning" title="Awesome Technical Writing Learning">Awesome Technical Writing Learning</a> 及 <a href="https://resources.docsimpo.work/">GitHub 主页</a>，可以查看插件的最终效果。</p>
+</blockquote>
+
+<h2 id="总结">总结</h2>
+
+<p>有了 AI 大模型，学习编程的难度已经大大降低了。即使是零基础的小白，也可以在 AI 大模型的帮助或指导下做到一些看似遥不可及的事情。</p>
+
+<p>除了文中提到的，我还会借助 AI 大模型编写 PowerShell 脚本、创建 GitHub Actions 工作流、编写 ActionScript 动画脚本以及技术文档相关的样式表或转换程序等。</p>
+
+<p>如果我成功勾起了你的兴趣，赶紧去动手试一下吧！</p>
+
+<!-- link definition -->]]></content><author><name>王烨</name></author><category term="人工智能" /><summary type="html"><![CDATA[有了 AI 大模型，学习编程的难度已经大大降低了。即使是零基础的小白，也可以做到一些看似遥不可及的事情。]]></summary></entry><entry><title type="html">Stack Overflow 年度报告：80% 以上的人使用技术文档学编程</title><link href="http://localhost:4000/2024/08/06/2024-stackoverflow-developer-survey.html" rel="alternate" type="text/html" title="Stack Overflow 年度报告：80% 以上的人使用技术文档学编程" /><published>2024-08-06T00:00:00+08:00</published><updated>2024-08-06T00:00:00+08:00</updated><id>http://localhost:4000/2024/08/06/2024-stackoverflow-developer-survey</id><content type="html" xml:base="http://localhost:4000/2024/08/06/2024-stackoverflow-developer-survey.html"><![CDATA[<p>近日，著名的开发者问答社区 Stack Overflow 发布了最新的开发者年度调查报告。该调查于每年 5~6 月份进行，已经持续 14 年了。</p>
+
+<p>今年，共有来自全球 185 个国家的 6.5 万名开发者参与了调查。其中，大约 75% 的参与者是专业程序员，10% 的参与者在工作或学习中涉及编程（虽然他们不是专职程序员），6% 的参与者正在学习编程。</p>
+
+<figure>
+  <img src="https://pic1.zhimg.com/80/v2-2d04018e2c9c8684df55b20b023e909a_720w.webp" alt="" style="max-width: 700px;" />
+  <figcaption></figcaption>
+</figure>
+
+<h2 id="参与者的受教育水平">参与者的受教育水平</h2>
+
+<p>在所有参与调查的人员中，75% 左右的人拥有专科或以上学历，13% 的人有过大学学习的经历但未达到毕业要求（在读、辍学或结业等），11% 的人处于高中或以下文化水平。</p>
+
+<figure>
+  <img src="https://pic1.zhimg.com/80/v2-0a85e1056dd4d2381f817cc4f8f3d092_720w.webp" alt="" style="max-width: 700px;" />
+  <figcaption></figcaption>
+</figure>
+
+<p>专业程序员的受教育水平相对高一些，80% 左右的人拥有专科或以上学历，只有 6% 的人处于高中或以下文化水平。</p>
+
+<figure>
+  <img src="https://pic4.zhimg.com/80/v2-a6c039fee633317b1c2ba2cc0e89d839_720w.webp" alt="" style="max-width: 700px;" />
+  <figcaption></figcaption>
+</figure>
+
+<p>非常有趣的是，正在学习编程的人群受教育水平明显偏低。只有 32% 的人拥有专科或以上学历，20% 的人有过大学学习的经历但未达到毕业要求（在读、辍学或结业等），而高中或以下文化水平的人高达 45%。</p>
+
+<figure>
+  <img src="https://pica.zhimg.com/80/v2-2746eab14cfe49473d4587905f405f1a_720w.webp" alt="" style="max-width: 700px;" />
+  <figcaption></figcaption>
+</figure>
+
+<p>根据这一群体的年龄数据，23% 的人还未满 18 岁（高中毕业生的年龄大多在 17~18 岁），说明一些正在学习编程的人还是学生，尚未完成学业。但显而易见，学生人数还是远远低于正在学习编程的高中及以下文化水平的总人数。</p>
+
+<p>这或许说明，编程的难度已经没有那么高了。除了编程语言的进步，可能还因为学习资源越来越多、越来越通俗易懂，而且越来越容易获取。</p>
+
+<figure>
+  <img src="https://pic1.zhimg.com/80/v2-daa446aa361e65eb3fc402a910dd7a84_720w.webp" alt="" style="max-width: 700px;" />
+  <figcaption></figcaption>
+</figure>
+
+<h2 id="最受欢迎的学习资源">最受欢迎的学习资源</h2>
+
+<p>学习编程时，大家最喜欢使用在线资源，其次是书籍、网络课程 (E-courses or Certification) 和线下培训 (school)。</p>
+
+<figure>
+  <img src="https://pic1.zhimg.com/80/v2-e466391d31737ea11cf57c38c4ddf680_720w.webp" alt="" style="max-width: 700px;" />
+  <figcaption></figcaption>
+</figure>
+
+<p>不同的人群对学习资源的偏好有些许差异。正在学习编程的人更加喜欢参加线下培训和网络课程。相比之下，已经有编程经验的人更喜欢看书，在职培训的机会也更多一些。</p>
+
+<figure>
+  <img src="https://picx.zhimg.com/80/v2-3f2fde9c894344845744fb7f4b5556a9_720w.webp" alt="" style="max-width: 700px;" />
+  <figcaption></figcaption>
+</figure>
+
+<p>从按年龄段统计的学习资源数据来看，年纪越轻越喜欢使用在线资源，年纪越大越喜欢看书。25~64 岁的人获得在职培训的机会最多，各年龄段大都在 50% 左右。18~24 的人最喜欢参加线下培训。</p>
+
+<figure>
+  <img src="https://pica.zhimg.com/80/v2-a45765d350876b13208780873d6a47d6_720w.webp" alt="" style="max-width: 700px;" />
+  <figcaption></figcaption>
+</figure>
+
+<p>比较反直觉的一点是，年龄越大，从亲朋好友那里获得的学习机会越少。在参与调查的人员中，18~44 岁的中青年占 80% 左右。参与者的年龄分布曲线，并没有呈现出“年龄越大，会编程的人越少”的单一趋势。</p>
+
+<p>所以，我猜测这或许是因为大家参加工作以后，与亲朋好友的职业技能重合的概率比较低，相互帮助的概率也就比较低。相比之下，在 25~64 岁的工作年龄段，大家从同事那里获得的学习机会要多得多。</p>
+
+<figure>
+  <img src="https://pic3.zhimg.com/80/v2-e702f9bf1c543809fae92f872e4686d8_720w.webp" alt="" style="max-width: 700px;" />
+  <figcaption></figcaption>
+</figure>
+
+<p>在所有可以用来学习编程的在线资源中，使用技术文档的人数最多，占总人数的 84%。其次是 Stack Overflow、图文教程、博客和视频教程。</p>
+
+<p>一些趣味性比较高的在线资源，比如互动型教程和具有游戏化设计的培训项目，使用的人并不多。这或许是因为这类资源比较少，获得难度也比较大。</p>
+
+<figure>
+  <img src="https://pic4.zhimg.com/80/v2-09e07acfa59317f00017d0b17621d007_720w.webp" alt="" style="max-width: 700px;" />
+  <figcaption></figcaption>
+</figure>
+
+<p>在所有的技术文档中，使用 API 文档和 SDK 文档学习编程的人最多，占总人数的 90%。其次是用户手册和存储库中的 README 文件。</p>
+
+<figure>
+  <img src="https://pica.zhimg.com/80/v2-a96938114fa3879a33cc1bf4c3ab6b0c_720w.webp" alt="" style="max-width: 700px;" />
+  <figcaption></figcaption>
+</figure>
+
+<h2 id="人工智能的应用前景">人工智能的应用前景</h2>
+
+<p>自去年 ChatGPT 惊艳全球之后，Stack Overflow 就在每年的开发者调查中专门增加了关于人工智能 (AI) 的版块。</p>
+
+<p>今年，使用 AI 协助编程或开发的人数大幅增长，由去年的 44% 增加到了今年的 62%。在这一年的时间里，专业程序员对 AI 的态度转变比较明显。去年，专业程度员的 AI 使用率只有 44%，比正在学习编程的人少了 10% 左右。而今年，这两个群体的 AI 使用率已相差无几，都在 63% 左右。</p>
+
+<figure>
+  <img src="https://pic4.zhimg.com/80/v2-10ccfcadf7ac8fe0fcf8890dd32babbb_720w.webp" alt="" style="max-width: 700px;" />
+  <figcaption></figcaption>
+</figure>
+
+<p>虽然 AI 使用率提高了，但大家对 AI 的满意度却下降了。喜欢或非常喜欢 AI 的人数由去年的 76% 下降到了今年的 72%。讨厌或非常讨厌 AI 的人数则由去年的 3% 上升到了今年的 6%。</p>
+
+<figure>
+  <img src="https://picx.zhimg.com/80/v2-b89b437b2e64e430afc650c4c5eb7245_720w.webp" alt="" style="max-width: 700px;" />
+  <figcaption></figcaption>
+</figure>
+
+<p>根据美国知名的咨询公司高德纳 (Gartner) 的专业研究，一项新科技从出现到成熟一般会经历五个阶段：科技诞生之初的触发期、人们对科技寄予过高期望的膨胀期、回归客观现实的幻灭期、稳步增长的复苏期和实现商业价值的成熟期。</p>
+
+<p>今年大家对 AI 的满意度下降，大概就是步入了幻灭期的信号吧?！</p>
+
+<figure>
+  <img src="https://pic1.zhimg.com/80/v2-cdb5938210789c193fb2458337befb86_720w.webp" alt="" style="max-width: 700px;" />
+  <figcaption></figcaption>
+</figure>
+
+<p>关于 AI 的最大优势，得票率最高的是提高产出率，其次是提高学习效率和工作效率。正在学习编程的人对提高学习效率的体会尤其深刻，有 71% 的人对此投了赞成票。</p>
+
+<figure>
+  <img src="https://picx.zhimg.com/80/v2-ef2a179d310edd5b7b144f4c321749c3_720w.webp" alt="" style="max-width: 700px;" />
+  <figcaption></figcaption>
+</figure>
+
+<p>目前，大家用 AI 做的最多的事情是写代码，其次是智能问答、调试代码和（为代码）编写文档。</p>
+
+<figure>
+  <img src="https://pica.zhimg.com/80/v2-83370ea7eba9924392b39ebbbb9d3930_720w.webp" alt="" style="max-width: 700px;" />
+  <figcaption></figcaption>
+</figure>
+
+<p>在接下来的一年里，如果将 AI 纳入开发流程，大家选得最多的功能是（为代码）编写文档，其次是测试代码和智能问答。</p>
+
+<p>当下最流行的 AI 工具自然是 ChatGPT，其次是 GitHub Capilot、Google Gemini 和 Bing AI。其中，高达 82% 的人正在使用 ChatGPT，远超其他 AI 工具。</p>
+
+<h2 id="最流行的编程语言">最流行的编程语言</h2>
+
+<p>用于网页开发的脚本语言 JavaScript 已霸榜十多年了，今年仍然属它最流行。紧随其后的是 HTML/CSS、Python、SQL 和 TypeScript。</p>
+
+<p>而编程新手最爱学的编程语言是 Python，其次是 HTML/CSS、JavaScript、Java 和 C++。</p>
+
+<p>最受欢迎的数据库软件是 PostgreSQL，其次是 MySQL、SQLite、Microsoft SQL Server 和 MongoDB。</p>
+
+<p>最受欢迎的云服务平台是亚马逊云科技 (AWS)，其次是微软云 (Microsoft Azure) 和谷歌云 (Google Cloud)。</p>
+
+<p>最受欢迎的代码编辑器是 Visual Studio Code，其次是 Visual Studio、IntelliJ IDEA、Notepad++ 和 Vim。</p>
+
+<p>最能帮开发者赚钱的编程语言是 Erlang，其次是 Clojure 和 Elixir。</p>
+
+<h2 id="refs" class="no_toc">参考资料</h2>
+
+<ol class="small">
+  <li>Stack Overflow. <a href="https://survey.stackoverflow.co/2024/">2024 Developer Survey</a>.</li>
+  <li>Stack Overflow. <a href="https://survey.stackoverflow.co/2023/">2023 Developer Survey</a>.</li>
+</ol>]]></content><author><name>王烨</name></author><category term="调查报告" /><summary type="html"><![CDATA[著名的开发者问答社区 Stack Overflow 发布了最新的开发者年度调查报告，来自全球185个国家的6.5万名开发者参与了调查。]]></summary></entry><entry><title type="html">2017-2024年DITA满意度调查报告</title><link href="http://localhost:4000/2024/07/23/2024-DITA-satisfaction-report.html" rel="alternate" type="text/html" title="2017-2024年DITA满意度调查报告" /><published>2024-07-23T00:00:00+08:00</published><updated>2024-07-23T00:00:00+08:00</updated><id>http://localhost:4000/2024/07/23/2024-DITA-satisfaction-report</id><content type="html" xml:base="http://localhost:4000/2024/07/23/2024-DITA-satisfaction-report.html"><![CDATA[<p>DITA (Darwin Information Typing Architecture) 原是 IBM 的技术文档专家开发的内部标准，2004 年 IBM 将其捐赠给了结构化信息标准促进组织 (OASIS)。</p>
 
 <p>2005 年 6 月 1 日，OASIS 正式发布了 DITA 的首个版本 (1.0 版)。从此之后，DITA 变成了一个开放的标准。</p>
 
@@ -1150,354 +1497,4 @@
 
 <p>显然，Fliki 的智能程度比视频生成模型要差很多，但在很多场合里它仍然是一个非常好的选择。</p>
 
-<p><img src="https://pic3.zhimg.com/80/v2-bb8089a1f1b79c7e07fea5da234304e6_720w.webp" alt="standalone" /></p>]]></content><author><name>王烨</name></author><category term="文档技术" /><summary type="html"><![CDATA[总结 Sora及其竞品的功能特性，全面展现人工智能在视频制作领域的发展现状。]]></summary></entry><entry><title type="html">被称为“国之重器”的工业巨无霸们，为啥对婆婆妈妈的 S1000D 青睐有加?</title><link href="http://localhost:4000/2024/01/09/s1000d-features.html" rel="alternate" type="text/html" title="被称为“国之重器”的工业巨无霸们，为啥对婆婆妈妈的 S1000D 青睐有加?" /><published>2024-01-09T00:00:00+08:00</published><updated>2024-01-09T00:00:00+08:00</updated><id>http://localhost:4000/2024/01/09/s1000d-features</id><content type="html" xml:base="http://localhost:4000/2024/01/09/s1000d-features.html"><![CDATA[<p>在年初的 tcworld 中国大会上，我做了一场题为《<a href="https://mp.weixin.qq.com/s?__biz=MzA5NzU4ODAwOQ==&amp;mid=2247487549&amp;idx=1&amp;sn=c87b4943cefe8e8868c95e17b05a790f&amp;chksm=909fd67ba7e85f6db3aacc11bdda8deb7bc73736cd3e5e4c03a07cabae768e4312e09a4bc34c#rd" title="我在 tcworld 2023 中国大会上的演讲">道阻且长：在高端装备制造业中实现技术文档高质量交付的实践与思考</a>》的演讲。</p>
-
-<p>在那次演讲中，我以一个欧美地铁列车项目为例，详细介绍了高端装备制造业中技术文档的交付要求和交付流程，并且还分享了项目中遇到的难点和痛点：</p>
-
-<ul>
-  <li>必须按照客户的要求（合同条款）编制，可回旋的余地很小。</li>
-  <li>内容的专业性特别强，对供应商手册进行内容整合的难度很大。</li>
-  <li>项目周期特别长，进度难以把控，管理难度大。</li>
-</ul>
-
-<p>针对这些问题，虽然我进行过很多思考，但都不足以从根本上解决问题。</p>
-
-<p>最近，我有机会和一位航空航天方面的同行聊了聊 S1000D，并借机向他了解了一下 S1000D 在轨道交通行业的应用情况。</p>
-
-<p>实际上，我在演讲中提到的这些难点和痛点，也同样困扰着那些在国际市场上声名显赫的轨道交通装备制造商们。</p>
-
-<p>早在 2013 年，法国轨道交通装备制造商阿尔斯通 (<a href="https://www.alstom.com/">ALSTOM</a>)、加拿大交通运输设备制造商庞巴迪 (<a href="https://bombardier.com/en">Bombardier</a>) 和法国国营铁路公司 (<a href="https://www.sncf.com/en">SNCF</a>) 就曾联合成立了一个指导委员会和工作组。</p>
-
-<p>他们希望能像海运业一样，基于 S1000D 制定出一套行业通用的数据交换协议 (RailDex)，使运营商（铁路公司、地铁公司等）、制造商和供应商可以遵循统一的规范来编制手册及其相关文档，以最大限度地减少各方在信息互通互用方面的成本。</p>
-
-<blockquote>
-  <p>海运业中通用的数据交换协议叫 Shipdex，首版发布于 2008 年。<br />
-Shipdex 使船东、造船厂、修船厂、船级社等都使用统一的规范编写手册及相关文档，以最大限度地减少各方在信息互通互用方面的成本。</p>
-</blockquote>
-
-<p>虽然 RailDex 后来非常遗憾地无疾而终了，但 S1000D 在轨道交通行业仍然是备受青睐的技术文档编制规范。只是大家在具体实施的时候各自为政罢了，不像航空航天和海运业那样在整个行业内实现了大一统。</p>
-
-<p>航空航天、船舶工程以及轨道交通装备都是以产品复杂度高、专业性强和产品使用寿命长而著称的行业。为什么这些行业都对 S1000D 青睐有加? S1000 到底有何独特之处?</p>
-
-<p>本文将从一个技术文档工程师的角度细说原委，希望能为那些对 S1000D 持观望态度的同行和企业提供更进一步的依据和勇气，也为那些没有机会实施 S1000D 但正面临相似困境的小伙伴们提供一些理念上的借鉴和参考。</p>
-
-<h1 id="管理模式">管理模式</h1>
-
-<p>在软件开发中，有两种开发方式经常被放在一起比较：敏捷开发和瀑布模型。敏捷开发通常是时尚、迅捷的代表，而瀑布模型往往以老旧、雍肿的“慢半拍”形象陪衬。</p>
-
-<p>但瀑布模型却和 S1000D 是一对儿管理搭子。S1000D 是起源于航空航天业的技术文档编制和管理规范，后来逐渐扩散到国防工业、船舶工程、轨道交通等行业。</p>
-
-<p>这些行业和航空航天业类似，都属于产品复杂度高、专业性强、产品使用寿命长的行业。在这些行业里，产品的研制都有非常规范、成熟的流程，属于典型的瀑布式研发。</p>
-
-<figure>
-  <img src="https://pic3.zhimg.com/80/v2-063b2e51f5267ff9b4807003aaeb733a_720w.webp" alt="" style="width: 100%; max-width: 550px;" />
-  <figcaption></figcaption>
-</figure>
-
-<p>在如此典型的瀑布式研发环境里，产品手册的编制自然也需要按照瀑布模型来进行。</p>
-
-<p>产品手册中需要涵盖的内容范围和深度，一般在项目初期就会确定下来，通常是按照客户要求或者合同条款来确定。</p>
-
-<p>产品手册的编写进度、验证计划和交付时间也需要配合产品的研发节点来安排。比如民用飞机的首飞、试飞取证、首架飞机交付和批生产，地铁列车的样车交付和量产车交付等。</p>
-
-<p>为了契合这些行业中瀑布式研发的需求，S1000D 规范不仅定义了基于模块化和结构化的手册编写方法，还使用业务规则、信息集和数据模块需求清单等方式来指导和规范内容规划阶段的工作。</p>
-
-<figure>
-  <img src="https://pic2.zhimg.com/80/v2-0036bd9c86aca6658ad79aaeb9feb96d_720w.webp" alt="" style="width: 100%; max-width: 550px;" />
-  <figcaption></figcaption>
-</figure>
-
-<h1 id="协同范围">协同范围</h1>
-
-<p>由于产品复杂度高、专业性强，飞机、邮轮、火车或地铁列车等产品的手册编写和维护不只需要多人协作，还需要多家公司协作。</p>
-
-<p>除了制造商，这些高度复杂的工业巨无霸们在研制过程中还需要众多零部件供应商的高度配合。</p>
-
-<p>例如，芝加哥 L 线 (Chicago L) 新一代地铁列车 CTA7000 有 24 家供应商，中国首艘大型邮轮爱达·魔都号有 361 家供应商，民航史上最成功的机型之一波音 737 有 600 多家供应商。</p>
-
-<figure>
-  <img src="https://pic1.zhimg.com/v2-4b9fe60fd2e41ae95b8ab2e5fa332c04_b.webp" alt="" />
-  <figcaption></figcaption>
-</figure>
-
-<p>无论是地铁公司、航空公司还是船东，运营商们都会要求制造商随产品一起交付内容完整、风格统一、正确无误的产品手册。</p>
-
-<p>如果没有统一的规范，各个供应商在编写手册时自成一派，那制造商就必须按照自己的写作规范将所有的供应商手册重写一遍，才能将这些内容整合进自己的手册里。</p>
-
-<p>工作量巨大不说，一些零部件（尤其是核心零部件）的技术含量特别高，制造商通常难以驾驭、甚至无法驾驭这些零部件手册的内容重写工作。</p>
-
-<p>即使是技术文档写作规范相对成熟的航空航天业，制造商在整合纸质版和 PDF 版的供应商手册时也需要做大量的重复性编辑工作，比如文字录入、复制粘贴和手册排版等。</p>
-
-<p>产品交付后，运营商需要根据产品手册制作作业指导书、维修卡片和培训材料等许多内部文件。在产品长长的寿命周期里，这些文件还需要根据手册的定期和不定期更新作出相应的修改。所以，大量枯燥的编辑工作也是运营商的恶梦。</p>
-
-<p>为了解决运营商、制造商和供应商在手册内容协作共享上的面临的困境，S1000D 规范除了能像其他结构化标准一样进行<a href="https://mp.weixin.qq.com/s?__biz=MzA5NzU4ODAwOQ==&amp;mid=2247486764&amp;idx=1&amp;sn=3aab543ff20d45dc1134734020f578a6&amp;chksm=909fcb6aa7e8427cb39bca43776bb26fea1779d2a937fad2fca2bc7011c6cd6357aa129d23e0#rd" title="什么是结构化文档">同源发布</a>以外，还支持各方以文件数据包的形式进行<strong>数据交换</strong>。</p>
-
-<p><strong>文件数据包</strong>里有数据模块（DM）、出版物模块 (PM)、数据模块里引用的所有插图和多媒体文件、以及记录文件数据包中所有文件信息的数据分发说明 (DDN) 等。</p>
-
-<figure>
-  <img src="https://pic1.zhimg.com/80/v2-b9879b1a5106975cf2a6349c44503d70_720w.webp" alt="S1000D 支持数据交换" title="S1000D 支持数据交换" style="width: 100%; max-width: 600px;" />
-  <figcaption>S1000D 支持数据交换</figcaption>
-</figure>
-
-<p>当然，S1000D 也为文件数据包制定了打包规则，比如文件命名规则、数据包内应该包含的文件种类和数量等。</p>
-
-<h1 id="定制方式">定制方式</h1>
-
-<p>S1000D 规范最初是专为军用飞机制定的技术文档编制规范，后来逐渐将适用范围扩展到各类军用和民用的海陆空装备。</p>
-
-<p>当一个企业或项目决定应用 S1000D 时，必须根据自身情况从 S1000D 规范中挑选出适合自己的部分。这个挑选过程，在 S1000D 中被称为<strong>裁剪</strong> (tailoring)。</p>
-
-<p>对于 S1000D 来说，裁剪有两层含义：</p>
-
-<p><strong>第一，去除不需要的部分。</strong>例如，S1000D 中定义了 20 多种数据模块类型，但如果船东要求制造商按照 Shipdex 2.3 交付产品手册，那么制造商就只能挑选出三种类型的数据模块来用 —— 描述类 (Descript)、维修程序类 (Procedure) 和图解零件数据类 (IPD)。</p>
-
-<blockquote>
-  <p>在上面的例子中，制造商在手册编制过程中也可以挑选更多的数据模块来用，比如适用性类数据模块和业务规则交换类数据模块。但是，制造商向船东交付的文件数据包里只能包含上述三种类型的数据模块。</p>
-
-  <p>也就是说，如果制造商在手册编制过程中使用了其他类型的数据模块，就必须在打包前完成对其他类型数据模块的解析。</p>
-</blockquote>
-
-<p><strong>第二，禁止创建新“枝叶”。</strong>例如，S1000D 中定义了三个等级的安全信息 —— 警告 (<code class="language-plaintext highlighter-rouge">&lt;warning&gt;</code>)、小心 (<code class="language-plaintext highlighter-rouge">&lt;caution&gt;</code>)和提示 (<code class="language-plaintext highlighter-rouge">&lt;note&gt;</code>)，如果船东要求制造商按照 ANSI Z535 的要求编写手册中的安全信息，那么制造商只能通过为 <code class="language-plaintext highlighter-rouge">&lt;warning&gt;</code> 设置属性的方式来标记“危险 (Danger) ”等级的安全信息，而不是自行创建一个新元素 <code class="language-plaintext highlighter-rouge">&lt;danger&gt;</code>。</p>
-
-<blockquote>
-  <p>ANSI Z535 定义了四个等级的安全信息：危险 (Danger)、警告 (Warning)、小心 (Caution) 和注意 (Notice)。</p>
-</blockquote>
-
-<h6 class="table-caption" id="shipdex-对于-ansi-z535-型安全信息的元素和属性使用规定">Shipdex 对于 ANSI Z535 型安全信息的元素和属性使用规定</h6>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">ANSI Z535</th>
-      <th style="text-align: left">元素</th>
-      <th style="text-align: left">属性</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">Danger</td>
-      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">&lt;warning&gt;</code></td>
-      <td style="text-align: left">vital = 1</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Warning</td>
-      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">&lt;warning&gt;</code></td>
-      <td style="text-align: left">vital = 0</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Caution</td>
-      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">&lt;caution&gt;</code></td>
-      <td style="text-align: left">type = 0</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Notice</td>
-      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">&lt;caution&gt;</code></td>
-      <td style="text-align: left">type = 1</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>裁剪的两层含义，意味着 S1000D 不具备任何扩展性。正是这种无扩展性设计，为企业与企业之间进行数据交换提供了最大程度的便捷。</p>
-
-<p>否则，如果制造商创建了新元素 <code class="language-plaintext highlighter-rouge">&lt;danger&gt;</code>，而船东的发布程序不认识 <code class="language-plaintext highlighter-rouge">&lt;danger&gt;</code>，还会将其标记为非法元素，这就尴尬了！</p>
-
-<p>为了让用户快速上手，S1000D 规范提供了一个叫做<strong>业务规则决策点索引</strong>的裁剪工具。这份索引就像一份调查问卷一样，里面包含 500 多个问题，比如：</p>
-
-<ul>
-  <li>请问你需要使用哪个版本的 S1000D?</li>
-  <li>请问你需要用到 S1000D 中的哪些信息集?</li>
-  <li>请问你是否需要使用 <code class="language-plaintext highlighter-rouge">@warningType</code> 属性? 如果使用，怎么用?</li>
-</ul>
-
-<p>当然，不是每个问题都必须回答，根据自身情况挑选跟自己相关的问题就行了。如果需要，你还可以提出新问题。</p>
-
-<p>问题回答完了，裁剪也就完成了。裁剪形成的答卷，叫做<strong>业务规则</strong>。裁剪中使用的问题，叫做<strong>业务规则决策点</strong> (BRDP)。</p>
-
-<figure>
-  <img src="https://pic3.zhimg.com/80/v2-537161b33ee15583f708a8c3109e2b16_720w.webp" alt="业务规则的制定过程" title="业务规则的制定过程" style="width: 100%; max-width: 650px;" />
-  <figcaption>业务规则的制定过程</figcaption>
-</figure>
-
-<h1 id="实施成本">实施成本</h1>
-
-<p>S1000D 是一种开放的标准，你可以通过 S1000D 官网免费下载或在线阅读。</p>
-
-<p>但 S1000D 并没有开源，不仅相关的开源软件特别特别少，而且免费的学习资源也不多。</p>
-
-<figure>
-  <img src="https://pic1.zhimg.com/80/v2-7e9941712fd8e76c867607f4e9b42b60_720w.webp" alt="" />
-  <figcaption></figcaption>
-</figure>
-
-<p>这种资源贫瘠的状况，自然与 S1000D 较高的入门门槛脱不了干系。</p>
-
-<p>最新版 S1000D 规范（PDF版）有 3500 页左右，文档长度远远超过其他结构化标准。除了前文提到的诸多内容之外，S1000D 还可以提供源数据管理、公共信息库 (CIR)、技术插图的制作规范以及用于信息管理的各种编码规范等等等等~~</p>
-
-<p>说它包罗万象、事无巨细一点也不为过，但学习难度也高啊！一般情况下，从传统的文档编制方法过渡到 S1000D 都需要专家指导。否则，过渡期会变得相当漫长，甚至会长到无法接受。</p>
-
-<p>其实，大多数主流的结构化文档编辑器和内容管理系统都支持 S1000D。只是由于选择使用 S1000D 的都是结构复杂、专业性强、使用寿命长的产品，需要更多的开发工作，所以部署 S1000D 的价格会高一些。</p>
-
-<p>按照 @技术传播百态说 的光荣传统，文末提供一点零星的资源：</p>
-
-<ul>
-  <li><a href="https://users.s1000d.org/Default.aspx" style="font-size: 14px;">S1000D 规范下载</a></li>
-  <li><a href="https://kibook.github.io/s1kd-tools/TUTORIAL.html" style="font-size: 14px;">S1000D 入门教程</a></li>
-</ul>
-
-<h1 id="refs" class="no_toc">参考资料</h1>
-
-<ol class="small">
-  <li>马小骏, 吉凤贤等. 基于S1000D规范的民用飞机维修类技术出版物开发技术[M]. 北京: 科学出版社, 2017.</li>
-  <li>Blandineau D, Ferland M, etc. <a href="https://www.aaig.at/wp-content/uploads/P6-Blandineau_Ferland-S1000D-UF-2013-Raildex.pdf">A Presentation on S1000D User Form 2013: RailDex</a> [OL]. [2013-9-16][2024-1-7].</li>
-  <li>Shipdex. <a href="https://ww2.shipdex.org/download/">The Shipdex Protocol, Issue 2.3</a> [M/OL]. [2015-6-20][2024-1-7].</li>
-  <li>Fandom. <a href="https://metro.fandom.com/wiki/7000-series_(CTA)">Metro Wiki: 7000-series (CTA)</a> [OL]. [2022-2-18][2024-1-7].</li>
-  <li>新华网. <a href="https://baijiahao.baidu.com/s?id=1786879972224550194&amp;wfr=spider&amp;for=pc">国产首艘大型邮轮“爱达·魔都号”开启商业首航</a>[OL]. [2024-1-2][2024-1-7].</li>
-  <li>Elaine Schwartz. <a href="https://econlife.com/2020/01/the-737-max-supply-chain/#:~:text=More%20than%20a%20U.S.%2C%20airplane%2C%20the%20Boeing%20737,the%20600%20companies%20in%20its%20global%20supply%20chain.">A Global Look at the 737 MAX</a> [OL]. [2020-1-13][2024-1-7].</li>
-  <li>轩振原等. 基于S1000D的动产组IETM管理平台研究[J]. 计算机应用, 2022, 31(3): 42-47.</li>
-  <li>王辉等. 基于S1000D的动车组技术信息结构化方法[J]. 中国铁路,2016(2):5.</li>
-</ol>
-
-<!-- link definition -->]]></content><author><name>王烨</name></author><category term="文档技术" /><summary type="html"><![CDATA[从技术文档工程师的角度解读S1000D的独特之处。]]></summary></entry><entry><title type="html">全球大厂的技术文档写作指南们！</title><link href="http://localhost:4000/2021/06/25/top-10-editorial-style-guides-for-technical-writing.html" rel="alternate" type="text/html" title="全球大厂的技术文档写作指南们！" /><published>2021-06-25T00:00:00+08:00</published><updated>2021-06-25T00:00:00+08:00</updated><id>http://localhost:4000/2021/06/25/top-10-editorial-style-guides-for-technical-writing</id><content type="html" xml:base="http://localhost:4000/2021/06/25/top-10-editorial-style-guides-for-technical-writing.html"><![CDATA[<p>产品文档最讲究两点：简明扼要，文风一致。</p>
-
-<p>“简明扼要”尚可依仗技术写作人员的专业能力来实现，可“文风一致”怎么做到呢? 靠技术写作人员的个人感觉吗? 如果产品文档需要多人共同完成，怎样办?</p>
-
-<p>答案是：<strong>标准化</strong>。参与文档编写的所有人员，遵循统一的标准来进行写作。这个标准，叫做<strong>技术文档写作指南</strong>（editorial style guides for technical writing）。</p>
-
-<p>写作指南里，可以规定写作原则、术语库、标题和缩略语的写法、标点符号的使用方法、单位的使用方法、无障碍阅读设计原则、以及跨设备阅读设计原则等方方面面的内容。</p>
-
-<p>有了写作指南，技术写作人员在写作时就有章可循、有规可守，即使多人协作也能“异口同声”。</p>
-
-<p>有些行业推行业内通用的技术文档写作指南，比如航空业的 ASD-STE100 。但大多数行业没有统一标准，需要企业自行编写。</p>
-
-<p>还没有自己的技术文档写作指南? 别愁！虽然编写作指南的难度系数很高，但你完全不需要从零开始。</p>
-
-<p>很多“个高”的公司（比如微软、谷歌、苹果），不仅编写出了优质的技术文档写作指南，实时维护，还把它们免费公开了！</p>
-
-<p>虽然你可能属于不同的行业，但这些写作指南里的很多写作原则却是通用的，而且已经被广泛验证过。</p>
-
-<p>如果这些还不够，文末还有更权威、更详尽的泰斗级写作指南作后盾呢！</p>
-
-<h2 id="asd-ste100">ASD-STE100</h2>
-
-<p>ASD-STE100 起源于航空航天业和国防部门，是专门为了<strong>降低操作手册和维修手册的阅读难度</strong>而编写的一种英语语言规范。</p>
-
-<p>在很多领域里，英语是使用率最高的国际通用语言。但对于很多人来说，英语并非母语，很难读懂手册里的多义词、生僻单词、俗语、以及结构复杂的长句子。</p>
-
-<p>一旦飞行员、维修工程师、培训人员等工作人员对手册里的操作规范理解有误，进行了不正当操作，势必会危及全体乘客的生命安全。</p>
-
-<p>正是基于这种需求，欧洲航空航天和国防工业协会（ASD）联合美国航空航天工业协会（AIA）共同调研并编制了 ASD-STE100。</p>
-
-<p>ASD-STE100 要求在手册中使用简洁的语言向读者传递准确、不包含歧义的信息。它由两大部分构成：写作原则和受控词库。</p>
-
-<p>ASD-STE100 不涉及格式、标点符号、缩略语、单位等内容，只能作为技术文档写作指南的一部分，并不能独立使用。</p>
-
-<p>目前，ASD-STE100 的使用范围已经远远超出了航空航天业，在很多行业中推广开来。</p>
-
-<p><strong>官方渠道</strong>：前往 <a href="http://www.asd-ste100.org/request.html">ASD-STE100 官网</a>下载申请表，填好后发送至 stemg@asd-ste100.org。之后，工作人员会将 PDF 版 ASD-STE100 免费发送到你的邮箱。</p>
-
-<h2 id="ibm-技术文档写作指南">IBM 技术文档写作指南</h2>
-
-<p>这是 IBM 于 2011 年出版的技术文档写作指南，堪称<strong>技术写作的教科书</strong>。</p>
-
-<p>这里面，英语语法、标点符号、文档架构、单位、格式、词汇表等写作指南的标准构件一应俱全。</p>
-
-<p>难能可贵的是，这本书不仅给出了这些元素的基本概念，还现身说法——为每一条写作原则提供写作实例和讲解。很多技术写作人员把它当成<strong>技术写作的入门必备教材</strong>。</p>
-
-<p>作为 DITA 的开创者，IBM 还在这本书里对主题化写作和 DITA 的三大主题类型进行了科普。</p>
-
-<h2 id="微软技术文档写作指南">微软技术文档写作指南</h2>
-
-<p>这是微软现行的技术文档写作指南，也是<strong>所有消费型产品在编写产品文档时应该参照的金科玉律</strong>。</p>
-
-<p>像平常聊天一样讲述产品，友善、轻松、简洁、清晰，想用户所想。这，是微软技术写作的最高原则。</p>
-
-<p>微软写作指南将最高原则分解成十大原则，然后又将十大原则分解成一条条简单的小原则、小技巧。</p>
-
-<p>这本指南本身，就是产品文档的范本。有情怀，有格调，有方法，完美！</p>
-
-<p>这是我最喜欢的一本技术文档写作指南，谷歌也将它列为官方参考资料之一呢！</p>
-
-<p><strong>官方文档</strong>：<a href="https://docs.microsoft.com/zh-cn/style-guide/welcome/">Microsoft Style Guide</a></p>
-
-<h2 id="谷歌开发者技术文档写作指南">谷歌开发者技术文档写作指南</h2>
-
-<p>谷歌写作指南非常注重<strong>屏幕感</strong>，包含一些微软写作指南里没有涉及的建议。</p>
-
-<p>比如，如何使用 HTML 元素，Markdown 与 HTML 之间如何选择，为了方便屏幕阅读而限定每行不能多于 80 个字符 ……</p>
-
-<p>如果你的产品文档也提供网页版，不妨好好看看这本写作指南。谷歌甚至还有一本 <a href="https://google.github.io/styleguide/htmlcssguide.html">Google HTML/CSS Style Guide</a> 呢！</p>
-
-<p><strong>官方文档</strong>：<a href="https://developers.google.cn/style">Google Developer Documentation Style Guide</a></p>
-
-<h2 id="苹果技术文档写作指南">苹果技术文档写作指南</h2>
-
-<p>相比于微软与谷歌，苹果的写作指南非常简单，内容上也没什么亮点。</p>
-
-<p>不过这本指南的官网<strong>界面设计</strong>非常不错，首页还提供了四本界面设计指南的链接。</p>
-
-<p>如果你正要为自己的产品文档创建网页版，看完谷歌的技术建议之后，不妨也顺道来这里取取经，找找灵感。</p>
-
-<p><strong>官方文档</strong>：<a href="https://help.apple.com/applestyleguide/#/">Apple Style Guide</a></p>
-
-<h2 id="gitlab-技术文档写作指南">Gitlab 技术文档写作指南</h2>
-
-<p>作为一家代码托管平台，Gitlab 的技术文档写作指南格外注重<strong>内容重用</strong>和<strong>协作共享</strong>，科技感十足。</p>
-
-<p>Gitlab 使用 Markdown 编写文档。写作指南里对 Markdown 中各种元素的使用方法进行了详细说明，并使用测试程序自动验证文档格式是否正确、链接是否有效。如果文档不符合规范，就不能成功提交。</p>
-
-<p>Gitlab 使用 Git 对文档进行版本管理，就像管理代码一样。作为一款开源软件，Gitlab 文档的贡献者众多。为此，写作指南中不仅对文档修改和提交流程进行了详细说明，还对 Gitlab 的文档架构进行了详尽的阐述。</p>
-
-<p>如果你正苦于不知道如何进行文档管理，这本写作指南可算是雪中送炭了！</p>
-
-<p><strong>官方文档</strong>：<a href="https://docs.gitlab.com/ee/development/documentation/styleguide/index.html">Gitlab Documentation Style Guide</a></p>
-
-<h2 id="suse-技术文档写作指南">SUSE 技术文档写作指南</h2>
-
-<p>SUSE 是德国的一家操作系统（Linux）提供商。</p>
-
-<p>SUSE 写作指南的独特之处在于，它是一本使用 DocBook 编写产品文档的写作指南。</p>
-
-<p>写作指南里详细说明了产品文档的章节划分和内容架构，以及各部分内容应该使用的 DocBook 元素，并配有 XML 代码实例。</p>
-
-<p>如果你也使用 DocBook，这本技术写作指南可不容错过哦！</p>
-
-<p><strong>官方文档</strong>：<a href="https://documentation.suse.com/en-us/style/current/single-html/docu_styleguide/#">SUSE Documentation Style Guide</a></p>
-
-<h2 id="mailchimp-技术文档写作指南">Mailchimp 技术文档写作指南</h2>
-
-<p>Mailchimp 是一家邮件营销软件提供商。</p>
-
-<p>可能出于职业习惯，除了技术写作的原则之外，Mailchimp 还不遗余力地总结了：</p>
-<ul>
-  <li>营销邮件的写作原则；</li>
-  <li>在社交平台（如微博、朋友圈、知乎、领英）上发布内容的创作规范。</li>
-</ul>
-
-<p>虽然 Mailchimp 是在规范自己的营销行为，但这似乎一点也不妨碍我们照猫画虎（吧?）。</p>
-
-<p><strong>官方文档</strong>：<a href="https://styleguide.mailchimp.com/">Mailchimp Content Style Guide</a></p>
-
-<h2 id="红帽技术文档写作指南">红帽技术文档写作指南</h2>
-
-<p>红帽公司是总部位于美国的一家开源解决方案供应商，2018 年被 IBM 收购。</p>
-
-<p>红帽的写作指南很传统，很详细，强调正式感和庄重感。在这一点上，红帽与微软的风格截然不同。</p>
-
-<p><strong>官方文档</strong>：<a href="http://stylepedia.net/style/">The Red Hat Style Guide</a></p>
-
-<h2 id="格式手册和词典">格式手册和词典</h2>
-
-<p>技术文档写作指南可繁可简，最重要的是适合企业自身的实际需要。</p>
-
-<p>但不管写作指南是繁是简，都不可能包罗万象。产品文档编写过程中，总会遇到没有在写作指南中预设的场景。在这种情况下，可以将一些外部资源作为写作指南的补充。</p>
-
-<p>以下是技术文档写作指南中常用的参考资源：</p>
-<ol>
-  <li><a href="https://www.chicagomanualofstyle.org/home.html">Chicago Manual of Style</a></li>
-  <li><a href="https://ahdictionary.com/">The American Heritage Dictionary</a></li>
-  <li><a href="https://www.merriam-webster.com/">Merriam-Webster Dictionary</a></li>
-</ol>
-
-<p>写作指南中最好明确说明，哪些外部资源可供参考，这些外部资源有没有优先级，等等。</p>
-
-<p>现在，你可以站在巨人们的肩头上编写自己的技术文写作指南了！</p>]]></content><author><name>王烨</name></author><category term="学习资源" /><summary type="html"><![CDATA[微软、谷歌、IBM 等数十家大厂的 Style Guides，全在这里了！]]></summary></entry></feed>
+<p><img src="https://pic3.zhimg.com/80/v2-bb8089a1f1b79c7e07fea5da234304e6_720w.webp" alt="standalone" /></p>]]></content><author><name>王烨</name></author><category term="文档技术" /><summary type="html"><![CDATA[总结 Sora及其竞品的功能特性，全面展现人工智能在视频制作领域的发展现状。]]></summary></entry></feed>
