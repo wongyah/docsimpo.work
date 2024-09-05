@@ -22,8 +22,11 @@ codekit-config.json
 .DS_Store
 
 # Jekyll generated files
+_site/
 .jekyll-cache/
 .jekyll-metadata
 .sass-cache/
 _asset_bundler_cache
 
+# Ignore local editor related staff
+.vscode
