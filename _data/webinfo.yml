@@ -10,10 +10,10 @@ header-menu:
   - name: 首页
     link: /
   - name: 写作指南
-    link: /style-guides/
+    link: /style-guides/style-guide-en/index.html
   - name: 文档技术
-    link: /doc-tech/
+    link: /doc-tech/markdown-tutorial/index.html
   - name: 工控教程
-    link: /ics-tutorials/
+    link: /ics-tutorials/electric-machinery-principles/index.html
   - name: 博客
     link: /blog/
